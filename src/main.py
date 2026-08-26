@@ -25,6 +25,14 @@ REPO_ROOT = Path(__file__).parent.parent
 TARGETS_PATH = REPO_ROOT / "targets.json"
 
 
+def _same_week_last_year(d: date) -> date:
+    """前年同週の終了日。2/29 は前日にずらす。"""
+    try:
+        return d.replace(year=d.year - 1)
+    except ValueError:
+        return d.replace(year=d.year - 1, day=d.day - 1)
+
+
 def load_targets() -> dict:
     with TARGETS_PATH.open(encoding="utf-8") as f:
         return json.load(f)
@@ -80,7 +88,7 @@ def build_and_render(targets: dict, latest_date: date | None = None) -> Path:
     # 昨年同期
     from datetime import date as _date
     ly_baseline = history_store.load_snapshot(_date(2025, 5, 7))
-    ly_current = history_store.load_snapshot(curr_date.replace(year=curr_date.year - 1)) if curr_date else None
+    ly_current = history_store.load_snapshot(_same_week_last_year(curr_date)) if curr_date else None
 
     data = generate_html.build_dashboard_data(
         targets=targets,
@@ -146,12 +154,13 @@ def cmd_backfill(args):
         date(2025, 7, 22),  # 昨年同期
         date(2026, 5, 7),   # 今年NOINDEX前ベースライン
     ]
-    # 直近8週も追加
+    # 直近8週 + それぞれの昨年同週 (前年同期比較に必要)
     today = date.today()
     for w in range(8):
         d = today - timedelta(days=1 + w * 7)
-        if d not in backfill_dates:
-            backfill_dates.append(d)
+        for cand in (d, _same_week_last_year(d)):
+            if cand not in backfill_dates:
+                backfill_dates.append(cand)
 
     for d in backfill_dates:
         if history_store.load_snapshot(d) and not args.force_full:
