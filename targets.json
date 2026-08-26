@@ -1,0 +1,788 @@
+{
+  "countries": [
+    {
+      "code": "CA",
+      "jp": "カナダ",
+      "url": "https://schoolwith.me/countries/school/CA"
+    },
+    {
+      "code": "US",
+      "jp": "アメリカ",
+      "url": "https://schoolwith.me/countries/school/US"
+    },
+    {
+      "code": "PH",
+      "jp": "フィリピン",
+      "url": "https://schoolwith.me/countries/school/PH"
+    },
+    {
+      "code": "NZ",
+      "jp": "ニュージーランド",
+      "url": "https://schoolwith.me/countries/school/NZ"
+    },
+    {
+      "code": "MT",
+      "jp": "マルタ",
+      "url": "https://schoolwith.me/countries/school/MT"
+    },
+    {
+      "code": "UK",
+      "jp": "イギリス",
+      "url": "https://schoolwith.me/countries/school/UK"
+    },
+    {
+      "code": "IE",
+      "jp": "アイルランド",
+      "url": "https://schoolwith.me/countries/school/IE"
+    },
+    {
+      "code": "AU",
+      "jp": "オーストラリア",
+      "url": "https://schoolwith.me/countries/school/AU"
+    },
+    {
+      "code": "ZA",
+      "jp": "南アフリカ",
+      "url": "https://schoolwith.me/countries/school/ZA"
+    }
+  ],
+  "cities": [
+    {
+      "cid": "5002",
+      "country": "UK",
+      "city_en": "cambridge",
+      "city_jp": "ケンブリッジ",
+      "url": "https://schoolwith.me/areas/school/5002"
+    },
+    {
+      "cid": "5003",
+      "country": "UK",
+      "city_en": "oxford",
+      "city_jp": "オックスフォード",
+      "url": "https://schoolwith.me/areas/school/5003"
+    },
+    {
+      "cid": "5052",
+      "country": "UK",
+      "city_en": "leeds",
+      "city_jp": "リーズ",
+      "url": "https://schoolwith.me/areas/school/5052"
+    },
+    {
+      "cid": "7001",
+      "country": "IE",
+      "city_en": "dublin",
+      "city_jp": "ダブリン",
+      "url": "https://schoolwith.me/areas/school/7001"
+    },
+    {
+      "cid": "1",
+      "country": "PH",
+      "city_en": "cebu",
+      "city_jp": "セブ",
+      "url": "https://schoolwith.me/areas/school/1"
+    },
+    {
+      "cid": "2005",
+      "country": "US",
+      "city_en": "los angeles",
+      "city_jp": "ロサンゼルス",
+      "url": "https://schoolwith.me/areas/school/2005"
+    },
+    {
+      "cid": "3002",
+      "country": "CA",
+      "city_en": "toronto",
+      "city_jp": "トロント",
+      "url": "https://schoolwith.me/areas/school/3002"
+    },
+    {
+      "cid": "2008",
+      "country": "US",
+      "city_en": "miami",
+      "city_jp": "マイアミ",
+      "url": "https://schoolwith.me/areas/school/2008"
+    },
+    {
+      "cid": "3007",
+      "country": "CA",
+      "city_en": "ottawa",
+      "city_jp": "オタワ",
+      "url": "https://schoolwith.me/areas/school/3007"
+    },
+    {
+      "cid": "2050",
+      "country": "US",
+      "city_en": "nashville",
+      "city_jp": "ナッシュビル",
+      "url": "https://schoolwith.me/areas/school/2050"
+    },
+    {
+      "cid": "6001",
+      "country": "NZ",
+      "city_en": "auckland",
+      "city_jp": "オークランド",
+      "url": "https://schoolwith.me/areas/school/6001"
+    },
+    {
+      "cid": "5004",
+      "country": "UK",
+      "city_en": "brighton and hove",
+      "city_jp": "ブライトン",
+      "url": "https://schoolwith.me/areas/school/5004"
+    },
+    {
+      "cid": "2004",
+      "country": "US",
+      "city_en": "san francisco",
+      "city_jp": "サンフランシスコ",
+      "url": "https://schoolwith.me/areas/school/2004"
+    },
+    {
+      "cid": "2002",
+      "country": "US",
+      "city_en": "boston",
+      "city_jp": "ボストン",
+      "url": "https://schoolwith.me/areas/school/2002"
+    },
+    {
+      "cid": "4001",
+      "country": "AU",
+      "city_en": "sydney",
+      "city_jp": "シドニー",
+      "url": "https://schoolwith.me/areas/school/4001"
+    },
+    {
+      "cid": "2009",
+      "country": "US",
+      "city_en": "honolulu",
+      "city_jp": "ハワイ",
+      "url": "https://schoolwith.me/areas/school/2009"
+    },
+    {
+      "cid": "4009",
+      "country": "AU",
+      "city_en": "sunshine coast",
+      "city_jp": "",
+      "url": "https://schoolwith.me/areas/school/4009"
+    },
+    {
+      "cid": "2012",
+      "country": "US",
+      "city_en": "atlanta",
+      "city_jp": "アトランタ",
+      "url": "https://schoolwith.me/areas/school/2012"
+    },
+    {
+      "cid": "4004",
+      "country": "AU",
+      "city_en": "perth",
+      "city_jp": "パース",
+      "url": "https://schoolwith.me/areas/school/4004"
+    },
+    {
+      "cid": "2026",
+      "country": "US",
+      "city_en": "cleveland",
+      "city_jp": "クリーブランド",
+      "url": "https://schoolwith.me/areas/school/2026"
+    },
+    {
+      "cid": "5005",
+      "country": "UK",
+      "city_en": "manchester",
+      "city_jp": "マンチェスター",
+      "url": "https://schoolwith.me/areas/school/5005"
+    },
+    {
+      "cid": "4006",
+      "country": "AU",
+      "city_en": "gold coast",
+      "city_jp": "ゴールドコースト",
+      "url": "https://schoolwith.me/areas/school/4006"
+    },
+    {
+      "cid": "2006",
+      "country": "US",
+      "city_en": "san diego",
+      "city_jp": "サンディエゴ",
+      "url": "https://schoolwith.me/areas/school/2006"
+    },
+    {
+      "cid": "5001",
+      "country": "UK",
+      "city_en": "london",
+      "city_jp": "ロンドン",
+      "url": "https://schoolwith.me/areas/school/5001"
+    },
+    {
+      "cid": "5016",
+      "country": "UK",
+      "city_en": "bath",
+      "city_jp": "バース",
+      "url": "https://schoolwith.me/areas/school/5016"
+    },
+    {
+      "cid": "5007",
+      "country": "UK",
+      "city_en": "bournemouth",
+      "city_jp": "ボーンマス",
+      "url": "https://schoolwith.me/areas/school/5007"
+    },
+    {
+      "cid": "3001",
+      "country": "CA",
+      "city_en": "vancouver",
+      "city_jp": "バンクーバー",
+      "url": "https://schoolwith.me/areas/school/3001"
+    },
+    {
+      "cid": "5022",
+      "country": "UK",
+      "city_en": "worthing",
+      "city_jp": "ワージング",
+      "url": "https://schoolwith.me/areas/school/5022"
+    },
+    {
+      "cid": "5006",
+      "country": "UK",
+      "city_en": "edinburgh",
+      "city_jp": "エディンバラ",
+      "url": "https://schoolwith.me/areas/school/5006"
+    },
+    {
+      "cid": "2003",
+      "country": "US",
+      "city_en": "new york",
+      "city_jp": "ニューヨーク",
+      "url": "https://schoolwith.me/areas/school/2003"
+    },
+    {
+      "cid": "5008",
+      "country": "UK",
+      "city_en": "eastbourne",
+      "city_jp": "イーストボーン",
+      "url": "https://schoolwith.me/areas/school/5008"
+    },
+    {
+      "cid": "2010",
+      "country": "US",
+      "city_en": "fort lauderdale",
+      "city_jp": "フォートローダーデール",
+      "url": "https://schoolwith.me/areas/school/2010"
+    },
+    {
+      "cid": "2038",
+      "country": "US",
+      "city_en": "st petersburg",
+      "city_jp": "セントピーターズバーグ",
+      "url": "https://schoolwith.me/areas/school/2038"
+    },
+    {
+      "cid": "5021",
+      "country": "UK",
+      "city_en": "liverpool",
+      "city_jp": "リバプール",
+      "url": "https://schoolwith.me/areas/school/5021"
+    },
+    {
+      "cid": "8001",
+      "country": "MT",
+      "city_en": "st julians",
+      "city_jp": "セントジュリアン",
+      "url": "https://schoolwith.me/areas/school/8001"
+    },
+    {
+      "cid": "5017",
+      "country": "UK",
+      "city_en": "bristol",
+      "city_jp": "ブリストル",
+      "url": "https://schoolwith.me/areas/school/5017"
+    },
+    {
+      "cid": "5010",
+      "country": "UK",
+      "city_en": "canterbury",
+      "city_jp": "カンタベリー",
+      "url": "https://schoolwith.me/areas/school/5010"
+    },
+    {
+      "cid": "3071",
+      "country": "CA",
+      "city_en": "quebec",
+      "city_jp": "ケベック",
+      "url": "https://schoolwith.me/areas/school/3071"
+    },
+    {
+      "cid": "2071",
+      "country": "US",
+      "city_en": "melbourne",
+      "city_jp": "メルボルン",
+      "url": "https://schoolwith.me/areas/school/2071"
+    },
+    {
+      "cid": "7002",
+      "country": "IE",
+      "city_en": "cork",
+      "city_jp": "コーク",
+      "url": "https://schoolwith.me/areas/school/7002"
+    },
+    {
+      "cid": "5014",
+      "country": "UK",
+      "city_en": "torquay",
+      "city_jp": "トーキー",
+      "url": "https://schoolwith.me/areas/school/5014"
+    },
+    {
+      "cid": "2039",
+      "country": "US",
+      "city_en": "st paul",
+      "city_jp": "セントポール",
+      "url": "https://schoolwith.me/areas/school/2039"
+    },
+    {
+      "cid": "3012",
+      "country": "CA",
+      "city_en": "halifax",
+      "city_jp": "ハリファックス",
+      "url": "https://schoolwith.me/areas/school/3012"
+    },
+    {
+      "cid": "2032",
+      "country": "US",
+      "city_en": "santa barbara",
+      "city_jp": "サンタバーバラ",
+      "url": "https://schoolwith.me/areas/school/2032"
+    },
+    {
+      "cid": "5012",
+      "country": "UK",
+      "city_en": "chester",
+      "city_jp": "チェスター",
+      "url": "https://schoolwith.me/areas/school/5012"
+    },
+    {
+      "cid": "24001",
+      "country": "ZA",
+      "city_en": "cape town",
+      "city_jp": "ケープタウン",
+      "url": "https://schoolwith.me/areas/school/24001"
+    },
+    {
+      "cid": "2037",
+      "country": "US",
+      "city_en": "cincinnati",
+      "city_jp": "シンシナティ",
+      "url": "https://schoolwith.me/areas/school/2037"
+    }
+  ],
+  "schools": [
+    {
+      "sid": 40359,
+      "country": "AU",
+      "city": "perth",
+      "name": "EF パース",
+      "url": "https://schoolwith.me/schools/40359"
+    },
+    {
+      "sid": 40027,
+      "country": "AU",
+      "city": "sunshine coast",
+      "name": "レクシス サンシャインコースト",
+      "url": "https://schoolwith.me/schools/40027"
+    },
+    {
+      "sid": 40074,
+      "country": "AU",
+      "city": "sydney",
+      "name": "EF シドニー",
+      "url": "https://schoolwith.me/schools/40074"
+    },
+    {
+      "sid": 30078,
+      "country": "CA",
+      "city": "halifax",
+      "name": "CLLC ハリファックス",
+      "url": "https://schoolwith.me/schools/30078"
+    },
+    {
+      "sid": 30344,
+      "country": "CA",
+      "city": "halifax",
+      "name": "オックスフォードインターナショナル ハリファックス",
+      "url": "https://schoolwith.me/schools/30344"
+    },
+    {
+      "sid": 30077,
+      "country": "CA",
+      "city": "ottawa",
+      "name": "CLLC オタワ",
+      "url": "https://schoolwith.me/schools/30077"
+    },
+    {
+      "sid": 30199,
+      "country": "CA",
+      "city": "quebec",
+      "name": "BLI ケベックシティ",
+      "url": "https://schoolwith.me/schools/30199"
+    },
+    {
+      "sid": 30311,
+      "country": "CA",
+      "city": "toronto",
+      "name": "TLG トロント",
+      "url": "https://schoolwith.me/schools/30311"
+    },
+    {
+      "sid": 30057,
+      "country": "CA",
+      "city": "vancouver",
+      "name": "SC GEOS バンクーバー",
+      "url": "https://schoolwith.me/schools/30057"
+    },
+    {
+      "sid": 30040,
+      "country": "CA",
+      "city": "vancouver",
+      "name": "SELC バンクーバー",
+      "url": "https://schoolwith.me/schools/30040"
+    },
+    {
+      "sid": 30063,
+      "country": "CA",
+      "city": "vancouver",
+      "name": "タムウッド バンクーバー",
+      "url": "https://schoolwith.me/schools/30063"
+    },
+    {
+      "sid": 70037,
+      "country": "IE",
+      "city": "cork",
+      "name": "Cork English Academy",
+      "url": "https://schoolwith.me/schools/70037"
+    },
+    {
+      "sid": 70113,
+      "country": "IE",
+      "city": "cork",
+      "name": "ICOT コーク",
+      "url": "https://schoolwith.me/schools/70113"
+    },
+    {
+      "sid": 70011,
+      "country": "IE",
+      "city": "dublin",
+      "name": "EF ダブリン",
+      "url": "https://schoolwith.me/schools/70011"
+    },
+    {
+      "sid": 70114,
+      "country": "IE",
+      "city": "dublin",
+      "name": "OHC(ホルムズ インスティテュート) ダブリン",
+      "url": "https://schoolwith.me/schools/70114"
+    },
+    {
+      "sid": 70014,
+      "country": "IE",
+      "city": "dublin",
+      "name": "ドーセット カレッジ",
+      "url": "https://schoolwith.me/schools/70014"
+    },
+    {
+      "sid": 80005,
+      "country": "MT",
+      "city": "st julians",
+      "name": "EF セントジュリアン",
+      "url": "https://schoolwith.me/schools/80005"
+    },
+    {
+      "sid": 226,
+      "country": "PH",
+      "city": "cebu",
+      "name": "LCIC",
+      "url": "https://schoolwith.me/schools/226"
+    },
+    {
+      "sid": 125,
+      "country": "PH",
+      "city": "cebu",
+      "name": "シードテックスクール",
+      "url": "https://schoolwith.me/schools/125"
+    },
+    {
+      "sid": 50065,
+      "country": "UK",
+      "city": "bath",
+      "name": "カプラン バース",
+      "url": "https://schoolwith.me/schools/50065"
+    },
+    {
+      "sid": 50190,
+      "country": "UK",
+      "city": "bournemouth",
+      "name": "BEET Language Centre",
+      "url": "https://schoolwith.me/schools/50190"
+    },
+    {
+      "sid": 50196,
+      "country": "UK",
+      "city": "bournemouth",
+      "name": "EF ボーンマス",
+      "url": "https://schoolwith.me/schools/50196"
+    },
+    {
+      "sid": 50060,
+      "country": "UK",
+      "city": "bournemouth",
+      "name": "カプラン ボーンマス",
+      "url": "https://schoolwith.me/schools/50060"
+    },
+    {
+      "sid": 50061,
+      "country": "UK",
+      "city": "bournemouth",
+      "name": "ベイズウォーター ボーンマス",
+      "url": "https://schoolwith.me/schools/50061"
+    },
+    {
+      "sid": 50747,
+      "country": "UK",
+      "city": "brighton and hove",
+      "name": "EC ブライトン 30+",
+      "url": "https://schoolwith.me/schools/50747"
+    },
+    {
+      "sid": 50363,
+      "country": "UK",
+      "city": "brighton and hove",
+      "name": "EF ブライトン",
+      "url": "https://schoolwith.me/schools/50363"
+    },
+    {
+      "sid": 50049,
+      "country": "UK",
+      "city": "brighton and hove",
+      "name": "ベイズウォーター ブライトン",
+      "url": "https://schoolwith.me/schools/50049"
+    },
+    {
+      "sid": 50299,
+      "country": "UK",
+      "city": "bristol",
+      "name": "EF ブリストル",
+      "url": "https://schoolwith.me/schools/50299"
+    },
+    {
+      "sid": 50277,
+      "country": "UK",
+      "city": "cambridge",
+      "name": "EF ケンブリッジ",
+      "url": "https://schoolwith.me/schools/50277"
+    },
+    {
+      "sid": 50323,
+      "country": "UK",
+      "city": "cambridge",
+      "name": "LSI ケンブリッジ",
+      "url": "https://schoolwith.me/schools/50323"
+    },
+    {
+      "sid": 50052,
+      "country": "UK",
+      "city": "canterbury",
+      "name": "スタッフォードハウス カンタベリー",
+      "url": "https://schoolwith.me/schools/50052"
+    },
+    {
+      "sid": 50750,
+      "country": "UK",
+      "city": "chester",
+      "name": "ELC チェスター",
+      "url": "https://schoolwith.me/schools/50750"
+    },
+    {
+      "sid": 50470,
+      "country": "UK",
+      "city": "eastbourne",
+      "name": "ELC イーストボーン",
+      "url": "https://schoolwith.me/schools/50470"
+    },
+    {
+      "sid": 50044,
+      "country": "UK",
+      "city": "eastbourne",
+      "name": "セントジャイルズ イーストボーン",
+      "url": "https://schoolwith.me/schools/50044"
+    },
+    {
+      "sid": 50146,
+      "country": "UK",
+      "city": "eastbourne",
+      "name": "ツイン イングリッシュ センター イーストボーン",
+      "url": "https://schoolwith.me/schools/50146"
+    },
+    {
+      "sid": 50471,
+      "country": "UK",
+      "city": "edinburgh",
+      "name": "CES エディンバラ",
+      "url": "https://schoolwith.me/schools/50471"
+    },
+    {
+      "sid": 50751,
+      "country": "UK",
+      "city": "edinburgh",
+      "name": "オックスフォードインターナショナル エディンバラ",
+      "url": "https://schoolwith.me/schools/50751"
+    },
+    {
+      "sid": 50270,
+      "country": "UK",
+      "city": "leeds",
+      "name": "CES リーズ",
+      "url": "https://schoolwith.me/schools/50270"
+    },
+    {
+      "sid": 50748,
+      "country": "UK",
+      "city": "liverpool",
+      "name": "カプラン リバプール 30+",
+      "url": "https://schoolwith.me/schools/50748"
+    },
+    {
+      "sid": 50314,
+      "country": "UK",
+      "city": "manchester",
+      "name": "BSC マンチェスター",
+      "url": "https://schoolwith.me/schools/50314"
+    },
+    {
+      "sid": 50362,
+      "country": "UK",
+      "city": "manchester",
+      "name": "EF マンチェスター",
+      "url": "https://schoolwith.me/schools/50362"
+    },
+    {
+      "sid": 50185,
+      "country": "UK",
+      "city": "oxford",
+      "name": "CES オックスフォード",
+      "url": "https://schoolwith.me/schools/50185"
+    },
+    {
+      "sid": 50038,
+      "country": "UK",
+      "city": "oxford",
+      "name": "Oxford English Centre",
+      "url": "https://schoolwith.me/schools/50038"
+    },
+    {
+      "sid": 50056,
+      "country": "UK",
+      "city": "torquay",
+      "name": "カプラン トーキー",
+      "url": "https://schoolwith.me/schools/50056"
+    },
+    {
+      "sid": 50078,
+      "country": "UK",
+      "city": "worthing",
+      "name": "CES ワージング",
+      "url": "https://schoolwith.me/schools/50078"
+    },
+    {
+      "sid": 20238,
+      "country": "US",
+      "city": "atlanta",
+      "name": "TALK アトランタ",
+      "url": "https://schoolwith.me/schools/20238"
+    },
+    {
+      "sid": 20077,
+      "country": "US",
+      "city": "cincinnati",
+      "name": "ELS シンシナティ",
+      "url": "https://schoolwith.me/schools/20077"
+    },
+    {
+      "sid": 20041,
+      "country": "US",
+      "city": "cleveland",
+      "name": "ELS クリーブランド",
+      "url": "https://schoolwith.me/schools/20041"
+    },
+    {
+      "sid": 20234,
+      "country": "US",
+      "city": "fort lauderdale",
+      "name": "TALK フォートローダーデール",
+      "url": "https://schoolwith.me/schools/20234"
+    },
+    {
+      "sid": 20196,
+      "country": "US",
+      "city": "miami",
+      "name": "EF マイアミ",
+      "url": "https://schoolwith.me/schools/20196"
+    },
+    {
+      "sid": 20247,
+      "country": "US",
+      "city": "miami",
+      "name": "OHC マイアミ",
+      "url": "https://schoolwith.me/schools/20247"
+    },
+    {
+      "sid": 20239,
+      "country": "US",
+      "city": "miami",
+      "name": "TALK アベンチュラ",
+      "url": "https://schoolwith.me/schools/20239"
+    },
+    {
+      "sid": 20109,
+      "country": "US",
+      "city": "nashville",
+      "name": "ELS ナッシュビル",
+      "url": "https://schoolwith.me/schools/20109"
+    },
+    {
+      "sid": 20150,
+      "country": "US",
+      "city": "san francisco",
+      "name": "ELS サンフランシスコ ノースベイ",
+      "url": "https://schoolwith.me/schools/20150"
+    },
+    {
+      "sid": 20202,
+      "country": "US",
+      "city": "santa barbara",
+      "name": "EF サンタバーバラ",
+      "url": "https://schoolwith.me/schools/20202"
+    },
+    {
+      "sid": 20070,
+      "country": "US",
+      "city": "santa barbara",
+      "name": "カプラン サンタバーバラ",
+      "url": "https://schoolwith.me/schools/20070"
+    },
+    {
+      "sid": 20080,
+      "country": "US",
+      "city": "st paul",
+      "name": "ELS セントポール",
+      "url": "https://schoolwith.me/schools/20080"
+    },
+    {
+      "sid": 20079,
+      "country": "US",
+      "city": "st petersburg",
+      "name": "ELS セントピーターズバーグ",
+      "url": "https://schoolwith.me/schools/20079"
+    }
+  ]
+}

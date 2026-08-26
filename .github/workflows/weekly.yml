@@ -1,0 +1,53 @@
+name: Weekly GSC Snapshot Update
+
+on:
+  schedule:
+    # 毎週月曜 AM 6:00 JST = UTC 日曜 21:00
+    - cron: '0 21 * * 0'
+  workflow_dispatch:  # 手動実行も可能
+    inputs:
+      backfill:
+        description: 'Backfill past N weeks'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write   # docs/ と history/ を commit するため
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update snapshot & regenerate HTML
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+        run: |
+          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
+            python -m src.main --backfill
+          else
+            python -m src.main
+          fi
+
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ history/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: weekly dashboard update ($(date +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to commit"
+          fi

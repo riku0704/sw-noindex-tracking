@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Credentials — never commit
+service_account.json
+*.pem
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Do NOT ignore docs/ or history/ — those are the published dashboard + snapshots

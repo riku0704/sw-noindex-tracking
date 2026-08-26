@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SW NOINDEX Tracking Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root { color-scheme: light }
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;margin:0;padding:24px;background:#F8FAFC;color:#1E293B;font-size:13px;line-height:1.6}
+.container{max-width:1500px;margin:0 auto}
+h1{font-size:22px;margin:0 0 8px;color:#0F172A}
+h2{font-size:16px;margin:24px 0 12px;color:#0F172A;padding-bottom:6px;border-bottom:2px solid #E5E7EB}
+h3{font-size:14px;margin:16px 0 10px;color:#334155}
+.subtitle{color:#64748B;font-size:13px;margin-bottom:16px}
+.period-row{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+.period-card{flex:1;min-width:220px;background:white;padding:12px 16px;border-radius:8px;border:1px solid #E5E7EB}
+.period-card .lab{font-size:11px;color:#64748B;font-weight:700;text-transform:uppercase}
+.period-card .val{font-size:14px;color:#0F172A;font-weight:600;margin-top:2px}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
+.summary-card{background:white;padding:14px 16px;border-radius:8px;border:1px solid #E5E7EB;border-left:4px solid #94A3B8}
+.summary-card h3{margin:0 0 8px;font-size:12px;color:#334155;font-weight:700;border:none;padding:0}
+.metric-line{display:flex;justify-content:space-between;font-size:12px;padding:3px 0;border-bottom:1px dashed #E5E7EB}
+.metric-line:last-child{border:none}
+.metric-line .m-lbl{color:#64748B}
+.metric-line .m-val{font-variant-numeric:tabular-nums;font-weight:600}
+.delta{padding:1px 6px;border-radius:3px;font-size:10px;font-weight:700;margin-left:4px}
+.delta-up{background:#DCFCE7;color:#15803D}
+.delta-down{background:#FEE2E2;color:#B91C1C}
+.delta-flat{background:#F1F5F9;color:#64748B}
+.insight-box{background:#EFF6FF;border:1px solid #7DD3FC;border-left:4px solid #0284C7;padding:14px 16px;border-radius:6px;margin:12px 0;font-size:12px;color:#0C4A6E}
+.tabs{display:flex;gap:4px;border-bottom:2px solid #E5E7EB;margin-bottom:16px;flex-wrap:wrap}
+.tab{padding:10px 16px;cursor:pointer;border:none;background:transparent;font-size:13px;font-weight:600;color:#64748B;border-bottom:3px solid transparent;margin-bottom:-2px}
+.tab.active{color:#0F172A;border-bottom-color:#0F172A}
+.tab:hover:not(.active){color:#475569}
+.panel{display:none}
+.panel.active{display:block}
+table{width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;margin-bottom:12px}
+thead{background:#F1F5F9}
+th{padding:8px 10px;text-align:left;font-size:11px;font-weight:700;color:#475569;border-bottom:2px solid #E5E7EB;white-space:nowrap}
+td{padding:8px 10px;font-size:12px;border-bottom:1px solid #F1F5F9;vertical-align:top}
+tr:hover{background:#F8FAFC}
+tr.zero{opacity:0.5}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+.badge{display:inline-block;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:700;background:#F1F5F9;color:#475569}
+.badge-good{background:#DCFCE7;color:#15803D}
+.badge-warn{background:#FEF3C7;color:#92400E}
+.badge-bad{background:#FEE2E2;color:#B91C1C}
+.url-link{color:#0369A1;text-decoration:none;font-size:11px;font-family:monospace}
+.url-link:hover{text-decoration:underline}
+.chart-section{margin:16px 0;background:white;padding:14px 16px;border-radius:8px;border:1px solid #E5E7EB}
+.chart-wrap{position:relative;height:220px}
+.crawl-card{padding:12px 14px;background:#FAFBFC;border-radius:6px;border:1px solid #F1F5F9}
+.crawl-card .lbl{font-size:11px;color:#64748B;font-weight:700}
+.crawl-card .val{font-size:20px;font-weight:800;color:#0F172A;margin-top:2px}
+.footer{margin-top:24px;padding:14px;background:white;border-radius:6px;border:1px solid #E5E7EB;font-size:11px;color:#64748B}
+</style>
+</head>
+<body>
+
+{# ---- render_url_table macro (定義は本文の前) ---- #}
+{% macro render_url_table(items, meta_fields, meta_labels) %}
+<table>
+  <thead><tr>
+    {% for lbl in meta_labels %}<th>{{ lbl }}</th>{% endfor %}
+    <th>ベースClicks</th><th>新Clicks</th><th>Δ</th>
+    <th>ベースImpr</th><th>新Impr</th><th>Δ</th>
+    <th>ベース#</th><th>新#</th>
+    <th>KW数 Δ</th>
+    <th>URL</th>
+  </tr></thead>
+  <tbody>
+  {% for it in items %}
+  {% set b = it.baseline %}
+  {% set c = it.curr %}
+  {% set df = it.diff_from_baseline %}
+  <tr class="{% if c.clicks == 0 and c.impressions == 0 %}zero{% endif %}">
+    {% for f in meta_fields %}<td>{{ it[f] }}</td>{% endfor %}
+    <td class="num">{{ b.clicks }}</td>
+    <td class="num">{{ c.clicks }}</td>
+    <td class="num"><span class="delta {% if df.d_clicks > 0 %}delta-up{% elif df.d_clicks < 0 %}delta-down{% else %}delta-flat{% endif %}">{{ '+' if df.d_clicks > 0 else '' }}{{ df.d_clicks }}</span></td>
+    <td class="num">{{ '{:,}'.format(b.impressions) }}</td>
+    <td class="num">{{ '{:,}'.format(c.impressions) }}</td>
+    <td class="num"><span class="delta {% if df.d_impressions > 0 %}delta-up{% elif df.d_impressions < 0 %}delta-down{% else %}delta-flat{% endif %}">{{ '+' if df.d_impressions > 0 else '' }}{{ df.d_impressions }}</span></td>
+    <td class="num">{{ '#%.1f'|format(b.avg_position) if b.avg_position else '-' }}</td>
+    <td class="num">{{ '#%.1f'|format(c.avg_position) if c.avg_position else '-' }}</td>
+    <td class="num"><span class="delta {% if df.d_kw_count > 0 %}delta-up{% elif df.d_kw_count < 0 %}delta-down{% else %}delta-flat{% endif %}">{{ '+' if df.d_kw_count > 0 else '' }}{{ df.d_kw_count }}</span></td>
+    <td><a class="url-link" href="{{ it.url }}" target="_blank">{{ it.url.replace('https://schoolwith.me','') }}</a></td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endmacro %}
+
+<div class="container">
+
+<h1>SW NOINDEX Tracking Dashboard</h1>
+<div class="subtitle">
+  Phase-1 NOINDEX 対象 114URL (国9 + 都市47 + 学校58) の GSC パフォーマンス &amp; Google クロール状況 —
+  生成: <strong>{{ d.generated_at[:19] }}</strong>
+</div>
+
+<div class="period-row">
+  <div class="period-card" style="border-left:4px solid #94A3B8">
+    <div class="lab">📌 NOINDEX処理前ベースライン</div>
+    <div class="val">{{ d.period_baseline.from if d.period_baseline else '-' }} 〜 {{ d.period_baseline.to if d.period_baseline else '-' }}</div>
+  </div>
+  <div class="period-card" style="border-left:4px solid #DC2626">
+    <div class="lab">🔴 前スナップショット</div>
+    <div class="val">{{ d.period_prev.from if d.period_prev else '-' }} 〜 {{ d.period_prev.to if d.period_prev else '-' }}</div>
+  </div>
+  <div class="period-card" style="border-left:4px solid #16A34A">
+    <div class="lab">🟢 最新スナップショット</div>
+    <div class="val">{{ d.period_curr.from }} 〜 {{ d.period_curr.to }}</div>
+  </div>
+</div>
+
+<h2>📊 総合サマリ (NOINDEX処理前 vs 最新)</h2>
+<div class="summary">
+{% for cat_key, cat_label in [('country','🌐 国 (9URL)'),('city','🏙 都市 (47URL)'),('school','🏫 学校 (58URL)')] %}
+{% set s = d.summary[cat_key] %}
+  <div class="summary-card">
+    <h3>{{ cat_label }}</h3>
+    {% for metric_key, metric_label in [('clicks','Clicks'),('impressions','Impressions'),('kw_count','追跡KW数')] %}
+    {% set bv = s.baseline[metric_key] %}
+    {% set cv = s.curr[metric_key] %}
+    {% set diff = cv - bv %}
+    <div class="metric-line">
+      <span class="m-lbl">{{ metric_label }}</span>
+      <span>
+        <span class="m-val">{{ '{:,}'.format(bv) }}</span> →
+        <span class="m-val">{{ '{:,}'.format(cv) }}</span>
+        <span class="delta {% if diff > 0 %}delta-up{% elif diff < 0 %}delta-down{% else %}delta-flat{% endif %}">{{ '+' if diff > 0 else '' }}{{ diff }}</span>
+      </span>
+    </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('country')">🌐 国一覧 (9)</button>
+  <button class="tab" onclick="switchTab('city')">🏙 都市一覧 (47)</button>
+  <button class="tab" onclick="switchTab('school')">🏫 学校 (58)</button>
+  <button class="tab" onclick="switchTab('crawl')" style="color:#7C3AED;font-weight:800">🕷 クロール状況</button>
+  {% if d.yoy %}<button class="tab" onclick="switchTab('yoy')" style="color:#0369A1;font-weight:800">📈 純NOINDEX効果</button>{% endif %}
+  <button class="tab" onclick="switchTab('breakdown')">🔬 KW別内訳</button>
+  <button class="tab" onclick="switchTab('problems')" style="color:#B91C1C;font-weight:800">⚠️ 問題整理</button>
+</div>
+
+<!-- ===== 国一覧 ===== -->
+<div id="panel-country" class="panel active">
+  <div class="chart-section">
+    <h3>国別 Impressions (ベースライン vs 最新)</h3>
+    <div class="chart-wrap"><canvas id="chart-country-impr"></canvas></div>
+  </div>
+  {{ render_url_table(d.countries, ['jp','code'], ['国','コード']) }}
+</div>
+
+<!-- ===== 都市一覧 ===== -->
+<div id="panel-city" class="panel">
+  {{ render_url_table(d.cities, ['country','city_en','city_jp'], ['国','都市(英)','都市(日)']) }}
+</div>
+
+<!-- ===== 学校 ===== -->
+<div id="panel-school" class="panel">
+  {{ render_url_table(d.schools, ['country','city','name','sid'], ['国','都市','学校名','SID']) }}
+</div>
+
+<!-- ===== クロール状況 ===== -->
+<div id="panel-crawl" class="panel">
+  <div class="insight-box" style="background:#FAF5FF;border-color:#C4B5FD;border-left-color:#7C3AED;color:#4C1D95">
+    <strong>🕷 このタブについて:</strong> GSC URL Inspection API で取得した各URLの最終Googleクロール日と現在のインデックス状態。
+    NOINDEX処理を反映するには Google の再クロールが必要。「クロール済み・NOINDEX認識済み」なら成功。
+  </div>
+
+  {% set cs = d.crawl_summary %}
+  <div class="summary" style="grid-template-columns:repeat(4,1fr)">
+    <div class="crawl-card"><div class="lbl">📊 Inspect済み</div><div class="val">{{ cs.inspected }}/{{ cs.total }}</div></div>
+    <div class="crawl-card" style="background:#DCFCE7"><div class="lbl">🟢 7日以内クロール</div><div class="val" style="color:#15803D">{{ cs.fresh_7d }}</div></div>
+    <div class="crawl-card" style="background:#FEF3C7"><div class="lbl">🟡 30日超クロールなし</div><div class="val" style="color:#92400E">{{ cs.stale_30d }}</div></div>
+    <div class="crawl-card" style="background:#EFF6FF"><div class="lbl">🚫 NOINDEX認識済み</div><div class="val" style="color:#1D4ED8">{{ cs.blocked_by_meta_tag }}</div></div>
+  </div>
+
+  <h3>URL別 クロール状況</h3>
+  <table>
+    <thead><tr>
+      <th>種別</th><th>ページ</th><th>URL</th>
+      <th>最終クロール</th><th>経過日数</th>
+      <th>前回チェック時から再クロール?</th>
+      <th>インデックス状態</th><th>Coverage</th>
+      <th>Verdict</th>
+    </tr></thead>
+    <tbody>
+    {% for item in d.countries + d.cities + d.schools %}
+    {% set c = item.crawl %}
+    {% set label = item.jp if item.jp is defined else (item.city_jp if item.city_jp is defined else item.name) %}
+    <tr>
+      <td><span class="badge">{% if item.code is defined %}国{% elif item.cid is defined %}都市{% else %}学校{% endif %}</span></td>
+      <td style="font-size:11px">{{ label }}</td>
+      <td><a class="url-link" href="{{ item.url }}" target="_blank">{{ item.url.replace('https://schoolwith.me','') }}</a></td>
+      <td style="font-size:11px">{{ c.last_crawl_time[:10] if c.last_crawl_time else '-' }}</td>
+      <td class="num">
+        {% if c.days_since_crawl is not none %}
+          {% if c.days_since_crawl <= 7 %}<span class="badge badge-good">{{ c.days_since_crawl }}d</span>
+          {% elif c.days_since_crawl <= 30 %}<span class="badge badge-warn">{{ c.days_since_crawl }}d</span>
+          {% else %}<span class="badge badge-bad">{{ c.days_since_crawl }}d</span>{% endif %}
+        {% else %}-{% endif %}
+      </td>
+      <td>{% if c.crawled_since_last_check %}<span class="badge badge-good">✓ 再クロール</span>{% elif c.prev_last_crawl_time %}<span class="badge">同じ</span>{% else %}-{% endif %}</td>
+      <td style="font-size:10px">
+        {% if c.indexing_state == 'BLOCKED_BY_META_TAG' %}<span class="badge" style="background:#DBEAFE;color:#1D4ED8">NOINDEX認識</span>
+        {% elif c.indexing_state == 'INDEXING_ALLOWED' %}<span class="badge badge-good">Allowed</span>
+        {% elif c.indexing_state %}<span class="badge badge-warn">{{ c.indexing_state }}</span>
+        {% else %}-{% endif %}
+      </td>
+      <td style="font-size:10px">{{ c.coverage_state or '-' }}</td>
+      <td>
+        {% if c.verdict == 'PASS' %}<span class="badge badge-good">PASS</span>
+        {% elif c.verdict == 'FAIL' %}<span class="badge badge-bad">FAIL</span>
+        {% elif c.verdict %}<span class="badge">{{ c.verdict }}</span>
+        {% else %}-{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<!-- ===== 純NOINDEX効果 ===== -->
+{% if d.yoy %}
+<div id="panel-yoy" class="panel">
+  <div class="insight-box">
+    <strong>📈 純NOINDEX効果 = 今年変化率 − 昨年同期変化率</strong><br>
+    昨年(2025年)同期の自然な季節変動を差し引くことで、NOINDEX処理の純粋な影響を分離。
+  </div>
+  <table>
+    <thead><tr><th>国</th><th>昨年5月→7月</th><th>昨年%</th><th>今年5月→7月</th><th>今年%</th><th>純NOINDEX効果</th></tr></thead>
+    <tbody>
+    {% for c in d.yoy %}
+    <tr>
+      <td><strong>{{ c.code }} {{ c.jp }}</strong></td>
+      <td class="num">{{ c.ly_prev }}→{{ c.ly_curr }}</td>
+      <td class="num">{% if c.ly_pct is not none %}<span class="delta {% if c.ly_pct > 0 %}delta-up{% else %}delta-down{% endif %}">{{ '{:+.1f}'.format(c.ly_pct) }}%</span>{% else %}-{% endif %}</td>
+      <td class="num">{{ c.cur_prev }}→{{ c.cur_curr }}</td>
+      <td class="num">{% if c.cur_pct is not none %}<span class="delta {% if c.cur_pct > 0 %}delta-up{% else %}delta-down{% endif %}">{{ '{:+.1f}'.format(c.cur_pct) }}%</span>{% else %}-{% endif %}</td>
+      <td class="num"><strong>{% if c.net_noindex is not none %}<span class="delta {% if c.net_noindex > 0 %}delta-up{% else %}delta-down{% endif %}">{{ '{:+.1f}'.format(c.net_noindex) }}%</span>{% else %}-{% endif %}</strong></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+<!-- ===== KW別内訳 ===== -->
+<div id="panel-breakdown" class="panel">
+  {% for cat_key, cat_label in [('country','🌐 国'),('city','🏙 都市'),('school','🏫 学校')] %}
+  {% set b = d.breakdown[cat_key] %}
+  <h3>{{ cat_label }} — 消失{{ b.lost_count }} / 新規{{ b.new_count }} / 継続{{ b.cont_count }} (ネットImpr {{ '{:+d}'.format(b.net_impr) }})</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+    <div class="chart-section" style="margin:0;background:#FEE2E2">
+      <h3 style="color:#B91C1C;margin:0 0 8px;font-size:12px">🔴 Impr減少 Top10</h3>
+      <table style="font-size:11px">
+        <thead><tr><th>KW</th><th>ページ</th><th>旧</th><th>新</th><th>Δ</th></tr></thead>
+        <tbody>
+        {% for k in b.impr_down_top %}
+        <tr><td>{{ k.query }}</td><td style="color:#64748B;font-size:10px">{{ k.page }}</td><td class="num">{{ k.prev_i }}</td><td class="num">{{ k.curr_i }}</td><td class="num"><span class="delta delta-down">{{ k.d_i }}</span></td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="chart-section" style="margin:0;background:#DCFCE7">
+      <h3 style="color:#15803D;margin:0 0 8px;font-size:12px">🟢 Impr増加 Top10</h3>
+      <table style="font-size:11px">
+        <thead><tr><th>KW</th><th>ページ</th><th>旧</th><th>新</th><th>Δ</th></tr></thead>
+        <tbody>
+        {% for k in b.impr_up_top %}
+        <tr><td>{{ k.query }}</td><td style="color:#64748B;font-size:10px">{{ k.page }}</td><td class="num">{{ k.prev_i }}</td><td class="num">{{ k.curr_i }}</td><td class="num"><span class="delta delta-up">+{{ k.d_i }}</span></td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- ===== 問題整理 ===== -->
+<div id="panel-problems" class="panel">
+  {% set pb = d.problems %}
+  <div class="insight-box" style="background:#FEE2E2;border-color:#FCA5A5;border-left-color:#B91C1C;color:#7F1D1D">
+    <strong>⚠️ 問題件数:</strong> URL重大Impr減={{ pb.url_impr_drops|length }} / Clicks喪失={{ pb.clicks_lost|length }} / KW大幅Impr減={{ pb.critical_impr_drop|length }} / 順位悪化={{ pb.position_dropoff|length }}
+  </div>
+
+  {% if pb.url_impr_drops %}
+  <h3 style="color:#B91C1C">🔴 URL単位 大幅Impr減</h3>
+  <table><thead><tr><th>種別</th><th>ページ</th><th>旧Impr</th><th>新Impr</th><th>減少率</th><th>旧C</th><th>新C</th></tr></thead><tbody>
+  {% for p in pb.url_impr_drops %}
+  <tr><td><span class="badge">{{ p.cat }}</span></td><td>{{ p.label }}</td><td class="num">{{ p.prev_impr }}</td><td class="num">{{ p.curr_impr }}</td><td class="num"><strong style="color:#B91C1C">-{{ p.drop_pct }}%</strong></td><td class="num">{{ p.prev_clicks }}</td><td class="num">{{ p.curr_clicks }}</td></tr>
+  {% endfor %}
+  </tbody></table>
+  {% endif %}
+
+  {% if pb.clicks_lost %}
+  <h3 style="color:#92400E">🟡 KW単位 Clicks喪失 (Top30)</h3>
+  <table><thead><tr><th>種別</th><th>ページ</th><th>KW</th><th>旧C</th><th>旧Impr</th><th>新Impr</th></tr></thead><tbody>
+  {% for p in pb.clicks_lost[:30] %}
+  <tr><td><span class="badge">{{ p.cat }}</span></td><td style="font-size:11px">{{ p.label }}</td><td>{{ p.query }}</td><td class="num"><strong>{{ p.prev_clicks }}</strong></td><td class="num">{{ p.prev_impr }}</td><td class="num">{{ p.curr_impr }}</td></tr>
+  {% endfor %}
+  </tbody></table>
+  {% endif %}
+</div>
+
+<div class="footer">
+  <strong>データソース:</strong> Google Search Console (Search Analytics API + URL Inspection API)<br>
+  <strong>更新頻度:</strong> 毎週月曜 AM6:00 JST に GitHub Actions が自動更新<br>
+  <strong>スナップショット保存先:</strong> リポジトリの <code>history/</code> フォルダ<br>
+  <strong>ソースコード:</strong> このダッシュボードは <code>templates/dashboard.html.j2</code> から生成
+</div>
+
+</div>
+
+<script>
+const DATA = {{ data_json | safe }};
+
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelector(`.tab[onclick*="'${name}'"]`).classList.add('active');
+  document.getElementById('panel-'+name).classList.add('active');
+}
+
+// 国別 Impressions 棒グラフ
+(function(){
+  const ctx = document.getElementById('chart-country-impr');
+  if(!ctx) return;
+  new Chart(ctx.getContext('2d'), {
+    type:'bar',
+    data:{
+      labels: DATA.countries.map(c=>`${c.jp}(${c.code})`),
+      datasets:[
+        {label:'📌 NOINDEX前', data: DATA.countries.map(c=>c.baseline.impressions), backgroundColor:'#94A3B8CC'},
+        {label:'🔴 前スナップ', data: DATA.countries.map(c=>c.prev.impressions), backgroundColor:'#DC2626CC'},
+        {label:'🟢 最新', data: DATA.countries.map(c=>c.curr.impressions), backgroundColor:'#16A34ACC'},
+      ]
+    },
+    options:{responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'top',labels:{font:{size:11}}}}}
+  });
+})();
+</script>
+
+</body>
+</html>
