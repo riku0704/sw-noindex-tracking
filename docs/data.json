@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:45:22.661601",
+  "generated_at": "2026-08-26T05:16:53.673710",
   "period_curr": {
     "from": "2026-08-16",
     "to": "2026-08-22"
@@ -300,11 +300,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 2,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T17:05:10Z",
+        "prev_days_since_crawl": 2,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -606,11 +606,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-24T06:41:19Z",
+        "prev_days_since_crawl": 1,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -1686,11 +1686,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T04:13:35Z",
+        "prev_days_since_crawl": 3,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -2293,7 +2293,7 @@
       },
       "crawl": {
         "url": "https://schoolwith.me/countries/school/NZ",
-        "last_crawl_time": "2026-08-22T02:51:05Z",
+        "last_crawl_time": "2026-08-26T04:50:35Z",
         "indexing_state": "INDEXING_ALLOWED",
         "coverage_state": "送信して登録されました",
         "robots_txt_state": "ALLOWED",
@@ -2303,12 +2303,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/NZ",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 4,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
-        "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "days_since_crawl": 0,
+        "prev_last_crawl_time": "2026-08-22T02:51:05Z",
+        "prev_days_since_crawl": 4,
+        "crawled_since_last_check": true,
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -2940,11 +2940,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 4,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-22T01:28:57Z",
+        "prev_days_since_crawl": 4,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -3246,11 +3246,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-24T15:15:58Z",
+        "prev_days_since_crawl": 1,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -3486,11 +3486,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T05:52:38Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -3930,11 +3930,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T19:04:20Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -4042,13 +4042,16 @@
         "google_canonical": "https://schoolwith.me/countries/school/ZA",
         "user_canonical": "https://schoolwith.me/countries/school/ZA",
         "referring_urls_count": 3,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/index.xml",
+          "https://schoolwith.me/sitemaps/za.xml"
+        ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-19T03:41:45Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     }
   ],
@@ -4122,11 +4125,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 22,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-03T15:48:13Z",
+        "prev_days_since_crawl": 22,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -4259,11 +4262,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 11,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-14T08:20:39Z",
+        "prev_days_since_crawl": 11,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -4318,11 +4321,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 17,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-08T21:46:21Z",
+        "prev_days_since_crawl": 17,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -4413,11 +4416,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T16:30:43Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -5528,11 +5531,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T13:11:54Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -5689,11 +5692,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 4,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-21T13:42:37Z",
+        "prev_days_since_crawl": 4,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -5862,11 +5865,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 9,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-17T01:27:40Z",
+        "prev_days_since_crawl": 9,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -5979,7 +5982,7 @@
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2008",
-        "last_crawl_time": "2026-08-16T04:17:28Z",
+        "last_crawl_time": "2026-08-26T05:01:04Z",
         "indexing_state": "INDEXING_ALLOWED",
         "coverage_state": "送信して登録されました",
         "robots_txt_state": "ALLOWED",
@@ -5992,12 +5995,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 10,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
-        "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "days_since_crawl": 0,
+        "prev_last_crawl_time": "2026-08-16T04:17:28Z",
+        "prev_days_since_crawl": 10,
+        "crawled_since_last_check": true,
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -6075,13 +6078,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/3007",
         "user_canonical": "https://schoolwith.me/areas/school/3007",
         "referring_urls_count": 4,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
         "days_since_crawl": 11,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-14T19:17:58Z",
+        "prev_days_since_crawl": 11,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -6139,11 +6145,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 30,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-27T01:41:26Z",
+        "prev_days_since_crawl": 30,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -6342,11 +6348,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T07:16:50Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -6492,13 +6498,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/5004",
         "user_canonical": "https://schoolwith.me/areas/school/5004",
         "referring_urls_count": 4,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
         "days_since_crawl": 11,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-14T07:27:15Z",
+        "prev_days_since_crawl": 11,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -6601,11 +6610,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 4,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-22T00:57:50Z",
+        "prev_days_since_crawl": 4,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -6683,11 +6692,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T04:36:55Z",
+        "prev_days_since_crawl": 3,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -6809,16 +6818,13 @@
         "google_canonical": "https://schoolwith.me/areas/school/4001",
         "user_canonical": "https://schoolwith.me/areas/school/4001",
         "referring_urls_count": 4,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/areas.xml",
-          "https://schoolwith.me/sitemaps/index.xml"
-        ],
+        "sitemaps": [],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T03:48:02Z",
+        "prev_days_since_crawl": 1,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7060,13 +7066,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/2009",
         "user_canonical": "https://schoolwith.me/areas/school/2009",
         "referring_urls_count": 4,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-24T07:02:00Z",
+        "prev_days_since_crawl": 1,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7131,11 +7140,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-08T01:48:30Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7226,11 +7235,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 2,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T20:42:18Z",
+        "prev_days_since_crawl": 2,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7348,11 +7357,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T19:28:34Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7412,13 +7421,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/2026",
         "user_canonical": "https://schoolwith.me/areas/school/2026",
         "referring_urls_count": 2,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
         "days_since_crawl": 16,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-09T05:52:22Z",
+        "prev_days_since_crawl": 16,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7509,11 +7521,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 15,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-10T07:10:56Z",
+        "prev_days_since_crawl": 15,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7646,11 +7658,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T13:03:03Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7813,11 +7825,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T04:44:34Z",
+        "prev_days_since_crawl": 3,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -7938,11 +7950,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T15:32:03Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8004,11 +8016,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 11,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-14T18:14:16Z",
+        "prev_days_since_crawl": 11,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -8160,13 +8172,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/5007",
         "user_canonical": "https://schoolwith.me/areas/school/5007",
         "referring_urls_count": 3,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-19T04:24:53Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8281,11 +8296,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T17:16:47Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8340,11 +8355,11 @@
         "referring_urls_count": 1,
         "sitemaps": [],
         "days_since_crawl": 13,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-13T00:50:24Z",
+        "prev_days_since_crawl": 13,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -8465,11 +8480,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 8,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T00:26:42Z",
+        "prev_days_since_crawl": 8,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8577,12 +8592,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 11,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "days_since_crawl": 12,
+        "prev_last_crawl_time": "2026-08-14T04:53:06Z",
+        "prev_days_since_crawl": 12,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8663,11 +8678,11 @@
         "referring_urls_count": 1,
         "sitemaps": [],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-07T23:42:16Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -8770,11 +8785,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T08:31:26Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8832,11 +8847,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 17,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-08T21:25:51Z",
+        "prev_days_since_crawl": 17,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8894,11 +8909,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 26,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-30T08:06:48Z",
+        "prev_days_since_crawl": 26,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -8983,11 +8998,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T03:05:31Z",
+        "prev_days_since_crawl": 3,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9049,11 +9064,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 16,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-09T19:10:11Z",
+        "prev_days_since_crawl": 16,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -9108,11 +9123,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 20,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-05T17:38:55Z",
+        "prev_days_since_crawl": 20,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -9174,11 +9189,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 20,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-05T17:09:03Z",
+        "prev_days_since_crawl": 20,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -9236,11 +9251,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 20,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-05T22:46:48Z",
+        "prev_days_since_crawl": 20,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9307,13 +9322,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/7002",
         "user_canonical": "https://schoolwith.me/areas/school/7002",
         "referring_urls_count": 3,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
         "days_since_crawl": 14,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-11T23:22:04Z",
+        "prev_days_since_crawl": 14,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9368,11 +9386,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-07T12:53:04Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -9437,11 +9455,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-08T03:23:15Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9494,16 +9512,13 @@
         "google_canonical": "https://schoolwith.me/areas/school/3012",
         "user_canonical": "https://schoolwith.me/areas/school/3012",
         "referring_urls_count": 2,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/areas.xml",
-          "https://schoolwith.me/sitemaps/index.xml"
-        ],
+        "sitemaps": [],
         "days_since_crawl": 25,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-31T21:27:19Z",
+        "prev_days_since_crawl": 25,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9561,11 +9576,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 59,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-06-27T23:50:42Z",
+        "prev_days_since_crawl": 59,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9620,11 +9635,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 16,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-09T21:49:40Z",
+        "prev_days_since_crawl": 16,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -9689,11 +9704,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 52,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-04T22:09:10Z",
+        "prev_days_since_crawl": 52,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9751,11 +9766,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-07T23:32:13Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     }
   ],
@@ -9812,11 +9827,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 10,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-16T04:44:18Z",
+        "prev_days_since_crawl": 10,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -9887,11 +9902,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T22:18:34Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -9953,11 +9968,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 44,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-12T20:33:23Z",
+        "prev_days_since_crawl": 44,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10015,11 +10030,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 11,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-14T18:52:45Z",
+        "prev_days_since_crawl": 11,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -10074,11 +10089,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 22,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-03T21:41:02Z",
+        "prev_days_since_crawl": 22,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10157,11 +10172,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T18:37:35Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -10215,12 +10230,12 @@
         "user_canonical": "https://schoolwith.me/schools/30199",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 17,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "days_since_crawl": 18,
+        "prev_last_crawl_time": "2026-08-08T04:53:04Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10275,11 +10290,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-22T17:45:01Z",
+        "prev_days_since_crawl": 3,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10334,11 +10349,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 22,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-03T15:08:57Z",
+        "prev_days_since_crawl": 22,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10406,11 +10421,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 40,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-16T06:30:59Z",
+        "prev_days_since_crawl": 40,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10471,12 +10486,12 @@
         "user_canonical": "https://schoolwith.me/schools/30063",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 44,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "days_since_crawl": 45,
+        "prev_last_crawl_time": "2026-07-12T05:04:14Z",
+        "prev_days_since_crawl": 45,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10550,16 +10565,13 @@
         "google_canonical": "https://schoolwith.me/schools/70037",
         "user_canonical": "https://schoolwith.me/schools/70037",
         "referring_urls_count": 3,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/index.xml",
-          "https://schoolwith.me/sitemaps/schools.xml"
-        ],
+        "sitemaps": [],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T15:02:11Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -10614,11 +10626,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 32,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-24T14:05:38Z",
+        "prev_days_since_crawl": 32,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10686,11 +10698,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 43,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-13T13:03:18Z",
+        "prev_days_since_crawl": 43,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10745,11 +10757,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-07T13:54:08Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10804,11 +10816,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 38,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-18T16:43:14Z",
+        "prev_days_since_crawl": 38,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10870,11 +10882,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 36,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-20T17:05:52Z",
+        "prev_days_since_crawl": 36,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -10952,11 +10964,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 20,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-05T08:36:44Z",
+        "prev_days_since_crawl": 20,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -11065,11 +11077,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-22T20:24:40Z",
+        "prev_days_since_crawl": 3,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -11124,11 +11136,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 50,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-06T09:35:47Z",
+        "prev_days_since_crawl": 50,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11190,11 +11202,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 52,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-05T02:16:45Z",
+        "prev_days_since_crawl": 52,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11256,11 +11268,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 43,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-14T02:04:13Z",
+        "prev_days_since_crawl": 43,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11315,11 +11327,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 16,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-09T15:03:18Z",
+        "prev_days_since_crawl": 16,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11372,13 +11384,16 @@
         "google_canonical": "https://schoolwith.me/schools/50061",
         "user_canonical": "https://schoolwith.me/schools/50061",
         "referring_urls_count": 4,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/index.xml",
+          "https://schoolwith.me/sitemaps/schools.xml"
+        ],
         "days_since_crawl": 6,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-19T06:02:32Z",
+        "prev_days_since_crawl": 6,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -11440,11 +11455,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 26,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-30T18:19:54Z",
+        "prev_days_since_crawl": 26,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11506,11 +11521,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 46,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-10T21:16:23Z",
+        "prev_days_since_crawl": 46,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11565,11 +11580,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 49,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-07T17:56:24Z",
+        "prev_days_since_crawl": 49,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11649,11 +11664,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 44,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-12T22:17:05Z",
+        "prev_days_since_crawl": 44,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11721,11 +11736,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 32,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-25T01:18:56Z",
+        "prev_days_since_crawl": 32,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11780,11 +11795,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 14,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-11T08:50:16Z",
+        "prev_days_since_crawl": 14,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11839,11 +11854,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 45,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-12T03:54:41Z",
+        "prev_days_since_crawl": 45,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11898,11 +11913,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 19,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-06T05:34:48Z",
+        "prev_days_since_crawl": 19,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -11957,11 +11972,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 22,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-03T17:25:10Z",
+        "prev_days_since_crawl": 22,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12016,11 +12031,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 43,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-14T02:06:17Z",
+        "prev_days_since_crawl": 43,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12075,11 +12090,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 50,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-07T04:18:16Z",
+        "prev_days_since_crawl": 50,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12134,11 +12149,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 45,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-11T22:51:18Z",
+        "prev_days_since_crawl": 45,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12200,11 +12215,11 @@
         "referring_urls_count": 1,
         "sitemaps": [],
         "days_since_crawl": 65,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-06-21T08:43:00Z",
+        "prev_days_since_crawl": 65,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -12259,11 +12274,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 45,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-11T05:32:28Z",
+        "prev_days_since_crawl": 45,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12318,11 +12333,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-08T02:23:20Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12377,11 +12392,11 @@
         "referring_urls_count": 1,
         "sitemaps": [],
         "days_since_crawl": 45,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-12T00:46:24Z",
+        "prev_days_since_crawl": 45,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12449,11 +12464,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 31,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-25T07:08:38Z",
+        "prev_days_since_crawl": 31,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12508,11 +12523,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 51,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-06T01:31:50Z",
+        "prev_days_since_crawl": 51,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12580,11 +12595,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 22,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-03T16:33:13Z",
+        "prev_days_since_crawl": 22,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12639,11 +12654,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 31,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-26T03:16:07Z",
+        "prev_days_since_crawl": 31,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12705,11 +12720,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 35,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-07-21T23:50:37Z",
+        "prev_days_since_crawl": 35,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "BLOCKED_BY_META_TAG",
+        "state_changed": false
       }
     },
     {
@@ -12767,11 +12782,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 13,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-13T01:41:44Z",
+        "prev_days_since_crawl": 13,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -12843,11 +12858,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T02:55:58Z",
+        "prev_days_since_crawl": 1,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -12905,11 +12920,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T04:29:46Z",
+        "prev_days_since_crawl": 3,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -12967,11 +12982,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-19T03:39:17Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13080,11 +13095,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T01:26:32Z",
+        "prev_days_since_crawl": 1,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13142,11 +13157,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T08:22:09Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13199,16 +13214,13 @@
         "google_canonical": "https://schoolwith.me/schools/20239",
         "user_canonical": "https://schoolwith.me/schools/20239",
         "referring_urls_count": 2,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/index.xml",
-          "https://schoolwith.me/sitemaps/schools.xml"
-        ],
+        "sitemaps": [],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-07T19:00:57Z",
+        "prev_days_since_crawl": 18,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13273,11 +13285,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T16:36:49Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13335,11 +13347,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T18:28:17Z",
+        "prev_days_since_crawl": 0,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13399,13 +13411,16 @@
         "google_canonical": "https://schoolwith.me/schools/20202",
         "user_canonical": "https://schoolwith.me/schools/20202",
         "referring_urls_count": 2,
-        "sitemaps": [],
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/index.xml",
+          "https://schoolwith.me/sitemaps/schools.xml"
+        ],
         "days_since_crawl": 2,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-23T15:57:41Z",
+        "prev_days_since_crawl": 2,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13463,11 +13478,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-25T02:09:26Z",
+        "prev_days_since_crawl": 1,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13522,11 +13537,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T15:22:00Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     },
     {
@@ -13588,11 +13603,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": null,
-        "prev_days_since_crawl": null,
+        "prev_last_crawl_time": "2026-08-18T14:52:55Z",
+        "prev_days_since_crawl": 7,
         "crawled_since_last_check": false,
-        "prev_indexing_state": null,
-        "state_changed": null
+        "prev_indexing_state": "INDEXING_ALLOWED",
+        "state_changed": false
       }
     }
   ],
@@ -13811,17 +13826,6 @@
       {
         "cat": "国",
         "label": "カナダ",
-        "query": "語学学校 カナダ",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 5,
-        "curr_impr": 0,
-        "prev_pos": 7.2,
-        "curr_pos": 0
-      },
-      {
-        "cat": "国",
-        "label": "カナダ",
         "query": "カナダ 語学学校",
         "prev_clicks": 1,
         "curr_clicks": 0,
@@ -13829,6 +13833,17 @@
         "curr_impr": 12,
         "prev_pos": 5.38,
         "curr_pos": 7.33
+      },
+      {
+        "cat": "国",
+        "label": "カナダ",
+        "query": "語学学校 カナダ",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 5,
+        "curr_impr": 0,
+        "prev_pos": 7.2,
+        "curr_pos": 0
       },
       {
         "cat": "国",
@@ -13866,39 +13881,6 @@
       {
         "cat": "国",
         "label": "フィリピン",
-        "query": "セブ島 語学学校 おすすめ",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 10,
-        "curr_impr": 1,
-        "prev_pos": 6.7,
-        "curr_pos": 20
-      },
-      {
-        "cat": "国",
-        "label": "フィリピン",
-        "query": "フィリピン 留学 おすすめ",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 6,
-        "curr_impr": 6,
-        "prev_pos": 1.67,
-        "curr_pos": 5
-      },
-      {
-        "cat": "国",
-        "label": "フィリピン",
-        "query": "セブ島 留学 おすすめ 学校",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 1,
-        "curr_impr": 0,
-        "prev_pos": 5,
-        "curr_pos": 0
-      },
-      {
-        "cat": "国",
-        "label": "フィリピン",
         "query": "語学学校",
         "prev_clicks": 1,
         "curr_clicks": 0,
@@ -13921,6 +13903,28 @@
       {
         "cat": "国",
         "label": "フィリピン",
+        "query": "フィリピン 留学 おすすめ",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 6,
+        "curr_impr": 6,
+        "prev_pos": 1.67,
+        "curr_pos": 5
+      },
+      {
+        "cat": "国",
+        "label": "フィリピン",
+        "query": "セブ島 語学学校 おすすめ",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 10,
+        "curr_impr": 1,
+        "prev_pos": 6.7,
+        "curr_pos": 20
+      },
+      {
+        "cat": "国",
+        "label": "フィリピン",
         "query": "セブ島 語学学校ランキング",
         "prev_clicks": 1,
         "curr_clicks": 0,
@@ -13928,6 +13932,17 @@
         "curr_impr": 2,
         "prev_pos": 5.5,
         "curr_pos": 13
+      },
+      {
+        "cat": "国",
+        "label": "フィリピン",
+        "query": "セブ島 留学 おすすめ 学校",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 1,
+        "curr_impr": 0,
+        "prev_pos": 5,
+        "curr_pos": 0
       },
       {
         "cat": "国",
@@ -13954,13 +13969,13 @@
       {
         "cat": "国",
         "label": "アイルランド",
-        "query": "アイルランド 学校",
+        "query": "ダブリン 語学学校",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 26,
-        "curr_impr": 4,
-        "prev_pos": 1,
-        "curr_pos": 9
+        "prev_impr": 5,
+        "curr_impr": 10,
+        "prev_pos": 6.6,
+        "curr_pos": 8.6
       },
       {
         "cat": "国",
@@ -13976,13 +13991,13 @@
       {
         "cat": "国",
         "label": "アイルランド",
-        "query": "ダブリン 語学学校",
+        "query": "アイルランド 学校",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 5,
-        "curr_impr": 10,
-        "prev_pos": 6.6,
-        "curr_pos": 8.6
+        "prev_impr": 26,
+        "curr_impr": 4,
+        "prev_pos": 1,
+        "curr_pos": 9
       },
       {
         "cat": "国",
@@ -14009,13 +14024,13 @@
       {
         "cat": "都市",
         "label": "セブ",
-        "query": "セブ島 英語 留学",
+        "query": "セブ島留学 口コミ",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 16,
-        "curr_impr": 16,
-        "prev_pos": 35.12,
-        "curr_pos": 19.31
+        "prev_impr": 1,
+        "curr_impr": 0,
+        "prev_pos": 1,
+        "curr_pos": 0
       },
       {
         "cat": "都市",
@@ -14027,6 +14042,28 @@
         "curr_impr": 2,
         "prev_pos": 5.75,
         "curr_pos": 2.5
+      },
+      {
+        "cat": "都市",
+        "label": "セブ",
+        "query": "セブ留学",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 36,
+        "curr_impr": 18,
+        "prev_pos": 13.97,
+        "curr_pos": 25
+      },
+      {
+        "cat": "都市",
+        "label": "セブ",
+        "query": "セブ島 英語 留学",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 16,
+        "curr_impr": 16,
+        "prev_pos": 35.12,
+        "curr_pos": 19.31
       },
       {
         "cat": "都市",
@@ -14049,28 +14086,6 @@
         "curr_impr": 10,
         "prev_pos": 1.5,
         "curr_pos": 1.2
-      },
-      {
-        "cat": "都市",
-        "label": "セブ",
-        "query": "セブ島留学 口コミ",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 1,
-        "curr_impr": 0,
-        "prev_pos": 1,
-        "curr_pos": 0
-      },
-      {
-        "cat": "都市",
-        "label": "セブ",
-        "query": "セブ留学",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 36,
-        "curr_impr": 18,
-        "prev_pos": 13.97,
-        "curr_pos": 25
       },
       {
         "cat": "都市",
@@ -14253,20 +14268,20 @@
       {
         "cat": "国",
         "label": "オーストラリア",
-        "query": "オーストラリア 語学 留学",
-        "prev_pos": 9.37,
-        "curr_pos": 24.47,
-        "prev_impr": 19,
-        "curr_impr": 15
-      },
-      {
-        "cat": "国",
-        "label": "オーストラリア",
         "query": "オーストラリア留学 どこがいい",
         "prev_pos": 10,
         "curr_pos": 27,
         "prev_impr": 1,
         "curr_impr": 1
+      },
+      {
+        "cat": "国",
+        "label": "オーストラリア",
+        "query": "オーストラリア 語学 留学",
+        "prev_pos": 9.37,
+        "curr_pos": 24.47,
+        "prev_impr": 19,
+        "curr_impr": 15
       },
       {
         "cat": "都市",
@@ -14369,17 +14384,17 @@
         },
         {
           "page": "フィリピン",
-          "query": "フィリピン留学 学校選び",
-          "prev_i": 2,
-          "prev_c": 0,
-          "prev_p": 29
-        },
-        {
-          "page": "フィリピン",
           "query": "セブ 島 留学 おすすめ",
           "prev_i": 2,
           "prev_c": 0,
           "prev_p": 56.5
+        },
+        {
+          "page": "フィリピン",
+          "query": "セブ 島 語学 留学",
+          "prev_i": 2,
+          "prev_c": 0,
+          "prev_p": 76
         }
       ],
       "new_top": [
@@ -14594,21 +14609,21 @@
         },
         {
           "page": "マルタ",
-          "query": "マルタ 留学 おすすめ",
-          "prev_i": 7,
-          "curr_i": 14,
-          "d_i": 7,
-          "prev_p": 3,
-          "curr_p": 2.93
-        },
-        {
-          "page": "マルタ",
           "query": "マルタ島 語学留学",
           "prev_i": 2,
           "curr_i": 9,
           "d_i": 7,
           "prev_p": 11,
           "curr_p": 11.56
+        },
+        {
+          "page": "マルタ",
+          "query": "マルタ 留学 おすすめ",
+          "prev_i": 7,
+          "curr_i": 14,
+          "d_i": 7,
+          "prev_p": 3,
+          "curr_p": 2.93
         },
         {
           "page": "アメリカ",
@@ -14621,21 +14636,21 @@
         },
         {
           "page": "オーストラリア",
-          "query": "オーストラリア 語学留学",
-          "prev_i": 11,
-          "curr_i": 17,
-          "d_i": 6,
-          "prev_p": 20.64,
-          "curr_p": 15
-        },
-        {
-          "page": "オーストラリア",
           "query": "オーストラリア語学学校",
           "prev_i": 14,
           "curr_i": 20,
           "d_i": 6,
           "prev_p": 4.57,
           "curr_p": 6.85
+        },
+        {
+          "page": "オーストラリア",
+          "query": "オーストラリア 語学留学",
+          "prev_i": 11,
+          "curr_i": 17,
+          "d_i": 6,
+          "prev_p": 20.64,
+          "curr_p": 15
         }
       ]
     },
@@ -14682,17 +14697,17 @@
         },
         {
           "page": "セブ",
-          "query": "フィリピン セブ 島 留学",
-          "prev_i": 3,
-          "prev_c": 0,
-          "prev_p": 33
-        },
-        {
-          "page": "セブ",
           "query": "フィリピン セブ 島 英語 留学",
           "prev_i": 3,
           "prev_c": 0,
           "prev_p": 23.67
+        },
+        {
+          "page": "セブ",
+          "query": "フィリピン セブ 島 留学",
+          "prev_i": 3,
+          "prev_c": 0,
+          "prev_p": 33
         },
         {
           "page": "セブ",
@@ -14717,10 +14732,10 @@
         },
         {
           "page": "セブ",
-          "query": "フィリピン セブ 留学",
+          "query": "留学 セブ 島",
           "prev_i": 2,
           "prev_c": 0,
-          "prev_p": 49.5
+          "prev_p": 39.5
         }
       ],
       "new_top": [
@@ -14807,15 +14822,6 @@
         },
         {
           "page": "セブ",
-          "query": "セブ 島 学校",
-          "prev_i": 9,
-          "curr_i": 3,
-          "d_i": -6,
-          "prev_p": 9.11,
-          "curr_p": 15
-        },
-        {
-          "page": "セブ",
           "query": "セブ島 留学",
           "prev_i": 35,
           "curr_i": 29,
@@ -14831,6 +14837,15 @@
           "d_i": -6,
           "prev_p": 31.85,
           "curr_p": 30.57
+        },
+        {
+          "page": "セブ",
+          "query": "セブ 島 学校",
+          "prev_i": 9,
+          "curr_i": 3,
+          "d_i": -6,
+          "prev_p": 9.11,
+          "curr_p": 15
         },
         {
           "page": "ブライトン",
@@ -14870,12 +14885,12 @@
         },
         {
           "page": "セブ",
-          "query": "セブ語学学校",
-          "prev_i": 8,
-          "curr_i": 5,
+          "query": "セブ 島 語学 学校",
+          "prev_i": 6,
+          "curr_i": 3,
           "d_i": -3,
-          "prev_p": 6.62,
-          "curr_p": 11.4
+          "prev_p": 9.33,
+          "curr_p": 14
         },
         {
           "page": "セブ",
@@ -15009,17 +15024,17 @@
         },
         {
           "page": "LCIC",
-          "query": "フィリピン英語留学 名古屋",
-          "prev_i": 1,
-          "prev_c": 0,
-          "prev_p": 79
-        },
-        {
-          "page": "LCIC",
           "query": "フィリピン留学 エージェント 名古屋",
           "prev_i": 1,
           "prev_c": 0,
           "prev_p": 90
+        },
+        {
+          "page": "LCIC",
+          "query": "フィリピン英語留学 名古屋",
+          "prev_i": 1,
+          "prev_c": 0,
+          "prev_p": 79
         },
         {
           "page": "EF マイアミ",
@@ -15032,17 +15047,17 @@
       "new_top": [
         {
           "page": "シードテックスクール",
-          "query": "seed tech school",
-          "curr_i": 1,
-          "curr_c": 0,
-          "curr_p": 55
-        },
-        {
-          "page": "シードテックスクール",
           "query": "シードテックスクール",
           "curr_i": 1,
           "curr_c": 0,
           "curr_p": 4
+        },
+        {
+          "page": "シードテックスクール",
+          "query": "seed tech school",
+          "curr_i": 1,
+          "curr_c": 0,
+          "curr_p": 55
         },
         {
           "page": "EF マイアミ",
@@ -15079,7 +15094,7 @@
     "total": 114,
     "inspected": 114,
     "never_crawled": 0,
-    "fresh_7d": 43,
+    "fresh_7d": 44,
     "stale_30d": 27,
     "stale_60d": 1,
     "blocked_by_meta_tag": 46,
