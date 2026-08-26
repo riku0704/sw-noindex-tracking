@@ -67,7 +67,7 @@ def summarize_result(url: str, result: dict | None) -> dict[str, Any]:
         "coverage_state": idx.get("coverageState"),  # e.g. "Submitted and indexed"
         "robots_txt_state": idx.get("robotsTxtState"),
         "page_fetch_state": idx.get("pageFetchState"),
-        "verdict": result.get("verdict"),  # PASS / FAIL / NEUTRAL
+        "verdict": idx.get("verdict"),  # PASS / FAIL / NEUTRAL (indexStatusResult 内)
         "google_canonical": idx.get("googleCanonical"),
         "user_canonical": idx.get("userCanonical"),
         "referring_urls_count": idx.get("referringUrls", []).__len__() if idx.get("referringUrls") else 0,

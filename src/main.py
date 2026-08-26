@@ -36,11 +36,12 @@ def _latest_final_date(today: date | None = None) -> date:
 
 
 def _same_week_last_year(d: date) -> date:
-    """前年同週の終了日。2/29 は前日にずらす。"""
-    try:
-        return d.replace(year=d.year - 1)
-    except ValueError:
-        return d.replace(year=d.year - 1, day=d.day - 1)
+    """前年同週の終了日 = 364日前 (52週ちょうど)。
+
+    replace(year=-1) だと曜日が変わってしまい、検索トラフィックの
+    曜日変動が前年比較に混入する。364日前なら曜日が保たれる。
+    """
+    return d - timedelta(days=364)
 
 
 def load_targets() -> dict:

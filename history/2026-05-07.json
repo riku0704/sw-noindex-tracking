@@ -1,0 +1,2947 @@
+{
+  "period": {
+    "from": "2026-05-01",
+    "to": "2026-05-07"
+  },
+  "countries_agg": {
+    "NZ": {
+      "clicks": 10,
+      "impressions": 140,
+      "avg_position": 9.63,
+      "kw_count": 26,
+      "keywords": [
+        {
+          "query": "ニュージーランド 語学学校",
+          "clicks": 9,
+          "impressions": 49,
+          "position": 2.8
+        },
+        {
+          "query": "ニュージーランド 語学留学",
+          "clicks": 0,
+          "impressions": 21,
+          "position": 10.05
+        },
+        {
+          "query": "ニュージーランド 語学 留学",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 11.53
+        },
+        {
+          "query": "ニュージーランド 語学 学校",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 3.14
+        },
+        {
+          "query": "ニュージーランド 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 1.14
+        },
+        {
+          "query": "ニュージーランド語学留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 11
+        },
+        {
+          "query": "ニュージーランド語学学校",
+          "clicks": 1,
+          "impressions": 5,
+          "position": 2.6
+        },
+        {
+          "query": "ニュージーランド 留学 評判",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 80.8
+        },
+        {
+          "query": "ニュージーランド留学 英語",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 8
+        },
+        {
+          "query": "オークランド おすすめの学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 35.5
+        },
+        {
+          "query": "ニュージーランド留学 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 3.5
+        },
+        {
+          "query": "語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 3.5
+        },
+        {
+          "query": "語学留学 ニュージーランド",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11
+        },
+        {
+          "query": "kristin school",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "nz 留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "nz 留学できる学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "オークランド 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 46
+        },
+        {
+          "query": "ダーフィールド",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "ニュージーランド おすすめの学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "ニュージーランド 人気学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "ニュージーランド 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 72
+        },
+        {
+          "query": "ニュージーランド 留学できる学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "ニュージーランド留学情報センター",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "ニュージーランド語学研修",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 21
+        },
+        {
+          "query": "リストンカレッジ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "語学学校 ニュージーランド",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        }
+      ]
+    },
+    "PH": {
+      "clicks": 17,
+      "impressions": 785,
+      "avg_position": 12.1,
+      "kw_count": 66,
+      "keywords": [
+        {
+          "query": "フィリピン留学",
+          "clicks": 0,
+          "impressions": 116,
+          "position": 11.09
+        },
+        {
+          "query": "フィリピン 語学留学",
+          "clicks": 1,
+          "impressions": 114,
+          "position": 10.94
+        },
+        {
+          "query": "フィリピン 留学",
+          "clicks": 0,
+          "impressions": 111,
+          "position": 12.64
+        },
+        {
+          "query": "フィリピン 語学学校",
+          "clicks": 5,
+          "impressions": 52,
+          "position": 2.5
+        },
+        {
+          "query": "フィリピン語学留学",
+          "clicks": 0,
+          "impressions": 44,
+          "position": 10.27
+        },
+        {
+          "query": "フィリピン留学 おすすめ",
+          "clicks": 0,
+          "impressions": 31,
+          "position": 1.97
+        },
+        {
+          "query": "フィリピン留学 学校",
+          "clicks": 0,
+          "impressions": 29,
+          "position": 4.86
+        },
+        {
+          "query": "フィリピン留学 おすすめ学校",
+          "clicks": 0,
+          "impressions": 26,
+          "position": 3.19
+        },
+        {
+          "query": "フィリピン 英語 留学",
+          "clicks": 0,
+          "impressions": 23,
+          "position": 37.48
+        },
+        {
+          "query": "フィリピン 語学",
+          "clicks": 0,
+          "impressions": 16,
+          "position": 7.62
+        },
+        {
+          "query": "フィリピン語学学校",
+          "clicks": 0,
+          "impressions": 16,
+          "position": 2.5
+        },
+        {
+          "query": "セブ島 語学 学校",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 40
+        },
+        {
+          "query": "フィリピン留学 口コミ",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 34.77
+        },
+        {
+          "query": "セブ島 語学 留学",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 71.45
+        },
+        {
+          "query": "フィリピン留学 学校ランキング",
+          "clicks": 3,
+          "impressions": 10,
+          "position": 1
+        },
+        {
+          "query": "セブ島 語学学校 おすすめ",
+          "clicks": 1,
+          "impressions": 10,
+          "position": 6.7
+        },
+        {
+          "query": "セブ島 語学学校ランキング",
+          "clicks": 1,
+          "impressions": 10,
+          "position": 5.5
+        },
+        {
+          "query": "フィリピン 語学 留学",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 11.78
+        },
+        {
+          "query": "フィリピン留学 学校 おすすめ",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 4
+        },
+        {
+          "query": "フィリピン 留学 おすすめ",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 1.67
+        },
+        {
+          "query": "フィリピン 語学学校 おすすめ",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 2.17
+        },
+        {
+          "query": "フィリピン留学 評判",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 56.5
+        },
+        {
+          "query": "留学 フィリピン",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 14
+        },
+        {
+          "query": "語学学校 フィリピン",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 3.67
+        },
+        {
+          "query": "語学留学 フィリピン",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 25.83
+        },
+        {
+          "query": "フィリピン 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 3.2
+        },
+        {
+          "query": "フィリピン学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 11
+        },
+        {
+          "query": "フィリピン英語学校",
+          "clicks": 2,
+          "impressions": 4,
+          "position": 2.25
+        },
+        {
+          "query": "フィリピン 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 6.25
+        },
+        {
+          "query": "フィリピン 留学 人気",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 3
+        },
+        {
+          "query": "フィリピン 留学 学校 おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 3.75
+        },
+        {
+          "query": "フィリピン 英語学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 3.5
+        },
+        {
+          "query": "フィリピン留学 語学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 10
+        },
+        {
+          "query": "フィリピン留学 語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 1
+        },
+        {
+          "query": "セブ 島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 23
+        },
+        {
+          "query": "セブ 島 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 11.67
+        },
+        {
+          "query": "セブ 島 留学 学校 ランキング",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 15.67
+        },
+        {
+          "query": "セブ 島 留学 語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 18
+        },
+        {
+          "query": "フィリピン 留学 比較",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 13.67
+        },
+        {
+          "query": "フィリピン 語学留学 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 2.33
+        },
+        {
+          "query": "フィリピン留学 人気校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 1
+        },
+        {
+          "query": "セブ 島 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 35
+        },
+        {
+          "query": "フィリピンの学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10
+        },
+        {
+          "query": "留学 英語 フィリピン",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 24
+        },
+        {
+          "query": "英語 留学 フィリピン",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11
+        },
+        {
+          "query": "セブ島 留学 おすすめ 学校",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "語学学校",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "セブ 島 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 44
+        },
+        {
+          "query": "セブ 島 留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 34
+        },
+        {
+          "query": "セブ 島 留学 比較",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 18
+        },
+        {
+          "query": "セブ 島 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 31
+        },
+        {
+          "query": "セブ 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 72
+        },
+        {
+          "query": "セブ島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "セブ島 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 38
+        },
+        {
+          "query": "セブ留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "セブ留学 学校ランキング",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "フィリピン ワーホリ おすすめ校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        },
+        {
+          "query": "フィリピン 留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "フィリピン 留学 学校選び",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "フィリピン 英会話スクール",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "フィリピン 英語留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "フィリピンに留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "フィリピン留学 人気",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "フィリピン語学研修",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        },
+        {
+          "query": "マニラ 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 76
+        },
+        {
+          "query": "語学 留学 フィリピン",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 27
+        }
+      ]
+    },
+    "MT": {
+      "clicks": 13,
+      "impressions": 154,
+      "avg_position": 14.3,
+      "kw_count": 30,
+      "keywords": [
+        {
+          "query": "マルタ 語学学校",
+          "clicks": 3,
+          "impressions": 23,
+          "position": 2.74
+        },
+        {
+          "query": "マルタ留学",
+          "clicks": 1,
+          "impressions": 21,
+          "position": 16.67
+        },
+        {
+          "query": "マルタ 留学",
+          "clicks": 0,
+          "impressions": 20,
+          "position": 53.75
+        },
+        {
+          "query": "マルタ 語学留学",
+          "clicks": 2,
+          "impressions": 17,
+          "position": 5.47
+        },
+        {
+          "query": "マルタ 語学 留学",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 9.79
+        },
+        {
+          "query": "マルタ 語学学校 おすすめ",
+          "clicks": 3,
+          "impressions": 6,
+          "position": 1
+        },
+        {
+          "query": "マルタ 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 1.83
+        },
+        {
+          "query": "マルタ 英語 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 2
+        },
+        {
+          "query": "マルタ 英語 留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 14.25
+        },
+        {
+          "query": "マルタ 語学 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 2
+        },
+        {
+          "query": "マルタ語学留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 7.25
+        },
+        {
+          "query": "マルタ語学学校",
+          "clicks": 1,
+          "impressions": 3,
+          "position": 2.33
+        },
+        {
+          "query": "マルタ島 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 21
+        },
+        {
+          "query": "マルタ島 語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 3.67
+        },
+        {
+          "query": "語学学校 マルタ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 3.67
+        },
+        {
+          "query": "語学留学 マルタ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 1
+        },
+        {
+          "query": "マルタ 英語留学",
+          "clicks": 2,
+          "impressions": 2,
+          "position": 5
+        },
+        {
+          "query": "マルタ留学 学校",
+          "clicks": 1,
+          "impressions": 2,
+          "position": 2.5
+        },
+        {
+          "query": "ペムブローク留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 50
+        },
+        {
+          "query": "マルタ 大学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "マルタ 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "マルタ 英語",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 31
+        },
+        {
+          "query": "マルタ共和国 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 26
+        },
+        {
+          "query": "マルタ大学付属語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "マルタ島 英語留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "マルタ留学 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "マルタ英語留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 13
+        },
+        {
+          "query": "留学 マルタ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 44
+        },
+        {
+          "query": "留学は？",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "親子留学 マルタ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 72
+        }
+      ]
+    },
+    "UK": {
+      "clicks": 4,
+      "impressions": 81,
+      "avg_position": 11.3,
+      "kw_count": 19,
+      "keywords": [
+        {
+          "query": "イギリス 語学学校",
+          "clicks": 2,
+          "impressions": 18,
+          "position": 6.11
+        },
+        {
+          "query": "イギリス 語学 学校",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 13
+        },
+        {
+          "query": "イギリス 留学 語学",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 10.62
+        },
+        {
+          "query": "イギリス語学学校",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 7.88
+        },
+        {
+          "query": "イギリス 語学学校 おすすめ",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 1.17
+        },
+        {
+          "query": "語学学校 イギリス",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 5.8
+        },
+        {
+          "query": "ロンドン 語学学校 おすすめ",
+          "clicks": 1,
+          "impressions": 3,
+          "position": 4.67
+        },
+        {
+          "query": "イギリス の 學校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 10.67
+        },
+        {
+          "query": "イギリス 語学 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 48
+        },
+        {
+          "query": "ロンドン 語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 27
+        },
+        {
+          "query": "イギリス留学 英語",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8.5
+        },
+        {
+          "query": "ロンドン 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 38
+        },
+        {
+          "query": "イギリス パブリックスクール ランキング",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 22
+        },
+        {
+          "query": "イギリス留学 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "ロンドン 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 31
+        },
+        {
+          "query": "ロンドン留学 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "語学 学校 英語",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        },
+        {
+          "query": "語学学校 英語",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "AU": {
+      "clicks": 2,
+      "impressions": 305,
+      "avg_position": 5.64,
+      "kw_count": 22,
+      "keywords": [
+        {
+          "query": "オーストラリア 語学学校",
+          "clicks": 1,
+          "impressions": 72,
+          "position": 3.97
+        },
+        {
+          "query": "オーストラリア 語学留学",
+          "clicks": 1,
+          "impressions": 55,
+          "position": 7.55
+        },
+        {
+          "query": "語学留学 オーストラリア",
+          "clicks": 0,
+          "impressions": 24,
+          "position": 6.04
+        },
+        {
+          "query": "オーストラリア語学学校",
+          "clicks": 0,
+          "impressions": 23,
+          "position": 3.35
+        },
+        {
+          "query": "オーストラリア 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 22,
+          "position": 1.09
+        },
+        {
+          "query": "オーストラリア 語学 学校",
+          "clicks": 0,
+          "impressions": 20,
+          "position": 3.6
+        },
+        {
+          "query": "オーストラリア 語学 留学",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 9.37
+        },
+        {
+          "query": "語学学校 オーストラリア",
+          "clicks": 0,
+          "impressions": 17,
+          "position": 7.82
+        },
+        {
+          "query": "オーストラリア語学留学",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 8.53
+        },
+        {
+          "query": "オーストラリア 語学 学校 おすすめ",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 2.88
+        },
+        {
+          "query": "オーストラリア 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 4
+        },
+        {
+          "query": "オーストラリア 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 9.4
+        },
+        {
+          "query": "オーストラリア 英語 留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 6.4
+        },
+        {
+          "query": "オーストラリア 英語 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 12.75
+        },
+        {
+          "query": "オーストラリア留学 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 10
+        },
+        {
+          "query": "オーストラリア 語学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 13
+        },
+        {
+          "query": "オーストラリア 語学学校 ランキング",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "オーストラリア留学 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "オーストラリア留学 どこがいい",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "オーストラリア語学研修",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "オーストリア 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "ケアンズは",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        }
+      ]
+    },
+    "CA": {
+      "clicks": 3,
+      "impressions": 194,
+      "avg_position": 10.27,
+      "kw_count": 13,
+      "keywords": [
+        {
+          "query": "カナダ 語学留学",
+          "clicks": 0,
+          "impressions": 61,
+          "position": 9.66
+        },
+        {
+          "query": "カナダ 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 24,
+          "position": 10.42
+        },
+        {
+          "query": "カナダ語学留学",
+          "clicks": 0,
+          "impressions": 22,
+          "position": 10.14
+        },
+        {
+          "query": "カナダ 語学学校",
+          "clicks": 1,
+          "impressions": 21,
+          "position": 5.38
+        },
+        {
+          "query": "カナダ 語学 学校",
+          "clicks": 0,
+          "impressions": 17,
+          "position": 19.06
+        },
+        {
+          "query": "カナダ 語学 留学",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 9.87
+        },
+        {
+          "query": "カナダ留学 おすすめ",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 11.71
+        },
+        {
+          "query": "カナダ 語学学校 おすすめ",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 2
+        },
+        {
+          "query": "語学学校 カナダ",
+          "clicks": 1,
+          "impressions": 5,
+          "position": 7.2
+        },
+        {
+          "query": "カナダ語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 7.5
+        },
+        {
+          "query": "語学留学 カナダ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 9
+        },
+        {
+          "query": "カナダ留学 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "留学 カナダ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 76
+        }
+      ]
+    },
+    "IE": {
+      "clicks": 3,
+      "impressions": 59,
+      "avg_position": 7.08,
+      "kw_count": 9,
+      "keywords": [
+        {
+          "query": "アイルランド 学校",
+          "clicks": 1,
+          "impressions": 26,
+          "position": 1
+        },
+        {
+          "query": "アイルランド 語学学校",
+          "clicks": 1,
+          "impressions": 14,
+          "position": 4.43
+        },
+        {
+          "query": "ダブリン 語学学校",
+          "clicks": 1,
+          "impressions": 5,
+          "position": 6.6
+        },
+        {
+          "query": "アイルランド 語学 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 4
+        },
+        {
+          "query": "アイルランド語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 6
+        },
+        {
+          "query": "ダブリンで最高のib学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 18.33
+        },
+        {
+          "query": "アイルランド 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 78.5
+        },
+        {
+          "query": "アイルランド 英語 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 12
+        },
+        {
+          "query": "アイルランド 語学学校 安い",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 31
+        }
+      ]
+    },
+    "US": {
+      "clicks": 2,
+      "impressions": 161,
+      "avg_position": 12.29,
+      "kw_count": 13,
+      "keywords": [
+        {
+          "query": "アメリカ 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 34,
+          "position": 26.88
+        },
+        {
+          "query": "アメリカ 語学学校",
+          "clicks": 0,
+          "impressions": 31,
+          "position": 8.39
+        },
+        {
+          "query": "アメリカ 語学留学",
+          "clicks": 1,
+          "impressions": 30,
+          "position": 8.77
+        },
+        {
+          "query": "アメリカ 語学 留学",
+          "clicks": 0,
+          "impressions": 20,
+          "position": 8.4
+        },
+        {
+          "query": "アメリカ 語学 学校",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 6.5
+        },
+        {
+          "query": "語学留学 アメリカ",
+          "clicks": 0,
+          "impressions": 10,
+          "position": 11.3
+        },
+        {
+          "query": "アメリカ語学留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 9
+        },
+        {
+          "query": "アメリカ語学学校",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 5.83
+        },
+        {
+          "query": "語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 4.33
+        },
+        {
+          "query": "語学学校 アメリカ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 4
+        },
+        {
+          "query": "アメリカ 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 15
+        },
+        {
+          "query": "言語学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 28
+        }
+      ]
+    },
+    "ZA": {
+      "clicks": 0,
+      "impressions": 21,
+      "avg_position": 45.57,
+      "kw_count": 5,
+      "keywords": [
+        {
+          "query": "南アフリカ 留学",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 71.33
+        },
+        {
+          "query": "南アフリカ 語学 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 15.33
+        },
+        {
+          "query": "南アフリカ 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 5.5
+        },
+        {
+          "query": "南アフリカ 語学留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10.5
+        },
+        {
+          "query": "南アフリカ共和国 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        }
+      ]
+    }
+  },
+  "cities_agg": {
+    "1": {
+      "clicks": 8,
+      "impressions": 396,
+      "avg_position": 20.96,
+      "kw_count": 57,
+      "keywords": [
+        {
+          "query": "セブ 留学",
+          "clicks": 2,
+          "impressions": 43,
+          "position": 18.37
+        },
+        {
+          "query": "セブ島 留学",
+          "clicks": 0,
+          "impressions": 43,
+          "position": 21.49
+        },
+        {
+          "query": "セブ留学",
+          "clicks": 1,
+          "impressions": 36,
+          "position": 13.97
+        },
+        {
+          "query": "セブ島留学",
+          "clicks": 0,
+          "impressions": 30,
+          "position": 23
+        },
+        {
+          "query": "セブ島 英語 留学",
+          "clicks": 1,
+          "impressions": 16,
+          "position": 35.12
+        },
+        {
+          "query": "セブ島 語学 留学",
+          "clicks": 0,
+          "impressions": 16,
+          "position": 22.69
+        },
+        {
+          "query": "セブ島 語学 学校",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 14.2
+        },
+        {
+          "query": "セブ 島 留学",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 41.21
+        },
+        {
+          "query": "フィリピン セブ島 留学",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 44.31
+        },
+        {
+          "query": "セブ島 語学学校ランキング",
+          "clicks": 1,
+          "impressions": 12,
+          "position": 1.5
+        },
+        {
+          "query": "セブ島 語学留学",
+          "clicks": 1,
+          "impressions": 11,
+          "position": 11.09
+        },
+        {
+          "query": "フィリピン留学 学校",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 83.91
+        },
+        {
+          "query": "セブ島 留学 英語",
+          "clicks": 0,
+          "impressions": 10,
+          "position": 20.6
+        },
+        {
+          "query": "セブ 島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 13.75
+        },
+        {
+          "query": "セブ 語学留学",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 10.67
+        },
+        {
+          "query": "セブ 島 学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 14.2
+        },
+        {
+          "query": "セブ 島 語学 学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 12
+        },
+        {
+          "query": "セブ島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 9.4
+        },
+        {
+          "query": "セブ島 英語留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 13.4
+        },
+        {
+          "query": "セブ島 語学学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 12
+        },
+        {
+          "query": "セブ島留学 おすすめ 学校",
+          "clicks": 1,
+          "impressions": 4,
+          "position": 5.75
+        },
+        {
+          "query": "セブ 島 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 14
+        },
+        {
+          "query": "セブ 島 留学 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 11.5
+        },
+        {
+          "query": "セブ 島 留学 学校 ランキング",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 1.75
+        },
+        {
+          "query": "セブ 島 語学 留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 25.5
+        },
+        {
+          "query": "セブ 英語学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 6.25
+        },
+        {
+          "query": "セブ 語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 9.75
+        },
+        {
+          "query": "セブ留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 4.25
+        },
+        {
+          "query": "フィリピン留学 おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 82.25
+        },
+        {
+          "query": "セブ 島 留学 学校 選び",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 16.33
+        },
+        {
+          "query": "セブ 島 留学 語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 15
+        },
+        {
+          "query": "セブ 島 英語 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 19.33
+        },
+        {
+          "query": "セブ 語学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 11
+        },
+        {
+          "query": "セブ 語学 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 18
+        },
+        {
+          "query": "セブ島 語学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 7.33
+        },
+        {
+          "query": "セブ島留学 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 10
+        },
+        {
+          "query": "セブ留学 学校ランキング",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 2.33
+        },
+        {
+          "query": "フィリピン留学 学校ランキング",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 3.67
+        },
+        {
+          "query": "セブ 島 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        },
+        {
+          "query": "セブ島 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9.5
+        },
+        {
+          "query": "セブ留学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4.5
+        },
+        {
+          "query": "フィリピン セブ 島 英語 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 34
+        },
+        {
+          "query": "語学留学 セブ島",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        },
+        {
+          "query": "セブ島留学 口コミ",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "セブ 島 留学 初心者",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 48
+        },
+        {
+          "query": "セブ 島 留学 口コミ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "セブ 島 留学 英語 初心者",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 46
+        },
+        {
+          "query": "セブ 留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 13
+        },
+        {
+          "query": "セブ 英語留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "セブ島 英会話スクール",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "セブ島 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "セブ島語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "セブ島語学留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "フィリピン 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 23
+        },
+        {
+          "query": "フィリピン 留学 セブ 島",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 29
+        },
+        {
+          "query": "フィリピン留学 人気校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 22
+        },
+        {
+          "query": "留学 セブ 島",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 39
+        }
+      ]
+    },
+    "3002": {
+      "clicks": 3,
+      "impressions": 47,
+      "avg_position": 6.91,
+      "kw_count": 7,
+      "keywords": [
+        {
+          "query": "トロント 語学学校",
+          "clicks": 2,
+          "impressions": 20,
+          "position": 6
+        },
+        {
+          "query": "トロント 語学学校 おすすめ",
+          "clicks": 1,
+          "impressions": 8,
+          "position": 1.5
+        },
+        {
+          "query": "トロントの英語学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 16.6
+        },
+        {
+          "query": "トロント 語学 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 4.75
+        },
+        {
+          "query": "トロントの語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 11.75
+        },
+        {
+          "query": "トロント語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 5.25
+        },
+        {
+          "query": "トロント 語学留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        }
+      ]
+    },
+    "2004": {
+      "clicks": 1,
+      "impressions": 10,
+      "avg_position": 16.4,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "サンフランシスコ 語学学校",
+          "clicks": 1,
+          "impressions": 7,
+          "position": 7.71
+        },
+        {
+          "query": "サンフランシスコ 英語",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 12
+        },
+        {
+          "query": "サンフランシスコ 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 86
+        }
+      ]
+    },
+    "2006": {
+      "clicks": 1,
+      "impressions": 18,
+      "avg_position": 16.0,
+      "kw_count": 5,
+      "keywords": [
+        {
+          "query": "サンディエゴ 語学学校",
+          "clicks": 1,
+          "impressions": 10,
+          "position": 7.3
+        },
+        {
+          "query": "サンディエゴ 留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 26
+        },
+        {
+          "query": "サンディエゴ 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8.5
+        },
+        {
+          "query": "サンディエゴ 短期留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 79
+        },
+        {
+          "query": "サンディエゴ 語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 15
+        }
+      ]
+    },
+    "5002": {
+      "clicks": 1,
+      "impressions": 1,
+      "avg_position": 1.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "ケンブリッジ 語学学校",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 1
+        }
+      ]
+    },
+    "5004": {
+      "clicks": 1,
+      "impressions": 37,
+      "avg_position": 9.03,
+      "kw_count": 6,
+      "keywords": [
+        {
+          "query": "ブライトン 留学",
+          "clicks": 1,
+          "impressions": 12,
+          "position": 10.5
+        },
+        {
+          "query": "ブライトン 語学学校",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 5.82
+        },
+        {
+          "query": "ブライトン留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 10.71
+        },
+        {
+          "query": "ブライトン 語学 留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 10.5
+        },
+        {
+          "query": "ブライトン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8
+        },
+        {
+          "query": "アメリカ ブライトン 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "5005": {
+      "clicks": 1,
+      "impressions": 10,
+      "avg_position": 6.6,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "マンチェスター 語学学校",
+          "clicks": 1,
+          "impressions": 9,
+          "position": 6.56
+        },
+        {
+          "query": "マンチェスター留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        }
+      ]
+    },
+    "5007": {
+      "clicks": 1,
+      "impressions": 8,
+      "avg_position": 8.38,
+      "kw_count": 5,
+      "keywords": [
+        {
+          "query": "ボーンマス 語学学校",
+          "clicks": 1,
+          "impressions": 3,
+          "position": 3
+        },
+        {
+          "query": "ボーンマス 英語",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11
+        },
+        {
+          "query": "イギリス ボーンマス 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "ボーンマス 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 13
+        },
+        {
+          "query": "ボーンマス留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        }
+      ]
+    },
+    "2002": {
+      "clicks": 0,
+      "impressions": 8,
+      "avg_position": 4.62,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "ボストン 語学学校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 4.33
+        },
+        {
+          "query": "ボストン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 5.5
+        }
+      ]
+    },
+    "2003": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 27.33,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "ニューヨーク 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 29.5
+        },
+        {
+          "query": "ニューヨーク 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 23
+        }
+      ]
+    },
+    "2005": {
+      "clicks": 0,
+      "impressions": 23,
+      "avg_position": 10.52,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "ロサンゼルス 語学学校",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 8.74
+        },
+        {
+          "query": "ロサンゼルス 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10
+        },
+        {
+          "query": "カリフォルニア 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "ロサンゼルス 語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 45
+        }
+      ]
+    },
+    "2008": {
+      "clicks": 0,
+      "impressions": 7,
+      "avg_position": 43.14,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "マイアミ 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 56.67
+        },
+        {
+          "query": "マイアミ 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 30.5
+        },
+        {
+          "query": "アメリカ マイアミ 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 25
+        },
+        {
+          "query": "マイアミ 高校 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 46
+        }
+      ]
+    },
+    "2009": {
+      "clicks": 0,
+      "impressions": 67,
+      "avg_position": 14.57,
+      "kw_count": 9,
+      "keywords": [
+        {
+          "query": "ハワイ 語学 学校",
+          "clicks": 0,
+          "impressions": 16,
+          "position": 11.5
+        },
+        {
+          "query": "ハワイ 語学学校",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 10.71
+        },
+        {
+          "query": "ホノルル 留学",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 26.29
+        },
+        {
+          "query": "ハワイ語学学校",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 10.5
+        },
+        {
+          "query": "ハワイ 学校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 11.67
+        },
+        {
+          "query": "ハワイ学校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 12
+        },
+        {
+          "query": "アメリカ ハワイ（ホノルル） 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "ホノルル 英語",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 14
+        },
+        {
+          "query": "ホノルル留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 29
+        }
+      ]
+    },
+    "2010": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 19.33,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "アメリカ フォートローダーデール 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 18
+        },
+        {
+          "query": "フォートローダーデール 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 20
+        },
+        {
+          "query": "フォートローダーデール留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 20
+        }
+      ]
+    },
+    "2012": {
+      "clicks": 0,
+      "impressions": 4,
+      "avg_position": 13.5,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "アトランタ 英語",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 14.5
+        },
+        {
+          "query": "アトランタ英会話スクール",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        },
+        {
+          "query": "アメリカ アトランタ 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 17
+        }
+      ]
+    },
+    "2026": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 11.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "アメリカ クリーブランド 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "2039": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 12.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "セントポールスクール",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        }
+      ]
+    },
+    "3001": {
+      "clicks": 0,
+      "impressions": 5,
+      "avg_position": 23.2,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "バンクーバー 語学 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 28.5
+        },
+        {
+          "query": "バンクーバー 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        }
+      ]
+    },
+    "3071": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 43.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "ケベック 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 43
+        }
+      ]
+    },
+    "4001": {
+      "clicks": 0,
+      "impressions": 6,
+      "avg_position": 15.5,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "シドニー 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 5
+        },
+        {
+          "query": "シドニー 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 36
+        },
+        {
+          "query": "シドニー語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        }
+      ]
+    },
+    "4004": {
+      "clicks": 0,
+      "impressions": 23,
+      "avg_position": 21.3,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "パース 語学学校",
+          "clicks": 0,
+          "impressions": 16,
+          "position": 23.75
+        },
+        {
+          "query": "パース オーストラリア 英語",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 10.75
+        },
+        {
+          "query": "パース 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 29
+        },
+        {
+          "query": "イギリス パース 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        }
+      ]
+    },
+    "4006": {
+      "clicks": 0,
+      "impressions": 27,
+      "avg_position": 9.96,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "ゴールドコースト 語学学校",
+          "clicks": 0,
+          "impressions": 22,
+          "position": 11.05
+        },
+        {
+          "query": "ゴールドコースト語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 3
+        },
+        {
+          "query": "ゴールドコースト 英語",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8.5
+        }
+      ]
+    },
+    "4009": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 50.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "サンシャインコースト 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 50
+        }
+      ]
+    },
+    "5001": {
+      "clicks": 0,
+      "impressions": 10,
+      "avg_position": 15.5,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "ロンドン 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 23
+        },
+        {
+          "query": "ロンドン 語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 13.33
+        },
+        {
+          "query": "ロンドン 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 7
+        },
+        {
+          "query": "ロンドン 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 25
+        }
+      ]
+    },
+    "5003": {
+      "clicks": 0,
+      "impressions": 15,
+      "avg_position": 10.13,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "オックスフォード 語学学校",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 10.12
+        },
+        {
+          "query": "オックスフォード 語学 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 10.67
+        },
+        {
+          "query": "オックスフォード 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        },
+        {
+          "query": "オックスフォード 語学留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8
+        }
+      ]
+    },
+    "5006": {
+      "clicks": 0,
+      "impressions": 9,
+      "avg_position": 11.56,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "エディンバラ 留学",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 10.5
+        },
+        {
+          "query": "エディンバラ留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 20
+        }
+      ]
+    },
+    "5008": {
+      "clicks": 0,
+      "impressions": 4,
+      "avg_position": 26.5,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "イーストボーン留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 27
+        },
+        {
+          "query": "イギリス イーストボーン 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 25
+        },
+        {
+          "query": "イーストボーン 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 27
+        }
+      ]
+    },
+    "5016": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 20.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "イギリス バース 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 20
+        }
+      ]
+    },
+    "5017": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 15.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "アメリカ ブリストル 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 15
+        }
+      ]
+    },
+    "6001": {
+      "clicks": 0,
+      "impressions": 141,
+      "avg_position": 9.4,
+      "kw_count": 11,
+      "keywords": [
+        {
+          "query": "オークランド 英語",
+          "clicks": 0,
+          "impressions": 83,
+          "position": 10.24
+        },
+        {
+          "query": "オークランド 語学学校",
+          "clicks": 0,
+          "impressions": 25,
+          "position": 2.76
+        },
+        {
+          "query": "オークランド英語",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 10.26
+        },
+        {
+          "query": "オークランド大学 語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 12
+        },
+        {
+          "query": "英語 オークランド",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 11.33
+        },
+        {
+          "query": "オークランド 人気学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 16
+        },
+        {
+          "query": "オークランド 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 2
+        },
+        {
+          "query": "オークランド おすすめの学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "オークランド 大学 世界 ランキング",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 56
+        },
+        {
+          "query": "オークランド 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 44
+        },
+        {
+          "query": "オークランド 留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        }
+      ]
+    },
+    "7001": {
+      "clicks": 0,
+      "impressions": 9,
+      "avg_position": 20.56,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "ダブリン 語学学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 5.67
+        },
+        {
+          "query": "ダブリンで最高のib学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 50
+        },
+        {
+          "query": "語学学校 ダブリン",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 6
+        }
+      ]
+    },
+    "7002": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 41.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "アイルランド コーク 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 41
+        }
+      ]
+    },
+    "8001": {
+      "clicks": 0,
+      "impressions": 7,
+      "avg_position": 12.14,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "セントジュリアン留学",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 13.5
+        },
+        {
+          "query": "フィリピン セントジュリアン 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        }
+      ]
+    }
+  },
+  "schools_agg": {
+    "70011": {
+      "clicks": 1,
+      "impressions": 7,
+      "avg_position": 9.86,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "ef dublin",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 6
+        },
+        {
+          "query": "ダブリンで最高のib学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 33
+        }
+      ]
+    },
+    "125": {
+      "clicks": 0,
+      "impressions": 12,
+      "avg_position": 7.17,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "シードテックスクール 評判",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 5.5
+        },
+        {
+          "query": "シードテック株式会社 評判",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 6.25
+        },
+        {
+          "query": "シードテック",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "シードテックスクール",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 21
+        }
+      ]
+    },
+    "20079": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 16.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "アメリカ セントピーターズバーグ 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 16
+        }
+      ]
+    },
+    "20109": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 22.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "アメリカ ナッシュビル 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 22
+        }
+      ]
+    },
+    "20196": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 9.0,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "ef miami",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "efmiami",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "20202": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 34.5,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "サンタ バーバラ ホームステイ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 34.5
+        }
+      ]
+    },
+    "226": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 6.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "lcic",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        }
+      ]
+    },
+    "30040": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 16.5,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "selc バンクーバー",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 31
+        },
+        {
+          "query": "口コミ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        }
+      ]
+    },
+    "30063": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 19.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "tamwood バンクーバー",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 19
+        }
+      ]
+    },
+    "30077": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 9.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "cllc",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        }
+      ]
+    },
+    "40027": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 10.5,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "lexis sunshine coast",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "オーストラリア サンシャイン・コースト 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 16
+        }
+      ]
+    },
+    "40074": {
+      "clicks": 0,
+      "impressions": 7,
+      "avg_position": 11.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "efシドニー 寮",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 11
+        }
+      ]
+    },
+    "50038": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 8.5,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "oxford english centre",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        },
+        {
+          "query": "the oxford english centre",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "50078": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 13.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "イギリス ワージング 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 13
+        }
+      ]
+    },
+    "50190": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 36.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "beet language centre",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 36
+        }
+      ]
+    },
+    "50196": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 50.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "ボーンマス ホームステイ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 50
+        }
+      ]
+    },
+    "50277": {
+      "clicks": 0,
+      "impressions": 4,
+      "avg_position": 10.0,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "ef cambridge",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9
+        },
+        {
+          "query": "ef ケンブリッジ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11
+        }
+      ]
+    },
+    "50299": {
+      "clicks": 0,
+      "impressions": 13,
+      "avg_position": 6.62,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "\"ef international language campus bristol\" queen square",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 4.29
+        },
+        {
+          "query": "\"ef international language campus\" bristol queen square",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 10.75
+        },
+        {
+          "query": "\"ef international language campus bristol\"",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "\"ef international language campus bristol\" custom house queen square",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        }
+      ]
+    },
+    "50362": {
+      "clicks": 0,
+      "impressions": 7,
+      "avg_position": 7.14,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "ef マンチェスター校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 7
+        },
+        {
+          "query": "ef manchester",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        }
+      ]
+    },
+    "50363": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 4.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "ef brighton",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        }
+      ]
+    },
+    "50747": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 4.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "ec ブライトン 30+",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        }
+      ]
+    },
+    "50751": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 18.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "オックスフォードからエディンバラ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 18
+        }
+      ]
+    },
+    "70037": {
+      "clicks": 0,
+      "impressions": 1,
+      "avg_position": 14.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "cork english academy",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 14
+        }
+      ]
+    },
+    "80005": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 8.33,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "efマルタ校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 8.33
+        }
+      ]
+    }
+  },
+  "crawl": []
+}
