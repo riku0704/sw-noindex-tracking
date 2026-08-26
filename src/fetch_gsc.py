@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import sys
 import time
 from collections import defaultdict
 from datetime import date, timedelta
@@ -22,6 +23,15 @@ logger = logging.getLogger(__name__)
 
 SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 ROW_LIMIT = 25000  # GSC API 最大値
+
+# サーバー側で絞り込むための対象URLパターン (RE2)。
+# filter_to_targets() の3パターンと同じものを1本にまとめた「粗い前段フィルタ」で、
+# targets.json のID照合による厳密な絞り込みは従来どおりクライアント側で行う。
+# → ここが多少ゆるく一致しても最終結果は変わらない。
+TARGET_PAGE_REGEX = (
+    r"^https://schoolwith\.me/"
+    r"(countries/school/[A-Z]+|areas/school/[0-9]+|schools/[0-9]+)/?$"
+)
 
 
 def _build_service():
@@ -39,6 +49,7 @@ def fetch_page_query(
     date_from: date,
     date_to: date,
     row_limit: int = ROW_LIMIT,
+    page_regex: str | None = TARGET_PAGE_REGEX,
 ) -> list[dict[str, Any]]:
     """指定期間の page × query 集計を取得。
 
@@ -57,6 +68,16 @@ def fetch_page_query(
             "startRow": start_row,
             "dataState": "final",
         }
+        if page_regex:
+            # サイト全体(約6,900ページ)を引かず、対象URLだけをAPI側で絞る。
+            body["dimensionFilterGroups"] = [{
+                "groupType": "and",
+                "filters": [{
+                    "dimension": "page",
+                    "operator": "includingRegex",
+                    "expression": page_regex,
+                }],
+            }]
         for attempt in range(3):
             try:
                 resp = service.searchanalytics().query(siteUrl=site_url, body=body).execute()
@@ -139,6 +160,7 @@ def aggregate(rows: list[dict], key_fn) -> dict[Any, dict]:
 def fetch_week_snapshot(site_url: str, date_from: date, date_to: date, targets: dict) -> dict:
     """1週間のスナップショットを取得+集計。"""
     raw = fetch_page_query(site_url, date_from, date_to)
+    logger.info(f"  → 対象URLに絞り込み前: {len(raw)}行")
     filtered = filter_to_targets(raw, targets)
     c_agg = aggregate(filtered["countries"], lambda r: r["code"])
     ci_agg = aggregate(filtered["cities"], lambda r: r["cid"])
@@ -162,7 +184,15 @@ if __name__ == "__main__":
     site = os.environ["GSC_SITE_URL"]
     if args.test:
         today = date.today()
-        rows = fetch_page_query(site, today - timedelta(days=8), today - timedelta(days=1))
-        print(f"OK. {len(rows)}行取得。Top5:")
+        d_to = today - timedelta(days=4)   # GSC確定データの遅延ぶん下げる
+        d_from = d_to - timedelta(days=6)
+        rows = fetch_page_query(site, d_from, d_to)
+        if not rows:
+            # 認証は通ったが対象URLが0件 = 正規表現側の問題を切り分ける
+            allrows = fetch_page_query(site, d_from, d_to, page_regex=None)
+            print(f"⚠ 対象URL 0行。サイト全体では {len(allrows)}行あります。")
+            print(f"  → 認証はOK。TARGET_PAGE_REGEX を確認してください。")
+            sys.exit(1)
+        print(f"OK. {d_from}〜{d_to} で {len(rows)}行取得。Top5:")
         for r in sorted(rows, key=lambda x: -x["impressions"])[:5]:
             print(f"  {r['impressions']:>4} imp / #{r['position']:.1f}  {r['query']} @ {r['page']}")

@@ -25,6 +25,16 @@ REPO_ROOT = Path(__file__).parent.parent
 TARGETS_PATH = REPO_ROOT / "targets.json"
 
 
+# GSC の確定データ(dataState="final")は数日遅れて揃う。実測3日なので余裕を見て4日。
+# ここを 1 にすると直近週の末尾がまだ空のまま集計され、前週比が常にマイナスに振れる。
+GSC_LAG_DAYS = 4
+
+
+def _latest_final_date(today: date | None = None) -> date:
+    """確定データが揃っている最新日。"""
+    return (today or date.today()) - timedelta(days=GSC_LAG_DAYS)
+
+
 def _same_week_last_year(d: date) -> date:
     """前年同週の終了日。2/29 は前日にずらす。"""
     try:
@@ -106,9 +116,8 @@ def cmd_default(args):
     """通常実行: 今週スナップショット取得 + HTML更新。"""
     site = os.environ["GSC_SITE_URL"]
     targets = load_targets()
-    today = date.today()
-    # 今週の end date (前日、GSC は当日まだデータが揃わない)
-    snap_date = today - timedelta(days=1)
+    # 今週の end date (GSC の確定データ遅延ぶん遡る)
+    snap_date = _latest_final_date()
     if args.date:
         snap_date = date.fromisoformat(args.date)
 
@@ -155,9 +164,9 @@ def cmd_backfill(args):
         date(2026, 5, 7),   # 今年NOINDEX前ベースライン
     ]
     # 直近8週 + それぞれの昨年同週 (前年同期比較に必要)
-    today = date.today()
+    latest = _latest_final_date()
     for w in range(8):
-        d = today - timedelta(days=1 + w * 7)
+        d = latest - timedelta(days=w * 7)
         for cand in (d, _same_week_last_year(d)):
             if cand not in backfill_dates:
                 backfill_dates.append(cand)
@@ -167,7 +176,7 @@ def cmd_backfill(args):
             logger.info(f"Skip {d} (already exists)")
             continue
         try:
-            snap = take_snapshot(site, targets, d, include_crawl=(d == today - timedelta(days=1)))
+            snap = take_snapshot(site, targets, d, include_crawl=(d == latest))
             history_store.save_snapshot(d, snap)
         except Exception as e:
             logger.error(f"Failed to snapshot {d}: {e}")
