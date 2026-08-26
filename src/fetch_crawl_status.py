@@ -75,8 +75,12 @@ def summarize_result(url: str, result: dict | None) -> dict[str, Any]:
     }
 
 
-def inspect_all(site_url: str, target_urls: list[str], delay_sec: float = 0.5) -> list[dict]:
-    """全URLを順次 inspect。クォータ配慮で軽い間隔を空ける。"""
+def inspect_all(site_url: str, target_urls: list[str], delay_sec: float = 0.0) -> list[dict]:
+    """全URLを順次 inspect。
+
+    API自体のレイテンシが約7秒/件あり、日次クォータ2,000に対して使用は114件。
+    追加のsleepは不要なので既定0。レート制限は429リトライ側で吸収する。
+    """
     service = _build_service()
     results = []
     total = len(target_urls)
