@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:16:53.673710",
+  "generated_at": "2026-08-27T11:38:49.607314",
   "period_curr": {
     "from": "2026-08-16",
     "to": "2026-08-22"
@@ -299,12 +299,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/CA",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 2,
-        "prev_last_crawl_time": "2026-08-23T17:05:10Z",
-        "prev_days_since_crawl": 2,
+        "days_since_crawl": 3,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -605,12 +605,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/US",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 1,
-        "prev_last_crawl_time": "2026-08-24T06:41:19Z",
-        "prev_days_since_crawl": 1,
+        "days_since_crawl": 2,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -1675,7 +1675,7 @@
       },
       "crawl": {
         "url": "https://schoolwith.me/countries/school/PH",
-        "last_crawl_time": "2026-08-23T04:13:35Z",
+        "last_crawl_time": "2026-08-26T21:38:11Z",
         "indexing_state": "INDEXING_ALLOWED",
         "coverage_state": "送信して登録されました",
         "robots_txt_state": "ALLOWED",
@@ -1685,12 +1685,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/PH",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 3,
-        "prev_last_crawl_time": "2026-08-23T04:13:35Z",
-        "prev_days_since_crawl": 3,
+        "days_since_crawl": 0,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -2304,11 +2304,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-22T02:51:05Z",
-        "prev_days_since_crawl": 4,
-        "crawled_since_last_check": true,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
+        "crawled_since_last_check": false,
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -2939,12 +2939,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/MT",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 4,
-        "prev_last_crawl_time": "2026-08-22T01:28:57Z",
-        "prev_days_since_crawl": 4,
+        "days_since_crawl": 5,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -3245,12 +3245,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/UK",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 1,
-        "prev_last_crawl_time": "2026-08-24T15:15:58Z",
-        "prev_days_since_crawl": 1,
+        "days_since_crawl": 2,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -3485,12 +3485,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/IE",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T05:52:38Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -3929,12 +3929,12 @@
         "user_canonical": "https://schoolwith.me/countries/school/AU",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T19:04:20Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -4047,11 +4047,11 @@
           "https://schoolwith.me/sitemaps/za.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-19T03:41:45Z",
-        "prev_days_since_crawl": 7,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     }
   ],
@@ -4124,12 +4124,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 22,
-        "prev_last_crawl_time": "2026-08-03T15:48:13Z",
-        "prev_days_since_crawl": 22,
+        "days_since_crawl": 23,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -4204,9 +4204,9 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 15,
-        "avg_position": 10.13,
-        "kw_count": 4,
+        "impressions": 16,
+        "avg_position": 12.88,
+        "kw_count": 5,
         "keywords": [
           {
             "query": "オックスフォード 語学学校",
@@ -4231,6 +4231,12 @@
             "clicks": 0,
             "impressions": 2,
             "position": 8
+          },
+          {
+            "query": "オックスフォード 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 54
           }
         ]
       },
@@ -4242,9 +4248,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -2,
-        "d_position": 0.25,
-        "d_kw_count": 0
+        "d_impressions": -3,
+        "d_position": -2.5,
+        "d_kw_count": -1
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5003",
@@ -4261,12 +4267,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 11,
-        "prev_last_crawl_time": "2026-08-14T08:20:39Z",
-        "prev_days_since_crawl": 11,
+        "days_since_crawl": 12,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -4291,10 +4297,17 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 17.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "イギリス リーズ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 17
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
@@ -4304,9 +4317,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": -1,
+        "d_position": -17.0,
+        "d_kw_count": -1
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5052",
@@ -4320,12 +4333,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5052",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 17,
-        "prev_last_crawl_time": "2026-08-08T21:46:21Z",
-        "prev_days_since_crawl": 17,
+        "days_since_crawl": 18,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -4336,37 +4349,67 @@
       "url": "https://schoolwith.me/areas/school/7001",
       "prev": {
         "clicks": 0,
-        "impressions": 2,
-        "avg_position": 40.5,
-        "kw_count": 1,
+        "impressions": 9,
+        "avg_position": 59.78,
+        "kw_count": 4,
         "keywords": [
+          {
+            "query": "アイルランド 留学 エージェント",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 79.75
+          },
+          {
+            "query": "ダブリン留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 26
+          },
           {
             "query": "ダブリン 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 40.5
+          },
+          {
+            "query": "アイルランド留学 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 86
           }
         ]
       },
       "curr": {
         "clicks": 0,
-        "impressions": 2,
-        "avg_position": 33.5,
-        "kw_count": 1,
+        "impressions": 8,
+        "avg_position": 72.5,
+        "kw_count": 3,
         "keywords": [
+          {
+            "query": "アイルランド 留学 エージェント",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 85.6
+          },
           {
             "query": "ダブリン 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 33.5
+          },
+          {
+            "query": "アイルランド留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 85
           }
         ]
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 9,
-        "avg_position": 20.56,
-        "kw_count": 3,
+        "impressions": 11,
+        "avg_position": 26.82,
+        "kw_count": 4,
         "keywords": [
           {
             "query": "ダブリン 語学学校",
@@ -4385,20 +4428,26 @@
             "clicks": 0,
             "impressions": 3,
             "position": 6
+          },
+          {
+            "query": "アイルランド 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 55
           }
         ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": -7.0,
-        "d_kw_count": 0
+        "d_impressions": -1,
+        "d_position": 12.72,
+        "d_kw_count": -1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -7,
-        "d_position": 12.94,
-        "d_kw_count": -2
+        "d_impressions": -3,
+        "d_position": 45.68,
+        "d_kw_count": -1
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/7001",
@@ -4415,12 +4464,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T16:30:43Z",
-        "prev_days_since_crawl": 7,
+        "days_since_crawl": 8,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -4431,9 +4480,9 @@
       "url": "https://schoolwith.me/areas/school/1",
       "prev": {
         "clicks": 3,
-        "impressions": 458,
-        "avg_position": 20.71,
-        "kw_count": 64,
+        "impressions": 502,
+        "avg_position": 23.76,
+        "kw_count": 81,
         "keywords": [
           {
             "query": "セブ島留学",
@@ -4508,6 +4557,12 @@
             "position": 24.92
           },
           {
+            "query": "セブ島留学",
+            "clicks": 0,
+            "impressions": 11,
+            "position": 63.45
+          },
+          {
             "query": "セブ 島 英語 留学",
             "clicks": 0,
             "impressions": 11,
@@ -4548,6 +4603,12 @@
             "clicks": 0,
             "impressions": 9,
             "position": 30.56
+          },
+          {
+            "query": "セブ島 留学",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 65.5
           },
           {
             "query": "セブ島でおすすめの語学学校を教えて",
@@ -4592,6 +4653,18 @@
             "position": 9.33
           },
           {
+            "query": "スクールウィズ",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 1
+          },
+          {
+            "query": "セブ 島 留学",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 69
+          },
+          {
             "query": "セブ 島 語学学校",
             "clicks": 0,
             "impressions": 5,
@@ -4626,6 +4699,12 @@
             "clicks": 0,
             "impressions": 4,
             "position": 15
+          },
+          {
+            "query": "留学 エージェント フィリピン",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 100.33
           },
           {
             "query": "セブ 島 留学 1 週間 おすすめ",
@@ -4730,6 +4809,78 @@
             "position": 39.5
           },
           {
+            "query": "スクールwith",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          },
+          {
+            "query": "セブ 島 留学 申し込み",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 41
+          },
+          {
+            "query": "セブ島 留学 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 59
+          },
+          {
+            "query": "セブ島 留学 エージェント おすすめ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 88
+          },
+          {
+            "query": "セブ島 留学 エージェント 無料",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 17
+          },
+          {
+            "query": "セブ島 留学 名古屋",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 45
+          },
+          {
+            "query": "セブ島 英語留学 名古屋",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 50
+          },
+          {
+            "query": "セブ留学 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 90
+          },
+          {
+            "query": "セブ留学 エージェント 名古屋",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 79
+          },
+          {
+            "query": "セブ留学 名古屋",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 51
+          },
+          {
+            "query": "セブ留学 名古屋 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 50
+          },
+          {
+            "query": "東京からセブ島",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 2
+          },
+          {
             "query": "セブ 島 留学 比較",
             "clicks": 0,
             "impressions": 1,
@@ -4823,9 +4974,9 @@
       },
       "curr": {
         "clicks": 2,
-        "impressions": 417,
-        "avg_position": 21.02,
-        "kw_count": 54,
+        "impressions": 442,
+        "avg_position": 22.79,
+        "kw_count": 59,
         "keywords": [
           {
             "query": "セブ島留学",
@@ -4930,6 +5081,18 @@
             "position": 1.2
           },
           {
+            "query": "セブ島 留学",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 63.38
+          },
+          {
+            "query": "セブ島留学",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 63.12
+          },
+          {
             "query": "セブ島留学 比較",
             "clicks": 0,
             "impressions": 8,
@@ -4958,6 +5121,12 @@
             "clicks": 0,
             "impressions": 6,
             "position": 9.17
+          },
+          {
+            "query": "スクールウィズ",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 1
           },
           {
             "query": "セブ 島 留学 学校",
@@ -5006,6 +5175,12 @@
             "clicks": 0,
             "impressions": 4,
             "position": 22.25
+          },
+          {
+            "query": "セブ 島 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 63.67
           },
           {
             "query": "セブ 島 学校",
@@ -5066,6 +5241,12 @@
             "clicks": 1,
             "impressions": 1,
             "position": 5
+          },
+          {
+            "query": "留学 エージェント フィリピン",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 99
           },
           {
             "query": "smeag セブ",
@@ -5154,10 +5335,10 @@
         ]
       },
       "baseline": {
-        "clicks": 8,
-        "impressions": 396,
-        "avg_position": 20.96,
-        "kw_count": 57,
+        "clicks": 11,
+        "impressions": 484,
+        "avg_position": 25.93,
+        "kw_count": 72,
         "keywords": [
           {
             "query": "セブ 留学",
@@ -5194,6 +5375,12 @@
             "clicks": 0,
             "impressions": 16,
             "position": 22.69
+          },
+          {
+            "query": "セブ島 留学",
+            "clicks": 1,
+            "impressions": 15,
+            "position": 64.07
           },
           {
             "query": "セブ島 語学 学校",
@@ -5238,10 +5425,52 @@
             "position": 20.6
           },
           {
+            "query": "スクールウィズ",
+            "clicks": 1,
+            "impressions": 9,
+            "position": 1
+          },
+          {
+            "query": "セブ島 語学 留学",
+            "clicks": 0,
+            "impressions": 9,
+            "position": 79.22
+          },
+          {
+            "query": "セブ島留学 エージェント",
+            "clicks": 0,
+            "impressions": 9,
+            "position": 24.56
+          },
+          {
+            "query": "セブ 島 留学",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 74.12
+          },
+          {
+            "query": "セブ島留学",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 69.62
+          },
+          {
+            "query": "セブ島留学エージェント",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 24.88
+          },
+          {
             "query": "セブ 島 留学 おすすめ",
             "clicks": 0,
             "impressions": 8,
             "position": 13.75
+          },
+          {
+            "query": "セブ島 英語 留学",
+            "clicks": 0,
+            "impressions": 6,
+            "position": 53.17
           },
           {
             "query": "セブ 語学留学",
@@ -5284,6 +5513,12 @@
             "clicks": 1,
             "impressions": 4,
             "position": 5.75
+          },
+          {
+            "query": "セブ島 留学 英語",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 75.75
           },
           {
             "query": "セブ 島 留学 おすすめ 学校",
@@ -5332,6 +5567,24 @@
             "clicks": 0,
             "impressions": 4,
             "position": 82.25
+          },
+          {
+            "query": "スクールウィズ 留学",
+            "clicks": 1,
+            "impressions": 3,
+            "position": 1
+          },
+          {
+            "query": "セブ留学 エージェント",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 15.67
+          },
+          {
+            "query": "フィリピン セブ島 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 68
           },
           {
             "query": "セブ 島 留学 学校 選び",
@@ -5424,6 +5677,24 @@
             "position": 1
           },
           {
+            "query": "セブ 島 英語 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 17
+          },
+          {
+            "query": "セブ島 留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 9
+          },
+          {
+            "query": "留学 エージェント フィリピン",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 98
+          },
+          {
             "query": "セブ 島 留学 初心者",
             "clicks": 0,
             "impressions": 1,
@@ -5505,15 +5776,15 @@
       },
       "diff": {
         "d_clicks": -1,
-        "d_impressions": -41,
-        "d_position": 0.31,
-        "d_kw_count": -10
+        "d_impressions": -60,
+        "d_position": -0.97,
+        "d_kw_count": -22
       },
       "diff_from_baseline": {
-        "d_clicks": -6,
-        "d_impressions": 21,
-        "d_position": 0.06,
-        "d_kw_count": -3
+        "d_clicks": -9,
+        "d_impressions": -42,
+        "d_position": -3.14,
+        "d_kw_count": -13
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/1",
@@ -5526,16 +5797,13 @@
         "google_canonical": "https://schoolwith.me/areas/school/1",
         "user_canonical": "https://schoolwith.me/areas/school/1",
         "referring_urls_count": 3,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/areas.xml",
-          "https://schoolwith.me/sitemaps/index.xml"
-        ],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T13:11:54Z",
-        "prev_days_since_crawl": 0,
+        "sitemaps": [],
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -5546,15 +5814,21 @@
       "url": "https://schoolwith.me/areas/school/2005",
       "prev": {
         "clicks": 1,
-        "impressions": 36,
-        "avg_position": 5.78,
-        "kw_count": 6,
+        "impressions": 52,
+        "avg_position": 21.73,
+        "kw_count": 12,
         "keywords": [
           {
             "query": "ロサンゼルス 語学学校",
             "clicks": 1,
             "impressions": 26,
             "position": 4.27
+          },
+          {
+            "query": "ロサンゼルス 留学",
+            "clicks": 0,
+            "impressions": 10,
+            "position": 64.5
           },
           {
             "query": "la 語学学校",
@@ -5569,10 +5843,40 @@
             "position": 1.67
           },
           {
+            "query": "ロサンゼルス 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 48.5
+          },
+          {
             "query": "ロサンゼルス 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 2.5
+          },
+          {
+            "query": "la 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 44
+          },
+          {
+            "query": "アメリカエリア",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          },
+          {
+            "query": "ロサンゼルス 語学留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 94
+          },
+          {
+            "query": "ロサンゼルス留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 41
           },
           {
             "query": "ロサンゼル",
@@ -5590,15 +5894,21 @@
       },
       "curr": {
         "clicks": 2,
-        "impressions": 34,
-        "avg_position": 9.97,
-        "kw_count": 6,
+        "impressions": 47,
+        "avg_position": 24.21,
+        "kw_count": 11,
         "keywords": [
           {
             "query": "ロサンゼルス 語学学校",
             "clicks": 2,
             "impressions": 23,
             "position": 3.52
+          },
+          {
+            "query": "ロサンゼルス 留学",
+            "clicks": 0,
+            "impressions": 9,
+            "position": 66.89
           },
           {
             "query": "ロサンゼルス 語学 学校",
@@ -5622,6 +5932,30 @@
             "query": "アメリカ 語学学校 おすすめ",
             "clicks": 0,
             "impressions": 2,
+            "position": 91
+          },
+          {
+            "query": "la 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 47
+          },
+          {
+            "query": "ロサンゼルス 留学 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 50
+          },
+          {
+            "query": "ロサンゼルス 語学学校",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 9
+          },
+          {
+            "query": "ロサンゼルス 語学留学",
+            "clicks": 0,
+            "impressions": 1,
             "position": 91
           },
           {
@@ -5666,19 +6000,19 @@
       },
       "diff": {
         "d_clicks": 1,
-        "d_impressions": -2,
-        "d_position": 4.19,
-        "d_kw_count": 0
+        "d_impressions": -5,
+        "d_position": 2.48,
+        "d_kw_count": -1
       },
       "diff_from_baseline": {
         "d_clicks": 2,
-        "d_impressions": 11,
-        "d_position": -0.55,
-        "d_kw_count": 2
+        "d_impressions": 24,
+        "d_position": 13.69,
+        "d_kw_count": 7
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2005",
-        "last_crawl_time": "2026-08-21T13:42:37Z",
+        "last_crawl_time": "2026-08-26T09:10:14Z",
         "indexing_state": "INDEXING_ALLOWED",
         "coverage_state": "送信して登録されました",
         "robots_txt_state": "ALLOWED",
@@ -5691,12 +6025,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 4,
-        "prev_last_crawl_time": "2026-08-21T13:42:37Z",
-        "prev_days_since_crawl": 4,
+        "days_since_crawl": 0,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -5707,9 +6041,9 @@
       "url": "https://schoolwith.me/areas/school/3002",
       "prev": {
         "clicks": 0,
-        "impressions": 33,
-        "avg_position": 10.33,
-        "kw_count": 5,
+        "impressions": 37,
+        "avg_position": 11.27,
+        "kw_count": 8,
         "keywords": [
           {
             "query": "トロント 語学学校",
@@ -5740,14 +6074,32 @@
             "clicks": 0,
             "impressions": 3,
             "position": 8.33
+          },
+          {
+            "query": "トロント 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 23
+          },
+          {
+            "query": "トロント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 18
+          },
+          {
+            "query": "トロント留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 12
           }
         ]
       },
       "curr": {
         "clicks": 0,
-        "impressions": 38,
-        "avg_position": 9.97,
-        "kw_count": 6,
+        "impressions": 41,
+        "avg_position": 10.29,
+        "kw_count": 8,
         "keywords": [
           {
             "query": "トロント 語学学校",
@@ -5780,18 +6132,30 @@
             "position": 12
           },
           {
+            "query": "トロント 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 16
+          },
+          {
             "query": "トロント 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 10.5
+          },
+          {
+            "query": "トロント留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11
           }
         ]
       },
       "baseline": {
         "clicks": 3,
-        "impressions": 47,
-        "avg_position": 6.91,
-        "kw_count": 7,
+        "impressions": 52,
+        "avg_position": 8.75,
+        "kw_count": 10,
         "keywords": [
           {
             "query": "トロント 語学学校",
@@ -5830,24 +6194,42 @@
             "position": 5.25
           },
           {
+            "query": "トロント 留学 エージェント",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 31.67
+          },
+          {
             "query": "トロント 語学留学",
             "clicks": 0,
             "impressions": 2,
             "position": 11.5
+          },
+          {
+            "query": "トロント留学 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 12
+          },
+          {
+            "query": "トロント留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 23
           }
         ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 5,
-        "d_position": -0.36,
-        "d_kw_count": 1
+        "d_impressions": 4,
+        "d_position": -0.98,
+        "d_kw_count": 0
       },
       "diff_from_baseline": {
         "d_clicks": -3,
-        "d_impressions": -9,
-        "d_position": 3.06,
-        "d_kw_count": -1
+        "d_impressions": -11,
+        "d_position": 1.54,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/3002",
@@ -5864,12 +6246,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 9,
-        "prev_last_crawl_time": "2026-08-17T01:27:40Z",
-        "prev_days_since_crawl": 9,
+        "days_since_crawl": 10,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -5880,10 +6262,34 @@
       "url": "https://schoolwith.me/areas/school/2008",
       "prev": {
         "clicks": 0,
-        "impressions": 4,
-        "avg_position": 36.0,
-        "kw_count": 3,
+        "impressions": 13,
+        "avg_position": 36.31,
+        "kw_count": 7,
         "keywords": [
+          {
+            "query": "マイアミ 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 41
+          },
+          {
+            "query": "マイアミ 短期 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 32
+          },
+          {
+            "query": "マイアミ 語学 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 39.5
+          },
+          {
+            "query": "マイアミ留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 31
+          },
           {
             "query": "マイアミ 語学 学校",
             "clicks": 0,
@@ -5906,15 +6312,51 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 5,
-        "avg_position": 53.0,
-        "kw_count": 4,
+        "impressions": 17,
+        "avg_position": 40.35,
+        "kw_count": 10,
         "keywords": [
+          {
+            "query": "マイアミ 留学",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 42.5
+          },
+          {
+            "query": "マイアミ 短期 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 39.5
+          },
+          {
+            "query": "マイアミ 語学 学校",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 24.5
+          },
+          {
+            "query": "マイアミ 語学 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 24.5
+          },
           {
             "query": "マイアミ 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 24
+          },
+          {
+            "query": "マイアミ 高校 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 34
+          },
+          {
+            "query": "マイアミ留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 40
           },
           {
             "query": "マイアミ 留学",
@@ -5938,10 +6380,16 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 7,
-        "avg_position": 43.14,
-        "kw_count": 4,
+        "impressions": 11,
+        "avg_position": 42.64,
+        "kw_count": 6,
         "keywords": [
+          {
+            "query": "マイアミ 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 48
+          },
           {
             "query": "マイアミ 留学",
             "clicks": 0,
@@ -5953,6 +6401,12 @@
             "clicks": 0,
             "impressions": 2,
             "position": 30.5
+          },
+          {
+            "query": "マイアミ 語学 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 23
           },
           {
             "query": "アメリカ マイアミ 留学",
@@ -5970,15 +6424,15 @@
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 1,
-        "d_position": 17.0,
-        "d_kw_count": 1
+        "d_impressions": 4,
+        "d_position": 4.04,
+        "d_kw_count": 3
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -2,
-        "d_position": 9.86,
-        "d_kw_count": 0
+        "d_impressions": 6,
+        "d_position": -2.29,
+        "d_kw_count": 4
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2008",
@@ -5996,11 +6450,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-16T04:17:28Z",
-        "prev_days_since_crawl": 10,
-        "crawled_since_last_check": true,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
+        "crawled_since_last_check": false,
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6011,10 +6465,17 @@
       "url": "https://schoolwith.me/areas/school/3007",
       "prev": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 31.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "オタワ留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 31
+          }
+        ]
       },
       "curr": {
         "clicks": 0,
@@ -6050,22 +6511,47 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 6,
+        "avg_position": 23.17,
+        "kw_count": 4,
+        "keywords": [
+          {
+            "query": "オタワ 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 20
+          },
+          {
+            "query": "オタワ留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 29.5
+          },
+          {
+            "query": "オタワ 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 17
+          },
+          {
+            "query": "カナダ オタワ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 23
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 7,
-        "d_position": 18.0,
-        "d_kw_count": 4
+        "d_impressions": 6,
+        "d_position": -13.0,
+        "d_kw_count": 3
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 7,
-        "d_position": 18.0,
-        "d_kw_count": 4
+        "d_impressions": 1,
+        "d_position": -5.17,
+        "d_kw_count": 0
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/3007",
@@ -6082,12 +6568,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 11,
-        "prev_last_crawl_time": "2026-08-14T19:17:58Z",
-        "prev_days_since_crawl": 11,
+        "days_since_crawl": 12,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6105,28 +6591,42 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 11.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "ナッシュビル 人口",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11
+          }
+        ]
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 4.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "アメリカ ナッシュビル 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 4
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 1,
+        "d_position": 11.0,
+        "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
         "d_impressions": 0,
-        "d_position": 0,
+        "d_position": 7.0,
         "d_kw_count": 0
       },
       "crawl": {
@@ -6144,12 +6644,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 30,
-        "prev_last_crawl_time": "2026-07-27T01:41:26Z",
-        "prev_days_since_crawl": 30,
+        "days_since_crawl": 31,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6160,9 +6660,9 @@
       "url": "https://schoolwith.me/areas/school/6001",
       "prev": {
         "clicks": 3,
-        "impressions": 46,
-        "avg_position": 8.43,
-        "kw_count": 7,
+        "impressions": 47,
+        "avg_position": 8.47,
+        "kw_count": 8,
         "keywords": [
           {
             "query": "オークランド 語学学校",
@@ -6199,6 +6699,12 @@
             "clicks": 0,
             "impressions": 2,
             "position": 5
+          },
+          {
+            "query": "オークランド 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 10
           },
           {
             "query": "留学",
@@ -6248,9 +6754,9 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 141,
-        "avg_position": 9.4,
-        "kw_count": 11,
+        "impressions": 142,
+        "avg_position": 9.71,
+        "kw_count": 12,
         "keywords": [
           {
             "query": "オークランド 英語",
@@ -6295,6 +6801,12 @@
             "position": 2
           },
           {
+            "query": "オークランド 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 53
+          },
+          {
             "query": "オークランド おすすめの学校",
             "clicks": 0,
             "impressions": 1,
@@ -6322,19 +6834,19 @@
       },
       "diff": {
         "d_clicks": -1,
-        "d_impressions": 3,
-        "d_position": 0.1,
-        "d_kw_count": -2
+        "d_impressions": 2,
+        "d_position": 0.06,
+        "d_kw_count": -3
       },
       "diff_from_baseline": {
         "d_clicks": 2,
-        "d_impressions": -92,
-        "d_position": -0.87,
-        "d_kw_count": -6
+        "d_impressions": -93,
+        "d_position": -1.18,
+        "d_kw_count": -7
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/6001",
-        "last_crawl_time": "2026-08-18T07:16:50Z",
+        "last_crawl_time": "2026-08-26T08:00:39Z",
         "indexing_state": "INDEXING_ALLOWED",
         "coverage_state": "送信して登録されました",
         "robots_txt_state": "ALLOWED",
@@ -6347,12 +6859,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T07:16:50Z",
-        "prev_days_since_crawl": 7,
+        "days_since_crawl": 0,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6502,12 +7014,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 11,
-        "prev_last_crawl_time": "2026-08-14T07:27:15Z",
-        "prev_days_since_crawl": 11,
+        "days_since_crawl": 12,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6518,9 +7030,9 @@
       "url": "https://schoolwith.me/areas/school/2004",
       "prev": {
         "clicks": 2,
-        "impressions": 11,
-        "avg_position": 38.73,
-        "kw_count": 2,
+        "impressions": 14,
+        "avg_position": 30.64,
+        "kw_count": 5,
         "keywords": [
           {
             "query": "サンフランシスコ 語学学校",
@@ -6533,6 +7045,24 @@
             "clicks": 0,
             "impressions": 4,
             "position": 96.25
+          },
+          {
+            "query": "サンフランシスコ 東京",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          },
+          {
+            "query": "バンクーバー サンフランシスコ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          },
+          {
+            "query": "日本からサンフランシスコ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
           }
         ]
       },
@@ -6584,9 +7114,9 @@
       },
       "diff": {
         "d_clicks": -1,
-        "d_impressions": 0,
-        "d_position": 24.91,
-        "d_kw_count": 0
+        "d_impressions": -3,
+        "d_position": 33.0,
+        "d_kw_count": -3
       },
       "diff_from_baseline": {
         "d_clicks": 0,
@@ -6609,12 +7139,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 4,
-        "prev_last_crawl_time": "2026-08-22T00:57:50Z",
-        "prev_days_since_crawl": 4,
+        "days_since_crawl": 5,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6646,15 +7176,21 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 8,
-        "avg_position": 4.62,
-        "kw_count": 2,
+        "impressions": 10,
+        "avg_position": 10.4,
+        "kw_count": 3,
         "keywords": [
           {
             "query": "ボストン 語学学校",
             "clicks": 0,
             "impressions": 6,
             "position": 4.33
+          },
+          {
+            "query": "ボストン 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 33.5
           },
           {
             "query": "ボストン 語学 学校",
@@ -6672,9 +7208,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -6,
-        "d_position": 5.88,
-        "d_kw_count": -1
+        "d_impressions": -8,
+        "d_position": 0.1,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2002",
@@ -6692,11 +7228,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": "2026-08-23T04:36:55Z",
-        "prev_days_since_crawl": 3,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6707,9 +7243,9 @@
       "url": "https://schoolwith.me/areas/school/4001",
       "prev": {
         "clicks": 0,
-        "impressions": 12,
-        "avg_position": 22.25,
-        "kw_count": 5,
+        "impressions": 16,
+        "avg_position": 25.0,
+        "kw_count": 7,
         "keywords": [
           {
             "query": "シドニー 語学学校",
@@ -6722,6 +7258,18 @@
             "clicks": 0,
             "impressions": 3,
             "position": 10.33
+          },
+          {
+            "query": "シドニー 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 40
+          },
+          {
+            "query": "シドニー留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 26.5
           },
           {
             "query": "シドニー 語学 学校",
@@ -6745,15 +7293,27 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 5,
-        "avg_position": 15.6,
-        "kw_count": 3,
+        "impressions": 8,
+        "avg_position": 26.25,
+        "kw_count": 5,
         "keywords": [
           {
             "query": "シドニー 語学学校",
             "clicks": 0,
             "impressions": 3,
             "position": 4.67
+          },
+          {
+            "query": "シドニー 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 53.5
+          },
+          {
+            "query": "シドニー留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 25
           },
           {
             "query": "オーストラリア 語学 学校 おすすめ",
@@ -6771,9 +7331,9 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 6,
-        "avg_position": 15.5,
-        "kw_count": 3,
+        "impressions": 8,
+        "avg_position": 19.25,
+        "kw_count": 5,
         "keywords": [
           {
             "query": "シドニー 語学学校 おすすめ",
@@ -6788,6 +7348,18 @@
             "position": 36
           },
           {
+            "query": "シドニー 留学 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 50
+          },
+          {
+            "query": "シドニー 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11
+          },
+          {
             "query": "シドニー語学学校",
             "clicks": 0,
             "impressions": 1,
@@ -6797,14 +7369,14 @@
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": -7,
-        "d_position": -6.65,
+        "d_impressions": -8,
+        "d_position": 1.25,
         "d_kw_count": -2
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": 0.1,
+        "d_impressions": 0,
+        "d_position": 7.0,
         "d_kw_count": 0
       },
       "crawl": {
@@ -6820,11 +7392,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": "2026-08-25T03:48:02Z",
-        "prev_days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -6835,15 +7407,27 @@
       "url": "https://schoolwith.me/areas/school/2009",
       "prev": {
         "clicks": 1,
-        "impressions": 49,
-        "avg_position": 19.9,
-        "kw_count": 12,
+        "impressions": 84,
+        "avg_position": 17.8,
+        "kw_count": 21,
         "keywords": [
+          {
+            "query": "ホノルル 留学",
+            "clicks": 0,
+            "impressions": 12,
+            "position": 8
+          },
           {
             "query": "ハワイ 語学 学校",
             "clicks": 0,
             "impressions": 11,
             "position": 16.18
+          },
+          {
+            "query": "ハワイ留学 エージェント",
+            "clicks": 0,
+            "impressions": 9,
+            "position": 12.89
           },
           {
             "query": "ハワイ 語学 留学",
@@ -6864,6 +7448,18 @@
             "position": 9.2
           },
           {
+            "query": "ハワイ 留学 エージェント",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 12.75
+          },
+          {
+            "query": "ハワイ 留学エージェント",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 13.25
+          },
+          {
             "query": "ハワイ学校",
             "clicks": 0,
             "impressions": 4,
@@ -6876,6 +7472,12 @@
             "position": 15.67
           },
           {
+            "query": "ハワイ 留学 評判",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 68
+          },
+          {
             "query": "ハワイ 語学学校",
             "clicks": 0,
             "impressions": 2,
@@ -6886,6 +7488,30 @@
             "clicks": 0,
             "impressions": 2,
             "position": 9.5
+          },
+          {
+            "query": "ハワイ 日本語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          },
+          {
+            "query": "ハワイ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11
+          },
+          {
+            "query": "ハワイ 語学 学校",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 47
+          },
+          {
+            "query": "ホノルル留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 9
           },
           {
             "query": "ハワイ",
@@ -6915,9 +7541,9 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 73,
-        "avg_position": 14.84,
-        "kw_count": 10,
+        "impressions": 109,
+        "avg_position": 15.35,
+        "kw_count": 19,
         "keywords": [
           {
             "query": "ハワイ 語学 留学",
@@ -6940,6 +7566,18 @@
           {
             "query": "ホノルル 留学",
             "clicks": 0,
+            "impressions": 11,
+            "position": 8.18
+          },
+          {
+            "query": "ハワイ留学 エージェント",
+            "clicks": 0,
+            "impressions": 10,
+            "position": 14.6
+          },
+          {
+            "query": "ホノルル 留学",
+            "clicks": 0,
             "impressions": 9,
             "position": 19.33
           },
@@ -6956,16 +7594,58 @@
             "position": 9
           },
           {
+            "query": "ハワイ 留学 エージェント",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 14.25
+          },
+          {
             "query": "ハワイ学校",
             "clicks": 0,
             "impressions": 4,
             "position": 9
           },
           {
+            "query": "ハワイ 留学 評判",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 68.67
+          },
+          {
+            "query": "ハワイ 留学エージェント",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 14.67
+          },
+          {
             "query": "ハワイ語学学校",
             "clicks": 0,
             "impressions": 3,
             "position": 13.33
+          },
+          {
+            "query": "ハワイ 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 17.5
+          },
+          {
+            "query": "ホノルル",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          },
+          {
+            "query": "ホノルル留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 10
+          },
+          {
+            "query": "海外旅行 ハワイ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
           },
           {
             "query": "ハワイ 語学留学",
@@ -6983,15 +7663,39 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 67,
-        "avg_position": 14.57,
-        "kw_count": 9,
+        "impressions": 176,
+        "avg_position": 22.52,
+        "kw_count": 17,
         "keywords": [
+          {
+            "query": "ハワイ 留学",
+            "clicks": 0,
+            "impressions": 45,
+            "position": 39.4
+          },
+          {
+            "query": "ホノルル 留学",
+            "clicks": 0,
+            "impressions": 18,
+            "position": 13.78
+          },
+          {
+            "query": "ハワイ 留学 エージェント",
+            "clicks": 0,
+            "impressions": 16,
+            "position": 10.88
+          },
           {
             "query": "ハワイ 語学 学校",
             "clicks": 0,
             "impressions": 16,
             "position": 11.5
+          },
+          {
+            "query": "ハワイ留学",
+            "clicks": 0,
+            "impressions": 15,
+            "position": 37.67
           },
           {
             "query": "ハワイ 語学学校",
@@ -7004,6 +7708,12 @@
             "clicks": 0,
             "impressions": 14,
             "position": 26.29
+          },
+          {
+            "query": "ハワイ留学 エージェント",
+            "clicks": 0,
+            "impressions": 10,
+            "position": 10.6
           },
           {
             "query": "ハワイ語学学校",
@@ -7022,6 +7732,24 @@
             "clicks": 0,
             "impressions": 6,
             "position": 12
+          },
+          {
+            "query": "ハワイ 留学エージェント",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 11
+          },
+          {
+            "query": "ホノルル 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 82
+          },
+          {
+            "query": "ホノルル留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 7
           },
           {
             "query": "アメリカ ハワイ（ホノルル） 留学",
@@ -7045,15 +7773,15 @@
       },
       "diff": {
         "d_clicks": -1,
-        "d_impressions": 24,
-        "d_position": -5.06,
+        "d_impressions": 25,
+        "d_position": -2.45,
         "d_kw_count": -2
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 6,
-        "d_position": 0.27,
-        "d_kw_count": 1
+        "d_impressions": -67,
+        "d_position": -7.17,
+        "d_kw_count": 2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2009",
@@ -7070,12 +7798,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 1,
-        "prev_last_crawl_time": "2026-08-24T07:02:00Z",
-        "prev_days_since_crawl": 1,
+        "days_since_crawl": 2,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7093,17 +7821,36 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 3.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "オーストラリア サンシャインコースト",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 3
+          }
+        ]
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 50.0,
-        "kw_count": 1,
+        "impressions": 4,
+        "avg_position": 30.5,
+        "kw_count": 3,
         "keywords": [
+          {
+            "query": "サンシャインコースト 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 23
+          },
+          {
+            "query": "オーストラリア サンシャイン・コースト 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 26
+          },
           {
             "query": "サンシャインコースト 留学",
             "clicks": 0,
@@ -7114,15 +7861,15 @@
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 1,
+        "d_position": 3.0,
+        "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": -50.0,
-        "d_kw_count": -1
+        "d_impressions": -3,
+        "d_position": -27.5,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/4009",
@@ -7139,12 +7886,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-08T01:48:30Z",
-        "prev_days_since_crawl": 18,
+        "days_since_crawl": 19,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7234,12 +7981,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 2,
-        "prev_last_crawl_time": "2026-08-23T20:42:18Z",
-        "prev_days_since_crawl": 2,
+        "days_since_crawl": 3,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7250,10 +7997,16 @@
       "url": "https://schoolwith.me/areas/school/4004",
       "prev": {
         "clicks": 0,
-        "impressions": 6,
-        "avg_position": 21.5,
-        "kw_count": 5,
+        "impressions": 8,
+        "avg_position": 22.88,
+        "kw_count": 6,
         "keywords": [
+          {
+            "query": "パース 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 27
+          },
           {
             "query": "パース 語学 学校",
             "clicks": 0,
@@ -7288,10 +8041,16 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 2,
-        "avg_position": 35.0,
-        "kw_count": 1,
+        "impressions": 4,
+        "avg_position": 31.5,
+        "kw_count": 2,
         "keywords": [
+          {
+            "query": "パース 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 28
+          },
           {
             "query": "パース 語学 学校",
             "clicks": 0,
@@ -7302,9 +8061,9 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 23,
-        "avg_position": 21.3,
-        "kw_count": 4,
+        "impressions": 28,
+        "avg_position": 21.07,
+        "kw_count": 8,
         "keywords": [
           {
             "query": "パース 語学学校",
@@ -7319,10 +8078,34 @@
             "position": 10.75
           },
           {
+            "query": "パース 留学 エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 18
+          },
+          {
             "query": "パース 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 29
+          },
+          {
+            "query": "オーストラリア パース 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 12
+          },
+          {
+            "query": "パース オーストラリア 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 12
+          },
+          {
+            "query": "パース 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 40
           },
           {
             "query": "イギリス パース 留学",
@@ -7335,14 +8118,14 @@
       "diff": {
         "d_clicks": 0,
         "d_impressions": -4,
-        "d_position": 13.5,
+        "d_position": 8.62,
         "d_kw_count": -4
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -21,
-        "d_position": 13.7,
-        "d_kw_count": -3
+        "d_impressions": -24,
+        "d_position": 10.43,
+        "d_kw_count": -6
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/4004",
@@ -7355,13 +8138,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/4004",
         "user_canonical": "https://schoolwith.me/areas/school/4004",
         "referring_urls_count": 3,
-        "sitemaps": [],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T19:28:34Z",
-        "prev_days_since_crawl": 0,
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7386,10 +8172,22 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 11.0,
-        "kw_count": 1,
+        "impressions": 3,
+        "avg_position": 12.33,
+        "kw_count": 3,
         "keywords": [
+          {
+            "query": "アメリカ クリーブランド 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 3
+          },
+          {
+            "query": "クリーブランド州立大学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 23
+          },
           {
             "query": "アメリカ クリーブランド 留学",
             "clicks": 0,
@@ -7406,9 +8204,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": -11.0,
-        "d_kw_count": -1
+        "d_impressions": -3,
+        "d_position": -12.33,
+        "d_kw_count": -3
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2026",
@@ -7425,12 +8223,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 16,
-        "prev_last_crawl_time": "2026-08-09T05:52:22Z",
-        "prev_days_since_crawl": 16,
+        "days_since_crawl": 17,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7441,29 +8239,53 @@
       "url": "https://schoolwith.me/areas/school/5005",
       "prev": {
         "clicks": 0,
-        "impressions": 3,
-        "avg_position": 6.0,
-        "kw_count": 1,
+        "impressions": 7,
+        "avg_position": 15.14,
+        "kw_count": 3,
         "keywords": [
+          {
+            "query": "マンチェスター 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 22
+          },
           {
             "query": "マンチェスター 語学学校",
             "clicks": 0,
             "impressions": 3,
             "position": 6
+          },
+          {
+            "query": "マンチェスター留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 22
           }
         ]
       },
       "curr": {
         "clicks": 0,
-        "impressions": 6,
-        "avg_position": 9.17,
-        "kw_count": 2,
+        "impressions": 9,
+        "avg_position": 14.22,
+        "kw_count": 4,
         "keywords": [
           {
             "query": "マンチェスター 語学学校",
             "clicks": 0,
             "impressions": 5,
             "position": 7.6
+          },
+          {
+            "query": "マンチェスター 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 26.5
+          },
+          {
+            "query": "マンチェスター留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 20
           },
           {
             "query": "マンチェスター 留学",
@@ -7475,15 +8297,33 @@
       },
       "baseline": {
         "clicks": 1,
-        "impressions": 10,
-        "avg_position": 6.6,
-        "kw_count": 2,
+        "impressions": 19,
+        "avg_position": 11.58,
+        "kw_count": 5,
         "keywords": [
           {
             "query": "マンチェスター 語学学校",
             "clicks": 1,
             "impressions": 9,
             "position": 6.56
+          },
+          {
+            "query": "マンチェスター 留学",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 14
+          },
+          {
+            "query": "マンチェスター留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 18
+          },
+          {
+            "query": "イギリス マンチェスター 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 30
           },
           {
             "query": "マンチェスター留学",
@@ -7495,15 +8335,15 @@
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 3,
-        "d_position": 3.17,
+        "d_impressions": 2,
+        "d_position": -0.92,
         "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": -1,
-        "d_impressions": -4,
-        "d_position": 2.57,
-        "d_kw_count": 0
+        "d_impressions": -10,
+        "d_position": 2.64,
+        "d_kw_count": -1
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5005",
@@ -7520,12 +8360,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 15,
-        "prev_last_crawl_time": "2026-08-10T07:10:56Z",
-        "prev_days_since_crawl": 15,
+        "days_since_crawl": 16,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7536,15 +8376,33 @@
       "url": "https://schoolwith.me/areas/school/4006",
       "prev": {
         "clicks": 1,
-        "impressions": 32,
-        "avg_position": 14.56,
-        "kw_count": 4,
+        "impressions": 54,
+        "avg_position": 17.89,
+        "kw_count": 7,
         "keywords": [
           {
             "query": "ゴールドコースト 語学学校",
             "clicks": 1,
             "impressions": 25,
             "position": 11.76
+          },
+          {
+            "query": "ゴールドコースト 留学",
+            "clicks": 0,
+            "impressions": 11,
+            "position": 28.18
+          },
+          {
+            "query": "ゴールドコースト 留学エージェント",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 12.25
+          },
+          {
+            "query": "ゴールドコースト留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 30.67
           },
           {
             "query": "ゴールドコースト留学",
@@ -7568,15 +8426,27 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 31,
-        "avg_position": 20.9,
-        "kw_count": 5,
+        "impressions": 47,
+        "avg_position": 21.23,
+        "kw_count": 8,
         "keywords": [
           {
             "query": "ゴールドコースト 語学学校",
             "clicks": 0,
             "impressions": 17,
             "position": 14.12
+          },
+          {
+            "query": "ゴールドコースト 留学",
+            "clicks": 0,
+            "impressions": 8,
+            "position": 29.25
+          },
+          {
+            "query": "ゴールドコースト 留学エージェント",
+            "clicks": 0,
+            "impressions": 7,
+            "position": 12.29
           },
           {
             "query": "ゴールドコースト留学",
@@ -7597,6 +8467,12 @@
             "position": 9.5
           },
           {
+            "query": "ゴールドコースト留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 30
+          },
+          {
             "query": "ゴールドコースト 英語",
             "clicks": 0,
             "impressions": 1,
@@ -7606,15 +8482,39 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 27,
-        "avg_position": 9.96,
-        "kw_count": 3,
+        "impressions": 86,
+        "avg_position": 16.64,
+        "kw_count": 11,
         "keywords": [
           {
             "query": "ゴールドコースト 語学学校",
             "clicks": 0,
             "impressions": 22,
             "position": 11.05
+          },
+          {
+            "query": "ゴールドコースト 留学",
+            "clicks": 0,
+            "impressions": 18,
+            "position": 22.61
+          },
+          {
+            "query": "ゴールドコースト留学",
+            "clicks": 0,
+            "impressions": 16,
+            "position": 24.19
+          },
+          {
+            "query": "ゴールドコースト 留学エージェント",
+            "clicks": 0,
+            "impressions": 15,
+            "position": 9.33
+          },
+          {
+            "query": "ゴールドコースト 語学学校",
+            "clicks": 0,
+            "impressions": 6,
+            "position": 28.67
           },
           {
             "query": "ゴールドコースト語学学校",
@@ -7627,20 +8527,44 @@
             "clicks": 0,
             "impressions": 2,
             "position": 8.5
+          },
+          {
+            "query": "オーストラリア ゴールドコースト 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 27
+          },
+          {
+            "query": "オーストラリア トゥイード・ヘッズ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 12
+          },
+          {
+            "query": "ゴールドコースト 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 7
+          },
+          {
+            "query": "ゴールドコースト語学学校",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 10
           }
         ]
       },
       "diff": {
         "d_clicks": -1,
-        "d_impressions": -1,
-        "d_position": 6.34,
+        "d_impressions": -7,
+        "d_position": 3.34,
         "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 4,
-        "d_position": 10.94,
-        "d_kw_count": 2
+        "d_impressions": -39,
+        "d_position": 4.59,
+        "d_kw_count": -3
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/4006",
@@ -7657,12 +8581,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T13:03:03Z",
-        "prev_days_since_crawl": 7,
+        "days_since_crawl": 8,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7673,10 +8597,16 @@
       "url": "https://schoolwith.me/areas/school/2006",
       "prev": {
         "clicks": 0,
-        "impressions": 6,
-        "avg_position": 47.5,
-        "kw_count": 4,
+        "impressions": 11,
+        "avg_position": 42.73,
+        "kw_count": 5,
         "keywords": [
+          {
+            "query": "サンディエゴ 留学",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 37
+          },
           {
             "query": "サンディエゴ 語学 学校",
             "clicks": 0,
@@ -7705,15 +8635,21 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 14,
-        "avg_position": 49.71,
-        "kw_count": 8,
+        "impressions": 18,
+        "avg_position": 46.94,
+        "kw_count": 10,
         "keywords": [
           {
             "query": "サンディエゴ 語学学校",
             "clicks": 0,
             "impressions": 4,
             "position": 15
+          },
+          {
+            "query": "サンディエゴ 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 35.67
           },
           {
             "query": "サンディエゴ 留学",
@@ -7732,6 +8668,12 @@
             "clicks": 0,
             "impressions": 2,
             "position": 89.5
+          },
+          {
+            "query": "サンディエゴ 語学学校 おすすめ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 42
           },
           {
             "query": "cel サンディエゴ",
@@ -7761,9 +8703,9 @@
       },
       "baseline": {
         "clicks": 1,
-        "impressions": 18,
-        "avg_position": 16.0,
-        "kw_count": 5,
+        "impressions": 19,
+        "avg_position": 17.63,
+        "kw_count": 6,
         "keywords": [
           {
             "query": "サンディエゴ 語学学校",
@@ -7784,6 +8726,12 @@
             "position": 8.5
           },
           {
+            "query": "サンディエゴ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 47
+          },
+          {
             "query": "サンディエゴ 短期留学",
             "clicks": 0,
             "impressions": 1,
@@ -7799,15 +8747,15 @@
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 8,
-        "d_position": 2.21,
-        "d_kw_count": 4
+        "d_impressions": 7,
+        "d_position": 4.21,
+        "d_kw_count": 5
       },
       "diff_from_baseline": {
         "d_clicks": -1,
-        "d_impressions": -4,
-        "d_position": 33.71,
-        "d_kw_count": 3
+        "d_impressions": -1,
+        "d_position": 29.31,
+        "d_kw_count": 4
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2006",
@@ -7825,11 +8773,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": "2026-08-23T04:44:34Z",
-        "prev_days_since_crawl": 3,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7840,23 +8788,53 @@
       "url": "https://schoolwith.me/areas/school/5001",
       "prev": {
         "clicks": 0,
-        "impressions": 2,
-        "avg_position": 37.5,
-        "kw_count": 1,
+        "impressions": 10,
+        "avg_position": 63.1,
+        "kw_count": 6,
         "keywords": [
+          {
+            "query": "イギリス 留学 エージェント",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 78.5
+          },
           {
             "query": "ロンドン 語学学校",
             "clicks": 0,
             "impressions": 2,
             "position": 37.5
+          },
+          {
+            "query": "イギリス 留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 77
+          },
+          {
+            "query": "ウィズ 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 10
+          },
+          {
+            "query": "ロンドン 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 87
+          },
+          {
+            "query": "ロンドン 留学 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 68
           }
         ]
       },
       "curr": {
-        "clicks": 0,
-        "impressions": 16,
-        "avg_position": 34.94,
-        "kw_count": 5,
+        "clicks": 1,
+        "impressions": 28,
+        "avg_position": 50.43,
+        "kw_count": 9,
         "keywords": [
           {
             "query": "ロンドン 学校",
@@ -7871,10 +8849,34 @@
             "position": 66.83
           },
           {
+            "query": "イギリス 留学 エージェント",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 77.4
+          },
+          {
+            "query": "ロンドン 留学",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 94
+          },
+          {
+            "query": "スクールウィズ",
+            "clicks": 1,
+            "impressions": 2,
+            "position": 4.5
+          },
+          {
             "query": "ロンドン 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 23
+          },
+          {
+            "query": "イギリス留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 81
           },
           {
             "query": "ロンドン 語学 留学",
@@ -7892,10 +8894,16 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 10,
-        "avg_position": 15.5,
-        "kw_count": 4,
+        "impressions": 17,
+        "avg_position": 30.06,
+        "kw_count": 7,
         "keywords": [
+          {
+            "query": "ロンドン 留学",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 50.75
+          },
           {
             "query": "ロンドン 学校",
             "clicks": 0,
@@ -7915,6 +8923,18 @@
             "position": 7
           },
           {
+            "query": "ロンドン留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 47
+          },
+          {
+            "query": "サマータイム ロンドン",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 59
+          },
+          {
             "query": "ロンドン 語学 学校",
             "clicks": 0,
             "impressions": 1,
@@ -7923,16 +8943,16 @@
         ]
       },
       "diff": {
-        "d_clicks": 0,
-        "d_impressions": 14,
-        "d_position": -2.56,
-        "d_kw_count": 4
+        "d_clicks": 1,
+        "d_impressions": 18,
+        "d_position": -12.67,
+        "d_kw_count": 3
       },
       "diff_from_baseline": {
-        "d_clicks": 0,
-        "d_impressions": 6,
-        "d_position": 19.44,
-        "d_kw_count": 1
+        "d_clicks": 1,
+        "d_impressions": 11,
+        "d_position": 20.37,
+        "d_kw_count": 2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5001",
@@ -7949,12 +8969,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T15:32:03Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -7979,10 +8999,28 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 20.0,
-        "kw_count": 1,
+        "impressions": 7,
+        "avg_position": 11.71,
+        "kw_count": 4,
         "keywords": [
+          {
+            "query": "バース英語",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 12.67
+          },
+          {
+            "query": "バース 英語",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 11.5
+          },
+          {
+            "query": "バースは？",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          },
           {
             "query": "イギリス バース 留学",
             "clicks": 0,
@@ -7999,9 +9037,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": -20.0,
-        "d_kw_count": -1
+        "d_impressions": -7,
+        "d_position": -11.71,
+        "d_kw_count": -4
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5016",
@@ -8015,12 +9053,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5016",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 11,
-        "prev_last_crawl_time": "2026-08-14T18:14:16Z",
-        "prev_days_since_crawl": 11,
+        "days_since_crawl": 12,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8163,7 +9201,7 @@
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5007",
-        "last_crawl_time": "2026-08-19T04:24:53Z",
+        "last_crawl_time": "2026-08-26T07:37:20Z",
         "indexing_state": "INDEXING_ALLOWED",
         "coverage_state": "送信して登録されました",
         "robots_txt_state": "ALLOWED",
@@ -8172,16 +9210,13 @@
         "google_canonical": "https://schoolwith.me/areas/school/5007",
         "user_canonical": "https://schoolwith.me/areas/school/5007",
         "referring_urls_count": 3,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/areas.xml",
-          "https://schoolwith.me/sitemaps/index.xml"
-        ],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-19T04:24:53Z",
-        "prev_days_since_crawl": 7,
+        "sitemaps": [],
+        "days_since_crawl": 0,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8192,29 +9227,71 @@
       "url": "https://schoolwith.me/areas/school/3001",
       "prev": {
         "clicks": 0,
-        "impressions": 3,
-        "avg_position": 71.0,
-        "kw_count": 1,
+        "impressions": 8,
+        "avg_position": 44.25,
+        "kw_count": 4,
         "keywords": [
           {
             "query": "バンクーバー 留学 評判",
             "clicks": 0,
             "impressions": 3,
             "position": 71
+          },
+          {
+            "query": "スクールウィズ",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 1
+          },
+          {
+            "query": "バンクーバー留学エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 61.5
+          },
+          {
+            "query": "site:schoolwith.me",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 16
           }
         ]
       },
       "curr": {
         "clicks": 0,
-        "impressions": 10,
-        "avg_position": 87.2,
-        "kw_count": 6,
+        "impressions": 16,
+        "avg_position": 66.69,
+        "kw_count": 10,
         "keywords": [
           {
             "query": "バンクーバー 留学 評判",
             "clicks": 0,
             "impressions": 5,
             "position": 86.6
+          },
+          {
+            "query": "スクールウィズ",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 1
+          },
+          {
+            "query": "バンクーバー留学エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 64
+          },
+          {
+            "query": "バンクーバー",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 2
+          },
+          {
+            "query": "バンクーバー 留学エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 63
           },
           {
             "query": "バンクーバー 留学",
@@ -8250,15 +9327,33 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 5,
-        "avg_position": 23.2,
-        "kw_count": 2,
+        "impressions": 9,
+        "avg_position": 28.33,
+        "kw_count": 5,
         "keywords": [
           {
             "query": "バンクーバー 語学 学校",
             "clicks": 0,
             "impressions": 4,
             "position": 28.5
+          },
+          {
+            "query": "バンクーバー留学エージェント",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 62.5
+          },
+          {
+            "query": "site:schoolwith.me",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 13
+          },
+          {
+            "query": "スクールウィズ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
           },
           {
             "query": "バンクーバー 語学学校",
@@ -8270,15 +9365,15 @@
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 7,
-        "d_position": 16.2,
-        "d_kw_count": 5
+        "d_impressions": 8,
+        "d_position": 22.44,
+        "d_kw_count": 6
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 5,
-        "d_position": 64.0,
-        "d_kw_count": 4
+        "d_impressions": 7,
+        "d_position": 38.36,
+        "d_kw_count": 5
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/3001",
@@ -8295,12 +9390,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T17:16:47Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8325,10 +9420,23 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 2,
+        "avg_position": 9.0,
+        "kw_count": 2,
+        "keywords": [
+          {
+            "query": "イギリス ワージング",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 13
+          },
+          {
+            "query": "イギリス ワージング 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 5
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
@@ -8338,9 +9446,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": -2,
+        "d_position": -9.0,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5022",
@@ -8354,12 +9462,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5022",
         "referring_urls_count": 1,
         "sitemaps": [],
-        "days_since_crawl": 13,
-        "prev_last_crawl_time": "2026-08-13T00:50:24Z",
-        "prev_days_since_crawl": 13,
+        "days_since_crawl": 14,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8370,9 +9478,9 @@
       "url": "https://schoolwith.me/areas/school/5006",
       "prev": {
         "clicks": 0,
-        "impressions": 9,
-        "avg_position": 7.44,
-        "kw_count": 3,
+        "impressions": 14,
+        "avg_position": 10.07,
+        "kw_count": 7,
         "keywords": [
           {
             "query": "エディンバラ 語学学校",
@@ -8387,18 +9495,42 @@
             "position": 10.67
           },
           {
+            "query": "イギリス エディンバラ",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 1
+          },
+          {
             "query": "エディンバラ留学",
             "clicks": 0,
             "impressions": 2,
             "position": 11
+          },
+          {
+            "query": "エジンバラ 人口",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 12
+          },
+          {
+            "query": "エディンバラ 語学学校",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 2
+          },
+          {
+            "query": "スコットランド 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 58
           }
         ]
       },
       "curr": {
         "clicks": 1,
-        "impressions": 21,
-        "avg_position": 9.1,
-        "kw_count": 5,
+        "impressions": 28,
+        "avg_position": 9.43,
+        "kw_count": 8,
         "keywords": [
           {
             "query": "エディンバラ 留学",
@@ -8413,10 +9545,28 @@
             "position": 4
           },
           {
+            "query": "エディンバラ 英語",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 10.2
+          },
+          {
             "query": "エディンバラ留学",
             "clicks": 0,
             "impressions": 2,
             "position": 10
+          },
+          {
+            "query": "エジンバラ 人口",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11
+          },
+          {
+            "query": "エディンバラ 人口",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11
           },
           {
             "query": "エディンバラ 英語",
@@ -8434,15 +9584,51 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 9,
-        "avg_position": 11.56,
-        "kw_count": 2,
+        "impressions": 31,
+        "avg_position": 14.42,
+        "kw_count": 8,
         "keywords": [
+          {
+            "query": "エジンバラ 人口",
+            "clicks": 0,
+            "impressions": 9,
+            "position": 10
+          },
           {
             "query": "エディンバラ 留学",
             "clicks": 0,
             "impressions": 8,
             "position": 10.5
+          },
+          {
+            "query": "エディンバラ 人口",
+            "clicks": 0,
+            "impressions": 7,
+            "position": 10.86
+          },
+          {
+            "query": "エジンバラ人口",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 11
+          },
+          {
+            "query": "エディンバラ人口",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 11
+          },
+          {
+            "query": "スコットランド 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 83
+          },
+          {
+            "query": "スコットランド留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 50
           },
           {
             "query": "エディンバラ留学",
@@ -8454,15 +9640,15 @@
       },
       "diff": {
         "d_clicks": 1,
-        "d_impressions": 12,
-        "d_position": 1.66,
-        "d_kw_count": 2
+        "d_impressions": 14,
+        "d_position": -0.64,
+        "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 1,
-        "d_impressions": 12,
-        "d_position": -2.46,
-        "d_kw_count": 3
+        "d_impressions": -3,
+        "d_position": -4.99,
+        "d_kw_count": 0
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5006",
@@ -8479,12 +9665,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 8,
-        "prev_last_crawl_time": "2026-08-18T00:26:42Z",
-        "prev_days_since_crawl": 8,
+        "days_since_crawl": 9,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8547,15 +9733,21 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 3,
-        "avg_position": 27.33,
-        "kw_count": 2,
+        "impressions": 4,
+        "avg_position": 32.5,
+        "kw_count": 3,
         "keywords": [
           {
             "query": "ニューヨーク 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 29.5
+          },
+          {
+            "query": "ニューヨーク語学学校",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 48
           },
           {
             "query": "ニューヨーク 語学学校",
@@ -8573,9 +9765,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 5,
-        "d_position": 33.05,
-        "d_kw_count": 1
+        "d_impressions": 4,
+        "d_position": 27.88,
+        "d_kw_count": 0
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2003",
@@ -8588,16 +9780,13 @@
         "google_canonical": "https://schoolwith.me/areas/school/2003",
         "user_canonical": "https://schoolwith.me/areas/school/2003",
         "referring_urls_count": 3,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/areas.xml",
-          "https://schoolwith.me/sitemaps/index.xml"
-        ],
+        "sitemaps": [],
         "days_since_crawl": 12,
-        "prev_last_crawl_time": "2026-08-14T04:53:06Z",
-        "prev_days_since_crawl": 12,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8677,12 +9866,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5008",
         "referring_urls_count": 1,
         "sitemaps": [],
-        "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-07T23:42:16Z",
-        "prev_days_since_crawl": 18,
+        "days_since_crawl": 19,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8733,10 +9922,16 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 3,
-        "avg_position": 19.33,
-        "kw_count": 3,
+        "impressions": 4,
+        "avg_position": 15.25,
+        "kw_count": 4,
         "keywords": [
+          {
+            "query": "アメリカ ディアフィールドビーチ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 3
+          },
           {
             "query": "アメリカ フォートローダーデール 留学",
             "clicks": 0,
@@ -8765,9 +9960,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": -9.33,
-        "d_kw_count": -1
+        "d_impressions": -2,
+        "d_position": -5.25,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2010",
@@ -8784,12 +9979,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T08:31:26Z",
-        "prev_days_since_crawl": 7,
+        "days_since_crawl": 8,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8807,28 +10002,42 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 1.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "セントピーターズバーグ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 1
+          }
+        ]
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 5.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "アメリカ セントピーターズバーグ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 5
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 1,
+        "d_position": 1.0,
+        "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
         "d_impressions": 0,
-        "d_position": 0,
+        "d_position": -4.0,
         "d_kw_count": 0
       },
       "crawl": {
@@ -8846,12 +10055,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 17,
-        "prev_last_crawl_time": "2026-08-08T21:25:51Z",
-        "prev_days_since_crawl": 17,
+        "days_since_crawl": 18,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8869,10 +10078,17 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 3.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "リバプール どんな街",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 3
+          }
+        ]
       },
       "baseline": {
         "clicks": 0,
@@ -8883,15 +10099,15 @@
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 1,
+        "d_position": 3.0,
+        "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 1,
+        "d_position": 3.0,
+        "d_kw_count": 1
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5021",
@@ -8908,12 +10124,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 26,
-        "prev_last_crawl_time": "2026-07-30T08:06:48Z",
-        "prev_days_since_crawl": 26,
+        "days_since_crawl": 27,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -8952,15 +10168,21 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 7,
-        "avg_position": 12.14,
-        "kw_count": 2,
+        "impressions": 8,
+        "avg_position": 14.5,
+        "kw_count": 3,
         "keywords": [
           {
             "query": "セントジュリアン留学",
             "clicks": 0,
             "impressions": 6,
             "position": 13.5
+          },
+          {
+            "query": "セントジュリアン 両替",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 31
           },
           {
             "query": "フィリピン セントジュリアン 留学",
@@ -8978,9 +10200,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -3,
-        "d_position": 2.86,
-        "d_kw_count": -1
+        "d_impressions": -4,
+        "d_position": 0.5,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/8001",
@@ -8998,11 +10220,11 @@
           "https://schoolwith.me/sitemaps/index.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": "2026-08-23T03:05:31Z",
-        "prev_days_since_crawl": 3,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9027,10 +10249,22 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 15.0,
-        "kw_count": 1,
+        "impressions": 3,
+        "avg_position": 8.0,
+        "kw_count": 3,
         "keywords": [
+          {
+            "query": "ブリストル",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 4
+          },
+          {
+            "query": "ブリストル 街並み",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 5
+          },
           {
             "query": "アメリカ ブリストル 留学",
             "clicks": 0,
@@ -9047,9 +10281,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": -15.0,
-        "d_kw_count": -1
+        "d_impressions": -3,
+        "d_position": -8.0,
+        "d_kw_count": -3
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/5017",
@@ -9063,12 +10297,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5017",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 16,
-        "prev_last_crawl_time": "2026-08-09T19:10:11Z",
-        "prev_days_since_crawl": 16,
+        "days_since_crawl": 17,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9122,12 +10356,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5010",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 20,
-        "prev_last_crawl_time": "2026-08-05T17:38:55Z",
-        "prev_days_since_crawl": 20,
+        "days_since_crawl": 21,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9152,10 +10386,34 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 43.0,
-        "kw_count": 1,
+        "impressions": 8,
+        "avg_position": 17.62,
+        "kw_count": 5,
         "keywords": [
+          {
+            "query": "ケベック 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 23
+          },
+          {
+            "query": "ケベック州 治安",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 9.5
+          },
+          {
+            "query": "カナダ ケベックシティー 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 4
+          },
+          {
+            "query": "ケベックシティ 治安",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 6
+          },
           {
             "query": "ケベック 留学",
             "clicks": 0,
@@ -9172,9 +10430,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": -43.0,
-        "d_kw_count": -1
+        "d_impressions": -8,
+        "d_position": -17.62,
+        "d_kw_count": -5
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/3071",
@@ -9188,12 +10446,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/3071",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 20,
-        "prev_last_crawl_time": "2026-08-05T17:09:03Z",
-        "prev_days_since_crawl": 20,
+        "days_since_crawl": 21,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9211,29 +10469,55 @@
       },
       "curr": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 1,
+        "avg_position": 24.0,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "メルボルン 現地 エージェント",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 24
+          }
+        ]
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 3,
+        "avg_position": 22.33,
+        "kw_count": 3,
+        "keywords": [
+          {
+            "query": "メルボルン 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 10
+          },
+          {
+            "query": "メルボルン留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 48
+          },
+          {
+            "query": "メルボルン英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 9
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 1,
+        "d_position": 24.0,
+        "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": -2,
+        "d_position": 1.67,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2071",
@@ -9250,12 +10534,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 20,
-        "prev_last_crawl_time": "2026-08-05T22:46:48Z",
-        "prev_days_since_crawl": 20,
+        "days_since_crawl": 21,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9266,17 +10550,42 @@
       "url": "https://schoolwith.me/areas/school/7002",
       "prev": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 2,
+        "avg_position": 34.5,
+        "kw_count": 2,
+        "keywords": [
+          {
+            "query": "コーク 留学 費用",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 24
+          },
+          {
+            "query": "コーク留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 45
+          }
+        ]
       },
       "curr": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 16.0,
-        "kw_count": 1,
+        "impressions": 3,
+        "avg_position": 35.67,
+        "kw_count": 3,
         "keywords": [
+          {
+            "query": "コーク 留学 費用",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 46
+          },
+          {
+            "query": "コーク留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 45
+          },
           {
             "query": "コーク留学",
             "clicks": 0,
@@ -9287,10 +10596,34 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 41.0,
-        "kw_count": 1,
+        "impressions": 9,
+        "avg_position": 22.78,
+        "kw_count": 5,
         "keywords": [
+          {
+            "query": "アイルランド コーク 留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 19.33
+          },
+          {
+            "query": "コーク留学",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 22.67
+          },
+          {
+            "query": "コーク 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 26
+          },
+          {
+            "query": "コーク英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 12
+          },
           {
             "query": "アイルランド コーク 留学",
             "clicks": 0,
@@ -9302,14 +10635,14 @@
       "diff": {
         "d_clicks": 0,
         "d_impressions": 1,
-        "d_position": 16.0,
+        "d_position": 1.17,
         "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": -25.0,
-        "d_kw_count": 0
+        "d_impressions": -6,
+        "d_position": 12.89,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/7002",
@@ -9326,12 +10659,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 14,
-        "prev_last_crawl_time": "2026-08-11T23:22:04Z",
-        "prev_days_since_crawl": 14,
+        "days_since_crawl": 15,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9385,12 +10718,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5014",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-07T12:53:04Z",
-        "prev_days_since_crawl": 18,
+        "days_since_crawl": 19,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9415,10 +10748,22 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 12.0,
-        "kw_count": 1,
+        "impressions": 3,
+        "avg_position": 6.67,
+        "kw_count": 3,
         "keywords": [
+          {
+            "query": "アメリカ セントポール 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 2
+          },
+          {
+            "query": "アメリカ ミネアポリス 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 6
+          },
           {
             "query": "セントポールスクール",
             "clicks": 0,
@@ -9435,9 +10780,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": -1,
-        "d_position": -12.0,
-        "d_kw_count": -1
+        "d_impressions": -3,
+        "d_position": -6.67,
+        "d_kw_count": -3
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2039",
@@ -9450,16 +10795,13 @@
         "google_canonical": "https://schoolwith.me/areas/school/2039",
         "user_canonical": "https://schoolwith.me/areas/school/2039",
         "referring_urls_count": 1,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/areas.xml",
-          "https://schoolwith.me/sitemaps/index.xml"
-        ],
+        "sitemaps": [],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-08T03:23:15Z",
-        "prev_days_since_crawl": 18,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9484,10 +10826,29 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 5,
+        "avg_position": 32.2,
+        "kw_count": 3,
+        "keywords": [
+          {
+            "query": "ハリファックス 留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 28.5
+          },
+          {
+            "query": "ハリファックス留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 37.5
+          },
+          {
+            "query": "カナダ ハリファックス 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 29
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
@@ -9497,9 +10858,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": -5,
+        "d_position": -32.2,
+        "d_kw_count": -3
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/3012",
@@ -9512,13 +10873,16 @@
         "google_canonical": "https://schoolwith.me/areas/school/3012",
         "user_canonical": "https://schoolwith.me/areas/school/3012",
         "referring_urls_count": 2,
-        "sitemaps": [],
-        "days_since_crawl": 25,
-        "prev_last_crawl_time": "2026-07-31T21:27:19Z",
-        "prev_days_since_crawl": 25,
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/areas.xml",
+          "https://schoolwith.me/sitemaps/index.xml"
+        ],
+        "days_since_crawl": 26,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9529,36 +10893,63 @@
       "url": "https://schoolwith.me/areas/school/2032",
       "prev": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 5,
+        "avg_position": 8.4,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "サンタバーバラ 治安",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 8.4
+          }
+        ]
       },
       "curr": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 7,
+        "avg_position": 8.86,
+        "kw_count": 2,
+        "keywords": [
+          {
+            "query": "サンタバーバラ 治安",
+            "clicks": 0,
+            "impressions": 6,
+            "position": 9.83
+          },
+          {
+            "query": "サンタバーバラ",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 3
+          }
+        ]
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 5,
+        "avg_position": 8.2,
+        "kw_count": 1,
+        "keywords": [
+          {
+            "query": "サンタバーバラ 治安",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 8.2
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 2,
+        "d_position": 0.46,
+        "d_kw_count": 1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": 2,
+        "d_position": 0.66,
+        "d_kw_count": 1
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2032",
@@ -9575,12 +10966,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 59,
-        "prev_last_crawl_time": "2026-06-27T23:50:42Z",
-        "prev_days_since_crawl": 59,
+        "days_since_crawl": 60,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9634,12 +11025,12 @@
         "user_canonical": "https://schoolwith.me/areas/school/5012",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 16,
-        "prev_last_crawl_time": "2026-08-09T21:49:40Z",
-        "prev_days_since_crawl": 16,
+        "days_since_crawl": 17,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9650,43 +11041,105 @@
       "url": "https://schoolwith.me/areas/school/24001",
       "prev": {
         "clicks": 0,
-        "impressions": 2,
-        "avg_position": 24.5,
-        "kw_count": 1,
+        "impressions": 6,
+        "avg_position": 25.0,
+        "kw_count": 4,
         "keywords": [
+          {
+            "query": "ケープタウン留学",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 34.5
+          },
           {
             "query": "ケープ タウン 語学 学校",
             "clicks": 0,
             "impressions": 2,
             "position": 24.5
+          },
+          {
+            "query": "ケープ タウン 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 16
+          },
+          {
+            "query": "ケープ タウン 語学 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 16
           }
         ]
       },
       "curr": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 3,
+        "avg_position": 20.0,
+        "kw_count": 3,
+        "keywords": [
+          {
+            "query": "ec ケープタウン",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 35
+          },
+          {
+            "query": "ケープ タウン 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 22
+          },
+          {
+            "query": "ケープタウン 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 3
+          }
+        ]
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 7,
+        "avg_position": 24.71,
+        "kw_count": 4,
+        "keywords": [
+          {
+            "query": "ケープタウン 留学",
+            "clicks": 0,
+            "impressions": 4,
+            "position": 18.5
+          },
+          {
+            "query": "インドネシア ケープタウン 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 6
+          },
+          {
+            "query": "ケープ タウン 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 46
+          },
+          {
+            "query": "ケープタウン留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 47
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
-        "d_impressions": -2,
-        "d_position": -24.5,
+        "d_impressions": -3,
+        "d_position": -5.0,
         "d_kw_count": -1
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": -4,
+        "d_position": -4.71,
+        "d_kw_count": -1
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/24001",
@@ -9703,12 +11156,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 52,
-        "prev_last_crawl_time": "2026-07-04T22:09:10Z",
-        "prev_days_since_crawl": 52,
+        "days_since_crawl": 53,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9733,10 +11186,23 @@
       },
       "baseline": {
         "clicks": 0,
-        "impressions": 0,
-        "avg_position": 0,
-        "kw_count": 0,
-        "keywords": []
+        "impressions": 2,
+        "avg_position": 8.5,
+        "kw_count": 2,
+        "keywords": [
+          {
+            "query": "アメリカ シンシナティ 留学",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 4
+          },
+          {
+            "query": "シンシナティ 英語",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 13
+          }
+        ]
       },
       "diff": {
         "d_clicks": 0,
@@ -9746,9 +11212,9 @@
       },
       "diff_from_baseline": {
         "d_clicks": 0,
-        "d_impressions": 0,
-        "d_position": 0,
-        "d_kw_count": 0
+        "d_impressions": -2,
+        "d_position": -8.5,
+        "d_kw_count": -2
       },
       "crawl": {
         "url": "https://schoolwith.me/areas/school/2037",
@@ -9765,12 +11231,12 @@
           "https://schoolwith.me/sitemaps/areas.xml",
           "https://schoolwith.me/sitemaps/index.xml"
         ],
-        "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-07T23:32:13Z",
-        "prev_days_since_crawl": 18,
+        "days_since_crawl": 19,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     }
   ],
@@ -9827,11 +11293,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 10,
-        "prev_last_crawl_time": "2026-08-16T04:44:18Z",
-        "prev_days_since_crawl": 10,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9901,12 +11367,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T22:18:34Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -9967,12 +11433,12 @@
         "user_canonical": "https://schoolwith.me/schools/40074",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 44,
-        "prev_last_crawl_time": "2026-07-12T20:33:23Z",
-        "prev_days_since_crawl": 44,
+        "days_since_crawl": 45,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10025,16 +11491,13 @@
         "google_canonical": "https://schoolwith.me/schools/30078",
         "user_canonical": "https://schoolwith.me/schools/30078",
         "referring_urls_count": 4,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/index.xml",
-          "https://schoolwith.me/sitemaps/schools.xml"
-        ],
-        "days_since_crawl": 11,
-        "prev_last_crawl_time": "2026-08-14T18:52:45Z",
-        "prev_days_since_crawl": 11,
+        "sitemaps": [],
+        "days_since_crawl": 12,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10088,12 +11551,12 @@
         "user_canonical": "https://schoolwith.me/schools/30344",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 22,
-        "prev_last_crawl_time": "2026-08-03T21:41:02Z",
-        "prev_days_since_crawl": 22,
+        "days_since_crawl": 23,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10171,12 +11634,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T18:37:35Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10231,11 +11694,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-08T04:53:04Z",
-        "prev_days_since_crawl": 18,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10289,12 +11752,12 @@
         "user_canonical": "https://schoolwith.me/schools/30311",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 3,
-        "prev_last_crawl_time": "2026-08-22T17:45:01Z",
-        "prev_days_since_crawl": 3,
+        "days_since_crawl": 4,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10348,12 +11811,12 @@
         "user_canonical": "https://schoolwith.me/schools/30057",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 22,
-        "prev_last_crawl_time": "2026-08-03T15:08:57Z",
-        "prev_days_since_crawl": 22,
+        "days_since_crawl": 23,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10420,12 +11883,12 @@
         "user_canonical": "https://schoolwith.me/schools/30040",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 40,
-        "prev_last_crawl_time": "2026-07-16T06:30:59Z",
-        "prev_days_since_crawl": 40,
+        "days_since_crawl": 41,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10487,11 +11950,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 45,
-        "prev_last_crawl_time": "2026-07-12T05:04:14Z",
-        "prev_days_since_crawl": 45,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10565,13 +12028,16 @@
         "google_canonical": "https://schoolwith.me/schools/70037",
         "user_canonical": "https://schoolwith.me/schools/70037",
         "referring_urls_count": 3,
-        "sitemaps": [],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T15:02:11Z",
-        "prev_days_since_crawl": 7,
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/index.xml",
+          "https://schoolwith.me/sitemaps/schools.xml"
+        ],
+        "days_since_crawl": 8,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10625,12 +12091,12 @@
         "user_canonical": "https://schoolwith.me/schools/70113",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 32,
-        "prev_last_crawl_time": "2026-07-24T14:05:38Z",
-        "prev_days_since_crawl": 32,
+        "days_since_crawl": 33,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10697,12 +12163,12 @@
         "user_canonical": "https://schoolwith.me/schools/70011",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 43,
-        "prev_last_crawl_time": "2026-07-13T13:03:18Z",
-        "prev_days_since_crawl": 43,
+        "days_since_crawl": 44,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10756,12 +12222,12 @@
         "user_canonical": "https://schoolwith.me/schools/70114",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-07T13:54:08Z",
-        "prev_days_since_crawl": 18,
+        "days_since_crawl": 19,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10815,12 +12281,12 @@
         "user_canonical": "https://schoolwith.me/schools/70014",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 38,
-        "prev_last_crawl_time": "2026-07-18T16:43:14Z",
-        "prev_days_since_crawl": 38,
+        "days_since_crawl": 39,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10881,12 +12347,12 @@
         "user_canonical": "https://schoolwith.me/schools/80005",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 36,
-        "prev_last_crawl_time": "2026-07-20T17:05:52Z",
-        "prev_days_since_crawl": 36,
+        "days_since_crawl": 37,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -10963,12 +12429,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 20,
-        "prev_last_crawl_time": "2026-08-05T08:36:44Z",
-        "prev_days_since_crawl": 20,
+        "days_since_crawl": 21,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11076,12 +12542,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 3,
-        "prev_last_crawl_time": "2026-08-22T20:24:40Z",
-        "prev_days_since_crawl": 3,
+        "days_since_crawl": 4,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11135,12 +12601,12 @@
         "user_canonical": "https://schoolwith.me/schools/50065",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 50,
-        "prev_last_crawl_time": "2026-07-06T09:35:47Z",
-        "prev_days_since_crawl": 50,
+        "days_since_crawl": 51,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11201,12 +12667,12 @@
         "user_canonical": "https://schoolwith.me/schools/50190",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 52,
-        "prev_last_crawl_time": "2026-07-05T02:16:45Z",
-        "prev_days_since_crawl": 52,
+        "days_since_crawl": 53,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11267,12 +12733,12 @@
         "user_canonical": "https://schoolwith.me/schools/50196",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 43,
-        "prev_last_crawl_time": "2026-07-14T02:04:13Z",
-        "prev_days_since_crawl": 43,
+        "days_since_crawl": 44,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11326,12 +12792,12 @@
         "user_canonical": "https://schoolwith.me/schools/50060",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 16,
-        "prev_last_crawl_time": "2026-08-09T15:03:18Z",
-        "prev_days_since_crawl": 16,
+        "days_since_crawl": 17,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11384,16 +12850,13 @@
         "google_canonical": "https://schoolwith.me/schools/50061",
         "user_canonical": "https://schoolwith.me/schools/50061",
         "referring_urls_count": 4,
-        "sitemaps": [
-          "https://schoolwith.me/sitemaps/index.xml",
-          "https://schoolwith.me/sitemaps/schools.xml"
-        ],
-        "days_since_crawl": 6,
-        "prev_last_crawl_time": "2026-08-19T06:02:32Z",
-        "prev_days_since_crawl": 6,
+        "sitemaps": [],
+        "days_since_crawl": 7,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11454,12 +12917,12 @@
         "user_canonical": "https://schoolwith.me/schools/50747",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 26,
-        "prev_last_crawl_time": "2026-07-30T18:19:54Z",
-        "prev_days_since_crawl": 26,
+        "days_since_crawl": 27,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11520,12 +12983,12 @@
         "user_canonical": "https://schoolwith.me/schools/50363",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 46,
-        "prev_last_crawl_time": "2026-07-10T21:16:23Z",
-        "prev_days_since_crawl": 46,
+        "days_since_crawl": 47,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11579,12 +13042,12 @@
         "user_canonical": "https://schoolwith.me/schools/50049",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 49,
-        "prev_last_crawl_time": "2026-07-07T17:56:24Z",
-        "prev_days_since_crawl": 49,
+        "days_since_crawl": 50,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11663,12 +13126,12 @@
         "user_canonical": "https://schoolwith.me/schools/50299",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 44,
-        "prev_last_crawl_time": "2026-07-12T22:17:05Z",
-        "prev_days_since_crawl": 44,
+        "days_since_crawl": 45,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11735,12 +13198,12 @@
         "user_canonical": "https://schoolwith.me/schools/50277",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 32,
-        "prev_last_crawl_time": "2026-07-25T01:18:56Z",
-        "prev_days_since_crawl": 32,
+        "days_since_crawl": 33,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11794,12 +13257,12 @@
         "user_canonical": "https://schoolwith.me/schools/50323",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 14,
-        "prev_last_crawl_time": "2026-08-11T08:50:16Z",
-        "prev_days_since_crawl": 14,
+        "days_since_crawl": 15,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11854,11 +13317,11 @@
         "referring_urls_count": 3,
         "sitemaps": [],
         "days_since_crawl": 45,
-        "prev_last_crawl_time": "2026-07-12T03:54:41Z",
-        "prev_days_since_crawl": 45,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11912,12 +13375,12 @@
         "user_canonical": "https://schoolwith.me/schools/50750",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 19,
-        "prev_last_crawl_time": "2026-08-06T05:34:48Z",
-        "prev_days_since_crawl": 19,
+        "days_since_crawl": 20,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -11971,12 +13434,12 @@
         "user_canonical": "https://schoolwith.me/schools/50470",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 22,
-        "prev_last_crawl_time": "2026-08-03T17:25:10Z",
-        "prev_days_since_crawl": 22,
+        "days_since_crawl": 23,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12030,12 +13493,12 @@
         "user_canonical": "https://schoolwith.me/schools/50044",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 43,
-        "prev_last_crawl_time": "2026-07-14T02:06:17Z",
-        "prev_days_since_crawl": 43,
+        "days_since_crawl": 44,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12090,11 +13553,11 @@
         "referring_urls_count": 4,
         "sitemaps": [],
         "days_since_crawl": 50,
-        "prev_last_crawl_time": "2026-07-07T04:18:16Z",
-        "prev_days_since_crawl": 50,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12148,12 +13611,12 @@
         "user_canonical": "https://schoolwith.me/schools/50471",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 45,
-        "prev_last_crawl_time": "2026-07-11T22:51:18Z",
-        "prev_days_since_crawl": 45,
+        "days_since_crawl": 46,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12214,12 +13677,12 @@
         "user_canonical": "https://schoolwith.me/schools/50751",
         "referring_urls_count": 1,
         "sitemaps": [],
-        "days_since_crawl": 65,
-        "prev_last_crawl_time": "2026-06-21T08:43:00Z",
-        "prev_days_since_crawl": 65,
+        "days_since_crawl": 66,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12273,12 +13736,12 @@
         "user_canonical": "https://schoolwith.me/schools/50270",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 45,
-        "prev_last_crawl_time": "2026-07-11T05:32:28Z",
-        "prev_days_since_crawl": 45,
+        "days_since_crawl": 46,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12332,12 +13795,12 @@
         "user_canonical": "https://schoolwith.me/schools/50748",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-08T02:23:20Z",
-        "prev_days_since_crawl": 18,
+        "days_since_crawl": 19,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12391,12 +13854,12 @@
         "user_canonical": "https://schoolwith.me/schools/50314",
         "referring_urls_count": 1,
         "sitemaps": [],
-        "days_since_crawl": 45,
-        "prev_last_crawl_time": "2026-07-12T00:46:24Z",
-        "prev_days_since_crawl": 45,
+        "days_since_crawl": 46,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12463,12 +13926,12 @@
         "user_canonical": "https://schoolwith.me/schools/50362",
         "referring_urls_count": 3,
         "sitemaps": [],
-        "days_since_crawl": 31,
-        "prev_last_crawl_time": "2026-07-25T07:08:38Z",
-        "prev_days_since_crawl": 31,
+        "days_since_crawl": 32,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12522,12 +13985,12 @@
         "user_canonical": "https://schoolwith.me/schools/50185",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 51,
-        "prev_last_crawl_time": "2026-07-06T01:31:50Z",
-        "prev_days_since_crawl": 51,
+        "days_since_crawl": 52,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12594,12 +14057,12 @@
         "user_canonical": "https://schoolwith.me/schools/50038",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 22,
-        "prev_last_crawl_time": "2026-08-03T16:33:13Z",
-        "prev_days_since_crawl": 22,
+        "days_since_crawl": 23,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12654,11 +14117,11 @@
         "referring_urls_count": 2,
         "sitemaps": [],
         "days_since_crawl": 31,
-        "prev_last_crawl_time": "2026-07-26T03:16:07Z",
-        "prev_days_since_crawl": 31,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12719,12 +14182,12 @@
         "user_canonical": "https://schoolwith.me/schools/50078",
         "referring_urls_count": 2,
         "sitemaps": [],
-        "days_since_crawl": 35,
-        "prev_last_crawl_time": "2026-07-21T23:50:37Z",
-        "prev_days_since_crawl": 35,
+        "days_since_crawl": 36,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "BLOCKED_BY_META_TAG",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12781,12 +14244,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 13,
-        "prev_last_crawl_time": "2026-08-13T01:41:44Z",
-        "prev_days_since_crawl": 13,
+        "days_since_crawl": 14,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12858,11 +14321,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 1,
-        "prev_last_crawl_time": "2026-08-25T02:55:58Z",
-        "prev_days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12920,11 +14383,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 3,
-        "prev_last_crawl_time": "2026-08-23T04:29:46Z",
-        "prev_days_since_crawl": 3,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -12982,11 +14445,11 @@
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
         "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-19T03:39:17Z",
-        "prev_days_since_crawl": 7,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13094,12 +14557,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 1,
-        "prev_last_crawl_time": "2026-08-25T01:26:32Z",
-        "prev_days_since_crawl": 1,
+        "days_since_crawl": 2,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13156,12 +14619,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T08:22:09Z",
-        "prev_days_since_crawl": 7,
+        "days_since_crawl": 8,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13214,13 +14677,16 @@
         "google_canonical": "https://schoolwith.me/schools/20239",
         "user_canonical": "https://schoolwith.me/schools/20239",
         "referring_urls_count": 2,
-        "sitemaps": [],
-        "days_since_crawl": 18,
-        "prev_last_crawl_time": "2026-08-07T19:00:57Z",
-        "prev_days_since_crawl": 18,
+        "sitemaps": [
+          "https://schoolwith.me/sitemaps/index.xml",
+          "https://schoolwith.me/sitemaps/schools.xml"
+        ],
+        "days_since_crawl": 19,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13284,12 +14750,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T16:36:49Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13346,12 +14812,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 0,
-        "prev_last_crawl_time": "2026-08-25T18:28:17Z",
-        "prev_days_since_crawl": 0,
+        "days_since_crawl": 1,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13402,7 +14868,7 @@
       },
       "crawl": {
         "url": "https://schoolwith.me/schools/20202",
-        "last_crawl_time": "2026-08-23T15:57:41Z",
+        "last_crawl_time": "2026-08-26T20:47:07Z",
         "indexing_state": "INDEXING_ALLOWED",
         "coverage_state": "送信して登録されました",
         "robots_txt_state": "ALLOWED",
@@ -13415,12 +14881,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 2,
-        "prev_last_crawl_time": "2026-08-23T15:57:41Z",
-        "prev_days_since_crawl": 2,
+        "days_since_crawl": 0,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13477,12 +14943,12 @@
           "https://schoolwith.me/sitemaps/index.xml",
           "https://schoolwith.me/sitemaps/schools.xml"
         ],
-        "days_since_crawl": 1,
-        "prev_last_crawl_time": "2026-08-25T02:09:26Z",
-        "prev_days_since_crawl": 1,
+        "days_since_crawl": 2,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13536,12 +15002,12 @@
         "user_canonical": "https://schoolwith.me/schools/20080",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T15:22:00Z",
-        "prev_days_since_crawl": 7,
+        "days_since_crawl": 8,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     },
     {
@@ -13602,12 +15068,12 @@
         "user_canonical": "https://schoolwith.me/schools/20079",
         "referring_urls_count": 4,
         "sitemaps": [],
-        "days_since_crawl": 7,
-        "prev_last_crawl_time": "2026-08-18T14:52:55Z",
-        "prev_days_since_crawl": 7,
+        "days_since_crawl": 8,
+        "prev_last_crawl_time": null,
+        "prev_days_since_crawl": null,
         "crawled_since_last_check": false,
-        "prev_indexing_state": "INDEXING_ALLOWED",
-        "state_changed": false
+        "prev_indexing_state": null,
+        "state_changed": null
       }
     }
   ],
@@ -13632,18 +15098,18 @@
     "city": {
       "prev": {
         "clicks": 12,
-        "impressions": 784,
-        "kw_count": 147
+        "impressions": 970,
+        "kw_count": 221
       },
       "curr": {
-        "clicks": 9,
-        "impressions": 795,
-        "kw_count": 151
+        "clicks": 10,
+        "impressions": 960,
+        "kw_count": 213
       },
       "baseline": {
-        "clicks": 17,
-        "impressions": 905,
-        "kw_count": 161
+        "clicks": 20,
+        "impressions": 1292,
+        "kw_count": 267
       }
     },
     "school": {
@@ -13826,17 +15292,6 @@
       {
         "cat": "国",
         "label": "カナダ",
-        "query": "カナダ 語学学校",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 21,
-        "curr_impr": 12,
-        "prev_pos": 5.38,
-        "curr_pos": 7.33
-      },
-      {
-        "cat": "国",
-        "label": "カナダ",
         "query": "語学学校 カナダ",
         "prev_clicks": 1,
         "curr_clicks": 0,
@@ -13847,14 +15302,14 @@
       },
       {
         "cat": "国",
-        "label": "アメリカ",
-        "query": "アメリカ 語学留学",
+        "label": "カナダ",
+        "query": "カナダ 語学学校",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 30,
-        "curr_impr": 8,
-        "prev_pos": 8.77,
-        "curr_pos": 11.12
+        "prev_impr": 21,
+        "curr_impr": 12,
+        "prev_pos": 5.38,
+        "curr_pos": 7.33
       },
       {
         "cat": "国",
@@ -13869,14 +15324,14 @@
       },
       {
         "cat": "国",
-        "label": "フィリピン",
-        "query": "フィリピン 語学学校 おすすめ",
+        "label": "アメリカ",
+        "query": "アメリカ 語学留学",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 6,
-        "curr_impr": 9,
-        "prev_pos": 2.17,
-        "curr_pos": 3.78
+        "prev_impr": 30,
+        "curr_impr": 8,
+        "prev_pos": 8.77,
+        "curr_pos": 11.12
       },
       {
         "cat": "国",
@@ -13892,13 +15347,13 @@
       {
         "cat": "国",
         "label": "フィリピン",
-        "query": "フィリピン 語学留学",
+        "query": "セブ島 語学学校 おすすめ",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 114,
-        "curr_impr": 7,
-        "prev_pos": 10.94,
-        "curr_pos": 43.43
+        "prev_impr": 10,
+        "curr_impr": 1,
+        "prev_pos": 6.7,
+        "curr_pos": 20
       },
       {
         "cat": "国",
@@ -13914,13 +15369,24 @@
       {
         "cat": "国",
         "label": "フィリピン",
-        "query": "セブ島 語学学校 おすすめ",
+        "query": "フィリピン 語学留学",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 10,
-        "curr_impr": 1,
-        "prev_pos": 6.7,
-        "curr_pos": 20
+        "prev_impr": 114,
+        "curr_impr": 7,
+        "prev_pos": 10.94,
+        "curr_pos": 43.43
+      },
+      {
+        "cat": "国",
+        "label": "フィリピン",
+        "query": "フィリピン 語学学校 おすすめ",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 6,
+        "curr_impr": 9,
+        "prev_pos": 2.17,
+        "curr_pos": 3.78
       },
       {
         "cat": "国",
@@ -13969,17 +15435,6 @@
       {
         "cat": "国",
         "label": "アイルランド",
-        "query": "ダブリン 語学学校",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 5,
-        "curr_impr": 10,
-        "prev_pos": 6.6,
-        "curr_pos": 8.6
-      },
-      {
-        "cat": "国",
-        "label": "アイルランド",
         "query": "アイルランド 語学学校",
         "prev_clicks": 1,
         "curr_clicks": 0,
@@ -13987,6 +15442,17 @@
         "curr_impr": 10,
         "prev_pos": 4.43,
         "curr_pos": 6.3
+      },
+      {
+        "cat": "国",
+        "label": "アイルランド",
+        "query": "ダブリン 語学学校",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 5,
+        "curr_impr": 10,
+        "prev_pos": 6.6,
+        "curr_pos": 8.6
       },
       {
         "cat": "国",
@@ -14024,24 +15490,13 @@
       {
         "cat": "都市",
         "label": "セブ",
-        "query": "セブ島留学 口コミ",
+        "query": "セブ島 留学",
         "prev_clicks": 1,
         "curr_clicks": 0,
-        "prev_impr": 1,
-        "curr_impr": 0,
-        "prev_pos": 1,
-        "curr_pos": 0
-      },
-      {
-        "cat": "都市",
-        "label": "セブ",
-        "query": "セブ島留学 おすすめ 学校",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 4,
-        "curr_impr": 2,
-        "prev_pos": 5.75,
-        "curr_pos": 2.5
+        "prev_impr": 15,
+        "curr_impr": 8,
+        "prev_pos": 64.07,
+        "curr_pos": 63.38
       },
       {
         "cat": "都市",
@@ -14057,17 +15512,6 @@
       {
         "cat": "都市",
         "label": "セブ",
-        "query": "セブ島 英語 留学",
-        "prev_clicks": 1,
-        "curr_clicks": 0,
-        "prev_impr": 16,
-        "curr_impr": 16,
-        "prev_pos": 35.12,
-        "curr_pos": 19.31
-      },
-      {
-        "cat": "都市",
-        "label": "セブ",
         "query": "セブ島 語学留学",
         "prev_clicks": 1,
         "curr_clicks": 0,
@@ -14075,6 +15519,50 @@
         "curr_impr": 3,
         "prev_pos": 11.09,
         "curr_pos": 18.33
+      },
+      {
+        "cat": "都市",
+        "label": "セブ",
+        "query": "スクールウィズ",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 9,
+        "curr_impr": 5,
+        "prev_pos": 1,
+        "curr_pos": 1
+      },
+      {
+        "cat": "都市",
+        "label": "セブ",
+        "query": "セブ島留学 おすすめ 学校",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 4,
+        "curr_impr": 2,
+        "prev_pos": 5.75,
+        "curr_pos": 2.5
+      },
+      {
+        "cat": "都市",
+        "label": "セブ",
+        "query": "セブ島留学 口コミ",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 1,
+        "curr_impr": 0,
+        "prev_pos": 1,
+        "curr_pos": 0
+      },
+      {
+        "cat": "都市",
+        "label": "セブ",
+        "query": "スクールウィズ 留学",
+        "prev_clicks": 1,
+        "curr_clicks": 0,
+        "prev_impr": 3,
+        "curr_impr": 0,
+        "prev_pos": 1,
+        "curr_pos": 0
       },
       {
         "cat": "都市",
@@ -14183,6 +15671,16 @@
         "drop_pct": 69.1,
         "prev_pos": 7.55,
         "curr_pos": 15
+      },
+      {
+        "cat": "都市",
+        "label": "ハワイ",
+        "query": "ハワイ 留学",
+        "prev_impr": 45,
+        "curr_impr": 2,
+        "drop_pct": 95.6,
+        "prev_pos": 39.4,
+        "curr_pos": 17.5
       },
       {
         "cat": "国",
@@ -14449,17 +15947,17 @@
         },
         {
           "page": "ニュージーランド",
-          "query": "グレンフィールドカレッジ",
-          "curr_i": 2,
-          "curr_c": 0,
-          "curr_p": 8
-        },
-        {
-          "page": "ニュージーランド",
           "query": "オレワカレッジ",
           "curr_i": 2,
           "curr_c": 0,
           "curr_p": 5
+        },
+        {
+          "page": "ニュージーランド",
+          "query": "グレンフィールドカレッジ",
+          "curr_i": 2,
+          "curr_c": 0,
+          "curr_p": 8
         },
         {
           "page": "イギリス",
@@ -14609,21 +16107,21 @@
         },
         {
           "page": "マルタ",
-          "query": "マルタ島 語学留学",
-          "prev_i": 2,
-          "curr_i": 9,
-          "d_i": 7,
-          "prev_p": 11,
-          "curr_p": 11.56
-        },
-        {
-          "page": "マルタ",
           "query": "マルタ 留学 おすすめ",
           "prev_i": 7,
           "curr_i": 14,
           "d_i": 7,
           "prev_p": 3,
           "curr_p": 2.93
+        },
+        {
+          "page": "マルタ",
+          "query": "マルタ島 語学留学",
+          "prev_i": 2,
+          "curr_i": 9,
+          "d_i": 7,
+          "prev_p": 11,
+          "curr_p": 11.56
         },
         {
           "page": "アメリカ",
@@ -14636,36 +16134,36 @@
         },
         {
           "page": "オーストラリア",
-          "query": "オーストラリア語学学校",
-          "prev_i": 14,
-          "curr_i": 20,
-          "d_i": 6,
-          "prev_p": 4.57,
-          "curr_p": 6.85
-        },
-        {
-          "page": "オーストラリア",
           "query": "オーストラリア 語学留学",
           "prev_i": 11,
           "curr_i": 17,
           "d_i": 6,
           "prev_p": 20.64,
           "curr_p": 15
+        },
+        {
+          "page": "オーストラリア",
+          "query": "オーストラリア語学学校",
+          "prev_i": 14,
+          "curr_i": 20,
+          "d_i": 6,
+          "prev_p": 4.57,
+          "curr_p": 6.85
         }
       ]
     },
     "city": {
-      "lost_count": 36,
-      "new_count": 40,
-      "cont_count": 111,
-      "lost_impr": 72,
-      "new_impr": 67,
-      "cont_delta_impr": 16,
+      "lost_count": 66,
+      "new_count": 55,
+      "cont_count": 141,
+      "lost_impr": 106,
+      "new_impr": 84,
+      "cont_delta_impr": 10,
       "lost_clicks": 0,
-      "new_clicks": 0,
-      "cont_delta_clicks": -3,
-      "net_impr": 11,
-      "net_clicks": -3,
+      "new_clicks": 1,
+      "cont_delta_clicks": -5,
+      "net_impr": -12,
+      "net_clicks": -4,
       "lost_top": [
         {
           "page": "セブ",
@@ -14704,17 +16202,17 @@
         },
         {
           "page": "セブ",
-          "query": "フィリピン セブ 島 留学",
-          "prev_i": 3,
-          "prev_c": 0,
-          "prev_p": 33
-        },
-        {
-          "page": "セブ",
           "query": "セブ 島 留学 1 週間 おすすめ",
           "prev_i": 3,
           "prev_c": 0,
           "prev_p": 13.67
+        },
+        {
+          "page": "セブ",
+          "query": "フィリピン セブ 島 留学",
+          "prev_i": 3,
+          "prev_c": 0,
+          "prev_p": 33
         },
         {
           "page": "シドニー",
@@ -14731,11 +16229,11 @@
           "prev_p": 11
         },
         {
-          "page": "セブ",
-          "query": "留学 セブ 島",
+          "page": "ダブリン",
+          "query": "ダブリン留学",
           "prev_i": 2,
           "prev_c": 0,
-          "prev_p": 39.5
+          "prev_p": 26
         }
       ],
       "new_top": [
@@ -14796,21 +16294,30 @@
           "curr_p": 10.5
         },
         {
-          "page": "ロンドン",
-          "query": "ロンドン 語学 学校",
+          "page": "シドニー",
+          "query": "シドニー 留学",
           "curr_i": 2,
           "curr_c": 0,
-          "curr_p": 23
+          "curr_p": 53.5
         },
         {
-          "page": "ボーンマス",
-          "query": "ボーンマス",
+          "page": "ロンドン",
+          "query": "スクールウィズ",
           "curr_i": 2,
-          "curr_c": 0,
-          "curr_p": 7.5
+          "curr_c": 1,
+          "curr_p": 4.5
         }
       ],
       "impr_down_top": [
+        {
+          "page": "ロサンゼルス",
+          "query": "ロサンゼルス 語学学校",
+          "prev_i": 26,
+          "curr_i": 1,
+          "d_i": -25,
+          "prev_p": 4.27,
+          "curr_p": 9
+        },
         {
           "page": "ゴールドコースト",
           "query": "ゴールドコースト 語学学校",
@@ -14819,24 +16326,6 @@
           "d_i": -8,
           "prev_p": 11.76,
           "curr_p": 14.12
-        },
-        {
-          "page": "セブ",
-          "query": "セブ島 留学",
-          "prev_i": 35,
-          "curr_i": 29,
-          "d_i": -6,
-          "prev_p": 28.46,
-          "curr_p": 28.86
-        },
-        {
-          "page": "セブ",
-          "query": "セブ 島 留学",
-          "prev_i": 13,
-          "curr_i": 7,
-          "d_i": -6,
-          "prev_p": 31.85,
-          "curr_p": 30.57
         },
         {
           "page": "セブ",
@@ -14885,24 +16374,42 @@
         },
         {
           "page": "セブ",
+          "query": "セブ語学学校",
+          "prev_i": 8,
+          "curr_i": 5,
+          "d_i": -3,
+          "prev_p": 6.62,
+          "curr_p": 11.4
+        },
+        {
+          "page": "セブ",
+          "query": "セブ島留学",
+          "prev_i": 11,
+          "curr_i": 8,
+          "d_i": -3,
+          "prev_p": 63.45,
+          "curr_p": 63.12
+        },
+        {
+          "page": "セブ",
           "query": "セブ 島 語学 学校",
           "prev_i": 6,
           "curr_i": 3,
           "d_i": -3,
           "prev_p": 9.33,
           "curr_p": 14
-        },
-        {
-          "page": "セブ",
-          "query": "セブ島留学",
-          "prev_i": 37,
-          "curr_i": 34,
-          "d_i": -3,
-          "prev_p": 28.57,
-          "curr_p": 27.29
         }
       ],
       "impr_up_top": [
+        {
+          "page": "ハワイ",
+          "query": "ハワイ 語学 学校",
+          "prev_i": 1,
+          "curr_i": 14,
+          "d_i": 13,
+          "prev_p": 47,
+          "curr_p": 14.29
+        },
         {
           "page": "ハワイ",
           "query": "ハワイ 語学 留学",
@@ -14958,6 +16465,15 @@
           "curr_p": 83.85
         },
         {
+          "page": "エディンバラ",
+          "query": "エディンバラ 語学学校",
+          "prev_i": 1,
+          "curr_i": 6,
+          "d_i": 5,
+          "prev_p": 2,
+          "curr_p": 4
+        },
+        {
           "page": "セブ",
           "query": "セブ島語学学校",
           "prev_i": 3,
@@ -14974,24 +16490,6 @@
           "d_i": 4,
           "prev_p": 6.15,
           "curr_p": 8.77
-        },
-        {
-          "page": "ゴールドコースト",
-          "query": "ゴールドコースト留学",
-          "prev_i": 3,
-          "curr_i": 7,
-          "d_i": 4,
-          "prev_p": 33.33,
-          "curr_p": 37.14
-        },
-        {
-          "page": "ロンドン",
-          "query": "ロンドン 語学学校",
-          "prev_i": 2,
-          "curr_i": 6,
-          "d_i": 4,
-          "prev_p": 37.5,
-          "curr_p": 66.83
         }
       ]
     },
@@ -15024,17 +16522,17 @@
         },
         {
           "page": "LCIC",
-          "query": "フィリピン留学 エージェント 名古屋",
-          "prev_i": 1,
-          "prev_c": 0,
-          "prev_p": 90
-        },
-        {
-          "page": "LCIC",
           "query": "フィリピン英語留学 名古屋",
           "prev_i": 1,
           "prev_c": 0,
           "prev_p": 79
+        },
+        {
+          "page": "LCIC",
+          "query": "フィリピン留学 エージェント 名古屋",
+          "prev_i": 1,
+          "prev_c": 0,
+          "prev_p": 90
         },
         {
           "page": "EF マイアミ",
@@ -15094,8 +16592,8 @@
     "total": 114,
     "inspected": 114,
     "never_crawled": 0,
-    "fresh_7d": 44,
-    "stale_30d": 27,
+    "fresh_7d": 37,
+    "stale_30d": 28,
     "stale_60d": 1,
     "blocked_by_meta_tag": 46,
     "coverage_states": {

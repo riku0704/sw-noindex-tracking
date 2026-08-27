@@ -31,8 +31,13 @@ GSC_LAG_DAYS = 4
 
 
 def _latest_final_date(today: date | None = None) -> date:
-    """確定データが揃っている最新日。"""
-    return (today or date.today()) - timedelta(days=GSC_LAG_DAYS)
+    """確定データが揃っている最新の土曜日。
+
+    週の区切りを日〜土に固定する。実行曜日で区切りがずれると、前週比が
+    1日違いの重複期間どうしの比較になり、系列が二重化する。
+    """
+    d = (today or date.today()) - timedelta(days=GSC_LAG_DAYS)
+    return d - timedelta(days=(d.weekday() - 5) % 7)  # Mon=0 … Sat=5
 
 
 def _target_urls(targets: dict) -> list[str]:

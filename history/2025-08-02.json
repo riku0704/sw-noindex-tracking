@@ -1112,9 +1112,9 @@
     },
     "3002": {
       "clicks": 2,
-      "impressions": 58,
-      "avg_position": 9.29,
-      "kw_count": 9,
+      "impressions": 72,
+      "avg_position": 17.6,
+      "kw_count": 12,
       "keywords": [
         {
           "query": "トロント 語学学校",
@@ -1127,6 +1127,12 @@
           "clicks": 0,
           "impressions": 16,
           "position": 12.62
+        },
+        {
+          "query": "トロント 英語",
+          "clicks": 0,
+          "impressions": 10,
+          "position": 55.8
         },
         {
           "query": "トロント 口コミ",
@@ -1145,6 +1151,18 @@
           "clicks": 0,
           "impressions": 3,
           "position": 8.67
+        },
+        {
+          "query": "トロント 留学 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 39
+        },
+        {
+          "query": "トロント留学 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 46
         },
         {
           "query": "トロント 語学学校 おすすめ",
@@ -1174,10 +1192,22 @@
     },
     "4006": {
       "clicks": 1,
-      "impressions": 31,
-      "avg_position": 16.0,
-      "kw_count": 5,
+      "impressions": 95,
+      "avg_position": 39.04,
+      "kw_count": 8,
       "keywords": [
+        {
+          "query": "ゴールドコースト 留学",
+          "clicks": 0,
+          "impressions": 35,
+          "position": 55.4
+        },
+        {
+          "query": "ゴールドコースト留学",
+          "clicks": 0,
+          "impressions": 23,
+          "position": 51.74
+        },
         {
           "query": "ゴールドコースト 語学学校",
           "clicks": 1,
@@ -1189,6 +1219,12 @@
           "clicks": 0,
           "impressions": 9,
           "position": 26.78
+        },
+        {
+          "query": "ゴールドコースト 留学エージェント",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 14
         },
         {
           "query": "オーストラリア ゴールドコースト 語学学校",
@@ -1212,15 +1248,27 @@
     },
     "1": {
       "clicks": 0,
-      "impressions": 171,
-      "avg_position": 29.29,
-      "kw_count": 21,
+      "impressions": 339,
+      "avg_position": 36.95,
+      "kw_count": 33,
       "keywords": [
+        {
+          "query": "セブ島 留学",
+          "clicks": 0,
+          "impressions": 55,
+          "position": 45.36
+        },
         {
           "query": "セブ 語学学校",
           "clicks": 0,
           "impressions": 44,
           "position": 38.77
+        },
+        {
+          "query": "セブ島留学",
+          "clicks": 0,
+          "impressions": 35,
+          "position": 43.89
         },
         {
           "query": "セブ島 留学",
@@ -1235,10 +1283,28 @@
           "position": 19.7
         },
         {
+          "query": "セブ 留学",
+          "clicks": 0,
+          "impressions": 21,
+          "position": 56.24
+        },
+        {
+          "query": "セブ島留学 エージェント",
+          "clicks": 0,
+          "impressions": 20,
+          "position": 37.8
+        },
+        {
           "query": "セブ 語学留学",
           "clicks": 0,
           "impressions": 13,
           "position": 45.15
+        },
+        {
+          "query": "セブ留学",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 57.09
         },
         {
           "query": "フィリピン留学 おすすめ学校",
@@ -1259,10 +1325,28 @@
           "position": 33.86
         },
         {
+          "query": "セブ島留学エージェント",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 39.33
+        },
+        {
+          "query": "フィリピン セブ 島 留学",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 40
+        },
+        {
           "query": "フィリピン 留学 おすすめ 学校",
           "clicks": 0,
           "impressions": 5,
           "position": 26.2
+        },
+        {
+          "query": "フィリピン留学 エージェント",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 8.5
         },
         {
           "query": "セブ 留学 語学 学校",
@@ -1283,10 +1367,34 @@
           "position": 19.25
         },
         {
+          "query": "スクールウィズ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 1
+        },
+        {
+          "query": "留学 セブ島",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 60.33
+        },
+        {
           "query": "セブ島 語学学校 ランキング",
           "clicks": 0,
           "impressions": 3,
           "position": 2.67
+        },
+        {
+          "query": "セブ エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 64.5
+        },
+        {
+          "query": "留学 エージェント セブ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 48.5
         },
         {
           "query": "セブ 島 学校",
@@ -1344,6 +1452,376 @@
         }
       ]
     },
+    "2005": {
+      "clicks": 0,
+      "impressions": 21,
+      "avg_position": 70.67,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "ロサンゼルス ランキング",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 87.23
+        },
+        {
+          "query": "ロサンゼルス 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 72
+        },
+        {
+          "query": "ロサンゼルス 語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 39.67
+        },
+        {
+          "query": "ロサンゼルス 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 7.5
+        }
+      ]
+    },
+    "2006": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 8.67,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "サンディエゴ 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9.5
+        },
+        {
+          "query": "サンディエゴ 留学 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        }
+      ]
+    },
+    "2009": {
+      "clicks": 0,
+      "impressions": 77,
+      "avg_position": 53.91,
+      "kw_count": 6,
+      "keywords": [
+        {
+          "query": "ハワイ 留学",
+          "clicks": 0,
+          "impressions": 43,
+          "position": 53.23
+        },
+        {
+          "query": "ハワイ 語学学校",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 72.09
+        },
+        {
+          "query": "ハワイ 留学エージェント",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 43.67
+        },
+        {
+          "query": "ハワイ留学 エージェント",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 43.29
+        },
+        {
+          "query": "ハワイ留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 60
+        },
+        {
+          "query": "ハワイ 留学 エージェント",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 44.33
+        }
+      ]
+    },
+    "2032": {
+      "clicks": 0,
+      "impressions": 6,
+      "avg_position": 8.33,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "サンタバーバラ 治安",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 8.33
+        }
+      ]
+    },
+    "2037": {
+      "clicks": 0,
+      "impressions": 66,
+      "avg_position": 12.83,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "シンシナティ 人口",
+          "clicks": 0,
+          "impressions": 62,
+          "position": 11.55
+        },
+        {
+          "query": "シンシナティ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 54.5
+        },
+        {
+          "query": "シンシナティの人口",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11
+        }
+      ]
+    },
+    "2038": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 52.5,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "セントピーターズバーグ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 52.5
+        }
+      ]
+    },
+    "2071": {
+      "clicks": 0,
+      "impressions": 104,
+      "avg_position": 30.22,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "メルボルン留学",
+          "clicks": 0,
+          "impressions": 48,
+          "position": 31.73
+        },
+        {
+          "query": "メルボルン 留学",
+          "clicks": 0,
+          "impressions": 37,
+          "position": 31.84
+        },
+        {
+          "query": "メルボルン 英語",
+          "clicks": 0,
+          "impressions": 17,
+          "position": 24.12
+        },
+        {
+          "query": "メルボルン 留学エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 16
+        }
+      ]
+    },
+    "3001": {
+      "clicks": 0,
+      "impressions": 43,
+      "avg_position": 55.0,
+      "kw_count": 6,
+      "keywords": [
+        {
+          "query": "バンクーバー 留学エージェント",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 57.93
+        },
+        {
+          "query": "バンクーバー留学",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 54.17
+        },
+        {
+          "query": "バンクーバー 英語",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 46.89
+        },
+        {
+          "query": "バンクーバー留学エージェント",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 60.25
+        },
+        {
+          "query": "バンクーバー 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 60
+        },
+        {
+          "query": "バンクーバー 留学 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 60.5
+        }
+      ]
+    },
+    "3071": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 9.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "ケベックシティ 治安",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9
+        }
+      ]
+    },
+    "4001": {
+      "clicks": 0,
+      "impressions": 32,
+      "avg_position": 40.0,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "シドニー ランキング",
+          "clicks": 0,
+          "impressions": 16,
+          "position": 35.5
+        },
+        {
+          "query": "シドニー 語学学校",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 51
+        },
+        {
+          "query": "シドニー 英語",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 41.17
+        },
+        {
+          "query": "シドニー 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        }
+      ]
+    },
+    "4009": {
+      "clicks": 0,
+      "impressions": 6,
+      "avg_position": 25.17,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "サンシャインコースト",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 2
+        },
+        {
+          "query": "ｓｕｎｓｈｉｎｅ ｃｏａｓｔ サンシャインコースト",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 71.5
+        },
+        {
+          "query": "オーストラリア サンシャインコースト",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "サンシャイン・コースト",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        }
+      ]
+    },
+    "5001": {
+      "clicks": 0,
+      "impressions": 25,
+      "avg_position": 39.4,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "ロンドン 留学 エージェント",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 41.75
+        },
+        {
+          "query": "ロンドン留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 38.14
+        },
+        {
+          "query": "ロンドン 留学",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 36.17
+        }
+      ]
+    },
+    "5052": {
+      "clicks": 0,
+      "impressions": 10,
+      "avg_position": 47.0,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "リーズ留学",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 56.67
+        },
+        {
+          "query": "リーズ 大学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 49
+        },
+        {
+          "query": "リーズ留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 16
+        }
+      ]
+    },
+    "8001": {
+      "clicks": 0,
+      "impressions": 5,
+      "avg_position": 58.8,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "留学エージェント マルタ",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 58.8
+        }
+      ]
+    },
     "2002": {
       "clicks": 0,
       "impressions": 1,
@@ -1378,46 +1856,6 @@
         }
       ]
     },
-    "2005": {
-      "clicks": 0,
-      "impressions": 18,
-      "avg_position": 70.44,
-      "kw_count": 3,
-      "keywords": [
-        {
-          "query": "ロサンゼルス ランキング",
-          "clicks": 0,
-          "impressions": 13,
-          "position": 87.23
-        },
-        {
-          "query": "ロサンゼルス 語学留学",
-          "clicks": 0,
-          "impressions": 3,
-          "position": 39.67
-        },
-        {
-          "query": "ロサンゼルス 語学学校",
-          "clicks": 0,
-          "impressions": 2,
-          "position": 7.5
-        }
-      ]
-    },
-    "2006": {
-      "clicks": 0,
-      "impressions": 2,
-      "avg_position": 9.5,
-      "kw_count": 1,
-      "keywords": [
-        {
-          "query": "サンディエゴ 語学学校",
-          "clicks": 0,
-          "impressions": 2,
-          "position": 9.5
-        }
-      ]
-    },
     "2008": {
       "clicks": 0,
       "impressions": 8,
@@ -1432,20 +1870,6 @@
         }
       ]
     },
-    "2009": {
-      "clicks": 0,
-      "impressions": 11,
-      "avg_position": 72.09,
-      "kw_count": 1,
-      "keywords": [
-        {
-          "query": "ハワイ 語学学校",
-          "clicks": 0,
-          "impressions": 11,
-          "position": 72.09
-        }
-      ]
-    },
     "3012": {
       "clicks": 0,
       "impressions": 2,
@@ -1457,32 +1881,6 @@
           "clicks": 0,
           "impressions": 2,
           "position": 52.5
-        }
-      ]
-    },
-    "4001": {
-      "clicks": 0,
-      "impressions": 26,
-      "avg_position": 39.73,
-      "kw_count": 3,
-      "keywords": [
-        {
-          "query": "シドニー ランキング",
-          "clicks": 0,
-          "impressions": 16,
-          "position": 35.5
-        },
-        {
-          "query": "シドニー 語学学校",
-          "clicks": 0,
-          "impressions": 9,
-          "position": 51
-        },
-        {
-          "query": "シドニー 語学学校 おすすめ",
-          "clicks": 0,
-          "impressions": 1,
-          "position": 6
         }
       ]
     },
@@ -1523,20 +1921,6 @@
           "clicks": 0,
           "impressions": 2,
           "position": 12
-        }
-      ]
-    },
-    "5052": {
-      "clicks": 0,
-      "impressions": 2,
-      "avg_position": 16.0,
-      "kw_count": 1,
-      "keywords": [
-        {
-          "query": "リーズ留学",
-          "clicks": 0,
-          "impressions": 2,
-          "position": 16
         }
       ]
     },
