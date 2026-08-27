@@ -35,6 +35,20 @@ def _latest_final_date(today: date | None = None) -> date:
     return (today or date.today()) - timedelta(days=GSC_LAG_DAYS)
 
 
+def _target_urls(targets: dict) -> list[str]:
+    """URL Inspection にかける全URL。
+
+    都市は /areas/school/{id} と /areas/{id} の2形式が存在し、国ページがリンク
+    しているのは後者。両方を検査しないとリンク構造の変化を追えない。
+    """
+    return (
+        [t["url"] for t in targets["countries"]]
+        + [t["url"] for t in targets["cities"]]
+        + [f"https://schoolwith.me/areas/{t['cid']}" for t in targets["cities"]]
+        + [t["url"] for t in targets["schools"]]
+    )
+
+
 def _same_week_last_year(d: date) -> date:
     """前年同週の終了日 = 364日前 (52週ちょうど)。
 
@@ -62,11 +76,7 @@ def take_snapshot(site_url: str, targets: dict, snapshot_date: date, include_cra
     gsc = fetch_gsc.fetch_week_snapshot(site_url, date_from, date_to, targets)
 
     if include_crawl:
-        urls = (
-            [t["url"] for t in targets["countries"]]
-            + [t["url"] for t in targets["cities"]]
-            + [t["url"] for t in targets["schools"]]
-        )
+        urls = _target_urls(targets)
         prev = history_store.load_latest_snapshot()
         prev_crawl = prev[1].get("crawl", []) if prev else None
         crawl_raw = fetch_crawl_status.inspect_all(site_url, urls)
@@ -141,11 +151,7 @@ def cmd_inspect_only(args):
     if not latest:
         raise RuntimeError("No existing snapshot to update.")
     snap_date, snap = latest
-    urls = (
-        [t["url"] for t in targets["countries"]]
-        + [t["url"] for t in targets["cities"]]
-        + [t["url"] for t in targets["schools"]]
-    )
+    urls = _target_urls(targets)
     crawl_raw = fetch_crawl_status.inspect_all(site, urls)
     snap["crawl"] = fetch_crawl_status.diff_crawl_data(crawl_raw, snap.get("crawl", []))
     history_store.save_snapshot(snap_date, snap)

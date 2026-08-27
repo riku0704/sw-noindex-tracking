@@ -30,7 +30,7 @@ ROW_LIMIT = 25000  # GSC API 最大値
 # → ここが多少ゆるく一致しても最終結果は変わらない。
 TARGET_PAGE_REGEX = (
     r"^https://schoolwith\.me/"
-    r"(countries/school/[A-Z]+|areas/school/[0-9]+|schools/[0-9]+)/?$"
+    r"(countries/school/[A-Z]+|areas/school/[0-9]+|areas/[0-9]+|schools/[0-9]+)/?$"
 )
 
 
@@ -120,6 +120,12 @@ def filter_to_targets(rows: list[dict], targets: dict) -> dict[str, list]:
             countries.append({**r, "code": m.group(1)})
             continue
         m = re.match(r"https://schoolwith\.me/areas/school/(\d+)/?$", r["page"])
+        if m and m.group(1) in cids:
+            cities.append({**r, "cid": m.group(1)})
+            continue
+        # 国ページは都市を /areas/{id} でリンクする。/areas/school/{id} とは別ページで、
+        # ここを追跡しないと国ページ側のリンク構造の変化を見落とす。同じ都市として合算する。
+        m = re.match(r"https://schoolwith\.me/areas/(\d+)/?$", r["page"])
         if m and m.group(1) in cids:
             cities.append({**r, "cid": m.group(1)})
             continue

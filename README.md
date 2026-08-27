@@ -125,7 +125,7 @@ python -m src.main --inspect-only  # URL Inspection のみ (クロール日更�
 → GSC のサービスアカウント権限を確認。`所有者`権限が必要（`フルユーザー`では不可）
 
 **GitHub Actions がタイムアウト**
-→ URL Inspection API は実測で各リクエスト約7秒。114URLで約13分（timeout は30分に設定済み）。クォータは日次2,000件なので無料枠内。
+→ URL Inspection API は実測で各リクエスト約7秒。161URL（都市は /areas/{id} と /areas/school/{id} の2形式）で約19分（timeout は45分）。クォータは日次2,000件なので無料枠内。
 
 **GitHub Pagesが更新されない**
 → `docs/index.html` が commit されているか確認。`.gitignore` に含まれていないこと。
