@@ -53,7 +53,7 @@ python -m src.main --backfill      # 過去N週間分を一括取得
 |---|---|---|
 | 目的 | NOINDEX処理114URLの効果測定 | サイト全14,134URLの状態変化の日次把握 |
 | エントリ | `src/main.py` | `src/index_status/daily.py` → `render.py` |
-| データ | `history/YYYY-MM-DD.json` | `index_status/{state,daily}.csv` + `changes/` |
+| データ | `history/YYYY-MM-DD.json` | `index_status/{state,daily,gsc_urls,gsc_official}.csv` + `changes/` |
 | 出力 | `docs/index.html` | `docs/index-status/index.html` |
 | 実行 | 週次 (月AM6 JST) | 日次 (AM7 JST) |
 
@@ -71,3 +71,15 @@ python -m src.main --backfill      # 過去N週間分を一括取得
 - **日次の全件スナップショットは作らない。** 保存するのは最新状態1枚と差分だけ。
 - **グラフに「インデックス登録済み」を混ぜない。** 桁が違って問題系が潰れる。2軸グラフも作らない。
 - **配色は `render.py` の `SERIES_COLORS`**（dataviz検証済み）。順序＝系列の対応を変えない。
+
+- **追跡対象は sitemap ∪ GSC指摘URL**（`daily.build_universe`）。sitemapだけではGSCの件数と一致しない。
+  実測でGSCが挙げるURLの73.8%がsitemap外（`?a8=` / `?utm_` / `/sort:` 等のパラメータ付き）。
+  「重複・ユーザーにより正規未選択」586件はsitemap内が**0件**だった。
+- **GSCエクスポートの取り込みは `gsc_export.py`。** ZIP内のファイル名は日本語で、UTF-8フラグが
+  立っていないことがある（cp437で復号し直す必要がある）。ステータスは `メタデータ.csv` の
+  「問題」行を `status_map.normalize()` に通して判定する。
+- **`gsc_official.csv` はGSC公式の日次件数。** ダッシュボードの突き合わせ表とグラフはこれを使う。
+  本ツールの実測と同じ軸に重ねない（母集団も鮮度も違う数字なので、別グラフ＋突き合わせ表で対応づける）。
+- **エクスポートは1ステータス1,000件上限。** 取りこぼしは画面に「URL上限 −N」と出す。黙って隠さない。
+- **GSC取り込み後は `daily.py --sync-only`** で母集団をstateに反映する。changes/dailyには触らないので
+  その日の遷移記録を壊さない。

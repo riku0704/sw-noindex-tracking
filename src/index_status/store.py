@@ -29,6 +29,7 @@ STATE_FIELDS = [
     "url",
     "group",
     "sitemap",
+    "source",            # sitemap / gsc / both。GSC指摘URLの大半はsitemapに無いので必須の区別
     "status",            # status_map のキー
     "coverage_raw",      # APIが返した生文字列（文言変更の検知用に必ず残す）
     "verdict",
@@ -70,20 +71,21 @@ def save_state(state: dict, path=None) -> Path:
 
 
 def sync_urls(state: dict, urls: list) -> tuple:
-    """sitemap の最新URLリストに state を合わせる。
+    """追跡対象URLの最新リストに state を合わせる。
 
-    追加分は status="unchecked" で入れ、sitemap から消えたURLは state からも消す。
-    戻り値は (追加数, 削除数)。
+    urls は (url, group, sitemap, source) のリスト。追加分は status="unchecked" で入れ、
+    リストから消えたURLは state からも消す。戻り値は (追加数, 削除数)。
     """
-    current = {u: (g, s) for u, g, s in urls}
+    current = {u: (g, s, src) for u, g, s, src in urls}
     added = 0
-    for url, (group, sitemap) in current.items():
+    for url, (group, sitemap, source) in current.items():
         if url in state:
             state[url]["group"] = group
             state[url]["sitemap"] = sitemap
+            state[url]["source"] = source
         else:
             state[url] = {
-                "url": url, "group": group, "sitemap": sitemap,
+                "url": url, "group": group, "sitemap": sitemap, "source": source,
                 "status": "unchecked", "error_count": "0",
             }
             added += 1
