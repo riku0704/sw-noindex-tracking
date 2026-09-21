@@ -11,6 +11,7 @@ URL Inspection API のクォータは **2,000 URL / 日 / プロパティ** で�
 from __future__ import annotations
 
 import argparse
+import hashlib
 import logging
 import os
 import threading
@@ -41,9 +42,18 @@ def _service():
     return _local.svc
 
 
+def _tiebreak(url: str) -> str:
+    """同着時の並び順。URL文字列そのものを使うとパスのアルファベット順になり、
+    初回の一巡中に特定グループ（/areas/ → /categories/ → …）だけが先に埋まって、
+    集計値が7日間ずっとグループ単位で偏る。URLのハッシュで擬似ランダム化して、
+    毎日の1,800件がサイト全体の比例サンプルになるようにする。決定的なので再実行しても同じ順。
+    """
+    return hashlib.md5(url.encode("utf-8")).hexdigest()
+
+
 def pick_targets(state: dict, budget: int) -> list:
     """最終試行が古い順に budget 件。未照会(空文字)が先頭に来る。"""
-    return sorted(state, key=lambda u: (state[u].get("last_attempt_at") or "", u))[:budget]
+    return sorted(state, key=lambda u: (state[u].get("last_attempt_at") or "", _tiebreak(u)))[:budget]
 
 
 def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORKERS,
