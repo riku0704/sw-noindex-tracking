@@ -129,3 +129,97 @@ python -m src.main --inspect-only  # URL Inspection のみ (クロール日更�
 
 **GitHub Pagesが更新されない**
 → `docs/index.html` が commit されているか確認。`.gitignore` に含まれていないこと。
+
+---
+
+# インデックス状態 日次トラッカー（index_status）
+
+サイト全体のインデックス状態を **日次** で追跡し、「昨日と比べてどのページのステータスが変わったか」を出す。
+上の週次NOINDEXダッシュボードとは**データもHTMLも独立**しており、共有しているのは
+サービスアカウント認証（`GSC_SERVICE_ACCOUNT_JSON` / `GSC_SITE_URL`）と URL Inspection クライアントだけ。
+
+公開先: `https://riku0704.github.io/sw-noindex-tracking/index-status/`
+
+## 追跡するステータス
+
+Search Console の文言でいう次の4つが主対象（グラフとカードはこれを描く）:
+
+- クロール済み - インデックス未登録
+- 検出 - インデックス未登録
+- 重複しています。ユーザーにより、正規ページとして選択されていません
+- 重複しています。Google により、ユーザーがマークしたページとは異なるページが正規ページとして選択されました
+
+加えて「重複・送信URLが正規URLとして選択されていない」も同じ扱いで追う。
+その他（登録済み / 代替ページ / noindex / リダイレクト / 404 など）も件数としては保持する。
+
+## 仕組みと制約
+
+**インデックス カバレッジ（ページ）レポートそのものに API は無い。** 自動取得できるのは
+URL Inspection API（1URLずつ照会）だけなので、sitemap 由来のURLリストを日々叩いて差分を取る方式。
+
+| 項目 | 値 |
+|---|---|
+| 追跡URL数 | 約14,100（sitemap から毎日再構築） |
+| APIクォータ | **2,000 URL / 日 / プロパティ**（600/分） |
+| 1日の照会数 | 既定 1,800（`--budget`、上限2,000） |
+| 一巡にかかる日数 | **約8日** |
+| 所要時間 | 10並列で約21分 |
+
+この設計から来る読み方の注意:
+
+- ステータス別の件数は「全URLの**最新既知値**の合算」で、最大8日前の値を含む。GSCのページレポートの数字とは一致しない。
+- 「本日の遷移」は、その日に照会した約1,800件の中で変化したものだけ。全URLの変化ではない。
+- 初回は全URLが未照会なので、**全体像が揃うまで約8日**かかる。
+- 照会に失敗したURLは前回の値を保持する（上書きして値を失わないため）。ローテーション順は
+  `last_attempt_at`（試行時刻）で決めるので、失敗し続けるURLが巡回を止めることはない。
+
+## ファイル
+
+```
+index_status/
+├── urls.csv              # 追跡対象URL (sitemap由来 / url,group,sitemap)
+├── state.csv             # URLごとの最新状態1行。URLソート済みでgit差分が行単位で残る
+├── daily.csv             # 日次のステータス別件数 (推移グラフの元)
+└── changes/YYYY-MM-DD.json   # その日に変化したURLだけ
+
+src/index_status/
+├── status_map.py    # coverageState → 安定キー。日英どちらの文言も受ける
+├── urlset.py        # sitemap index を辿ってURLリストを組み立て + グループ分類
+├── store.py         # 永続化 (state / changes / daily)
+├── daily.py         # 日次バッチ本体 (ローテーション + 並列照会 + 差分検出)
+└── render.py        # ダッシュボードHTML + ダウンロードCSV 生成
+
+docs/index-status/   # GitHub Pages 公開先 (index.html / data.json / problems.csv / changes.csv)
+```
+
+日次の全件スナップショットは保存しない。14,134行×毎日を積むと履歴が肥大するだけで、
+知りたいのは「変わったURL」だから。
+
+## 実行
+
+```bash
+export GSC_SERVICE_ACCOUNT_JSON=$(cat path/to/key.json)
+export GSC_SITE_URL="https://schoolwith.me/"
+
+python -m src.index_status.urlset            # URLリストを sitemap から再生成
+python -m src.index_status.urlset --dry-run  # 件数だけ確認 (保存しない)
+python -m src.index_status.daily             # 日次バッチ (既定1,800件)
+python -m src.index_status.daily --budget 500 --workers 5   # 小さく試す
+python -m src.index_status.daily --no-refresh-urls          # sitemapを再取得しない
+python -m src.index_status.render            # HTMLだけ再生成 (APIを叩かない)
+python -m src.index_status.status_map        # 文言→ステータス分類のセルフテスト
+python -m src.fetch_crawl_status --test      # API疎通確認 (1URLだけ照会)
+```
+
+自動実行は `.github/workflows/daily-index-status.yml`（毎日 AM7:00 JST）。
+手動実行では `budget` と `render_only` を指定できる。
+
+## 運用メモ
+
+- **未知の coverageState が出たら**ダッシュボード上部に警告が出て「その他・未分類」に入る。
+  `src/index_status/status_map.py` の `_PATTERNS` に追記する。件数が黙って合わなくなるのを防ぐため、
+  未知の文字列は捨てずに生のまま `state.csv` の `coverage_raw` に残している。
+- **連続40件エラーで中断する。** クォータ超過か認証失効の可能性が高いので、
+  ダッシュボードの警告が出た日は Secrets とGSCの権限を確認する。
+- **配色は dataviz の検証済みパレット**（light/dark とも全チェックPASS）。系列色は順序に固定で
+  紐づけているので、系列が減っても残りを塗り替えない。

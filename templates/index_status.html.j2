@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>インデックス状態 日次トラッカー | schoolwith.me</title>
+<style>
+:root{
+  color-scheme: light;
+  --plane:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+  --good:#0ca30c; --critical:#d03b3b; --warning:#fab219;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4;
+  --chip:#f0efec;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --plane:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181;
+    --chip:#383835;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --plane:#0d0d0d; --surface:#1a1a19;
+  --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181;
+  --chip:#383835;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 16px 64px}
+header{margin-bottom:22px}
+h1{font-size:21px;margin:0 0 4px;letter-spacing:-0.01em}
+.sub{color:var(--ink2);font-size:13px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:18px;margin-bottom:18px}
+h2{font-size:15px;margin:0 0 3px;letter-spacing:-0.01em}
+.note{color:var(--muted);font-size:12px;margin:0 0 14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:10px;margin-bottom:18px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px}
+.tile .k{color:var(--ink2);font-size:12px;display:flex;align-items:flex-start;gap:6px;min-height:2.6em}
+.tile .k .dot{margin-top:5px}
+.tile .v{font-size:26px;font-weight:650;margin-top:3px;letter-spacing:-0.02em}
+.tile .d{font-size:12px;color:var(--muted);margin-top:1px}
+.d.up{color:var(--critical)} .d.down{color:var(--good)}
+.dot{width:9px;height:9px;border-radius:2px;flex:none}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--grid);vertical-align:top}
+th{color:var(--ink2);font-weight:600;font-size:12px;white-space:nowrap;
+   position:sticky;top:0;background:var(--surface);z-index:1}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.nw{white-space:nowrap}
+.scroll{max-height:520px;overflow:auto;border:1px solid var(--border);border-radius:8px}
+a{color:var(--s1)}
+.u{word-break:break-all;max-width:400px;display:inline-block}
+.chip{display:inline-block;padding:1px 7px;border-radius:999px;background:var(--chip);
+  color:var(--ink2);font-size:11.5px;white-space:nowrap}
+.arrow{color:var(--muted);padding:0 5px}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+input[type=search],select{background:var(--surface);color:var(--ink);border:1px solid var(--axis);
+  border-radius:7px;padding:6px 9px;font-size:13px;font-family:inherit}
+input[type=search]{min-width:230px}
+.btn{background:var(--surface);color:var(--ink);border:1px solid var(--axis);border-radius:7px;
+  padding:6px 11px;font-size:13px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn:hover{border-color:var(--ink2)}
+.empty{color:var(--muted);padding:26px 0;text-align:center}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:12px 0 0;font-size:12px;color:var(--ink2)}
+.legend span{display:flex;align-items:center;gap:6px}
+.warn{background:var(--chip);border-left:3px solid var(--warning);padding:10px 13px;
+  border-radius:0 7px 7px 0;font-size:12.5px;color:var(--ink2);margin-bottom:18px}
+.chartbox{position:relative;overflow-x:auto}
+svg text{font-family:inherit}
+#tip{position:absolute;pointer-events:none;opacity:0;transition:opacity .08s;
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px 10px;
+  font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.14);min-width:180px;z-index:5}
+#tip .td{font-weight:600;margin-bottom:4px}
+#tip .r{display:flex;align-items:center;gap:6px;justify-content:space-between}
+#tip .r b{font-variant-numeric:tabular-nums;font-weight:600}
+footer{color:var(--muted);font-size:12px;margin-top:30px;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>インデックス状態 日次トラッカー</h1>
+  <div class="sub">schoolwith.me ／ {{ run_date }} 時点 ・ 生成 {{ generated_at }}</div>
+</header>
+
+{% if aborted %}
+<div class="warn"><b>この日の巡回は途中で中断しました。</b>連続エラーが閾値に達しています。APIクォータ超過かサービスアカウントの権限失効が疑われます。件数は前日までの値を多く含みます。</div>
+{% endif %}
+{% if unknown_states %}
+<div class="warn"><b>未知のステータス文言を検出：</b>{{ unknown_states|join(" / ") }}<br>
+「その他・未分類」に入っています。<code>src/index_status/status_map.py</code> に追記してください。</div>
+{% endif %}
+
+<div class="tiles">
+  <div class="tile">
+    <div class="k">本日の遷移</div>
+    <div class="v">{{ change_count|comma }}</div>
+    <div class="d">ステータスが変わったURL</div>
+  </div>
+  <div class="tile">
+    <div class="k">問題あり 合計</div>
+    <div class="v">{{ problem_total|comma }}</div>
+    {% if problem_delta is not none %}
+    <div class="d {{ 'up' if problem_delta > 0 else ('down' if problem_delta < 0 else '') }}">
+      前日比 {{ '+' if problem_delta > 0 else '' }}{{ problem_delta|comma }}</div>
+    {% else %}<div class="d">前日データなし</div>{% endif %}
+  </div>
+  <div class="tile">
+    <div class="k">インデックス登録済み</div>
+    <div class="v">{{ indexed|comma }}</div>
+    {% if indexed_delta is not none %}
+    <div class="d {{ 'down' if indexed_delta > 0 else ('up' if indexed_delta < 0 else '') }}">
+      前日比 {{ '+' if indexed_delta > 0 else '' }}{{ indexed_delta|comma }}</div>
+    {% else %}<div class="d">前日データなし</div>{% endif %}
+  </div>
+  <div class="tile">
+    <div class="k">追跡URL総数</div>
+    <div class="v">{{ total_urls|comma }}</div>
+    <div class="d">sitemap 由来</div>
+  </div>
+  <div class="tile">
+    <div class="k">本日の照会</div>
+    <div class="v">{{ checked_today|comma }}</div>
+    <div class="d">失敗 {{ errors_today|comma }} ／ 未照会 {{ unchecked|comma }}</div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>ステータス別の件数</h2>
+  <p class="note">全URLの最新既知値の合算。巡回は約8日で一巡するため、最大8日前の値を含みます{% if oldest_checked_at %}（最も古い照会日 {{ oldest_checked_at }}）{% endif %}。</p>
+  <div class="tiles" style="margin-bottom:0">
+  {% for c in status_cards %}
+    <div class="tile">
+      <div class="k" title="{{ c.label }}"><span class="dot" style="background:{{ c.light }}"></span>{{ c.short }}</div>
+      <div class="v">{{ c.count|comma }}</div>
+      {% if c.delta is not none %}
+      <div class="d {{ 'up' if c.delta > 0 else ('down' if c.delta < 0 else '') }}">
+        前日比 {{ '+' if c.delta > 0 else '' }}{{ c.delta|comma }}</div>
+      {% else %}<div class="d">—</div>{% endif %}
+    </div>
+  {% endfor %}
+  </div>
+</div>
+
+<div class="card">
+  <h2>問題ステータスの推移</h2>
+  <p class="note">直近90日。インデックス登録済み（{{ indexed|comma }}件）は桁が違うため同じ軸には載せていません。</p>
+  {% if chart.empty %}
+    <div class="empty">データが2日分たまるとグラフが出ます。</div>
+  {% else %}
+  <div class="chartbox">
+    <svg id="chart" viewBox="0 0 {{ chart.w }} {{ chart.h }}" width="100%" height="{{ chart.h }}"
+         role="img" aria-label="問題ステータス別URL数の推移">
+      {% for t in chart.yticks %}
+      <line x1="{{ chart.pad.l }}" y1="{{ t.y }}" x2="{{ chart.w - chart.pad.r }}" y2="{{ t.y }}"
+            stroke="var(--grid)" stroke-width="1"/>
+      <text x="{{ chart.pad.l - 8 }}" y="{{ t.y + 4 }}" text-anchor="end" font-size="11"
+            fill="var(--muted)" style="font-variant-numeric:tabular-nums">{{ t.v }}</text>
+      {% endfor %}
+      <line x1="{{ chart.pad.l }}" y1="{{ chart.pad.t + chart.plot_h }}"
+            x2="{{ chart.w - chart.pad.r }}" y2="{{ chart.pad.t + chart.plot_h }}"
+            stroke="var(--axis)" stroke-width="1"/>
+      {% for t in chart.xticks %}
+      <text x="{{ t.x }}" y="{{ chart.h - 12 }}" text-anchor="middle" font-size="11"
+            fill="var(--muted)">{{ t.label }}</text>
+      {% endfor %}
+      {% for s in chart.series %}
+      <path d="{{ s.path }}" fill="none" stroke="var(--s{{ loop.index }})" stroke-width="2"
+            stroke-linejoin="round" stroke-linecap="round"/>
+      {% if s.last %}
+      <circle cx="{{ s.last.x }}" cy="{{ s.last.y }}" r="3.5" fill="var(--s{{ loop.index }})"
+              stroke="var(--surface)" stroke-width="2"/>
+      <circle cx="{{ chart.w - chart.pad.r + 14 }}" cy="{{ s.label_y }}" r="4"
+              fill="var(--s{{ loop.index }})"/>
+      <text x="{{ chart.w - chart.pad.r + 23 }}" y="{{ s.label_y + 4 }}" font-size="11.5"
+            font-weight="600" fill="var(--ink2)"
+            style="font-variant-numeric:tabular-nums">{{ s.last.v }}</text>
+      {% endif %}
+      {% endfor %}
+      <line id="cross" x1="0" y1="{{ chart.pad.t }}" x2="0" y2="{{ chart.pad.t + chart.plot_h }}"
+            stroke="var(--axis)" stroke-width="1" opacity="0"/>
+      <g id="hdots"></g>
+      <rect id="hit" x="{{ chart.pad.l }}" y="{{ chart.pad.t }}" width="{{ chart.plot_w }}"
+            height="{{ chart.plot_h }}" fill="transparent"/>
+    </svg>
+    <div id="tip"></div>
+  </div>
+  <div class="legend">
+    {% for s in chart.series %}
+    <span><span class="dot" style="background:var(--s{{ loop.index }})"></span>{{ s.label }}</span>
+    {% endfor %}
+  </div>
+  <details style="margin-top:14px">
+    <summary style="cursor:pointer;color:var(--ink2);font-size:12.5px">数字を表で見る（直近30日）</summary>
+    <div class="scroll" style="margin-top:10px;max-height:330px">
+    <table>
+      <thead><tr><th>日付</th>{% for s in chart.series %}<th class="num">{{ s.short }}</th>{% endfor %}</tr></thead>
+      <tbody>
+      {% for r in chart.table %}
+        <tr><td>{{ r.date }}</td>{% for v in r.vals %}<td class="num">{{ v|comma }}</td>{% endfor %}</tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </details>
+  {% endif %}
+</div>
+
+<div class="card">
+  <h2>本日ステータスが変わったURL（{{ change_count|comma }}件）</h2>
+  <p class="note">前回このURLを照会したときと比べて変化したものだけ。<a href="changes.csv">CSVで取得</a></p>
+  {% if changes %}
+  <div class="scroll">
+  <table>
+    <thead><tr><th>URL</th><th>グループ</th><th>変化</th><th>Googleが選んだ正規URL</th><th>最終クロール</th></tr></thead>
+    <tbody>
+    {% for c in changes %}
+      <tr>
+        <td><a class="u" href="{{ c.url }}" target="_blank" rel="noopener">{{ c.url.replace('https://schoolwith.me','') or '/' }}</a></td>
+        <td><span class="chip">{{ c.group }}</span></td>
+        <td>{{ status_labels.get(c['from'], c['from']) }}<span class="arrow">→</span><b>{{ status_labels.get(c['to'], c['to']) }}</b></td>
+        <td>{% if c.google_canonical and c.google_canonical != c.url %}
+            <span class="u">{{ c.google_canonical.replace('https://schoolwith.me','') }}</span>
+            {% else %}<span style="color:var(--muted)">—</span>{% endif %}</td>
+        <td>{{ (c.last_crawl_time or '')[:10] }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% else %}
+  <div class="empty">この日に変化したURLはありません。</div>
+  {% endif %}
+</div>
+
+<div class="card">
+  <h2>グループ × ステータス</h2>
+  <p class="note">どの種類のページに問題が集中しているか。</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>グループ</th><th class="num">合計</th><th class="num">問題あり</th>
+      {% for s in matrix.statuses %}<th class="num" title="{{ s.label }}">{{ s.short }}</th>{% endfor %}</tr></thead>
+    <tbody>
+    {% for r in matrix.rows %}
+      <tr><td class="nw"><b>{{ r.group }}</b></td><td class="num">{{ r.total|comma }}</td>
+        <td class="num"><b>{{ r.problems|comma }}</b></td>
+        {% for v in r.cells %}<td class="num">{{ v|comma if v else '' }}</td>{% endfor %}</tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="card">
+  <h2>問題URL一覧（{{ problems_total|comma }}件）</h2>
+  <p class="note">直近の照会で問題ステータスだったURL。{% if problems_truncated %}表には先頭{{ problems_shown|length|comma }}件のみ表示しています。{% endif %}<a href="problems.csv">全件CSV</a></p>
+  <div class="ctl">
+    <input type="search" id="q" placeholder="URLで絞り込み…">
+    <select id="fs"><option value="">すべてのステータス</option>
+      {% for c in status_cards %}<option value="{{ c.short }}">{{ c.short }}</option>{% endfor %}
+    </select>
+    <select id="fg"><option value="">すべてのグループ</option>
+      {% for r in matrix.rows %}{% if r.problems %}<option value="{{ r.group }}">{{ r.group }}</option>{% endif %}{% endfor %}
+    </select>
+    <span id="cnt" style="color:var(--muted);font-size:12px"></span>
+  </div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>URL</th><th>グループ</th><th>ステータス</th><th>Googleが選んだ正規URL</th><th>最終クロール</th></tr></thead>
+    <tbody id="pb"></tbody>
+  </table>
+  </div>
+</div>
+
+<div class="card">
+  <h2>用語</h2>
+  <p class="note">表では短縮名を使っています。Search Console 画面の文言との対応は次のとおりです。</p>
+  <table>
+    <thead><tr><th>本ページの表記</th><th>Search Console の文言</th></tr></thead>
+    <tbody>
+    {% for g in glossary %}<tr><td><b>{{ g.short }}</b></td><td>{{ g.full }}</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  <b>読むときの注意</b><br>
+  ・数字の出どころは Search Console の <b>URL Inspection API</b> です。GSCの「ページ」レポートそのものにAPIは無いため、レポート画面の件数とは一致しません。<br>
+  ・APIのクォータが1日2,000URLなので、全{{ total_urls|comma }}URLを毎日は照会できません。最終照会が古い順に1日1,800件ずつ回し、<b>約8日で一巡</b>します。「本日の遷移」は、その日に照会した約1,800件の中で変化したものです。<br>
+  ・照会に失敗したURLは前回の値を保持します（上書きして値を失わないため）。<br>
+  ・元データ：<code>index_status/state.csv</code>（最新状態）／<code>index_status/changes/</code>（日次の遷移）／<code>index_status/daily.csv</code>（日次件数）
+</footer>
+
+</div>
+<script>
+(function(){
+  var rows = {{ problems_shown|tojson }};
+  var tb = document.getElementById('pb'), q = document.getElementById('q'),
+      fs = document.getElementById('fs'), fg = document.getElementById('fg'),
+      cnt = document.getElementById('cnt');
+  var PAGE = 300, shown = PAGE, filtered = rows;
+  function esc(s){ var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function shortUrl(u){ return u.replace('https://schoolwith.me','') || '/'; }
+  function draw(){
+    var slice = filtered.slice(0, shown);
+    tb.innerHTML = slice.map(function(r){
+      var gc = (r.gc && r.gc !== r.url)
+        ? '<span class="u">' + esc(shortUrl(r.gc)) + '</span>'
+        : '<span style="color:var(--muted)">—</span>';
+      return '<tr><td><a class="u" target="_blank" rel="noopener" href="' + esc(r.url) + '">'
+        + esc(shortUrl(r.url)) + '</a></td>'
+        + '<td><span class="chip">' + esc(r.group) + '</span></td>'
+        + '<td>' + esc(r.status) + '</td><td>' + gc + '</td><td>' + esc(r.crawl) + '</td></tr>';
+    }).join('');
+    if (filtered.length > shown) {
+      tb.innerHTML += '<tr><td colspan="5" style="text-align:center;padding:12px">'
+        + '<button class="btn" id="more">さらに ' + PAGE + ' 件表示（残り '
+        + (filtered.length - shown).toLocaleString() + '）</button></td></tr>';
+      document.getElementById('more').onclick = function(){ shown += PAGE; draw(); };
+    }
+    cnt.textContent = filtered.length.toLocaleString() + ' 件該当';
+  }
+  function apply(){
+    var t = q.value.trim().toLowerCase(), s = fs.value, g = fg.value;
+    filtered = rows.filter(function(r){
+      return (!t || r.url.toLowerCase().indexOf(t) >= 0)
+        && (!s || r.status === s) && (!g || r.group === g);
+    });
+    shown = PAGE; draw();
+  }
+  [q, fs, fg].forEach(function(el){ el.addEventListener('input', apply); });
+  apply();
+
+  var svg = document.getElementById('chart');
+  if (!svg) return;
+  var series = {{ chart.series|tojson if not chart.empty else '[]' }},
+      xs = {{ chart.xcoords|tojson if not chart.empty else '[]' }},
+      ds = {{ chart.dates|tojson if not chart.empty else '[]' }},
+      colors = ['var(--s1)','var(--s2)','var(--s3)','var(--s4)','var(--s5)'];
+  var hit = document.getElementById('hit'), cross = document.getElementById('cross'),
+      hdots = document.getElementById('hdots'), tip = document.getElementById('tip');
+  function nearest(px){
+    var bi = 0, bd = Infinity;
+    for (var i = 0; i < xs.length; i++){ var d = Math.abs(xs[i] - px); if (d < bd){ bd = d; bi = i; } }
+    return bi;
+  }
+  function move(ev){
+    var r = svg.getBoundingClientRect(), vb = svg.viewBox.baseVal;
+    var px = (ev.clientX - r.left) / r.width * vb.width;
+    var i = nearest(px);
+    cross.setAttribute('x1', xs[i]); cross.setAttribute('x2', xs[i]);
+    cross.setAttribute('opacity', '1');
+    hdots.innerHTML = series.map(function(s, k){
+      var p = s.points[i];
+      return '<circle cx="' + p.x + '" cy="' + p.y + '" r="4.5" fill="' + colors[k]
+        + '" stroke="var(--surface)" stroke-width="2"/>';
+    }).join('');
+    tip.innerHTML = '<div class="td">' + ds[i] + '</div>' + series.map(function(s, k){
+      return '<div class="r"><span><span class="dot" style="display:inline-block;background:'
+        + colors[k] + '"></span> ' + s.label + '</span><b>' + s.points[i].v.toLocaleString() + '</b></div>';
+    }).join('');
+    tip.style.opacity = '1';
+    var left = xs[i] / vb.width * r.width + 16;
+    if (left + 230 > r.width) left = xs[i] / vb.width * r.width - 246;
+    tip.style.left = Math.max(0, left) + 'px';
+    tip.style.top = '14px';
+  }
+  hit.addEventListener('mousemove', move);
+  hit.addEventListener('mouseleave', function(){
+    cross.setAttribute('opacity', '0'); hdots.innerHTML = ''; tip.style.opacity = '0';
+  });
+})();
+</script>
+</body>
+</html>
