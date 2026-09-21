@@ -188,6 +188,7 @@ def render(run_date=None) -> Path:
         "problem_delta": problem_total - problem_prev if problem_prev is not None else None,
         "unchecked": counts.get("unchecked", 0),
         "checked_today": summary.get("checked_today", 0),
+        "first_seen_today": summary.get("first_seen_today", 0),
         "errors_today": summary.get("errors_today", 0),
         "aborted": summary.get("aborted", False),
         "oldest_checked_at": oldest[:10] if oldest else None,
