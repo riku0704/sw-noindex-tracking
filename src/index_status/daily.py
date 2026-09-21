@@ -71,7 +71,7 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     changes = []
     lock = threading.Lock()
-    counters = {"ok": 0, "err": 0, "consecutive_err": 0, "aborted": False}
+    counters = {"ok": 0, "err": 0, "consecutive_err": 0, "aborted": False, "first_seen": 0}
 
     def work(url: str):
         if counters["aborted"]:
@@ -115,6 +115,11 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
             if new_status != old_status:
                 row["prev_status"] = old_status
                 row["changed_at"] = run_date.isoformat()
+                # 未照会→何か は「遷移」ではなく初回観測。一巡し終わるまでの約8日間、
+                # これを遷移に混ぜると本来見たい変化が毎日1,800件のノイズに埋もれる。
+                if old_status == "unchecked":
+                    counters["first_seen"] += 1
+                    return
                 changes.append({
                     "url": url,
                     "group": row.get("group", ""),
@@ -139,6 +144,7 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
         "errors_today": counters["err"],
         "aborted": counters["aborted"],
         "changed_today": len(changes),
+        "first_seen_today": counters["first_seen"],
         "counts": dict(counts),
         "problem_total": sum(counts.get(k, 0) for k in PROBLEM_STATUSES),
         "unchecked": counts.get("unchecked", 0),
@@ -152,7 +158,8 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
     store.append_daily(run_date, dict(counts), counters["ok"], len(changes))
 
     logger.info(
-        f"完了: 照会 {counters['ok']} 成功 / {counters['err']} 失敗、遷移 {len(changes)} 件、"
+        f"完了: 照会 {counters['ok']} 成功 / {counters['err']} 失敗、"
+        f"遷移 {len(changes)} 件、初回観測 {counters['first_seen']} 件、"
         f"未照会 残り {summary['unchecked']}"
     )
     if coverage_state_unknowns:

@@ -106,7 +106,7 @@ footer{color:var(--muted);font-size:12px;margin-top:30px;line-height:1.8}
   <div class="tile">
     <div class="k">本日の遷移</div>
     <div class="v">{{ change_count|comma }}</div>
-    <div class="d">ステータスが変わったURL</div>
+    <div class="d">{% if first_seen_today %}初回観測 {{ first_seen_today|comma }}件は含まず{% else %}ステータスが変わったURL{% endif %}</div>
   </div>
   <div class="tile">
     <div class="k">問題あり 合計</div>
@@ -297,6 +297,7 @@ footer{color:var(--muted);font-size:12px;margin-top:30px;line-height:1.8}
 <footer>
   <b>読むときの注意</b><br>
   ・数字の出どころは Search Console の <b>URL Inspection API</b> です。GSCの「ページ」レポートそのものにAPIは無いため、レポート画面の件数とは一致しません。<br>
+  ・<b>初回観測（未照会→初めて状態が分かった）は「遷移」に数えません。</b>一巡し終わるまでの約8日間、これを混ぜると本来見たい変化がノイズに埋もれるためです。<br>
   ・APIのクォータが1日2,000URLなので、全{{ total_urls|comma }}URLを毎日は照会できません。最終照会が古い順に1日1,800件ずつ回し、<b>約8日で一巡</b>します。「本日の遷移」は、その日に照会した約1,800件の中で変化したものです。<br>
   ・照会に失敗したURLは前回の値を保持します（上書きして値を失わないため）。<br>
   ・元データ：<code>index_status/state.csv</code>（最新状態）／<code>index_status/changes/</code>（日次の遷移）／<code>index_status/daily.csv</code>（日次件数）
