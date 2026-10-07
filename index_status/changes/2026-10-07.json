@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-07",
+ "summary": {
+  "total_urls": 14211,
+  "checked_today": 201,
+  "errors_today": 58,
+  "aborted": true,
+  "changed_today": 0,
+  "counts": {
+   "indexed": 12012,
+   "discovered_not_indexed": 1272,
+   "unknown_to_google": 664,
+   "dup_google_chose_different": 1,
+   "crawled_not_indexed": 125,
+   "not_found": 4,
+   "excluded_noindex": 7,
+   "alternate_canonical": 126
+  },
+  "problem_total": 1398,
+  "unchecked": 0,
+  "unknown_coverage_states": [],
+  "generated_at": "2026-10-07T01:05:14+00:00"
+ },
+ "changes": []
+}
