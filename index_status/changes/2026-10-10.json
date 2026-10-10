@@ -1,0 +1,86 @@
+{
+ "date": "2026-10-10",
+ "summary": {
+  "total_urls": 14219,
+  "checked_today": 200,
+  "errors_today": 49,
+  "aborted": true,
+  "changed_today": 6,
+  "counts": {
+   "indexed": 12024,
+   "discovered_not_indexed": 1262,
+   "unknown_to_google": 674,
+   "dup_google_chose_different": 1,
+   "crawled_not_indexed": 121,
+   "not_found": 4,
+   "excluded_noindex": 7,
+   "alternate_canonical": 126
+  },
+  "problem_total": 1384,
+  "unchecked": 0,
+  "unknown_coverage_states": [],
+  "generated_at": "2026-10-10T01:21:40+00:00"
+ },
+ "changes": [
+  {
+   "url": "https://schoolwith.me/category/schools/campaign/country_id:3/area_id:3003",
+   "group": "カテゴリ",
+   "from": "unchecked",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/category/schools/campaign/country_id:3/area_id:3005",
+   "group": "カテゴリ",
+   "from": "unchecked",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/category/schools/campaign/country_id:3/area_id:3010",
+   "group": "カテゴリ",
+   "from": "unchecked",
+   "to": "indexed",
+   "coverage_raw": "送信して登録されました",
+   "google_canonical": "https://schoolwith.me/category/schools/campaign/country_id:3/area_id:3010",
+   "user_canonical": "https://schoolwith.me/category/schools/campaign/country_id:3/area_id:3010",
+   "last_crawl_time": "2026-08-17T05:33:50Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/31697",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/31839",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/32043",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  }
+ ]
+}
