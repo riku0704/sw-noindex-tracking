@@ -712,7 +712,7 @@ def diff_templates(cur: dict, base: dict) -> list:
         a, b = sum(old.get(t, {}).values()), sum(cur.get(t, {}).values())
         if a != b:
             rows.append({"template": t, "before": a, "after": b, "delta": b - a})
-    rows.sort(key=lambda r: -abs(r["delta"]))
+    rows.sort(key=lambda r: (-abs(r["delta"]), r["template"]))
     return rows
 
 
@@ -751,7 +751,7 @@ def transitions_by_template(run_date: date, days: int = 7) -> dict:
     rows = [{"template": t, "worse": worse.get(t, 0), "better": better.get(t, 0), "found": found.get(t, 0),
              "net": worse.get(t, 0) - better.get(t, 0),
              "examples": worse_urls.get(t, [])[:3]} for t in keys]
-    rows.sort(key=lambda r: (-r["net"], -r["worse"], -r["found"]))
+    rows.sort(key=lambda r: (-r["net"], -r["worse"], -r["found"], r["template"]))
     return {"start": start.isoformat(), "end": run_date.isoformat(), "rows": rows,
             "worse_total": sum(worse.values()), "better_total": sum(better.values()),
             "found_total": sum(found.values())}
