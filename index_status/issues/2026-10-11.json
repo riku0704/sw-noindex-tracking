@@ -1,0 +1,2821 @@
+{
+ "date": "2026-10-11",
+ "problem_urls": 3268,
+ "problem_by_status": {
+  "discovered_not_indexed": 1717,
+  "dup_no_user_canonical": 569,
+  "crawled_not_indexed": 977,
+  "dup_google_chose_different": 5
+ },
+ "status_from_export": 1887,
+ "issues": [
+  {
+   "id": "crawl_trap:ba5933d9",
+   "rule": "crawl_trap",
+   "severity": 1,
+   "severity_label": "高",
+   "title": "並び替えリンクが sort_type= に自分のURLを入れ子で埋め込み、URLが無限に増えている",
+   "count": 727,
+   "templates": [
+    "/countries/school/{cc}/page:*",
+    "/countries/school/{cc}/page:*/sort:*/direction:*",
+    "/areas/school/{id}/page:*",
+    "/category/schools/ielts/direction:*/country_id:*",
+    "/areas/school/{id}/page:*/sort:*/direction:*",
+    "/category/schools/business/direction:*/country_id:*"
+   ],
+   "evidence": [
+    "クエリ sort_type= の値に、そのページ自身のURLが丸ごと埋め込まれている。リンクを辿るたびに1段ずつ入れ子が深くなり、URLが際限なく増える（確認できた最大の深さ 11 段・最長 2,012 文字）。",
+    "確認できた件数 727（重複・正規未指定 409、クロール済み・未登録 285、検出・未登録 33）。GSCエクスポートは1ステータス1,000件上限なので、実数はこれより多い。",
+    "発生している型: /countries/school/{cc}/page:*（49）、/countries/school/{cc}/page:*/sort:*/direction:*（44）、/areas/school/{id}/page:*（42）、/category/schools/ielts/direction:*/country_id:*（23）、/areas/school/{id}/page:*/sort:*/direction:*（22）、/category/schools/business/direction:*/country_id:*（20）",
+    "robots.txt はこれらのURLのクロールを許可している（sort_type= を含むURLを Disallow していない）。",
+    "実ページ 727 件を取得：canonical が並び替え・クエリ無しのURLを指していた 632 件、noindex 104 件。ページ単体の設定は概ね正しく、問題はURLが無限に生まれてクロールが浪費されること。"
+   ],
+   "fix": [
+    "並び替え・絞り込みリンクの生成処理で、sort_type パラメータに現在のURLを入れない（入れ子の発生源を断つ）。",
+    "robots.txt に `Disallow: /*sort_type=` を追加し、既に生まれたURLをクロール対象から外す。",
+    "並び替えリンクはボタン（フォーム送信／JS）にするか rel=\"nofollow\" を付け、クローラーに辿らせない。"
+   ],
+   "verify": "GSCの問題URLに占める sort_type= 付きURLの件数（取り込み時に自動で数え直す）。robots.txt への追記はこのツールが毎日確認する。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/countries/school/US/page:15?sort_type=/countries/school/US?sort_type%3D%252Fcountries%252Fschool%252FUS"
+   ]
+  },
+  {
+   "id": "sitemap_noncanonical:476507f0",
+   "rule": "sitemap_noncanonical",
+   "severity": 1,
+   "severity_label": "高",
+   "title": "/schools/photo_movie/movie/{id} がサイトマップに載っているのに、canonical は別のページを指している",
+   "count": 262,
+   "templates": [
+    "/schools/photo_movie/movie/{id}"
+   ],
+   "evidence": [
+    "サイトマップ掲載 262 件。実ページを 200 件取得し、200 件で canonical が別のURLを指していた（例: https://schoolwith.me/schools/photo_movie/movie/11 → https://schoolwith.me/schools/11）。",
+    "ステータス内訳: 検出・未登録 163、代替ページ 39、登録済み 26、Google未認識 25、クロール済み・未登録 9",
+    "URL検査でも、Googleが読んだ canonical が別URLになっているもの 65 件。うち 26 件は Google が宣言を採用せず、そのURL自身を正規として扱っている（サイトマップ掲載と canonical が矛盾しているため）。",
+    "サイトマップは「これが正規URL」という申告、canonical は「正規は別のURL」という申告で、互いに打ち消している。"
+   ],
+   "fix": [
+    "検索結果に単独で出す必要がないなら、/schools/photo_movie/movie/{id} をサイトマップから外す（canonical先のページだけを載せる）。",
+    "単独で検索に出したいページなら、canonical を自分自身のURLに変える。どちらに寄せるかは事業判断。"
+   ],
+   "verify": "サイトマップから外した場合：該当URLが「代替ページ（適切なcanonicalあり）」に移る。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/schools/photo_movie/movie/1",
+    "https://schoolwith.me/schools/photo_movie/movie/11",
+    "https://schoolwith.me/schools/photo_movie/movie/112",
+    "https://schoolwith.me/schools/photo_movie/movie/115",
+    "https://schoolwith.me/schools/photo_movie/movie/125"
+   ]
+  },
+  {
+   "id": "sitemap_noncanonical:c4474c1a",
+   "rule": "sitemap_noncanonical",
+   "severity": 1,
+   "severity_label": "高",
+   "title": "/schools/photo_movie/photo/{id} がサイトマップに載っているのに、canonical は別のページを指している",
+   "count": 262,
+   "templates": [
+    "/schools/photo_movie/photo/{id}"
+   ],
+   "evidence": [
+    "サイトマップ掲載 262 件。実ページを 130 件取得し、130 件で canonical が別のURLを指していた（例: https://schoolwith.me/schools/photo_movie/photo/115 → https://schoolwith.me/schools/115）。",
+    "ステータス内訳: 検出・未登録 96、代替ページ 86、登録済み 49、Google未認識 23、クロール済み・未登録 8",
+    "URL検査でも、Googleが読んだ canonical が別URLになっているもの 136 件。うち 50 件は Google が宣言を採用せず、そのURL自身を正規として扱っている（サイトマップ掲載と canonical が矛盾しているため）。",
+    "サイトマップは「これが正規URL」という申告、canonical は「正規は別のURL」という申告で、互いに打ち消している。"
+   ],
+   "fix": [
+    "検索結果に単独で出す必要がないなら、/schools/photo_movie/photo/{id} をサイトマップから外す（canonical先のページだけを載せる）。",
+    "単独で検索に出したいページなら、canonical を自分自身のURLに変える。どちらに寄せるかは事業判断。"
+   ],
+   "verify": "サイトマップから外した場合：該当URLが「代替ページ（適切なcanonicalあり）」に移る。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/schools/photo_movie/photo/1",
+    "https://schoolwith.me/schools/photo_movie/photo/11",
+    "https://schoolwith.me/schools/photo_movie/photo/112",
+    "https://schoolwith.me/schools/photo_movie/photo/115",
+    "https://schoolwith.me/schools/photo_movie/photo/125"
+   ]
+  },
+  {
+   "id": "discovery_backlog:ccfc8bf7",
+   "rule": "discovery_backlog",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "/reviews/{id} の 1,370 件がクロール待ちのまま（ページに不備は無い）",
+   "count": 1370,
+   "templates": [
+    "/reviews/{id}"
+   ],
+   "evidence": [
+    "/reviews/{id}: サイトマップ掲載 8,668 件のうち、登録済み 7,206 件・未登録で待機 1,370 件（検出・未登録 832、Google未認識 538）。",
+    "待機中のページを全件取得し、すべて HTTP 200・自己参照canonical・noindex無し（本文 2,646〜6,157 字）。ページの設定に不備は見当たらない。",
+    "待機中のうち、Googleが一度もクロールしていないURL 1,370 件。＝Googleが存在は知っているが、取りに来る優先度を低くしている状態。",
+    "このURLを載せているサイトマップ（reviews.xml）に lastmod が1件も無い。"
+   ],
+   "fix": [
+    "サイトマップに正確な <lastmod>（内容が実際に変わった日時）を出力し、新規・更新ページを優先して取りに来させる。",
+    "親ページ（学校詳細・エリア一覧など）から、未登録のページへのリンクを増やしてクロールの入口を作る。",
+    "内容の薄いページ（短い投稿など）が多い型なら、一定基準未満を noindex にして全体の評価を上げる。"
+   ],
+   "verify": "待機件数の推移（このカードの件数）と、型の登録済み率。",
+   "owner": "エンジニア・SEO",
+   "examples": [
+    "https://schoolwith.me/reviews/31427",
+    "https://schoolwith.me/reviews/31447",
+    "https://schoolwith.me/reviews/31455",
+    "https://schoolwith.me/reviews/31461",
+    "https://schoolwith.me/reviews/31463"
+   ]
+  },
+  {
+   "id": "pagination_canonical:a181a603",
+   "rule": "pagination_canonical",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "一覧の2ページ目以降の canonical が1ページ目を指している",
+   "count": 171,
+   "templates": [
+    "/countries/school/{cc}/page:*/direction:*/sort:*",
+    "/areas/school/{id}/page:*/sort:*/direction:*",
+    "/countries/school/{cc}/page:*/sort:*/direction:*",
+    "/countries/school/{cc}/page:*/direction:*",
+    "/areas/school/{id}/page:*/direction:*",
+    "/areas/school/{id}/page:*"
+   ],
+   "evidence": [
+    "171 件（取得 170 件中 170 件で確認。例: https://schoolwith.me/areas/school/2/direction:desc/page:2 → https://schoolwith.me/areas/school/2）。",
+    "2ページ目以降は1ページ目と載っている学校が違うので、Google は「別の内容なのに重複と宣言されている」と扱い、2ページ目以降の学校ページへのリンクも評価されにくくなる。Google は各ページに自分自身の canonical を付けるよう推奨している。",
+    "同じサイトでも /category/ 系の一覧は page: を canonical に残している（型によって実装が違う）。",
+    "型: /countries/school/{cc}/page:*/direction:*/sort:*（20）、/areas/school/{id}/page:*/sort:*/direction:*（14）、/countries/school/{cc}/page:*/sort:*/direction:*（11）、/countries/school/{cc}/page:*/direction:*（11）、/areas/school/{id}/page:*/direction:*（10）、/areas/school/{id}/page:*（8）"
+   ],
+   "fix": [
+    "2ページ目以降の canonical を、そのページ自身（page: を残し、並び替え・クエリは除いたURL）にする。/category/ 系と同じ実装に揃える。"
+   ],
+   "verify": "取得し直したときに canonical が page: を含むこと（このツールが14日以内に再取得）。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/areas/school/2/direction:desc/page:2",
+    "https://schoolwith.me/areas/school/2/page:3/direction:desc",
+    "https://schoolwith.me/areas/school/2002/page:2/sort:lowest_fee_per_month/direction:asc?sort_type=/areas/school/2002/direction:desc",
+    "https://schoolwith.me/areas/school/2002/page:4/sort:lowest_fee_per_month/direction:asc?sort_type=/areas/school/2002/direction:desc",
+    "https://schoolwith.me/areas/school/2002/sort:lowest_fee_per_month/direction:asc/page:2?sort_type=/areas/school/2002/direction:desc"
+   ]
+  },
+  {
+   "id": "utility_pages:a181a603",
+   "rule": "utility_pages",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "ログイン・申込フォーム等のページがインデックス対象として扱われている",
+   "count": 143,
+   "templates": [
+    "/applications/f_register/{id}?program_name",
+    "/auth/google_login?done",
+    "/applications/register/{id}?program_name",
+    "/reviews/check?areaId,countryId,schoolId",
+    "/applications/f_register/{id}",
+    "/applications/register/{id}",
+    "/seminars/register?schedule",
+    "/auth/login?done"
+   ],
+   "evidence": [
+    "URL名から判定（ログイン・会員登録・申込フォーム・投稿確認など、検索結果に出す意味がないページ）。",
+    "該当 143 件（クロール済み・未登録 134、重複・正規未指定 6、検出・未登録 3）。",
+    "型: /applications/f_register/{id}?program_name（31）、/auth/google_login?done（29）、/applications/register/{id}?program_name（25）、/reviews/check?areaId,countryId,schoolId（25）、/applications/f_register/{id}（10）、/applications/register/{id}（8）、/seminars/register?schedule（7）、/auth/login?done（3）",
+    "実ページ 143 件を取得し、noindex が付いていたのは 103 件。"
+   ],
+   "fix": [
+    "これらのテンプレートに <meta name=\"robots\" content=\"noindex\"> を付ける（robots.txt で塞ぐと noindex が読まれず、URLだけが残るので先に noindex）。",
+    "サイト内からこれらへのリンク（申込ボタン等）に rel=\"nofollow\" を付ける。",
+    "サイトマップに載っていれば外す。"
+   ],
+   "verify": "該当URLのステータスが「noindex除外」に変わること（巡回一巡＝約9日で確認できる）。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/applications/f_register/137?program_name=Sparta \n6%E3%82%B3%E3%83%BC%E3%82%B9",
+    "https://schoolwith.me/applications/f_register/143?program_name=%E3%82%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%B9",
+    "https://schoolwith.me/applications/f_register/20012?program_name=Business \nPlus TOEIC%E3%82%B3%E3%83%BC%E3%82%B9",
+    "https://schoolwith.me/applications/f_register/20022?program_name=Academic \nYear Intensive Plus 24%E3%82%B3%E3%83%9E/%E9%80%B1",
+    "https://schoolwith.me/applications/f_register/20022?program_name=General \nEnglish Super Intensive 30%E3%82%B3%E3%83%9E/%E9%80%B1"
+   ]
+  },
+  {
+   "id": "sitemap_noindex:a181a603",
+   "rule": "sitemap_noindex",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "noindex のページがサイトマップに載っている",
+   "count": 52,
+   "templates": [
+    "/attention",
+    "/columns/author/{id}",
+    "/counsel/register",
+    "/file/au_baggage.pdf",
+    "/file/ca_baggage.pdf",
+    "/file/english_schedule_table.pdf",
+    "/file/ie_baggage.pdf",
+    "/file/mt_baggage.pdf",
+    "/file/nz_baggage.pdf",
+    "/file/ph_baggage.pdf",
+    "/file/uk_baggage.pdf",
+    "/file/us_baggage.pdf",
+    "/schools/review/{id}",
+    "/schools/{id}",
+    "/supports/register",
+    "/users"
+   ],
+   "evidence": [
+    "52 件。サイトマップは「インデックスしてほしいURL」の申告なので、noindex と矛盾する。",
+    "型: /attention、/columns/author/{id}、/counsel/register、/file/au_baggage.pdf、/file/ca_baggage.pdf、/file/english_schedule_table.pdf、/file/ie_baggage.pdf、/file/mt_baggage.pdf"
+   ],
+   "fix": [
+    "サイトマップの生成対象から noindex のテンプレートを外す。"
+   ],
+   "verify": "該当URLがサイトマップから消えること。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/attention",
+    "https://schoolwith.me/columns/author/100",
+    "https://schoolwith.me/columns/author/101",
+    "https://schoolwith.me/columns/author/108",
+    "https://schoolwith.me/columns/author/115"
+   ]
+  },
+  {
+   "id": "param_canonical_missing:66e10e9f",
+   "rule": "param_canonical_missing",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "パラメータ付きURLの canonical に不備がある（タグが無い・パラメータが残る）",
+   "count": 36,
+   "templates": [
+    "/matchings/areas/{cc}",
+    "/matchings",
+    "/ph_matchings/select/{id}",
+    "/press/{id}",
+    "/settings/forget_password",
+    "/matchings/countries",
+    "/matchings/questions/{id}",
+    "/ph_matchings"
+   ],
+   "evidence": [
+    "36 件（すべて実ページを取得して確認）。country_id: / area_id: / page: のように中身が変わるパラメータは canonical に残っていて正しいので、不備に数えていない。",
+    "/matchings/areas/{cc}: 15 件 — canonical タグが無い（流入パラメータ ?src_user=、?a8=）。例: https://schoolwith.me/matchings/areas/AU?a8=I2Ghz2Y8u7rmQ7jZwns2sQEZBdlpsQreVnrmeljVQVL8u7 → （無し）",
+    "/matchings: 11 件 — canonical タグが無い（流入パラメータ ?src_columns_under=、?a8=、?afid=）。例: https://schoolwith.me/matchings?a8=I2Ghz2Y8u7rmQ7jZwns2sQEZBdlpsQreVnrmeljVQVL8u7GNX752-_G → （無し）",
+    "/ph_matchings/select/{id}: 2 件 — canonical タグが無い（流入パラメータ ?a8=）。例: https://schoolwith.me/ph_matchings/select/12?a8=KrA0DrUo2L8pjzgCZjBMppIMq.zJ8oIsAj_CszIFMF → （無し）",
+    "/press/{id}: 2 件 — canonical タグが無い（流入パラメータ ?a8=）。例: https://schoolwith.me/press/3?a8=KrA0DrUo2L8pjzgCZjBMppIMq.zJ8oIsAj_CszIFMF4o2LAX79TKcLTLG → （無し）",
+    "/settings/forget_password: 2 件 — canonical タグが無い（流入パラメータ ?a8=）。例: https://schoolwith.me/settings/forget_password?a8=KrA0DrUo2L8pjzgCZjBMppIMq.zJ8oIsAj_CszIF → （無し）",
+    "/matchings/countries: 1 件 — canonical タグが無い（流入パラメータ ?a8=）。例: https://schoolwith.me/matchings/countries?a8=cETptEiKDYIKbfRwQmafTTCB4TZXIeBCFmyN8eBCKN.CR → （無し）",
+    "/matchings/questions/{id}: 1 件 — canonical タグが無い（流入パラメータ ?a8=）。例: https://schoolwith.me/matchings/questions/2?a8=cETptEiKDYIKbfRwQmafTTCB4TZXIeBCFmyN8eBCKN. → （無し）",
+    "/ph_matchings: 1 件 — canonical タグが無い（流入パラメータ ?src=）。例: https://schoolwith.me/ph_matchings?src=area_sp_h → （無し）"
+   ],
+   "fix": [
+    "canonical を出していないテンプレート（/matchings, /matchings/areas/{cc}, /matchings/countries, /matchings/questions/{id}, /ph_matchings）に、クエリを除いた自己参照 canonical を追加する。"
+   ],
+   "verify": "取得し直したときに canonical が直っていること（このツールが14日以内に再取得）。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/matchings/areas/AU?a8=I2Ghz2Y8u7rmQ7jZwns2sQEZBdlpsQreVnrmeljVQVL8u7GNX752-_GNs7leEe5sCVqQjBGFC2Ghos00000019593001",
+    "https://schoolwith.me/matchings/areas/AU?src_user=areas_4016_sp",
+    "https://schoolwith.me/matchings/areas/AU?src_user=country_sp",
+    "https://schoolwith.me/matchings/areas/CA?a8=I2Ghz2Y8u7rmQ7jZwns2sQEZBdlpsQreVnrmeljVQVL8u7GNX752-_GNs7leEe5sCVqQjBGFC2Ghos00000019593001",
+    "https://schoolwith.me/matchings/areas/CA?src_user=areas_3003_sp"
+   ]
+  },
+  {
+   "id": "sitemap_gone:a181a603",
+   "rule": "sitemap_gone",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "サイトマップに、存在しない・転送されるURLが載っている",
+   "count": 9,
+   "templates": [
+    "/applications/a_complete/{id}",
+    "/columns/{id}",
+    "/countries/{cc}/types/short_term",
+    "/reviews/{id}",
+    "/seminars/english-lesson-beginner"
+   ],
+   "evidence": [
+    "サイトマップ掲載URLのうち 9 件が 404・リダイレクト・サーバーエラー等（404 4、Google未認識 3、検出・未登録 2）。",
+    "リダイレクト例: https://schoolwith.me/applications/a_complete/1 → https://schoolwith.me/users?done=/applications/a_complete/1",
+    "リダイレクト例: https://schoolwith.me/columns/32558 → https://schoolwith.me/areas/2/activity",
+    "リダイレクト例: https://schoolwith.me/columns/32578 → https://schoolwith.me/areas/8007/safety"
+   ],
+   "fix": [
+    "削除済みページはサイトマップから外す。",
+    "転送しているURLは転送先のURLに置き換える。"
+   ],
+   "verify": "該当URLがサイトマップから消えること。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/applications/a_complete/1",
+    "https://schoolwith.me/columns/32352",
+    "https://schoolwith.me/columns/32558",
+    "https://schoolwith.me/columns/32578",
+    "https://schoolwith.me/columns/33456"
+   ]
+  },
+  {
+   "id": "sitemap_param_files:a181a603",
+   "rule": "sitemap_param_files",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "パラメータ付きURLだけのサイトマップが 7 本ある",
+   "count": 7,
+   "templates": [
+    "/?a8",
+    "/?afid,cid,p",
+    "/areas/{id}/campaign:*/campaign_sort",
+    "/areas/{id}/page:*",
+    "/matchings?fbclid",
+    "/purposes?job",
+    "/users?src_user"
+   ],
+   "evidence": [
+    "サイトマップ索引 36 本のうち 7 本が、パラメータ付きURLだけで構成されている。",
+    "a8.xml: https://schoolwith.me/?a8=XXX（ページの canonical は https://schoolwith.me）",
+    "afid.xml: https://schoolwith.me/?afid=POc2mn9nN69dke7L06qAZnJg9TCTWcDE0qe7&cid=c01jjrx2f2hq37h4pxxv7py4t74&p=ph3a8u9yn97o（ページの canonical は https://schoolwith.me）",
+    "fbclid.xml: https://schoolwith.me/matchings?fbclid=fbclid",
+    "page.xml: https://schoolwith.me/areas/6004/page:2",
+    "purposes.xml: https://schoolwith.me/purposes?job=society（ページは noindex）",
+    "sort.xml: https://schoolwith.me/areas/1/campaign:0/campaign_sort",
+    "src.xml: https://schoolwith.me/users?src_user=school_bookmark（ページの canonical は https://schoolwith.me/users）（ページは noindex）",
+    "サイトマップに載せたURLは「検索結果に出したい正規URL」としてGoogleに申告したことになる。パラメータ違いのURLを自分で申告している状態。"
+   ],
+   "fix": [
+    "サイトマップ索引（index.xml）から a8.xml, afid.xml, fbclid.xml, page.xml, purposes.xml, sort.xml, src.xml を外す。",
+    "サイトマップの生成処理で、クエリ（?〜）や名前付きパラメータ（/page:2 等）を含むURLを出力しないようにする。"
+   ],
+   "verify": "index.xml に上記ファイルが含まれていないこと。次回以降このカードが消える。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/?a8=XXX",
+    "https://schoolwith.me/?afid=POc2mn9nN69dke7L06qAZnJg9TCTWcDE0qe7&cid=c01jjrx2f2hq37h4pxxv7py4t74&p=ph3a8u9yn97o",
+    "https://schoolwith.me/areas/1/campaign:0/campaign_sort",
+    "https://schoolwith.me/areas/6004/page:2",
+    "https://schoolwith.me/matchings?fbclid=fbclid"
+   ]
+  },
+  {
+   "id": "canonical_conflict:a181a603",
+   "rule": "canonical_conflict",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "Google が、こちらの指定とは別のページを正規として選んでいる",
+   "count": 5,
+   "templates": [
+    "/areas/school/{id}",
+    "/areas/school/{id}/sort:*/direction:*",
+    "/category/schools/business/direction:*/country_id:*/area_id:*/sort:*",
+    "/category/schools/ielts/direction:*/country_id:*/sort:*",
+    "/schools/review/{id}"
+   ],
+   "evidence": [
+    "5 件。Google は2つのページを同じ内容とみなし、指定を上書きしている。",
+    "https://schoolwith.me/areas/school/19001 を正規と宣言 → Google は https://schoolwith.me/countries/school/SG を採用"
+   ],
+   "fix": [
+    "ペアごとにどちらを残すか決め、残さない側から 301 で転送する。",
+    "両方残す場合は、内容を差別化する（同じ一覧・同じ文面になっていないか確認）。"
+   ],
+   "verify": "該当URLのステータスが「登録済み」か「代替ページ」に変わること。",
+   "owner": "SEO・エンジニア",
+   "examples": [
+    "https://schoolwith.me/areas/school/19001",
+    "https://schoolwith.me/areas/school/4009/sort:lowest_fee_per_month/direction:ASC",
+    "https://schoolwith.me/category/schools/business/direction:asc/country_id:4/area_id:4004/sort:lowest_fee_per_month",
+    "https://schoolwith.me/category/schools/ielts/direction:asc/country_id:2/sort:lowest_fee_per_month",
+    "https://schoolwith.me/schools/review/30245"
+   ]
+  },
+  {
+   "id": "sitemap_noncanonical:d18747d9",
+   "rule": "sitemap_noncanonical",
+   "severity": 2,
+   "severity_label": "中",
+   "title": "/virtual-ryugaku がサイトマップに載っているのに、canonical は別のページを指している",
+   "count": 1,
+   "templates": [
+    "/virtual-ryugaku"
+   ],
+   "evidence": [
+    "サイトマップ掲載 1 件。実ページを 1 件取得し、1 件で canonical が別のURLを指していた（例: https://schoolwith.me/virtual-ryugaku → https://peraichi.com/landing_pages/view/virtual-ryugaku/）。",
+    "ステータス内訳: 代替ページ 1",
+    "URL検査でも、Googleが読んだ canonical が別URLになっているもの 1 件。うち 0 件は Google が宣言を採用せず、そのURL自身を正規として扱っている（サイトマップ掲載と canonical が矛盾しているため）。",
+    "サイトマップは「これが正規URL」という申告、canonical は「正規は別のURL」という申告で、互いに打ち消している。"
+   ],
+   "fix": [
+    "検索結果に単独で出す必要がないなら、/virtual-ryugaku をサイトマップから外す（canonical先のページだけを載せる）。",
+    "単独で検索に出したいページなら、canonical を自分自身のURLに変える。どちらに寄せるかは事業判断。"
+   ],
+   "verify": "サイトマップから外した場合：該当URLが「代替ページ（適切なcanonicalあり）」に移る。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/virtual-ryugaku"
+   ]
+  },
+  {
+   "id": "already_noindex:a181a603",
+   "rule": "already_noindex",
+   "severity": 3,
+   "severity_label": "低",
+   "title": "既に noindex 済み（Google の再クロール待ち・監視のみ）",
+   "count": 492,
+   "templates": [
+    "/schools/{id}",
+    "/schools/curriculum/{id}",
+    "/search/columns/result/page:*/sub_category_id:*",
+    "/schools/review/{id}",
+    "/purposes/schools/{id}/page:*",
+    "/schools/photo_movie/photo/{id}"
+   ],
+   "evidence": [
+    "492 件（クロール済み・未登録 222、検出・未登録 219、重複・正規未指定 51）。ページには noindex が付いていて、Google が次に取りに来たときに「noindex除外」に移る。",
+    "型: /schools/{id}（55）、/schools/curriculum/{id}（37）、/search/columns/result/page:*/sub_category_id:*（35）、/schools/review/{id}（30）、/purposes/schools/{id}/page:*（24）、/schools/photo_movie/photo/{id}（12）"
+   ],
+   "fix": [
+    "対応不要。ただし nofollow も付いているページは、そこから先のリンクが辿られない点に注意。"
+   ],
+   "verify": "ステータスが「noindex除外」に移っていくこと。",
+   "owner": "監視のみ",
+   "examples": [
+    "https://schoolwith.me/areas/52020",
+    "https://schoolwith.me/areas/52033",
+    "https://schoolwith.me/areas/6008",
+    "https://schoolwith.me/areas/school/2038/direction:desc",
+    "https://schoolwith.me/areas/school/2086/direction:desc"
+   ]
+  },
+  {
+   "id": "param_duplicates_ok:444bcb3a",
+   "rule": "param_duplicates_ok",
+   "severity": 3,
+   "severity_label": "低",
+   "title": "並び替え・流入パラメータ違いの重複URL（canonical は設定済み・監視のみ）",
+   "count": 255,
+   "templates": [
+    "/?fbclid",
+    "/?yclid",
+    "/Schools/photo_movie/photo/{id}",
+    "/about?a8",
+    "/areas/school/{id}/direction:*",
+    "/areas/school/{id}/direction:*/sort:*",
+    "/areas/school/{id}/sort:*/direction:*",
+    "/areas/school/{id}/sort:*/direction:*?a8"
+   ],
+   "evidence": [
+    "255 件。canonical はクエリ・並び替えを除いたURLを正しく指している（実ページを取得して確認）。Google が重複として整理している途中で、ページ側の対処は済んでいる。",
+    "?a8: 68 件（外部流入のパラメータ）",
+    "?sort_type: 24 件",
+    "?fragment_identifier: 21 件",
+    "/area_id:,country_id:,direction:,sort:: 14 件",
+    "/direction:,sort:: 11 件",
+    "?amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;utm_source,utm_content: 8 件（外部流入のパラメータ）"
+   ],
+   "fix": [
+    "ページ側の追加対応は不要。件数が増え続ける場合だけ、サイト内リンクにパラメータを付けている箇所を探して外す。"
+   ],
+   "verify": "件数が減っていくこと（Google が再クロールして整理するまで数週間かかる）。",
+   "owner": "監視のみ",
+   "examples": [
+    "https://schoolwith.me/?fbclid=IwAR1bcKRIM8a3CCOC3n38T-yvQurz2OM15PGush_34qaWXToS3EgP4G2IPwg///////////////",
+    "https://schoolwith.me/?fbclid=IwAR1nFUpMsWaJYCRp4XafGtlzJ_NjZ2AHi1mAsHxBJx7Rw_60IiCMyJVDHIw///////////",
+    "https://schoolwith.me/?fbclid=IwAR1nFUpMsWaJYCRp4XafGtlzJ_NjZ2AHi1mAsHxBJx7Rw_60IiCMyJVDHIw////////////",
+    "https://schoolwith.me/?fbclid=IwAR1nFUpMsWaJYCRp4XafGtlzJ_NjZ2AHi1mAsHxBJx7Rw_60IiCMyJVDHIw///////////////////",
+    "https://schoolwith.me/?fbclid=IwAR2xMDG-pobAI6da5r_4Jce6nzf0i6O4NLcvpqOk9Q9BYVjXIYqmmip_nYU///////////"
+   ]
+  },
+  {
+   "id": "discovery_backlog_rest:65e8800b",
+   "rule": "discovery_backlog_rest",
+   "severity": 3,
+   "severity_label": "低",
+   "title": "その他の型の 204 件がクロール待ち（ページに不備は無い）",
+   "count": 204,
+   "templates": [
+    "/help/{id}",
+    "/category/schools/campaign/country_id:*/area_id:*",
+    "/category/schools/native/country_id:*/area_id:*",
+    "/category/schools/facility/country_id:*/area_id:*",
+    "/schools/curriculum/{id}",
+    "/category/schools/abroad_life/country_id:*/area_id:*",
+    "/category/schools/non_japanese/country_id:*/area_id:*",
+    "/category/schools/cambridge/country_id:*/area_id:*",
+    "/category/schools/univ_going/country_id:*/area_id:*",
+    "/category/schools/business/country_id:*/area_id:*"
+   ],
+   "evidence": [
+    "38 個の型にまたがる 204 件（1型あたり 200 件未満）。いずれも実ページを取得し、HTTP 200・自己参照canonical・noindex無しを確認済み。",
+    "型: /help/{id}（35）、/category/schools/campaign/country_id:*/area_id:*（18）、/category/schools/native/country_id:*/area_id:*（16）、/category/schools/facility/country_id:*/area_id:*（15）、/schools/curriculum/{id}（15）、/category/schools/abroad_life/country_id:*/area_id:*（14）、/category/schools/non_japanese/country_id:*/area_id:*（14）、/category/schools/cambridge/country_id:*/area_id:*（10）、/category/schools/univ_going/country_id:*/area_id:*（7）、/category/schools/business/country_id:*/area_id:*（6）"
+   ],
+   "fix": [
+    "サイトマップに正確な <lastmod>（内容が実際に変わった日時）を出力し、新規・更新ページを優先して取りに来させる。",
+    "親ページ（学校詳細・エリア一覧など）から、未登録のページへのリンクを増やしてクロールの入口を作る。",
+    "内容の薄いページ（短い投稿など）が多い型なら、一定基準未満を noindex にして全体の評価を上げる。"
+   ],
+   "verify": "待機件数の推移。",
+   "owner": "エンジニア・SEO",
+   "examples": [
+    "https://schoolwith.me/areas/2004/expenses_all",
+    "https://schoolwith.me/areas/2057/expenses_all",
+    "https://schoolwith.me/areas/8002/stay",
+    "https://schoolwith.me/category/schools/abroad_life/country_id:2/area_id:2056",
+    "https://schoolwith.me/category/schools/abroad_life/country_id:3/area_id:3001"
+   ]
+  },
+  {
+   "id": "crawled_not_indexed:ccfc8bf7",
+   "rule": "crawled_not_indexed",
+   "severity": 3,
+   "severity_label": "低",
+   "title": "/reviews/{id} の 91 件が「クロール済み・未登録」（内容の評価で落ちている）",
+   "count": 91,
+   "templates": [
+    "/reviews/{id}"
+   ],
+   "evidence": [
+    "/reviews/{id}: クロール済み・未登録 91 件。Google はページを読んだうえで、登録する価値が低いと判断している。実ページを全件取得し、技術的な不備（noindex・canonical・エラー）は無い。",
+    "本文の文字数（中央値）: 未登録 3,315 字／同じ型の登録済み 3,250 字（登録済みは 2 件取得）。文字数に大きな差は無い＝量ではなく中身（独自性・重複）で落ちている可能性が高い。"
+   ],
+   "fix": [
+    "同じ型の登録済みページと比べて、独自の情報（本文・写真・具体的な数字）が足りないものを補う。",
+    "ほぼ同じ内容のページが並んでいるなら統合する。価値の低いものは noindex にする。"
+   ],
+   "verify": "型の登録済み率の推移。",
+   "owner": "SEO・コンテンツ",
+   "examples": [
+    "https://schoolwith.me/reviews/31518",
+    "https://schoolwith.me/reviews/31969",
+    "https://schoolwith.me/reviews/32033",
+    "https://schoolwith.me/reviews/32280",
+    "https://schoolwith.me/reviews/32370"
+   ]
+  },
+  {
+   "id": "gone_offsitemap:a181a603",
+   "rule": "gone_offsitemap",
+   "severity": 3,
+   "severity_label": "低",
+   "title": "既に削除・転送済みのURL（Googleの記録が古いだけ・監視のみ）",
+   "count": 45,
+   "templates": [
+    "/category/schools/abroad_life/country_id:*/page:*",
+    "/category/schools/abroad_life/supports/supports/line/page:*/direction:*/sort:*/country_id:*",
+    "/category/schools/business/country_id:*/area_id:*/page:*",
+    "/category/schools/business/supports/line/sort:*/country_id:*/area_id:*/direction:*",
+    "/category/schools/cambridge/sort:*/direction:*/country_id:*/page:*",
+    "/category/schools/campaign/page:*/direction:*",
+    "/category/schools/gmat/sort:*/supports/line",
+    "/category/schools/ielts/country_id:*/page:*"
+   ],
+   "evidence": [
+    "45 件。サイトマップには載っておらず、取得すると HTTP 404 が 45 件。"
+   ],
+   "fix": [
+    "対応不要。転送先が適切か（関係の無いページに飛ばしていないか）だけ確認する。"
+   ],
+   "verify": "件数が減っていくこと。",
+   "owner": "監視のみ",
+   "examples": [
+    "https://schoolwith.me/category/schools/abroad_life/country_id:7/page:3",
+    "https://schoolwith.me/category/schools/abroad_life/supports/supports/line/page:4/direction:asc/sort:lowest_fee_per_month/country_id:2",
+    "https://schoolwith.me/category/schools/business/country_id:3/area_id:3001/page:2",
+    "https://schoolwith.me/category/schools/business/supports/line/sort:lowest_fee_per_month/country_id:4/area_id:4004/direction:asc",
+    "https://schoolwith.me/category/schools/cambridge/sort:lowest_fee_per_month/direction:asc/country_id:5/page:3"
+   ]
+  },
+  {
+   "id": "sitemap_no_lastmod:a181a603",
+   "rule": "sitemap_no_lastmod",
+   "severity": 3,
+   "severity_label": "低",
+   "title": "サイトマップに更新日時（lastmod）が出ていない",
+   "count": 36,
+   "templates": [],
+   "evidence": [
+    "子サイトマップ 36 本中 36 本（掲載 14,233 URL）に <lastmod> が1件も無い。",
+    "Google は lastmod を「どのページを先に取りに行くか」の手がかりに使う。無いと新規・更新ページの発見が遅れる。"
+   ],
+   "fix": [
+    "サイトマップ生成時に、各URLの内容が最後に変わった日時を <lastmod> に出力する（生成日時を一律に入れるのは逆効果）。"
+   ],
+   "verify": "全サイトマップに lastmod が出ていること（このツールが毎日確認する）。",
+   "owner": "エンジニア",
+   "examples": [
+    "https://schoolwith.me/sitemaps/top_other.xml",
+    "https://schoolwith.me/sitemaps/ph.xml",
+    "https://schoolwith.me/sitemaps/us.xml",
+    "https://schoolwith.me/sitemaps/ca.xml",
+    "https://schoolwith.me/sitemaps/au.xml"
+   ]
+  },
+  {
+   "id": "crawled_not_indexed_rest:65e8800b",
+   "rule": "crawled_not_indexed_rest",
+   "severity": 3,
+   "severity_label": "低",
+   "title": "その他の型の 19 件が「クロール済み・未登録」",
+   "count": 19,
+   "templates": [
+    "/schools/review/{id}",
+    "/schools/curriculum/{id}",
+    "/category/schools/non_japanese/country_id:*/area_id:*",
+    "/category/schools/non_japanese/country_id:*/area_id:*/page:*",
+    "/category/schools/business/country_id:*/area_id:*",
+    "/category/schools/campaign/country_id:*/area_id:*",
+    "/category/schools/native/country_id:*/area_id:*",
+    "/category/schools/native/country_id:*/page:*",
+    "/category/schools/short_term/country_id:*/page:*",
+    "/category/schools/toefl/country_id:*/area_id:*"
+   ],
+   "evidence": [
+    "12 個の型にまたがる 19 件。実ページを取得し、技術的な不備は無い。",
+    "型: /schools/review/{id}（4）、/schools/curriculum/{id}（3）、/category/schools/non_japanese/country_id:*/area_id:*（2）、/category/schools/non_japanese/country_id:*/area_id:*/page:*（2）、/category/schools/business/country_id:*/area_id:*（1）、/category/schools/campaign/country_id:*/area_id:*（1）、/category/schools/native/country_id:*/area_id:*（1）、/category/schools/native/country_id:*/page:*（1）、/category/schools/short_term/country_id:*/page:*（1）、/category/schools/toefl/country_id:*/area_id:*（1）"
+   ],
+   "fix": [
+    "同じ型の登録済みページと比べて、独自の情報（本文・写真・具体的な数字）が足りないものを補う。",
+    "ほぼ同じ内容のページが並んでいるなら統合する。価値の低いものは noindex にする。"
+   ],
+   "verify": "件数の推移。",
+   "owner": "SEO・コンテンツ",
+   "examples": [
+    "https://schoolwith.me/category/schools/business/country_id:1/area_id:7",
+    "https://schoolwith.me/category/schools/campaign/country_id:7/area_id:7001",
+    "https://schoolwith.me/category/schools/native/country_id:2/area_id:2005",
+    "https://schoolwith.me/category/schools/native/country_id:5/page:4",
+    "https://schoolwith.me/category/schools/non_japanese/country_id:3/area_id:3002/page:2"
+   ]
+  }
+ ],
+ "unexplained_urls": [],
+ "unexplained_top": [
+  [
+   "/f_matchings/select/{id}",
+   4
+  ],
+  [
+   "/ph_matchings/select/{id}",
+   2
+  ]
+ ],
+ "template_counts": {
+  "/?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/?afid,cid,p": {
+   "discovered_not_indexed": 1
+  },
+  "/?fbclid": {
+   "dup_no_user_canonical": 5
+  },
+  "/?yclid": {
+   "dup_no_user_canonical": 1
+  },
+  "/Schools/photo_movie/photo/{id}": {
+   "crawled_not_indexed": 1
+  },
+  "/about?a8": {
+   "discovered_not_indexed": 3
+  },
+  "/applications/f_register/{id}?program_name": {
+   "crawled_not_indexed": 31
+  },
+  "/applications/f_register/{id}": {
+   "crawled_not_indexed": 10
+  },
+  "/applications/register/{id}": {
+   "crawled_not_indexed": 8
+  },
+  "/applications/register/{id}?program_name": {
+   "crawled_not_indexed": 25
+  },
+  "/areas/{id}/campaign:*/campaign_sort": {
+   "discovered_not_indexed": 1
+  },
+  "/areas/{id}/expenses_all": {
+   "discovered_not_indexed": 1
+  },
+  "/areas/{id}": {
+   "crawled_not_indexed": 3
+  },
+  "/areas/{id}/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/areas/{id}/stay": {
+   "discovered_not_indexed": 1
+  },
+  "/areas/school/{id}/direction:*/sort:*/page:*?sort_type": {
+   "crawled_not_indexed": 3
+  },
+  "/areas/school/{id}/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 1,
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 16
+  },
+  "/areas/school/{id}/page:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 28,
+   "dup_no_user_canonical": 1
+  },
+  "/areas/school/{id}": {
+   "dup_google_chose_different": 1,
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/direction:*/sort:*": {
+   "discovered_not_indexed": 4
+  },
+  "/areas/school/{id}/direction:*/page:*": {
+   "discovered_not_indexed": 4
+  },
+  "/areas/school/{id}/page:*/direction:*": {
+   "discovered_not_indexed": 5
+  },
+  "/areas/school/{id}/sort:*/direction:*/page:*?sort_type": {
+   "crawled_not_indexed": 4,
+   "dup_no_user_canonical": 2
+  },
+  "/areas/school/{id}/direction:*/page:*?a8": {
+   "dup_no_user_canonical": 2,
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/page:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 8,
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/page:*?sort_type": {
+   "dup_no_user_canonical": 35,
+   "crawled_not_indexed": 13
+  },
+  "/areas/school/{id}/sort:*/direction:*": {
+   "crawled_not_indexed": 2,
+   "dup_google_chose_different": 1
+  },
+  "/areas/school/{id}/direction:*/sort:*/page:*?a8": {
+   "dup_no_user_canonical": 2
+  },
+  "/areas/school/{id}/direction:*/page:*?sort_type": {
+   "dup_no_user_canonical": 2,
+   "crawled_not_indexed": 2
+  },
+  "/areas/school/{id}/direction:*": {
+   "discovered_not_indexed": 4,
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/page:*/direction:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/areas/school/{id}/sort:*/direction:*/page:*": {
+   "discovered_not_indexed": 1,
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/sort:*/direction:*?a8": {
+   "crawled_not_indexed": 4
+  },
+  "/areas/school/{id}/page:*/sort:*/direction:*": {
+   "crawled_not_indexed": 4
+  },
+  "/areas/school/{id}/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 3,
+   "dup_no_user_canonical": 9
+  },
+  "/areas/school/{id}?sort_type": {
+   "crawled_not_indexed": 3
+  },
+  "/areas/school/{id}/page:*/direction:*/sort:*?a8": {
+   "dup_no_user_canonical": 3
+  },
+  "/areas/school/{id}/page:*/direction:*?a8": {
+   "dup_no_user_canonical": 1,
+   "crawled_not_indexed": 4
+  },
+  "/areas/school/{id}/page:*/sort:*/direction:*?a8": {
+   "dup_no_user_canonical": 3
+  },
+  "/areas/school/{id}/page:*?a8": {
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/sort:*/direction:*/page:*?a8": {
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/areas/school/{id}/direction:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/areas/school/{id}/campaign_sort/campaign:*": {
+   "crawled_not_indexed": 1
+  },
+  "/attention": {
+   "discovered_not_indexed": 1
+  },
+  "/auth/google_login?done": {
+   "crawled_not_indexed": 29
+  },
+  "/auth/login?a8": {
+   "crawled_not_indexed": 1
+  },
+  "/auth/login?done": {
+   "crawled_not_indexed": 3
+  },
+  "/campaigns/bestbody?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/abroad_life/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/abroad_life/country_id:*/area_id:*": {
+   "discovered_not_indexed": 11,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/abroad_life/country_id:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/abroad_life/direction:*/sort:*/country_id:*/page:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/abroad_life/direction:*?sort_type": {
+   "dup_no_user_canonical": 5,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/abroad_life/page:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/abroad_life/page:*/country_id:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/abroad_life/page:*/direction:*/sort:*/country_id:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/abroad_life/page:*/sort:*/direction:*/country_id:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/abroad_life/sort:*/direction:*/country_id:*/page:*?sort_type": {
+   "dup_no_user_canonical": 3
+  },
+  "/category/schools/abroad_life/sort:*/direction:*/country_id:*/page:*?a8": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/abroad_life/sort:*/direction:*/page:*": {
+   "crawled_not_indexed": 1,
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/abroad_life/supports/supports/line/page:*/direction:*/sort:*/country_id:*": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/barista/country_id:*/area_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/barista/country_id:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 8
+  },
+  "/category/schools/barista/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 6
+  },
+  "/category/schools/barista/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/barista/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/business/country_id:*/area_id:*": {
+   "discovered_not_indexed": 6,
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/business/country_id:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/business/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/business/country_id:*/area_id:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/business/country_id:*/area_id:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 4
+  },
+  "/category/schools/business/country_id:*/area_id:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/business/direction:*/country_id:*/page:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 7
+  },
+  "/category/schools/business/direction:*/country_id:*/sort:*?sort_type": {
+   "crawled_not_indexed": 2,
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/business/direction:*/country_id:*/area_id:*/sort:*": {
+   "discovered_not_indexed": 2,
+   "dup_google_chose_different": 1
+  },
+  "/category/schools/business/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 18,
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/business/direction:*/country_id:*/area_id:*?sort_type": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 10
+  },
+  "/category/schools/business/direction:*/sort:*/country_id:*/page:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/business/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 2,
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/business/page:*/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/business/sort:*/direction:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/business/supports/line/sort:*/country_id:*/area_id:*/direction:*": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/cambridge/country_id:*/area_id:*": {
+   "discovered_not_indexed": 5
+  },
+  "/category/schools/cambridge/direction:*/country_id:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 4,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/cambridge/direction:*/sort:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/cambridge/direction:*/sort:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/cambridge/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 3
+  },
+  "/category/schools/cambridge/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 18
+  },
+  "/category/schools/cambridge/page:*/direction:*?sort_type": {
+   "crawled_not_indexed": 3
+  },
+  "/category/schools/cambridge/page:*/direction:*/country_id:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/cambridge/sort:*/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/cambridge/sort:*/direction:*/country_id:*/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/cambridge/sort:*/direction:*/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/campaign/country_id:*/area_id:*": {
+   "discovered_not_indexed": 9,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/campaign/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/campaign/country_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/campaign/page:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/english/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/facility/country_id:*/area_id:*": {
+   "discovered_not_indexed": 13
+  },
+  "/category/schools/facility/country_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/facility/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/facility/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/facility/sort:*/direction:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/gmat/country_id:*/area_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/gmat/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/gmat/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 12
+  },
+  "/category/schools/gmat/sort:*/direction:*": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/gmat/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 4
+  },
+  "/category/schools/gmat/sort:*/direction:*?a8": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/gmat/sort:*/supports/line": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/golf/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/golf/direction:*/country_id:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/gre/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/gre/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/gre/direction:*?sort_type": {
+   "dup_no_user_canonical": 4
+  },
+  "/category/schools/gre/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/hard_schedule/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/ielts/country_id:*/area_id:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 8
+  },
+  "/category/schools/ielts/country_id:*/sort:*/direction:*/area_id:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/country_id:*/sort:*/direction:*": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/country_id:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/ielts/country_id:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/country_id:*/area_id:*": {
+   "discovered_not_indexed": 3
+  },
+  "/category/schools/ielts/direction:*/country_id:*/area_id:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 5
+  },
+  "/category/schools/ielts/direction:*/country_id:*/sort:*": {
+   "dup_google_chose_different": 1
+  },
+  "/category/schools/ielts/direction:*/country_id:*/sort:*?sort_type": {
+   "crawled_not_indexed": 4,
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/ielts/direction:*/country_id:*/area_id:*/sort:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/ielts/direction:*/sort:*/country_id:*/page:*?sort_type": {
+   "dup_no_user_canonical": 11,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/direction:*/sort:*/country_id:*/area_id:*/page:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/ielts/direction:*/sort:*/country_id:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 23
+  },
+  "/category/schools/ielts/direction:*/country_id:*/area_id:*?sort_type": {
+   "dup_no_user_canonical": 10
+  },
+  "/category/schools/ielts/direction:*/country_id:*/area_id:*": {
+   "discovered_not_indexed": 3
+  },
+  "/category/schools/ielts/direction:*/country_id:*/area_id:*/page:*?a8": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/direction:*/country_id:*/page:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/ielts/direction:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/ielts/page:*?amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;utm_source,utm_content": {
+   "crawled_not_indexed": 9
+  },
+  "/category/schools/ielts/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/page:*/direction:*/sort:*?amp;amp;amp;utm_campaign,amp;amp;amp;utm_medium,amp;amp;amp;utm_source,utm_content": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/page:*/direction:*/sort:*?amp;amp;utm_campaign,amp;amp;utm_medium,amp;amp;utm_source,utm_content": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/page:*/sort:*/direction:*?amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;utm_source,utm_content": {
+   "crawled_not_indexed": 8
+  },
+  "/category/schools/ielts/page:*/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/ielts/page:*/direction:*/sort:*/country_id:*/area_id:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/page:*/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 4
+  },
+  "/category/schools/ielts/page:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/reviews/{id}/reviews/{id}/page:*/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/ielts/sort:*/direction:*/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/ielts/sort:*/direction:*/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/ielts/sort:*/direction:*/country_id:*/page:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/sort:*/direction:*/country_id:*/supports/line": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/sort:*/direction:*?amp;amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;amp;utm_source,utm_content": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/sort:*/direction:*?amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;utm_source,utm_content": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/ielts/sort:*/direction:*/country_id:*/page:*": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/supports/line/country_id:*/sort:*/direction:*": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts/supports/line/page:*/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/ielts?amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;utm_source,utm_content": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/internship/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/internship/country_id:*/area_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/it/direction:*/country_id:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/it/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 6
+  },
+  "/category/schools/japanese_management/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/korean_management/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/korean_management/page:*/country_id:*/area_id:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/medical/country_id:*/area_id:*": {
+   "discovered_not_indexed": 3
+  },
+  "/category/schools/medical/direction:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/native/country_id:*/area_id:*": {
+   "discovered_not_indexed": 10,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/native/country_id:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/native/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/native/page:*/country_id:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/native/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/native/page:*/direction:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/non_japanese/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/non_japanese/country_id:*/area_id:*": {
+   "discovered_not_indexed": 8,
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/non_japanese/country_id:*/area_id:*/page:*": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/non_japanese/country_id:*/area_id:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/non_japanese/direction:*/country_id:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 5,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/non_japanese/direction:*/country_id:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/non_japanese/direction:*/sort:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/non_japanese/direction:*/country_id:*?sort_type": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 5
+  },
+  "/category/schools/non_japanese/direction:*/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/non_japanese/direction:*?sort_type": {
+   "dup_no_user_canonical": 3
+  },
+  "/category/schools/non_japanese/page:*/sort:*/direction:*?a8": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/non_japanese/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/non_japanese/page:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/non_japanese/page:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/non_japanese/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/non_japanese/page:*?src_user": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/non_japanese/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/on_campus/country_id:*/area_id:*": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/on_campus/country_id:*/area_id:*?a8": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/on_campus/country_id:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/on_campus/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 11
+  },
+  "/category/schools/online_english/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/online_english/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/parent_child/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/parent_child/direction:*/country_id:*/area_id:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/parent_child/direction:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/parent_child/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/parent_child/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/parent_child/direction:*?sort_type": {
+   "dup_no_user_canonical": 8,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/parent_child/sort:*/direction:*?a8": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/parent_child/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/parent_child?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/parent_child?amp;amp;utm_campaign,amp;amp;utm_medium,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/senior/direction:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/short_term/country_id:*/area_id:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 4
+  },
+  "/category/schools/short_term/country_id:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/short_term/country_id:*/area_id:*/type:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/short_term/country_id:*/area_id:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/short_term/country_id:*/area_id:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/short_term/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/short_term/direction:*/country_id:*/area_id:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 3,
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/short_term/direction:*/sort:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/short_term/direction:*/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/short_term/direction:*/country_id:*/area_id:*?sort_type": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 12
+  },
+  "/category/schools/short_term/direction:*/country_id:*/area_id:*": {
+   "discovered_not_indexed": 3
+  },
+  "/category/schools/short_term/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 5
+  },
+  "/category/schools/short_term/direction:*/sort:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/short_term/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/short_term/page:*/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/short_term/page:*/sort:*/direction:*/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/short_term/page:*/country_id:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/short_term/page:*/sort:*/direction:*": {
+   "dup_no_user_canonical": 1,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/short_term/page:*/sort:*/direction:*?amp;amp;amp;hsa_acc,amp;amp;amp;hsa_ad,amp;amp;amp;hsa_cam,amp;amp;amp;hsa_grp,amp;amp;amp;hsa_kw,amp;amp;amp;hsa_mt,amp;amp;amp;hsa_net,amp;amp;amp;hsa_src,amp;amp;amp;hsa_tgt,amp;amp;amp;hsa_ver,amp;amp;amp;msclkid,amp;amp;amp;utm_campaign,amp;amp;amp;utm_medium,amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/short_term/sort:*/direction:*/country_id:*/area_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/toefl/country_id:*/area_id:*": {
+   "crawled_not_indexed": 3
+  },
+  "/category/schools/toefl/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toefl/direction:*/country_id:*/area_id:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/toefl/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toefl/direction:*/country_id:*/area_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/toefl/direction:*/country_id:*/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/toefl/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 15
+  },
+  "/category/schools/toefl/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toefl/page:*/direction:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/toefl/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 3
+  },
+  "/category/schools/toefl/page:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toefl/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toefl/sort:*/direction:*/country_id:*/area_id:*": {
+   "discovered_not_indexed": 2
+  },
+  "/category/schools/toefl?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toeic/country_id:*/area_id:*/sort:*/direction:*?a8": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/toeic/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/toeic/country_id:*/area_id:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 5
+  },
+  "/category/schools/toeic/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toeic/country_id:*/area_id:*?sort_type": {
+   "dup_no_user_canonical": 7
+  },
+  "/category/schools/toeic/country_id:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toeic/direction:*/country_id:*/area_id:*/sort:*?a8": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/toeic/direction:*/country_id:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toeic/direction:*/sort:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toeic/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 9,
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toeic/direction:*/country_id:*/area_id:*?sort_type": {
+   "dup_no_user_canonical": 6
+  },
+  "/category/schools/toeic/direction:*?sort_type": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/toeic/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/toeic/page:*/country_id:*/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/toeic/sort:*/direction:*/country_id:*/area_id:*?sort_type": {
+   "dup_no_user_canonical": 5
+  },
+  "/category/schools/traveller/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/univ_going/country_id:*/area_id:*/sort:*/direction:*": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/univ_going/country_id:*/area_id:*": {
+   "discovered_not_indexed": 4
+  },
+  "/category/schools/univ_going/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/univ_going/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/univ_going/direction:*/country_id:*": {
+   "dup_no_user_canonical": 1,
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/univ_going/direction:*/country_id:*?sort_type": {
+   "dup_no_user_canonical": 13
+  },
+  "/category/schools/univ_going/direction:*/page:*?a8": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/univ_going/direction:*?sort_type": {
+   "dup_no_user_canonical": 7
+  },
+  "/category/schools/univ_going/page:*/direction:*?a8": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/vacation/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/vacation/country_id:*/area_id:*": {
+   "discovered_not_indexed": 4
+  },
+  "/category/schools/vacation/direction:*/sort:*?sort_type": {
+   "dup_no_user_canonical": 4
+  },
+  "/category/schools/vacation/direction:*?sort_type": {
+   "dup_no_user_canonical": 9
+  },
+  "/category/schools/vacation/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 3
+  },
+  "/category/schools/working_holiday/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/working_holiday/country_id:*/area_id:*": {
+   "discovered_not_indexed": 5
+  },
+  "/category/schools/working_holiday/direction:*/country_id:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/working_holiday/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/category/schools/working_holiday/direction:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/category/schools/working_holiday/page:*?sort_type": {
+   "crawled_not_indexed": 4
+  },
+  "/category/schools/working_holiday/page:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/category/schools/working_holiday/page:*/direction:*/country_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/category/schools/working_holiday/sort:*/direction:*?sort_type": {
+   "dup_no_user_canonical": 2
+  },
+  "/category/schools/working_holiday_course/country_id:*/area_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/columns/{id}?dejam_ab": {
+   "crawled_not_indexed": 1
+  },
+  "/columns/{id}": {
+   "crawled_not_indexed": 2,
+   "discovered_not_indexed": 3
+  },
+  "/columns/amp/{id}": {
+   "crawled_not_indexed": 2
+  },
+  "/columns/author/{id}": {
+   "discovered_not_indexed": 20
+  },
+  "/columns/author/{id}/supports/line/page:*": {
+   "discovered_not_indexed": 1,
+   "dup_no_user_canonical": 1
+  },
+  "/columns/author/{id}?a8": {
+   "discovered_not_indexed": 14,
+   "dup_no_user_canonical": 2
+  },
+  "/columns/author/{id}/page:*?a8": {
+   "dup_no_user_canonical": 2,
+   "discovered_not_indexed": 1
+  },
+  "/columns/author/{id}/supports/line": {
+   "discovered_not_indexed": 1
+  },
+  "/columns/category/{id}/supports/line/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/columns/category/{id}/page:*?a8": {
+   "discovered_not_indexed": 6,
+   "dup_no_user_canonical": 1
+  },
+  "/columns/country/{id}/page:*?a8": {
+   "dup_no_user_canonical": 4,
+   "discovered_not_indexed": 1
+  },
+  "/columns/country/{id}/supports/line/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/columns/tag/イギリス美大留学体験記": {
+   "crawled_not_indexed": 1
+  },
+  "/columns/tag/オススメな観光地情報": {
+   "crawled_not_indexed": 1
+  },
+  "/columns/tag/フリーランスのワーホリ連載": {
+   "crawled_not_indexed": 1
+  },
+  "/columns/tag/新卒美大生のカナダ・ワーホリ連載": {
+   "crawled_not_indexed": 1
+  },
+  "/columns?a8,page": {
+   "discovered_not_indexed": 5
+  },
+  "/columns?fbclid,page": {
+   "discovered_not_indexed": 3
+  },
+  "/columns?page,src": {
+   "discovered_not_indexed": 3
+  },
+  "/counsel/register?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/counsel/register?src": {
+   "discovered_not_indexed": 1
+  },
+  "/countries/{cc}/types/abroad_life/direction:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/countries/{cc}/types/abroad_life/direction:*": {
+   "discovered_not_indexed": 1
+  },
+  "/countries/{cc}/types/abroad_life?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/countries/{cc}/types/short_term/sort:*/direction:*": {
+   "discovered_not_indexed": 3
+  },
+  "/countries/{cc}/types/short_term/direction:*": {
+   "discovered_not_indexed": 1
+  },
+  "/countries/{cc}/types/working_holiday/direction:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/countries/{cc}/types/short_term/direction:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/countries/school/{cc}/page:*?sort_type": {
+   "crawled_not_indexed": 38,
+   "dup_no_user_canonical": 14
+  },
+  "/countries/school/{cc}/sort:*/direction:*/page:*": {
+   "discovered_not_indexed": 3
+  },
+  "/countries/school/{cc}/page:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 49
+  },
+  "/countries/school/{cc}/page:*/sort:*/direction:*": {
+   "crawled_not_indexed": 4,
+   "discovered_not_indexed": 2
+  },
+  "/countries/school/{cc}/sort:*/direction:*/page:*?sort_type": {
+   "crawled_not_indexed": 5
+  },
+  "/countries/school/{cc}/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 3
+  },
+  "/countries/school/{cc}?sort_type": {
+   "crawled_not_indexed": 3
+  },
+  "/countries/school/{cc}/direction:*/sort:*/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/countries/school/{cc}/direction:*/page:*": {
+   "discovered_not_indexed": 2
+  },
+  "/countries/school/{cc}/direction:*/sort:*/page:*?src_user": {
+   "crawled_not_indexed": 1
+  },
+  "/countries/school/{cc}/direction:*/sort:*?src_user": {
+   "crawled_not_indexed": 1
+  },
+  "/countries/school/{cc}/page:*/direction:*/sort:*": {
+   "crawled_not_indexed": 20
+  },
+  "/countries/school/{cc}/page:*?src_user": {
+   "crawled_not_indexed": 3
+  },
+  "/countries/school/{cc}?src_user": {
+   "crawled_not_indexed": 1
+  },
+  "/countries/school/{cc}/page:*/direction:*/sort:*?sort_type": {
+   "crawled_not_indexed": 15
+  },
+  "/countries/school/{cc}/page:*/direction:*?sort_type": {
+   "crawled_not_indexed": 4
+  },
+  "/countries/school/{cc}/page:*/direction:*": {
+   "crawled_not_indexed": 3,
+   "discovered_not_indexed": 7
+  },
+  "/countries/school/{cc}/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/countries/school/{cc}/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/countries/school/ph/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/countries?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/departure_steps?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/f_matchings/select/{id}": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 4
+  },
+  "/file/au_baggage.pdf?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/file/ca_baggage.pdf?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/file/mt_baggage.pdf?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/forschools?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/guideline?a8": {
+   "discovered_not_indexed": 2
+  },
+  "/help/{id}?a8": {
+   "discovered_not_indexed": 6
+  },
+  "/help/{id}": {
+   "discovered_not_indexed": 20
+  },
+  "/help/category/procedures?a8": {
+   "discovered_not_indexed": 2
+  },
+  "/help/category/schools?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/languages/schools/{id}/message_for_after_covit19/page:*/direction:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/languages/schools/{id}/message_for_after_covit19/page:*/sort:*/direction:*": {
+   "discovered_not_indexed": 2
+  },
+  "/languages/schools/{id}/message_for_after_covit19/page:*/sort:*/direction:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/matchings/areas/{cc}?a8": {
+   "discovered_not_indexed": 7
+  },
+  "/matchings/areas/{cc}?src_user": {
+   "discovered_not_indexed": 8
+  },
+  "/matchings/countries?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/matchings/questions/{id}?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/matchings?a8": {
+   "dup_no_user_canonical": 2
+  },
+  "/matchings?afid": {
+   "dup_no_user_canonical": 1
+  },
+  "/matchings?f070180f6e7f035c74eb5c98d404a02b": {
+   "dup_no_user_canonical": 1
+  },
+  "/matchings?fbclid": {
+   "discovered_not_indexed": 1
+  },
+  "/matchings?src_columns_under": {
+   "dup_no_user_canonical": 4,
+   "discovered_not_indexed": 1
+  },
+  "/matchings?src_user": {
+   "discovered_not_indexed": 1
+  },
+  "/matchings?utm_campaign,utm_medium,utm_source": {
+   "dup_no_user_canonical": 1
+  },
+  "/ph_matchings/select/{id}?a8": {
+   "discovered_not_indexed": 2
+  },
+  "/ph_matchings/select/{id}": {
+   "dup_no_user_canonical": 2
+  },
+  "/ph_matchings?src": {
+   "discovered_not_indexed": 1
+  },
+  "/ph_western?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/ph_western?src": {
+   "discovered_not_indexed": 1
+  },
+  "/press/{id}?a8": {
+   "discovered_not_indexed": 2
+  },
+  "/press?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/provinces/{id}/direction:*/page:*": {
+   "discovered_not_indexed": 7
+  },
+  "/provinces/{id}/page:*/direction:*/sort:*?amp;gad_source,amp;gclid,amp;hsa_acc,amp;hsa_ad,amp;hsa_cam,amp;hsa_grp,amp;hsa_kw,amp;hsa_mt,amp;hsa_net,amp;hsa_src,amp;hsa_tgt,amp;hsa_ver,amp;utm_campaign,amp;utm_medium,amp;utm_source,utm_term": {
+   "crawled_not_indexed": 1
+  },
+  "/provinces/{id}/page:*/direction:*": {
+   "discovered_not_indexed": 5,
+   "crawled_not_indexed": 1
+  },
+  "/provinces/{id}/direction:*/sort:*/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/provinces/{id}/direction:*": {
+   "crawled_not_indexed": 1,
+   "discovered_not_indexed": 2
+  },
+  "/provinces/{id}/page:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/provinces/{id}/sort:*/direction:*/page:*": {
+   "discovered_not_indexed": 3
+  },
+  "/provinces/{id}/page:*/sort:*/direction:*": {
+   "crawled_not_indexed": 2
+  },
+  "/provinces/{id}/sort:*/direction:*": {
+   "discovered_not_indexed": 3
+  },
+  "/purposes/schools/{id}/page:*/direction:*?src_user": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/{id}/page:*?src_user": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/{id}/page:*/direction:*/sort:*?src_user": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*/sort:*/direction:*?src_user": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*/direction:*?sort_type": {
+   "crawled_not_indexed": 4
+  },
+  "/purposes/schools/{id}/sort:*/direction:*/page:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/{id}/page:*?amp;amp;gad_source,amp;amp;gclid,amp;amp;hsa_acc,amp;amp;hsa_ad,amp;amp;hsa_cam,amp;amp;hsa_grp,amp;amp;hsa_kw,amp;amp;hsa_mt,amp;amp;hsa_net,amp;amp;hsa_src,amp;amp;hsa_tgt,amp;amp;hsa_ver,amp;amp;utm_campaign,amp;amp;utm_medium,amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 5
+  },
+  "/purposes/schools/{id}/page:*?amp;amp;hsa_acc,amp;amp;hsa_ad,amp;amp;hsa_cam,amp;amp;hsa_grp,amp;amp;hsa_kw,amp;amp;hsa_mt,amp;amp;hsa_net,amp;amp;hsa_src,amp;amp;hsa_tgt,amp;amp;hsa_ver,amp;amp;msclkid,amp;amp;utm_campaign,amp;amp;utm_medium,amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 3
+  },
+  "/purposes/schools/{id}/page:*?hsa_acc,hsa_ad,hsa_cam,hsa_grp,hsa_kw,hsa_mt,hsa_net,hsa_src,hsa_tgt,hsa_ver,msclkid,utm_campaign,utm_medium,utm_source,utm_term": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*/sort:*/direction:*?amp;amp;amp;hsa_acc,amp;amp;amp;hsa_ad,amp;amp;amp;hsa_cam,amp;amp;amp;hsa_grp,amp;amp;amp;hsa_kw,amp;amp;amp;hsa_mt,amp;amp;amp;hsa_net,amp;amp;amp;hsa_src,amp;amp;amp;hsa_tgt,amp;amp;amp;hsa_ver,amp;amp;amp;msclkid,amp;amp;amp;utm_campaign,amp;amp;amp;utm_medium,amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 3
+  },
+  "/purposes/schools/{id}/page:*?amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;msclkid,amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 8
+  },
+  "/purposes/schools/{id}/page:*/sort:*/direction:*?amp;hsa_acc,amp;hsa_ad,amp;hsa_cam,amp;hsa_grp,amp;hsa_kw,amp;hsa_mt,amp;hsa_net,amp;hsa_src,amp;hsa_tgt,amp;hsa_ver,amp;msclkid,amp;utm_campaign,amp;utm_medium,amp;utm_term,utm_source": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/{id}/page:*?amp;amp;amp;amp;amp;amp;gad_source,amp;amp;amp;amp;amp;amp;gclid,amp;amp;amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*?amp;amp;amp;amp;gad_source,amp;amp;amp;amp;gclid,amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*/sort:*/direction:*?amp;gad_source,amp;gclid,amp;hsa_acc,amp;hsa_ad,amp;hsa_cam,amp;hsa_grp,amp;hsa_kw,amp;hsa_mt,amp;hsa_net,amp;hsa_src,amp;hsa_tgt,amp;hsa_ver,amp;utm_campaign,amp;utm_medium,amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*?gad_source,gclid,hsa_acc,hsa_ad,hsa_cam,hsa_grp,hsa_kw,hsa_mt,hsa_net,hsa_src,hsa_tgt,hsa_ver,utm_campaign,utm_medium,utm_source,utm_term": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/{id}/sort:*/direction:*/page:*?amp;amp;amp;gad_source,amp;amp;amp;gclid,amp;amp;amp;hsa_acc,amp;amp;amp;hsa_ad,amp;amp;amp;hsa_cam,amp;amp;amp;hsa_grp,amp;amp;amp;hsa_kw,amp;amp;amp;hsa_mt,amp;amp;amp;hsa_net,amp;amp;amp;hsa_src,amp;amp;amp;hsa_tgt,amp;amp;amp;hsa_ver,amp;amp;amp;utm_campaign,amp;amp;amp;utm_medium,amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/sort:*/direction:*/page:*?amp;amp;amp;hsa_acc,amp;amp;amp;hsa_ad,amp;amp;amp;hsa_cam,amp;amp;amp;hsa_grp,amp;amp;amp;hsa_kw,amp;amp;amp;hsa_mt,amp;amp;amp;hsa_net,amp;amp;amp;hsa_src,amp;amp;amp;hsa_tgt,amp;amp;amp;hsa_ver,amp;amp;amp;msclkid,amp;amp;amp;utm_campaign,amp;amp;amp;utm_medium,amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/sort:*/direction:*?amp;amp;amp;amp;amp;amp;amp;gad_source,amp;amp;amp;amp;amp;amp;amp;gclid,amp;amp;amp;amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/sort:*/direction:*?amp;gad_source,amp;gclid,amp;hsa_acc,amp;hsa_ad,amp;hsa_cam,amp;hsa_grp,amp;hsa_kw,amp;hsa_mt,amp;hsa_net,amp;hsa_src,amp;hsa_tgt,amp;hsa_ver,amp;utm_campaign,amp;utm_medium,amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/sort:*/direction:*?amp;amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;amp;msclkid,amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/sort:*/direction:*?amp;amp;amp;hsa_acc,amp;amp;amp;hsa_ad,amp;amp;amp;hsa_cam,amp;amp;amp;hsa_grp,amp;amp;amp;hsa_kw,amp;amp;amp;hsa_mt,amp;amp;amp;hsa_net,amp;amp;amp;hsa_src,amp;amp;amp;hsa_tgt,amp;amp;amp;hsa_ver,amp;amp;amp;msclkid,amp;amp;amp;utm_campaign,amp;amp;amp;utm_medium,amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}?amp;amp;amp;amp;amp;amp;gad_source,amp;amp;amp;amp;amp;amp;gclid,amp;amp;amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}?amp;amp;gad_source,amp;amp;gclid,amp;amp;hsa_acc,amp;amp;hsa_ad,amp;amp;hsa_cam,amp;amp;hsa_grp,amp;amp;hsa_kw,amp;amp;hsa_mt,amp;amp;hsa_net,amp;amp;hsa_src,amp;amp;hsa_tgt,amp;amp;hsa_ver,amp;amp;utm_campaign,amp;amp;utm_medium,amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/{id}?amp;amp;amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;amp;amp;msclkid,amp;amp;amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}?amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;msclkid,amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/{id}?amp;amp;hsa_acc,amp;amp;hsa_ad,amp;amp;hsa_cam,amp;amp;hsa_grp,amp;amp;hsa_kw,amp;amp;hsa_mt,amp;amp;hsa_net,amp;amp;hsa_src,amp;amp;hsa_tgt,amp;amp;hsa_ver,amp;amp;msclkid,amp;amp;utm_campaign,amp;amp;utm_medium,amp;amp;utm_term,utm_source": {
+   "crawled_not_indexed": 4
+  },
+  "/purposes/schools/{id}/direction:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/{id}/page:*?amp;amp;amp;amp;gad_source,amp;amp;amp;amp;gclid,amp;amp;amp;amp;hsa_acc,amp;amp;amp;amp;hsa_ad,amp;amp;amp;amp;hsa_cam,amp;amp;amp;amp;hsa_grp,amp;amp;amp;amp;hsa_kw,amp;amp;amp;amp;hsa_mt,amp;amp;amp;amp;hsa_net,amp;amp;amp;amp;hsa_src,amp;amp;amp;amp;hsa_tgt,amp;amp;amp;amp;hsa_ver,amp;amp;amp;amp;utm_campaign,amp;amp;amp;amp;utm_medium,amp;amp;amp;amp;utm_source,utm_term": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/{id}/page:*?sort_type": {
+   "crawled_not_indexed": 6
+  },
+  "/purposes/schools/{id}/sort:*/direction:*?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/{id}/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/{id}/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/gender:*/job:*/sort:*?sort_type": {
+   "discovered_not_indexed": 1,
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/gender:*/sort:*?sort_type": {
+   "discovered_not_indexed": 3,
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/job:*/sort:*/direction:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 4,
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/job:*/sort:*/direction:*": {
+   "crawled_not_indexed": 2,
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/job:*?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/gender:*/job:*": {
+   "discovered_not_indexed": 2,
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 3
+  },
+  "/purposes/schools/demogura/{id}/page:*/job:*?sort_type": {
+   "discovered_not_indexed": 8
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/age:*/gender:*?sort_type": {
+   "discovered_not_indexed": 5
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/age:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/age:*?sort_type": {
+   "discovered_not_indexed": 5
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/age:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/age:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 5
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/age:*/gender:*?sort_type": {
+   "discovered_not_indexed": 7
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/age:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/age:*/job:*?sort_type": {
+   "discovered_not_indexed": 3
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/age:*/job:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/age:*/job:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/job:*": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/sort:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*/gender:*/job:*/page:*": {
+   "crawled_not_indexed": 1,
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/job:*/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/job:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/job:*/page:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 3
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/job:*/page:*": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/direction:*/gender:*/job:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/gender:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/gender:*?sort_type": {
+   "crawled_not_indexed": 1,
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/job:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/page:*/age:*/gender:*": {
+   "crawled_not_indexed": 6
+  },
+  "/purposes/schools/demogura/{id}/page:*/age:*/job:*": {
+   "crawled_not_indexed": 6,
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/age:*?sort_type": {
+   "discovered_not_indexed": 3
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/age:*/gender:*/job:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/age:*/gender:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/age:*/gender:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/age:*/gender:*/job:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*": {
+   "crawled_not_indexed": 3
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/sort:*/direction:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/sort:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/gender:*/job:*/sort:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/job:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/gender:*": {
+   "crawled_not_indexed": 1,
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/gender:*?sort_type": {
+   "discovered_not_indexed": 8
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/age:*/job:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/age:*/gender:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*/job:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/gender:*/job:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/gender:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/job:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/age:*/job:*": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/age:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/job:*?sort_type": {
+   "discovered_not_indexed": 1,
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/job:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*/gender:*?sort_type": {
+   "discovered_not_indexed": 3
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/sort:*/direction:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/gender:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/age:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/age:*/gender:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/gender:*/job:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/job:*/sort:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/gender:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/gender:*/job:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/job:*/sort:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/gender:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*/age:*/job:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*/gender:*/page:*?sort_type": {
+   "discovered_not_indexed": 2
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/job:*/sort:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/job:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/age:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/sort:*/direction:*?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/gender:*/sort:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/gender:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/age:*/gender:*/job:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/direction:*/sort:*/age:*/gender:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/gender:*/job:*/sort:*/direction:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/job:*": {
+   "crawled_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/gender:*?sort_type": {
+   "discovered_not_indexed": 3
+  },
+  "/purposes/schools/demogura/{id}/page:*/direction:*/sort:*/age:*/gender:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/age:*/job:*/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/gender:*/job:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes/schools/demogura/{id}/sort:*/direction:*/gender:*/job:*/page:*?sort_type": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/purposes?src_user": {
+   "discovered_not_indexed": 1
+  },
+  "/review/{id}": {
+   "crawled_not_indexed": 1
+  },
+  "/review_campaign?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/reviews/{id}": {
+   "discovered_not_indexed": 833,
+   "crawled_not_indexed": 91
+  },
+  "/reviews/{id}?a8": {
+   "crawled_not_indexed": 7,
+   "dup_no_user_canonical": 5
+  },
+  "/reviews/check?areaId,countryId,schoolId": {
+   "crawled_not_indexed": 25
+  },
+  "/reviews/view/{id}": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/{id}": {
+   "crawled_not_indexed": 55,
+   "discovered_not_indexed": 1
+  },
+  "/schools/curriculum/{id}?fragment_identifier": {
+   "dup_no_user_canonical": 47,
+   "crawled_not_indexed": 9
+  },
+  "/schools/curriculum/{id}": {
+   "crawled_not_indexed": 5,
+   "discovered_not_indexed": 4
+  },
+  "/schools/photo/{id}": {
+   "crawled_not_indexed": 2
+  },
+  "/schools/photo/{id}?a8": {
+   "crawled_not_indexed": 2
+  },
+  "/schools/photo_movie/all/{id}": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/photo_movie/movie/{id}": {
+   "discovered_not_indexed": 169,
+   "crawled_not_indexed": 10
+  },
+  "/schools/photo_movie/movie/{id}?a8": {
+   "discovered_not_indexed": 2
+  },
+  "/schools/photo_movie/photo/{id}": {
+   "discovered_not_indexed": 101,
+   "crawled_not_indexed": 8
+  },
+  "/schools/photo_movie/photo/{id}/施設・設備": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 1
+  },
+  "/schools/photo_movie/photo/{id}/アクティビティ": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/photo_movie/photo/{id}?a8": {
+   "dup_no_user_canonical": 4,
+   "discovered_not_indexed": 5,
+   "crawled_not_indexed": 1
+  },
+  "/schools/photo_movie/photo/{id}/校舎外観": {
+   "dup_no_user_canonical": 1
+  },
+  "/schools/photo_movie/photo/{id}/周辺環境": {
+   "dup_no_user_canonical": 2,
+   "crawled_not_indexed": 2
+  },
+  "/schools/photo_movie/photo/{id}/授業風景": {
+   "dup_no_user_canonical": 2
+  },
+  "/schools/photo_movie/photo/{id}/その他": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/photo_movie/photo/{id}/宿泊施設": {
+   "dup_no_user_canonical": 2
+  },
+  "/schools/review/{id}/sort:*/direction:*": {
+   "crawled_not_indexed": 2,
+   "discovered_not_indexed": 4
+  },
+  "/schools/review/{id}/term_weeks_asc": {
+   "crawled_not_indexed": 8
+  },
+  "/schools/review/{id}/page:*/sort:*/direction:*": {
+   "crawled_not_indexed": 3,
+   "discovered_not_indexed": 3
+  },
+  "/schools/review/{id}/page:*/sort:*/direction:*?a8": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 1
+  },
+  "/schools/review/{id}/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/review/{id}/sort:*/direction:*/page:*?a8": {
+   "crawled_not_indexed": 1,
+   "dup_no_user_canonical": 1
+  },
+  "/schools/review/{id}/end_date_desc/supports/line/page:*": {
+   "discovered_not_indexed": 3
+  },
+  "/schools/review/{id}/overall_rating_desc/supports/line/page:*": {
+   "discovered_not_indexed": 5
+  },
+  "/schools/review/{id}/term_weeks_asc/supports/line/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/review/{id}/term_weeks_desc/supports/line/page:*": {
+   "discovered_not_indexed": 5
+  },
+  "/schools/review/{id}/posts_date_desc/supports/line/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/review/{id}/term_weeks_asc/message_for_after_covit19/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/review/{id}/overall_rating_asc/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/review/{id}/overall_rating_asc/supports/line/page:*": {
+   "crawled_not_indexed": 1,
+   "discovered_not_indexed": 2
+  },
+  "/schools/review/{id}/overall_rating_desc/supports/line": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/review/{id}/posts_date_desc/page:*": {
+   "crawled_not_indexed": 3
+  },
+  "/schools/review/{id}/end_date_desc/supports/line": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/review/{id}/overall_rating_asc/supports/line": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/review/{id}/posts_date_desc": {
+   "discovered_not_indexed": 4,
+   "crawled_not_indexed": 1
+  },
+  "/schools/review/{id}/sort:*/direction:*/page:*": {
+   "discovered_not_indexed": 2
+  },
+  "/schools/review/{id}": {
+   "crawled_not_indexed": 31,
+   "discovered_not_indexed": 9,
+   "dup_google_chose_different": 1
+  },
+  "/schools/review/{id}/end_date_desc": {
+   "crawled_not_indexed": 4
+  },
+  "/schools/review/{id}/overall_rating_asc": {
+   "crawled_not_indexed": 6
+  },
+  "/schools/review/{id}?a8": {
+   "crawled_not_indexed": 4
+  },
+  "/schools/review/{id}/term_weeks_desc": {
+   "crawled_not_indexed": 3
+  },
+  "/schools/review/{id}/overall_rating_desc": {
+   "crawled_not_indexed": 6
+  },
+  "/schools/review/{id}/term_weeks_desc/message_for_after_covit19/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/review/{id}/term_weeks_asc/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/review/{id}/overall_rating_asc/supports/supports/line/page:*": {
+   "dup_no_user_canonical": 1
+  },
+  "/schools/review/{id}/end_date_desc/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/schools/review/{id}/posts_date_desc/supports/supports/line/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/review/{id}/term_weeks_asc/supports/supports/line/page:*": {
+   "discovered_not_indexed": 2
+  },
+  "/schools/review/{id}/posts_date_desc/message_for_after_covit19/page:*": {
+   "discovered_not_indexed": 1
+  },
+  "/schools/stay/{id}?a8": {
+   "discovered_not_indexed": 3
+  },
+  "/schools/stay/{id}": {
+   "crawled_not_indexed": 1
+  },
+  "/search/columns/result/message_for_after_covit19/page:*": {
+   "discovered_not_indexed": 3
+  },
+  "/search/columns/result/page:*/sub_category_id:*": {
+   "discovered_not_indexed": 32,
+   "crawled_not_indexed": 3
+  },
+  "/search/columns/result/page:*/supports/line": {
+   "discovered_not_indexed": 1
+  },
+  "/search/columns/result/sub_category_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/search/columns/result/supports/line/page:*": {
+   "discovered_not_indexed": 4
+  },
+  "/search/columns/result/supports/line/page:*/sub_category_id:*": {
+   "discovered_not_indexed": 1
+  },
+  "/search/schools/result/country_id[ ]:1?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/country_id[/page:*/]:7": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/country_id[/page:*/sort:*/direction:*/]:5?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/message_for_after_covit19/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/page:*/direction:*/sort:*/country_id[.]:3?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/page:*/country_id[-]:5?sort_type": {
+   "crawled_not_indexed": 2
+  },
+  "/search/schools/result/page:*/direction:*/sort:*/country_id[ ]:1": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/page:*/country_id[.]:4": {
+   "crawled_not_indexed": 4
+  },
+  "/search/schools/result/page:*/direction:*/country_id[ ]:1": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/page:*/country_id[-]:2?sort_type": {
+   "crawled_not_indexed": 8
+  },
+  "/search/schools/result/page:*/country_id[-]:2": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/page:*/country_id[.]:2": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/search_school_name/sort:*/direction:*/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/search_school_name/sort:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/sort:*/direction:*/search_school_name:*/page:*": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/supports/line/page:*/direction:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search/schools/result/supports/supports/line/page:*?sort_type": {
+   "crawled_not_indexed": 1
+  },
+  "/search_schools/result/page:*?sort_type": {
+   "dup_no_user_canonical": 1
+  },
+  "/seminars/register?schedule": {
+   "dup_no_user_canonical": 6,
+   "discovered_not_indexed": 1
+  },
+  "/settings/forget_password?a8": {
+   "discovered_not_indexed": 2
+  },
+  "/types/cambridge?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/types/gmat?a8": {
+   "discovered_not_indexed": 1
+  },
+  "/users/?done": {
+   "crawled_not_indexed": 1
+  },
+  "/users/register": {
+   "crawled_not_indexed": 1
+  },
+  "/users?src_user": {
+   "discovered_not_indexed": 1
+  }
+ },
+ "diff_prev": {
+  "base_date": null,
+  "new": [],
+  "resolved": [],
+  "delta": {}
+ },
+ "diff_week": {
+  "base_date": null,
+  "new": [],
+  "resolved": [],
+  "delta": {}
+ },
+ "template_diff_week": [],
+ "transitions": {
+  "start": "2026-10-05",
+  "end": "2026-10-11",
+  "rows": [
+   {
+    "template": "/columns/{id}",
+    "worse": 1,
+    "better": 1,
+    "found": 0,
+    "net": 0,
+    "examples": [
+     {
+      "url": "https://schoolwith.me/columns/33783",
+      "from": "登録済み",
+      "to": "クロール済み・未登録",
+      "date": "2026-10-09"
+     }
+    ]
+   },
+   {
+    "template": "/category/schools/facility/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 13,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/non_japanese/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 3,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/business/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 3,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/ielts/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 2,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/vacation/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 2,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/facility/country_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 2,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/campaign/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 2,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/abroad_life/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 2,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/areas/{id}/campaign:*/campaign_sort",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/schools/review/{id}",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/univ_going/country_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/?afid,cid,p",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/internship/country_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/toeic/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/parent_child/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/english/country_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/attention",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/native/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/internship/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/schools/{id}",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/users?src_user",
+    "worse": 0,
+    "better": 0,
+    "found": 1,
+    "net": 0,
+    "examples": []
+   },
+   {
+    "template": "/schools/photo_movie/movie/{id}",
+    "worse": 0,
+    "better": 1,
+    "found": 23,
+    "net": -1,
+    "examples": []
+   },
+   {
+    "template": "/schools/photo_movie/photo/{id}",
+    "worse": 0,
+    "better": 1,
+    "found": 20,
+    "net": -1,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/gmat/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 1,
+    "found": 1,
+    "net": -1,
+    "examples": []
+   },
+   {
+    "template": "/schools/curriculum/{id}",
+    "worse": 0,
+    "better": 1,
+    "found": 0,
+    "net": -1,
+    "examples": []
+   },
+   {
+    "template": "/category/schools/cambridge/country_id:*/area_id:*",
+    "worse": 0,
+    "better": 1,
+    "found": 0,
+    "net": -1,
+    "examples": []
+   },
+   {
+    "template": "/help/{id}",
+    "worse": 0,
+    "better": 2,
+    "found": 4,
+    "net": -2,
+    "examples": []
+   },
+   {
+    "template": "/columns/author/{id}",
+    "worse": 0,
+    "better": 2,
+    "found": 1,
+    "net": -2,
+    "examples": []
+   },
+   {
+    "template": "/reviews/{id}",
+    "worse": 0,
+    "better": 5,
+    "found": 36,
+    "net": -5,
+    "examples": []
+   }
+  ],
+  "worse_total": 1,
+  "better_total": 15,
+  "found_total": 127
+ },
+ "checks_total": 4303,
+ "site_facts_at": "2026-10-11T03:37:47+00:00",
+ "unexplained_count": 6
+}
