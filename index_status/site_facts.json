@@ -1,0 +1,420 @@
+{
+ "collected_at": "2026-10-11T03:37:47+00:00",
+ "sitemaps": [
+  {
+   "name": "top_other.xml",
+   "url": "https://schoolwith.me/sitemaps/top_other.xml",
+   "urls": 53,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/",
+    "https://schoolwith.me/countries",
+    "https://schoolwith.me/users"
+   ]
+  },
+  {
+   "name": "ph.xml",
+   "url": "https://schoolwith.me/sitemaps/ph.xml",
+   "urls": 31,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/PH",
+    "https://schoolwith.me/countries/PH/areas",
+    "https://schoolwith.me/countries/PH/holiday"
+   ]
+  },
+  {
+   "name": "us.xml",
+   "url": "https://schoolwith.me/sitemaps/us.xml",
+   "urls": 31,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/US",
+    "https://schoolwith.me/countries/US/areas",
+    "https://schoolwith.me/countries/US/holiday"
+   ]
+  },
+  {
+   "name": "ca.xml",
+   "url": "https://schoolwith.me/sitemaps/ca.xml",
+   "urls": 31,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/CA",
+    "https://schoolwith.me/countries/CA/areas",
+    "https://schoolwith.me/countries/CA/holiday"
+   ]
+  },
+  {
+   "name": "au.xml",
+   "url": "https://schoolwith.me/sitemaps/au.xml",
+   "urls": 22,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/AU",
+    "https://schoolwith.me/countries/AU/areas",
+    "https://schoolwith.me/countries/AU/holiday"
+   ]
+  },
+  {
+   "name": "uk.xml",
+   "url": "https://schoolwith.me/sitemaps/uk.xml",
+   "urls": 31,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/UK",
+    "https://schoolwith.me/countries/UK/areas",
+    "https://schoolwith.me/countries/UK/holiday"
+   ]
+  },
+  {
+   "name": "nz.xml",
+   "url": "https://schoolwith.me/sitemaps/nz.xml",
+   "urls": 31,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/NZ",
+    "https://schoolwith.me/countries/NZ/areas",
+    "https://schoolwith.me/countries/NZ/holiday"
+   ]
+  },
+  {
+   "name": "ie.xml",
+   "url": "https://schoolwith.me/sitemaps/ie.xml",
+   "urls": 30,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/IE",
+    "https://schoolwith.me/countries/IE/areas",
+    "https://schoolwith.me/countries/IE/holiday"
+   ]
+  },
+  {
+   "name": "mt.xml",
+   "url": "https://schoolwith.me/sitemaps/mt.xml",
+   "urls": 24,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/MT",
+    "https://schoolwith.me/countries/MT/areas",
+    "https://schoolwith.me/countries/MT/holiday"
+   ]
+  },
+  {
+   "name": "hk.xml",
+   "url": "https://schoolwith.me/sitemaps/hk.xml",
+   "urls": 3,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/HK",
+    "https://schoolwith.me/countries/HK/feature",
+    "https://schoolwith.me/countries/HK/spots"
+   ]
+  },
+  {
+   "name": "my.xml",
+   "url": "https://schoolwith.me/sitemaps/my.xml",
+   "urls": 3,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/MY",
+    "https://schoolwith.me/countries/MY/feature",
+    "https://schoolwith.me/countries/MY/spots"
+   ]
+  },
+  {
+   "name": "sg.xml",
+   "url": "https://schoolwith.me/sitemaps/sg.xml",
+   "urls": 4,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/SG",
+    "https://schoolwith.me/countries/school/SG",
+    "https://schoolwith.me/countries/SG/feature"
+   ]
+  },
+  {
+   "name": "in.xml",
+   "url": "https://schoolwith.me/sitemaps/in.xml",
+   "urls": 3,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/IN",
+    "https://schoolwith.me/countries/IN/feature",
+    "https://schoolwith.me/countries/IN/spots"
+   ]
+  },
+  {
+   "name": "fj.xml",
+   "url": "https://schoolwith.me/sitemaps/fj.xml",
+   "urls": 4,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/FJ",
+    "https://schoolwith.me/countries/school/FJ",
+    "https://schoolwith.me/countries/FJ/feature"
+   ]
+  },
+  {
+   "name": "za.xml",
+   "url": "https://schoolwith.me/sitemaps/za.xml",
+   "urls": 4,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/ZA",
+    "https://schoolwith.me/countries/school/ZA",
+    "https://schoolwith.me/countries/ZA/feature"
+   ]
+  },
+  {
+   "name": "ae.xml",
+   "url": "https://schoolwith.me/sitemaps/ae.xml",
+   "urls": 3,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/AE",
+    "https://schoolwith.me/countries/AE/feature",
+    "https://schoolwith.me/countries/AE/spots"
+   ]
+  },
+  {
+   "name": "id.xml",
+   "url": "https://schoolwith.me/sitemaps/id.xml",
+   "urls": 4,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/ID",
+    "https://schoolwith.me/countries/school/ID",
+    "https://schoolwith.me/countries/ID/feature"
+   ]
+  },
+  {
+   "name": "seminars.xml",
+   "url": "https://schoolwith.me/sitemaps/seminars.xml",
+   "urls": 13,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/seminars",
+    "https://schoolwith.me/seminars/PH",
+    "https://schoolwith.me/seminars/US"
+   ]
+  },
+  {
+   "name": "matchings.xml",
+   "url": "https://schoolwith.me/sitemaps/matchings.xml",
+   "urls": 11,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/matchings",
+    "https://schoolwith.me/matchings/countries",
+    "https://schoolwith.me/matchings/areas/PH"
+   ]
+  },
+  {
+   "name": "areas.xml",
+   "url": "https://schoolwith.me/sitemaps/areas.xml",
+   "urls": 807,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/areas/1",
+    "https://schoolwith.me/areas/school/1",
+    "https://schoolwith.me/areas/1/climate"
+   ]
+  },
+  {
+   "name": "types.xml",
+   "url": "https://schoolwith.me/sitemaps/types.xml",
+   "urls": 21,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/types",
+    "https://schoolwith.me/types/short_term",
+    "https://schoolwith.me/types/long_term"
+   ]
+  },
+  {
+   "name": "category.xml",
+   "url": "https://schoolwith.me/sitemaps/category.xml",
+   "urls": 700,
+   "lastmod": 0,
+   "param_urls": 669,
+   "examples": [
+    "https://schoolwith.me/category/schools",
+    "https://schoolwith.me/category/schools/abroad_life",
+    "https://schoolwith.me/category/schools/abroad_life/country_id:2"
+   ]
+  },
+  {
+   "name": "schools.xml",
+   "url": "https://schoolwith.me/sitemaps/schools.xml",
+   "urls": 1373,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/schools/1",
+    "https://schoolwith.me/schools/curriculum/1",
+    "https://schoolwith.me/schools/review/1"
+   ]
+  },
+  {
+   "name": "reviews.xml",
+   "url": "https://schoolwith.me/sitemaps/reviews.xml",
+   "urls": 8668,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/reviews/31418",
+    "https://schoolwith.me/reviews/31419",
+    "https://schoolwith.me/reviews/31420"
+   ]
+  },
+  {
+   "name": "columns.xml",
+   "url": "https://schoolwith.me/sitemaps/columns.xml",
+   "urls": 2106,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/columns",
+    "https://schoolwith.me/columns/31415",
+    "https://schoolwith.me/columns/31435"
+   ]
+  },
+  {
+   "name": "help.xml",
+   "url": "https://schoolwith.me/sitemaps/help.xml",
+   "urls": 210,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/help",
+    "https://schoolwith.me/help/category/about",
+    "https://schoolwith.me/help/category/schools"
+   ]
+  },
+  {
+   "name": "contacts.xml",
+   "url": "https://schoolwith.me/sitemaps/contacts.xml",
+   "urls": 3,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/contacts",
+    "https://schoolwith.me/contacts/customer",
+    "https://schoolwith.me/contacts/business"
+   ]
+  },
+  {
+   "name": "a8.xml",
+   "url": "https://schoolwith.me/sitemaps/a8.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 1,
+   "examples": [
+    "https://schoolwith.me/?a8=XXX"
+   ]
+  },
+  {
+   "name": "afid.xml",
+   "url": "https://schoolwith.me/sitemaps/afid.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 1,
+   "examples": [
+    "https://schoolwith.me/?afid=POc2mn9nN69dke7L06qAZnJg9TCTWcDE0qe7&cid=c01jjrx2f2hq37h4pxxv7py4t74&p=ph3a8u9yn97o"
+   ]
+  },
+  {
+   "name": "applications.xml",
+   "url": "https://schoolwith.me/sitemaps/applications.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/applications/a_complete/1"
+   ]
+  },
+  {
+   "name": "fbclid.xml",
+   "url": "https://schoolwith.me/sitemaps/fbclid.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 1,
+   "examples": [
+    "https://schoolwith.me/matchings?fbclid=fbclid"
+   ]
+  },
+  {
+   "name": "page.xml",
+   "url": "https://schoolwith.me/sitemaps/page.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 1,
+   "examples": [
+    "https://schoolwith.me/areas/6004/page:2"
+   ]
+  },
+  {
+   "name": "purposes.xml",
+   "url": "https://schoolwith.me/sitemaps/purposes.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 1,
+   "examples": [
+    "https://schoolwith.me/purposes?job=society"
+   ]
+  },
+  {
+   "name": "sort.xml",
+   "url": "https://schoolwith.me/sitemaps/sort.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 1,
+   "examples": [
+    "https://schoolwith.me/areas/1/campaign:0/campaign_sort"
+   ]
+  },
+  {
+   "name": "src.xml",
+   "url": "https://schoolwith.me/sitemaps/src.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 1,
+   "examples": [
+    "https://schoolwith.me/users?src_user=school_bookmark"
+   ]
+  },
+  {
+   "name": "types1.xml",
+   "url": "https://schoolwith.me/sitemaps/types1.xml",
+   "urls": 1,
+   "lastmod": 0,
+   "param_urls": 0,
+   "examples": [
+    "https://schoolwith.me/countries/AE/types/short_term"
+   ]
+  }
+ ],
+ "robots_txt": "User-Agent:*\nDisallow: /schoolbookmarks/\nDisallow: /req/\nDisallow: /applications/ajax_get_type/\nDisallow: /schools/json/\n\nUser-agent: AhrefsBot \nCrawl-Delay: 300\n\nUser-agent: MJ12bot\nCrawl-Delay: 300\n\nUser-agent: MegaIndex.ru\nCrawl-Delay: 300\n\nUser-agent: BLEXBot\nCrawl-Delay: 300\n\nUser-agent: Yandex\nCrawl-Delay: 300\n\nSitemap: https://schoolwith.me/sitemaps/index.xml"
+}
