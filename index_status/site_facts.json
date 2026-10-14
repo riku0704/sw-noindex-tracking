@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-10-12T11:53:55+00:00",
+ "collected_at": "2026-10-14T03:30:13+00:00",
  "sitemaps": [
   {
    "name": "top_other.xml",
@@ -232,7 +232,7 @@
   {
    "name": "areas.xml",
    "url": "https://schoolwith.me/sitemaps/areas.xml",
-   "urls": 807,
+   "urls": 805,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
@@ -256,9 +256,9 @@
   {
    "name": "category.xml",
    "url": "https://schoolwith.me/sitemaps/category.xml",
-   "urls": 700,
+   "urls": 643,
    "lastmod": 0,
-   "param_urls": 669,
+   "param_urls": 614,
    "examples": [
     "https://schoolwith.me/category/schools",
     "https://schoolwith.me/category/schools/abroad_life",
@@ -268,7 +268,7 @@
   {
    "name": "schools.xml",
    "url": "https://schoolwith.me/sitemaps/schools.xml",
-   "urls": 1373,
+   "urls": 1343,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
@@ -280,7 +280,7 @@
   {
    "name": "reviews.xml",
    "url": "https://schoolwith.me/sitemaps/reviews.xml",
-   "urls": 8669,
+   "urls": 8672,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
@@ -292,7 +292,7 @@
   {
    "name": "columns.xml",
    "url": "https://schoolwith.me/sitemaps/columns.xml",
-   "urls": 2106,
+   "urls": 2103,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
