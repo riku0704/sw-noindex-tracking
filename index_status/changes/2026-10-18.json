@@ -1,0 +1,137 @@
+{
+ "date": "2026-10-18",
+ "summary": {
+  "total_urls": 14137,
+  "checked_today": 1800,
+  "errors_today": 0,
+  "aborted": false,
+  "changed_today": 11,
+  "counts": {
+   "indexed": 11989,
+   "discovered_not_indexed": 1179,
+   "unknown_to_google": 735,
+   "dup_google_chose_different": 1,
+   "crawled_not_indexed": 103,
+   "not_found": 4,
+   "excluded_noindex": 7,
+   "server_error": 1,
+   "alternate_canonical": 118
+  },
+  "problem_total": 1283,
+  "unchecked": 0,
+  "unknown_coverage_states": [],
+  "generated_at": "2026-10-18T23:45:37+00:00"
+ },
+ "changes": [
+  {
+   "url": "https://schoolwith.me/columns/32558",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/100",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/116",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/12",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/129",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/148",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/162",
+   "group": "コラム",
+   "from": "indexed",
+   "to": "crawled_not_indexed",
+   "coverage_raw": "クロール済み - インデックス未登録",
+   "google_canonical": "https://schoolwith.me/columns/author/162",
+   "user_canonical": "https://schoolwith.me/columns/author/162",
+   "last_crawl_time": "2026-09-16T02:30:05Z"
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/173",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/203",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/228",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/255",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  }
+ ]
+}

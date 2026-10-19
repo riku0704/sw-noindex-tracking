@@ -1,20 +1,20 @@
 {
- "run_date": "2026-10-17",
- "generated_at": "2026-10-17T23:34:13+00:00",
+ "run_date": "2026-10-19",
+ "generated_at": "2026-10-18T23:45:37+00:00",
  "total_urls": 14137,
- "indexed": 11990,
- "indexed_delta": 9,
- "problem_total": 1284,
- "problem_delta": -14,
+ "indexed": 11989,
+ "indexed_delta": -1,
+ "problem_total": 1283,
+ "problem_delta": -1,
  "unchecked": 0,
- "checked_today": 199,
- "errors_today": 53,
- "aborted": true,
+ "checked_today": 1800,
+ "errors_today": 0,
+ "aborted": false,
  "oldest_checked_at": "2026-10-01",
  "changes": [
   {
-   "url": "https://schoolwith.me/category/schools/working_holiday/country_id:4/area_id:4007",
-   "group": "カテゴリ",
+   "url": "https://schoolwith.me/columns/32558",
+   "group": "コラム",
    "from": "unknown_to_google",
    "to": "discovered_not_indexed",
    "coverage_raw": "検出 - インデックス未登録",
@@ -23,24 +23,114 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/45862",
-   "group": "口コミ",
-   "from": "unchecked",
-   "to": "indexed",
-   "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/45862",
-   "user_canonical": "https://schoolwith.me/reviews/45862",
-   "last_crawl_time": "2026-10-17T08:26:23Z"
+   "url": "https://schoolwith.me/columns/author/100",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/116",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/12",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/129",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/148",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/162",
+   "group": "コラム",
+   "from": "indexed",
+   "to": "crawled_not_indexed",
+   "coverage_raw": "クロール済み - インデックス未登録",
+   "google_canonical": "https://schoolwith.me/columns/author/162",
+   "user_canonical": "https://schoolwith.me/columns/author/162",
+   "last_crawl_time": "2026-09-16T02:30:05Z"
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/173",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/203",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/228",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/255",
+   "group": "コラム",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
   }
  ],
- "change_count": 2,
+ "change_count": 11,
  "status_cards": [
   {
    "key": "crawled_not_indexed",
    "label": "クロール済み - インデックス未登録",
    "short": "クロール済み・未登録",
-   "count": 102,
-   "delta": -12,
+   "count": 103,
+   "delta": 1,
    "light": "#2a78d6",
    "dark": "#3987e5"
   },
@@ -48,7 +138,7 @@
    "key": "discovered_not_indexed",
    "label": "検出 - インデックス未登録",
    "short": "検出・未登録",
-   "count": 1181,
+   "count": 1179,
    "delta": -2,
    "light": "#eb6834",
    "dark": "#d95926"
@@ -150,17 +240,17 @@
     "group": "コラム",
     "total": 2102,
     "cells": [
-     2065,
-     1,
-     23,
+     2064,
+     2,
+     21,
      0,
      0,
      0,
      3,
      0,
-     10
+     12
     ],
-    "problems": 24
+    "problems": 23
    },
    {
     "group": "スクール",
@@ -1379,6 +1469,24 @@
    "crawl": "2026-05-28"
   },
   {
+   "url": "https://schoolwith.me/columns/author/162",
+   "group": "コラム",
+   "status": "クロール済み・未登録",
+   "status_key": "crawled_not_indexed",
+   "gc": "https://schoolwith.me/columns/author/162",
+   "uc": "https://schoolwith.me/columns/author/162",
+   "crawl": "2026-09-16"
+  },
+  {
+   "url": "https://schoolwith.me/columns/32558",
+   "group": "コラム",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/columns/32578",
    "group": "コラム",
    "status": "検出・未登録",
@@ -1406,6 +1514,15 @@
    "crawl": ""
   },
   {
+   "url": "https://schoolwith.me/columns/author/100",
+   "group": "コラム",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/columns/author/108",
    "group": "コラム",
    "status": "検出・未登録",
@@ -1424,34 +1541,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/columns/author/116",
-   "group": "コラム",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/12",
-   "group": "コラム",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/columns/author/127",
-   "group": "コラム",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/129",
    "group": "コラム",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -1478,15 +1568,6 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/columns/author/148",
-   "group": "コラム",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/columns/author/163",
    "group": "コラム",
    "status": "検出・未登録",
@@ -1497,6 +1578,15 @@
   },
   {
    "url": "https://schoolwith.me/columns/author/164",
+   "group": "コラム",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/author/173",
    "group": "コラム",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -1523,6 +1613,15 @@
    "crawl": ""
   },
   {
+   "url": "https://schoolwith.me/columns/author/203",
+   "group": "コラム",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/columns/author/221",
    "group": "コラム",
    "status": "検出・未登録",
@@ -1532,25 +1631,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/columns/author/228",
-   "group": "コラム",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/columns/author/251",
-   "group": "コラム",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/255",
    "group": "コラム",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -11882,7 +11963,7 @@
    "crawl": ""
   }
  ],
- "problems_total": 1284,
+ "problems_total": 1283,
  "problems_truncated": false,
  "unknown_states": [],
  "status_labels": {
