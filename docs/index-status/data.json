@@ -1,11 +1,11 @@
 {
- "run_date": "2026-10-20",
- "generated_at": "2026-10-20T00:46:24+00:00",
+ "run_date": "2026-10-21",
+ "generated_at": "2026-10-21T00:13:21+00:00",
  "total_urls": 14142,
- "indexed": 11996,
- "indexed_delta": 7,
- "problem_total": 1308,
- "problem_delta": 25,
+ "indexed": 12002,
+ "indexed_delta": 6,
+ "problem_total": 1300,
+ "problem_delta": -8,
  "unchecked": 0,
  "checked_today": 1800,
  "errors_today": 0,
@@ -13,267 +13,7 @@
  "oldest_checked_at": "2026-10-05",
  "changes": [
   {
-   "url": "https://schoolwith.me/category/schools/campaign/country_id:1/area_id:2",
-   "group": "カテゴリ",
-   "from": "unchecked",
-   "to": "unknown_to_google",
-   "coverage_raw": "URL が Google に認識されていません",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/category/schools/campaign/country_id:3/area_id:3003",
-   "group": "カテゴリ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/category/schools/campaign/country_id:3/area_id:3005",
-   "group": "カテゴリ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/category/schools/campaign/country_id:6/area_id:6002",
-   "group": "カテゴリ",
-   "from": "unchecked",
-   "to": "indexed",
-   "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/category/schools/campaign/country_id:6/area_id:6002",
-   "user_canonical": "https://schoolwith.me/category/schools/campaign/country_id:6/area_id:6002",
-   "last_crawl_time": "2026-10-12T21:15:57Z"
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/40",
-   "group": "コラム",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/49",
-   "group": "コラム",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/59",
-   "group": "コラム",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/7",
-   "group": "コラム",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/columns/author/95",
-   "group": "コラム",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/103",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/11",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "indexed",
-   "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/help/11",
-   "user_canonical": "https://schoolwith.me/help/11",
-   "last_crawl_time": "2026-10-12T21:34:30Z"
-  },
-  {
-   "url": "https://schoolwith.me/help/14",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/149",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/172",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/183",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/195",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/205",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/22",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/30",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/5",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/55",
-   "group": "ヘルプ",
-   "from": "discovered_not_indexed",
-   "to": "unknown_to_google",
-   "coverage_raw": "URL が Google に認識されていません",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/64",
-   "group": "ヘルプ",
-   "from": "discovered_not_indexed",
-   "to": "unknown_to_google",
-   "coverage_raw": "URL が Google に認識されていません",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/75",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/80",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/help/96",
-   "group": "ヘルプ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31427",
-   "group": "口コミ",
-   "from": "discovered_not_indexed",
-   "to": "unknown_to_google",
-   "coverage_raw": "URL が Google に認識されていません",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31494",
+   "url": "https://schoolwith.me/reviews/33467",
    "group": "口コミ",
    "from": "unknown_to_google",
    "to": "discovered_not_indexed",
@@ -283,17 +23,137 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/31518",
+   "url": "https://schoolwith.me/reviews/33494",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33620",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33702",
+   "group": "口コミ",
+   "from": "indexed",
+   "to": "crawled_not_indexed",
+   "coverage_raw": "クロール済み - インデックス未登録",
+   "google_canonical": "https://schoolwith.me/reviews/33702",
+   "user_canonical": "https://schoolwith.me/reviews/33702",
+   "last_crawl_time": "2026-09-26T13:07:33Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33735",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33782",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33904",
+   "group": "口コミ",
+   "from": "indexed",
+   "to": "crawled_not_indexed",
+   "coverage_raw": "クロール済み - インデックス未登録",
+   "google_canonical": "https://schoolwith.me/reviews/33904",
+   "user_canonical": "https://schoolwith.me/reviews/33904",
+   "last_crawl_time": "2026-08-12T07:50:08Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33931",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33938",
+   "group": "口コミ",
+   "from": "indexed",
+   "to": "crawled_not_indexed",
+   "coverage_raw": "クロール済み - インデックス未登録",
+   "google_canonical": "https://schoolwith.me/reviews/33938",
+   "user_canonical": "https://schoolwith.me/reviews/33938",
+   "last_crawl_time": "2026-09-15T03:40:55Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33947",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/33980",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34023",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34034",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "indexed",
+   "coverage_raw": "送信して登録されました",
+   "google_canonical": "https://schoolwith.me/reviews/34034",
+   "user_canonical": "https://schoolwith.me/reviews/34034",
+   "last_crawl_time": "2026-10-16T09:34:21Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34162",
    "group": "口コミ",
    "from": "crawled_not_indexed",
    "to": "indexed",
    "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/31518",
-   "user_canonical": "https://schoolwith.me/reviews/31518",
-   "last_crawl_time": "2026-10-15T09:51:40Z"
+   "google_canonical": "https://schoolwith.me/reviews/34162",
+   "user_canonical": "https://schoolwith.me/reviews/34162",
+   "last_crawl_time": "2026-10-15T07:57:51Z"
   },
   {
-   "url": "https://schoolwith.me/reviews/31528",
+   "url": "https://schoolwith.me/reviews/34241",
    "group": "口コミ",
    "from": "unknown_to_google",
    "to": "discovered_not_indexed",
@@ -303,7 +163,7 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/31552",
+   "url": "https://schoolwith.me/reviews/34295",
    "group": "口コミ",
    "from": "unknown_to_google",
    "to": "discovered_not_indexed",
@@ -313,87 +173,7 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/31575",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31593",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31611",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31671",
-   "group": "口コミ",
-   "from": "indexed",
-   "to": "crawled_not_indexed",
-   "coverage_raw": "クロール済み - インデックス未登録",
-   "google_canonical": "https://schoolwith.me/reviews/31671",
-   "user_canonical": "https://schoolwith.me/reviews/31671",
-   "last_crawl_time": "2026-09-26T01:46:26Z"
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31697",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31839",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/31902",
-   "group": "口コミ",
-   "from": "indexed",
-   "to": "crawled_not_indexed",
-   "coverage_raw": "クロール済み - インデックス未登録",
-   "google_canonical": "https://schoolwith.me/reviews/31902",
-   "user_canonical": "https://schoolwith.me/reviews/31902",
-   "last_crawl_time": "2026-08-04T08:39:14Z"
-  },
-  {
-   "url": "https://schoolwith.me/reviews/32043",
-   "group": "口コミ",
-   "from": "discovered_not_indexed",
-   "to": "indexed",
-   "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/32043",
-   "user_canonical": "https://schoolwith.me/reviews/32043",
-   "last_crawl_time": "2026-10-11T00:32:38Z"
-  },
-  {
-   "url": "https://schoolwith.me/reviews/32051",
+   "url": "https://schoolwith.me/reviews/34520",
    "group": "口コミ",
    "from": "discovered_not_indexed",
    "to": "unknown_to_google",
@@ -403,37 +183,17 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32078",
-   "group": "口コミ",
-   "from": "discovered_not_indexed",
-   "to": "unknown_to_google",
-   "coverage_raw": "URL が Google に認識されていません",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/32169",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/32280",
+   "url": "https://schoolwith.me/reviews/34534",
    "group": "口コミ",
    "from": "crawled_not_indexed",
    "to": "indexed",
    "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/32280",
-   "user_canonical": "https://schoolwith.me/reviews/32280",
-   "last_crawl_time": "2026-10-19T17:47:31Z"
+   "google_canonical": "https://schoolwith.me/reviews/34534",
+   "user_canonical": "https://schoolwith.me/reviews/34534",
+   "last_crawl_time": "2026-10-15T09:42:02Z"
   },
   {
-   "url": "https://schoolwith.me/reviews/32292",
+   "url": "https://schoolwith.me/reviews/34559",
    "group": "口コミ",
    "from": "discovered_not_indexed",
    "to": "unknown_to_google",
@@ -443,17 +203,47 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32299",
+   "url": "https://schoolwith.me/reviews/34604",
+   "group": "口コミ",
+   "from": "crawled_not_indexed",
+   "to": "indexed",
+   "coverage_raw": "送信して登録されました",
+   "google_canonical": "https://schoolwith.me/reviews/34604",
+   "user_canonical": "https://schoolwith.me/reviews/34604",
+   "last_crawl_time": "2026-10-15T17:50:33Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34618",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34624",
    "group": "口コミ",
    "from": "discovered_not_indexed",
-   "to": "indexed",
-   "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/32299",
-   "user_canonical": "https://schoolwith.me/reviews/32299",
-   "last_crawl_time": "2026-10-18T02:08:07Z"
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32334",
+   "url": "https://schoolwith.me/reviews/34735",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34839",
    "group": "口コミ",
    "from": "unknown_to_google",
    "to": "discovered_not_indexed",
@@ -463,7 +253,7 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32398",
+   "url": "https://schoolwith.me/reviews/34878",
    "group": "口コミ",
    "from": "unknown_to_google",
    "to": "discovered_not_indexed",
@@ -473,47 +263,27 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32428",
+   "url": "https://schoolwith.me/reviews/34968",
    "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "indexed",
-   "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/32428",
-   "user_canonical": "https://schoolwith.me/reviews/32428",
-   "last_crawl_time": "2026-10-14T20:03:33Z"
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32569",
+   "url": "https://schoolwith.me/reviews/34972",
    "group": "口コミ",
    "from": "indexed",
    "to": "crawled_not_indexed",
    "coverage_raw": "クロール済み - インデックス未登録",
-   "google_canonical": "https://schoolwith.me/reviews/32569",
-   "user_canonical": "https://schoolwith.me/reviews/32569",
-   "last_crawl_time": "2026-08-19T07:03:22Z"
+   "google_canonical": "https://schoolwith.me/reviews/34972",
+   "user_canonical": "https://schoolwith.me/reviews/34972",
+   "last_crawl_time": "2026-09-19T22:07:46Z"
   },
   {
-   "url": "https://schoolwith.me/reviews/32757",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/32862",
-   "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
-   "google_canonical": "",
-   "user_canonical": "",
-   "last_crawl_time": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/32888",
+   "url": "https://schoolwith.me/reviews/34980",
    "group": "口コミ",
    "from": "discovered_not_indexed",
    "to": "unknown_to_google",
@@ -523,7 +293,7 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32903",
+   "url": "https://schoolwith.me/reviews/35042",
    "group": "口コミ",
    "from": "discovered_not_indexed",
    "to": "unknown_to_google",
@@ -533,7 +303,7 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/32975",
+   "url": "https://schoolwith.me/reviews/35065",
    "group": "口コミ",
    "from": "discovered_not_indexed",
    "to": "unknown_to_google",
@@ -543,7 +313,7 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33141",
+   "url": "https://schoolwith.me/reviews/35146",
    "group": "口コミ",
    "from": "discovered_not_indexed",
    "to": "unknown_to_google",
@@ -553,7 +323,7 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33328",
+   "url": "https://schoolwith.me/reviews/35165",
    "group": "口コミ",
    "from": "unknown_to_google",
    "to": "discovered_not_indexed",
@@ -563,59 +333,389 @@
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33395",
+   "url": "https://schoolwith.me/reviews/35178",
    "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
    "google_canonical": "",
    "user_canonical": "",
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33397",
+   "url": "https://schoolwith.me/reviews/35189",
    "group": "口コミ",
-   "from": "unknown_to_google",
-   "to": "discovered_not_indexed",
-   "coverage_raw": "検出 - インデックス未登録",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
    "google_canonical": "",
    "user_canonical": "",
    "last_crawl_time": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/45832",
-   "group": "口コミ",
-   "from": "unchecked",
-   "to": "indexed",
-   "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/45832",
-   "user_canonical": "https://schoolwith.me/reviews/45832",
-   "last_crawl_time": "2026-10-19T08:17:14Z"
-  },
-  {
-   "url": "https://schoolwith.me/reviews/45845",
+   "url": "https://schoolwith.me/reviews/35205",
    "group": "口コミ",
    "from": "unknown_to_google",
    "to": "indexed",
    "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/45845",
-   "user_canonical": "https://schoolwith.me/reviews/45845",
-   "last_crawl_time": "2026-10-09T19:31:56Z"
+   "google_canonical": "https://schoolwith.me/reviews/35205",
+   "user_canonical": "https://schoolwith.me/reviews/35205",
+   "last_crawl_time": "2026-10-15T19:00:03Z"
   },
   {
-   "url": "https://schoolwith.me/reviews/45863",
+   "url": "https://schoolwith.me/reviews/35211",
    "group": "口コミ",
-   "from": "unchecked",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35229",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
    "to": "indexed",
    "coverage_raw": "送信して登録されました",
-   "google_canonical": "https://schoolwith.me/reviews/45863",
-   "user_canonical": "https://schoolwith.me/reviews/45863",
-   "last_crawl_time": "2026-10-19T16:08:42Z"
+   "google_canonical": "https://schoolwith.me/reviews/35229",
+   "user_canonical": "https://schoolwith.me/reviews/35229",
+   "last_crawl_time": "2026-10-20T01:34:45Z"
   },
   {
-   "url": "https://schoolwith.me/reviews/45864",
+   "url": "https://schoolwith.me/reviews/35247",
    "group": "口コミ",
-   "from": "unchecked",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35327",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35394",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35477",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35483",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35490",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35613",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35718",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35726",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35736",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35738",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35801",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35825",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35837",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35862",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35949",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35954",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36005",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36018",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36041",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "indexed",
+   "coverage_raw": "送信して登録されました",
+   "google_canonical": "https://schoolwith.me/reviews/36041",
+   "user_canonical": "https://schoolwith.me/reviews/36041",
+   "last_crawl_time": "2026-10-14T04:11:05Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36043",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36073",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "indexed",
+   "coverage_raw": "送信して登録されました",
+   "google_canonical": "https://schoolwith.me/reviews/36073",
+   "user_canonical": "https://schoolwith.me/reviews/36073",
+   "last_crawl_time": "2026-10-13T06:06:15Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36085",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36103",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36107",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36116",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36144",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36314",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36324",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36327",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36342",
+   "group": "口コミ",
+   "from": "crawled_not_indexed",
+   "to": "indexed",
+   "coverage_raw": "送信して登録されました",
+   "google_canonical": "https://schoolwith.me/reviews/36342",
+   "user_canonical": "https://schoolwith.me/reviews/36342",
+   "last_crawl_time": "2026-10-14T18:47:07Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36348",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36376",
+   "group": "口コミ",
+   "from": "crawled_not_indexed",
+   "to": "indexed",
+   "coverage_raw": "送信して登録されました",
+   "google_canonical": "https://schoolwith.me/reviews/36376",
+   "user_canonical": "https://schoolwith.me/reviews/36376",
+   "last_crawl_time": "2026-10-18T23:28:48Z"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36426",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
    "to": "unknown_to_google",
    "coverage_raw": "URL が Google に認識されていません",
    "google_canonical": "",
@@ -623,14 +723,14 @@
    "last_crawl_time": ""
   }
  ],
- "change_count": 61,
+ "change_count": 71,
  "status_cards": [
   {
    "key": "crawled_not_indexed",
    "label": "クロール済み - インデックス未登録",
    "short": "クロール済み・未登録",
-   "count": 104,
-   "delta": 1,
+   "count": 103,
+   "delta": -1,
    "light": "#2a78d6",
    "dark": "#3987e5"
   },
@@ -638,8 +738,8 @@
    "key": "discovered_not_indexed",
    "label": "検出 - インデックス未登録",
    "short": "検出・未登録",
-   "count": 1203,
-   "delta": 24,
+   "count": 1196,
+   "delta": -7,
    "light": "#eb6834",
    "dark": "#d95926"
   },
@@ -724,17 +824,17 @@
     "group": "口コミ",
     "total": 8936,
     "cells": [
-     7472,
-     89,
-     793,
+     7478,
+     88,
+     786,
      0,
      0,
      0,
      0,
      1,
-     581
+     583
     ],
-    "problems": 882
+    "problems": 874
    },
    {
     "group": "コラム",
@@ -4858,6 +4958,15 @@
    "crawl": "2026-01-02"
   },
   {
+   "url": "https://schoolwith.me/reviews/33702",
+   "group": "口コミ",
+   "status": "クロール済み・未登録",
+   "status_key": "crawled_not_indexed",
+   "gc": "https://schoolwith.me/reviews/33702",
+   "uc": "https://schoolwith.me/reviews/33702",
+   "crawl": "2026-09-26"
+  },
+  {
    "url": "https://schoolwith.me/reviews/33787",
    "group": "口コミ",
    "status": "クロール済み・未登録",
@@ -4876,31 +4985,22 @@
    "crawl": "2025-12-27"
   },
   {
-   "url": "https://schoolwith.me/reviews/34162",
+   "url": "https://schoolwith.me/reviews/33904",
    "group": "口コミ",
    "status": "クロール済み・未登録",
    "status_key": "crawled_not_indexed",
-   "gc": "https://schoolwith.me/reviews/34162",
-   "uc": "https://schoolwith.me/reviews/34162",
-   "crawl": "2026-07-05"
+   "gc": "https://schoolwith.me/reviews/33904",
+   "uc": "https://schoolwith.me/reviews/33904",
+   "crawl": "2026-08-12"
   },
   {
-   "url": "https://schoolwith.me/reviews/34534",
+   "url": "https://schoolwith.me/reviews/33938",
    "group": "口コミ",
    "status": "クロール済み・未登録",
    "status_key": "crawled_not_indexed",
-   "gc": "https://schoolwith.me/reviews/34534",
-   "uc": "https://schoolwith.me/reviews/34534",
-   "crawl": "2026-07-15"
-  },
-  {
-   "url": "https://schoolwith.me/reviews/34604",
-   "group": "口コミ",
-   "status": "クロール済み・未登録",
-   "status_key": "crawled_not_indexed",
-   "gc": "https://schoolwith.me/reviews/34604",
-   "uc": "https://schoolwith.me/reviews/34604",
-   "crawl": "2026-04-12"
+   "gc": "https://schoolwith.me/reviews/33938",
+   "uc": "https://schoolwith.me/reviews/33938",
+   "crawl": "2026-09-15"
   },
   {
    "url": "https://schoolwith.me/reviews/34739",
@@ -4910,6 +5010,15 @@
    "gc": "https://schoolwith.me/reviews/34739",
    "uc": "https://schoolwith.me/reviews/34739",
    "crawl": "2026-01-03"
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34972",
+   "group": "口コミ",
+   "status": "クロール済み・未登録",
+   "status_key": "crawled_not_indexed",
+   "gc": "https://schoolwith.me/reviews/34972",
+   "uc": "https://schoolwith.me/reviews/34972",
+   "crawl": "2026-09-19"
   },
   {
    "url": "https://schoolwith.me/reviews/35802",
@@ -4928,24 +5037,6 @@
    "gc": "",
    "uc": "",
    "crawl": "2026-08-19"
-  },
-  {
-   "url": "https://schoolwith.me/reviews/36342",
-   "group": "口コミ",
-   "status": "クロール済み・未登録",
-   "status_key": "crawled_not_indexed",
-   "gc": "https://schoolwith.me/reviews/36342",
-   "uc": "https://schoolwith.me/reviews/36342",
-   "crawl": "2026-06-01"
-  },
-  {
-   "url": "https://schoolwith.me/reviews/36376",
-   "group": "口コミ",
-   "status": "クロール済み・未登録",
-   "status_key": "crawled_not_indexed",
-   "gc": "https://schoolwith.me/reviews/36376",
-   "uc": "https://schoolwith.me/reviews/36376",
-   "crawl": "2026-08-01"
   },
   {
    "url": "https://schoolwith.me/reviews/36379",
@@ -6181,7 +6272,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33468",
+   "url": "https://schoolwith.me/reviews/33467",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6190,7 +6281,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33494",
+   "url": "https://schoolwith.me/reviews/33468",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6226,7 +6317,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33620",
+   "url": "https://schoolwith.me/reviews/33709",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6235,7 +6326,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33709",
+   "url": "https://schoolwith.me/reviews/33735",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6271,15 +6362,6 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33782",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/reviews/33794",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -6307,16 +6389,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/33931",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/33947",
+   "url": "https://schoolwith.me/reviews/33980",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6326,24 +6399,6 @@
   },
   {
    "url": "https://schoolwith.me/reviews/34012",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/34023",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/34034",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6379,7 +6434,25 @@
    "crawl": ""
   },
   {
+   "url": "https://schoolwith.me/reviews/34241",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/reviews/34260",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34295",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6415,15 +6488,6 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/34520",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/reviews/34552",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -6433,16 +6497,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/34559",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/34624",
+   "url": "https://schoolwith.me/reviews/34618",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6452,15 +6507,6 @@
   },
   {
    "url": "https://schoolwith.me/reviews/34639",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/34735",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6487,6 +6533,15 @@
    "crawl": ""
   },
   {
+   "url": "https://schoolwith.me/reviews/34839",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/reviews/34857",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -6497,6 +6552,15 @@
   },
   {
    "url": "https://schoolwith.me/reviews/34869",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/34878",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6559,25 +6623,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/34968",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/reviews/34970",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/34980",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6622,25 +6668,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35042",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/reviews/35063",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/35065",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6676,7 +6704,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35146",
+   "url": "https://schoolwith.me/reviews/35150",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6685,7 +6713,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35150",
+   "url": "https://schoolwith.me/reviews/35165",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6712,15 +6740,6 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35178",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/reviews/35179",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -6739,16 +6758,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35189",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/35229",
+   "url": "https://schoolwith.me/reviews/35211",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6758,15 +6768,6 @@
   },
   {
    "url": "https://schoolwith.me/reviews/35245",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/35247",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6820,6 +6821,15 @@
    "crawl": ""
   },
   {
+   "url": "https://schoolwith.me/reviews/35327",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/reviews/35354",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -6839,6 +6849,15 @@
   },
   {
    "url": "https://schoolwith.me/reviews/35378",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35394",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6892,7 +6911,16 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35490",
+   "url": "https://schoolwith.me/reviews/35477",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35483",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -6955,6 +6983,15 @@
    "crawl": ""
   },
   {
+   "url": "https://schoolwith.me/reviews/35613",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/reviews/35693",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -6991,7 +7028,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35726",
+   "url": "https://schoolwith.me/reviews/35718",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7000,7 +7037,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35801",
+   "url": "https://schoolwith.me/reviews/35736",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7009,7 +7046,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35825",
+   "url": "https://schoolwith.me/reviews/35738",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7036,7 +7073,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35837",
+   "url": "https://schoolwith.me/reviews/35841",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7045,7 +7082,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/35841",
+   "url": "https://schoolwith.me/reviews/35862",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7090,6 +7127,24 @@
    "crawl": ""
   },
   {
+   "url": "https://schoolwith.me/reviews/35949",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/35954",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
    "url": "https://schoolwith.me/reviews/35961",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -7126,43 +7181,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/36005",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/36018",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/36043",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/reviews/36060",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/36085",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7180,7 +7199,25 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/36144",
+   "url": "https://schoolwith.me/reviews/36103",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36107",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36116",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7279,15 +7316,6 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/36314",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
    "url": "https://schoolwith.me/reviews/36318",
    "group": "口コミ",
    "status": "検出・未登録",
@@ -7333,7 +7361,7 @@
    "crawl": ""
   },
   {
-   "url": "https://schoolwith.me/reviews/36324",
+   "url": "https://schoolwith.me/reviews/36327",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7352,6 +7380,15 @@
   },
   {
    "url": "https://schoolwith.me/reviews/36334",
+   "group": "口コミ",
+   "status": "検出・未登録",
+   "status_key": "discovered_not_indexed",
+   "gc": "",
+   "uc": "",
+   "crawl": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/36348",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -7424,15 +7461,6 @@
   },
   {
    "url": "https://schoolwith.me/reviews/36418",
-   "group": "口コミ",
-   "status": "検出・未登録",
-   "status_key": "discovered_not_indexed",
-   "gc": "",
-   "uc": "",
-   "crawl": ""
-  },
-  {
-   "url": "https://schoolwith.me/reviews/36426",
    "group": "口コミ",
    "status": "検出・未登録",
    "status_key": "discovered_not_indexed",
@@ -12688,7 +12716,7 @@
    "crawl": ""
   }
  ],
- "problems_total": 1308,
+ "problems_total": 1300,
  "problems_truncated": false,
  "unknown_states": [],
  "status_labels": {
