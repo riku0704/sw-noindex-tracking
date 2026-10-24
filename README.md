@@ -159,10 +159,10 @@ URL Inspection API（1URLずつ照会）だけなので、sitemap 由来のURL�
 
 | 項目 | 値 |
 |---|---|
-| 追跡URL数 | 約14,100（sitemap から毎日再構築） |
+| 追跡URL数 | 約16,000（sitemap 約14,100 ＋ GSCが問題視したURL 約1,900） |
 | APIクォータ | **2,000 URL / 日 / プロパティ**（600/分） |
 | 1日の照会数 | 既定 1,800（`--budget`、上限2,000） |
-| 一巡にかかる日数 | **約8日** |
+| 一巡にかかる日数 | **約9日** |
 | 所要時間 | 10並列で約21分 |
 
 この設計から来る読み方の注意:
@@ -180,16 +180,22 @@ index_status/
 ├── urls.csv              # 追跡対象URL (sitemap由来 / url,group,sitemap)
 ├── state.csv             # URLごとの最新状態1行。URLソート済みでgit差分が行単位で残る
 ├── daily.csv             # 日次のステータス別件数 (推移グラフの元)
-└── changes/YYYY-MM-DD.json   # その日に変化したURLだけ
+├── changes/YYYY-MM-DD.json   # その日に変化したURLだけ
+├── issues/YYYY-MM-DD.json    # その日の改修案・型別件数・差分（URL全件は含まない）
+├── page_checks.csv       # 実ページの取得結果 (canonical / robots / 本文量 / HTTP)。14日で取り直す
+└── site_facts.json       # サイトマップ各本のURL数・lastmod数・パラメータURL数、robots.txt
 
 src/index_status/
 ├── status_map.py    # coverageState → 安定キー。日英どちらの文言も受ける
 ├── urlset.py        # sitemap index を辿ってURLリストを組み立て + グループ分類
 ├── store.py         # 永続化 (state / changes / daily)
 ├── daily.py         # 日次バッチ本体 (ローテーション + 並列照会 + 差分検出)
+├── patterns.py      # URL → 型（/reviews/{id}、?sort_type 等）。集計・差分・改修案の単位
+├── pagecheck.py     # 実ページ・サイトマップ・robots.txt の取得（改修案の根拠）
+├── issues.py        # 集計 → 差分 → 改修案（ルール判定）。fixes.md / issues.csv を出力
 └── render.py        # ダッシュボードHTML + ダウンロードCSV 生成
 
-docs/index-status/   # GitHub Pages 公開先 (index.html / data.json / problems.csv / changes.csv)
+docs/index-status/   # GitHub Pages 公開先 (index.html / data.json / problems.csv / changes.csv / fixes.md / issues.csv)
 ```
 
 日次の全件スナップショットは保存しない。14,134行×毎日を積むと履歴が肥大するだけで、
@@ -206,6 +212,8 @@ python -m src.index_status.urlset --dry-run  # 件数だけ確認 (保存しな�
 python -m src.index_status.daily             # 日次バッチ (既定1,800件)
 python -m src.index_status.daily --budget 500 --workers 5   # 小さく試す
 python -m src.index_status.daily --no-refresh-urls          # sitemapを再取得しない
+python -m src.index_status.issues            # 集計・差分・改修案 (実ページを最大500件取得)
+python -m src.index_status.issues --no-fetch # 保存済みの点検結果だけで作り直す
 python -m src.index_status.render            # HTMLだけ再生成 (APIを叩かない)
 python -m src.index_status.status_map        # 文言→ステータス分類のセルフテスト
 python -m src.fetch_crawl_status --test      # API疎通確認 (1URLだけ照会)
@@ -223,3 +231,74 @@ python -m src.fetch_crawl_status --test      # API疎通確認 (1URLだけ照会
   ダッシュボードの警告が出た日は Secrets とGSCの権限を確認する。
 - **配色は dataviz の検証済みパレット**（light/dark とも全チェックPASS）。系列色は順序に固定で
   紐づけているので、系列が減っても残りを塗り替えない。
+
+## GSCエクスポートの取り込み（重要）
+
+**サイトマップだけを追跡していると、GSCの件数とは永久に一致しない。**
+実測（2026-09-21）で、GSCが問題視しているURLのうちサイトマップに載っているのは **26.2%** だけだった。
+
+| ステータス | GSC公式 | エクスポートで取れたURL | うちサイトマップ内 |
+|---|---|---|---|
+| 重複・ユーザーにより正規未選択 | 586 | 586（全件） | **0** |
+| 重複・Googleが別ページを選択 | 5 | 5（全件） | 1 |
+| クロール済み - インデックス未登録 | 4,002 | 1,000（上限） | 140 |
+| 検出 - インデックス未登録 | 3,275 | 1,000（上限） | 537 |
+
+サイトマップ外1,913件の内訳は、クエリ付き1,350（`?a8=` / `?utm_` / `?fbclid`）、
+パス型パラメータ371（`/sort:` / `/direction:` / `/page:`）、通常パス192。
+つまり**アフィリエイトと広告流入のパラメータURLがインデックス対象として扱われている**のが実体。
+
+GSCが知っているURL一覧を返すAPIは無いので、レポート画面からの手動エクスポートが唯一の入口。
+
+### 取り込み手順
+
+1. GSC →「ページ」→ 対象ステータスの行をクリック → 右上「エクスポート」→「CSV をダウンロード」
+2. 落ちてきたZIPを取り込む:
+
+```bash
+python -m src.index_status.gsc_export ~/Downloads/*Coverage-Drilldown*.zip
+python -m src.index_status.daily --sync-only   # 母集団をstateに反映 (APIは叩かない)
+python -m src.index_status.render
+```
+
+ZIPは4ステータスぶん同時に渡してよい。どのステータスかは `メタデータ.csv` の「問題」行から自動判定する。
+
+### 取り込まれるもの
+
+| ファイル | 中身 |
+|---|---|
+| `index_status/gsc_urls.csv` | GSCが挙げたURL（累積。一度入ったURLは消さず、直ってもそのまま追跡する） |
+| `index_status/gsc_official.csv` | **GSC公式の日次件数**（エクスポートのチャートCSV由来。ダッシュボードの突き合わせに使う） |
+| `index_status/gsc_exports/<データ日>/<status>/` | 生CSV。取り込みを後から再現・検証するために残す |
+
+### 制約
+
+- **エクスポートは1ステータスあたり1,000件で頭打ち。** 4,002件のうち取れるのは1,000件だけで、残りは追跡対象に入らない。ダッシュボードでは「URL上限 −3,002」のように明示する。
+- **手動エクスポートなので自動更新されない。** 週1回ほど取り直す運用を想定。
+- 取り込むたびに母集団が増えてクォータを消費する。現状16,027URLで一巡 約9日。
+
+## エラーの集計・差分・改修案（issues）
+
+毎朝の巡回のあと、`issues.py` が次の3つを作ってダッシュボード上部に出す。
+
+| | 中身 | 単位 |
+|---|---|---|
+| 集計 | 問題URLを**型**（ページのテンプレート）ごとに数える。`/reviews/35354` → `/reviews/{id}` | 型 × ステータス |
+| 差分 | 前回・7日前の改修案と比べた新規／解消／件数の増減。直近7日の型別の悪化・改善・発見 | 改修案・型 |
+| 改修案 | 原因と対処・完了の確認方法・対象URL。`docs/index-status/fixes.md`（チケット用）と `issues.csv`（URL全件） | 改修案 |
+
+### 改修案はどう作っているか
+
+推測で書かないために、**URL検査の結果（Googleの判定）と、実ページの取得結果（サイト側の設定）の両方で確かめられる条件でだけ**改修案を出す。
+
+- 実ページの取得：問題URL＋Google未認識URLは**全件**、それ以外は型ごとに数件。canonical / robots meta / X-Robots-Tag / HTTPステータス / 本文の文字数を記録し、14日で取り直す（1日500件まで）。
+- サイト全体：サイトマップ各本のURL数・lastmod数・パラメータURLの有無、robots.txt。
+- 判定はルール（`issues.RULES`）で、上から順に評価し、先に当たったルールがURLを引き取る（同じURLを二重に数えない）。
+- どのルールにも当たらなかった問題URLは「**原因未特定**」として件数と型を必ず出す。増えてきたらルールを足す。
+- canonical の判定では、`country_id:` / `area_id:` / `page:` のように**中身が変わるパラメータ**は canonical に残っていて正しいものとして扱う。不備に数えるのはクエリ（`?a8=` 等）と並び替え（`direction:` / `sort:`）が残っている場合と、canonical タグが無い場合。
+- `targets.json`（Phase-1 NOINDEX 114URL）に入っているURLは「意図どおり・監視のみ」に分ける。
+- 「監視のみ」は、ページ側の対処が済んでいて Google の再クロール待ちのもの（noindex 済み・canonical 設定済み・削除済み）。
+
+### 自社サイトへの負荷
+
+取得は3並列・1日500件まで。GSC の API クォータは使わない。サイトが落ちていても画面の更新は止めない（前回の点検結果で作る）。

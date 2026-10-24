@@ -26,7 +26,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    # 1,800件 × 約7秒 ÷ 10並列 ≒ 21分。APIが重い日とsitemap取得ぶんの余裕を見る。
+    # 1,800件 × 約7秒 ÷ 10並列 ≒ 21分 ＋ 実ページ点検 500件 ≒ 3分。APIが重い日とsitemap取得ぶんの余裕を見る。
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
@@ -45,6 +45,17 @@ jobs:
           GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
           GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
         run: python -m src.index_status.daily --budget ${{ github.event.inputs.budget || 1800 }}
+
+      # 集計・差分・改修案。実ページ・サイトマップ・robots.txt を取りに行くのは自社サイトだけで、
+      # GSCのクォータは使わない。サイトが落ちていても画面の更新は止めない（前回の点検結果で作る）。
+      - name: Diagnose (集計・差分・改修案)
+        continue-on-error: true
+        run: |
+          if [ "${{ github.event.inputs.render_only }}" = "true" ]; then
+            python -m src.index_status.issues --no-fetch
+          else
+            python -m src.index_status.issues --budget 500
+          fi
 
       - name: Render dashboard
         run: python -m src.index_status.render
