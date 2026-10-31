@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-10-24T23:41:20+00:00",
+ "collected_at": "2026-10-31T03:33:16+00:00",
  "sitemaps": [
   {
    "name": "top_other.xml",
@@ -256,9 +256,9 @@
   {
    "name": "category.xml",
    "url": "https://schoolwith.me/sitemaps/category.xml",
-   "urls": 646,
+   "urls": 697,
    "lastmod": 0,
-   "param_urls": 617,
+   "param_urls": 666,
    "examples": [
     "https://schoolwith.me/category/schools",
     "https://schoolwith.me/category/schools/abroad_life",
@@ -280,7 +280,7 @@
   {
    "name": "reviews.xml",
    "url": "https://schoolwith.me/sitemaps/reviews.xml",
-   "urls": 8683,
+   "urls": 8689,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
@@ -292,7 +292,7 @@
   {
    "name": "columns.xml",
    "url": "https://schoolwith.me/sitemaps/columns.xml",
-   "urls": 2100,
+   "urls": 2101,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
