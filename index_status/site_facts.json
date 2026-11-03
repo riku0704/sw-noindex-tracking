@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-01T22:44:57+00:00",
+ "collected_at": "2026-11-03T00:47:37+00:00",
  "sitemaps": [
   {
    "name": "top_other.xml",
@@ -280,7 +280,7 @@
   {
    "name": "reviews.xml",
    "url": "https://schoolwith.me/sitemaps/reviews.xml",
-   "urls": 8689,
+   "urls": 8690,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
@@ -292,7 +292,7 @@
   {
    "name": "columns.xml",
    "url": "https://schoolwith.me/sitemaps/columns.xml",
-   "urls": 2101,
+   "urls": 2096,
    "lastmod": 0,
    "param_urls": 0,
    "examples": [
