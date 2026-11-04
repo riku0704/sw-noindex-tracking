@@ -1,0 +1,86 @@
+{
+ "date": "2026-11-04",
+ "summary": {
+  "total_urls": 14197,
+  "checked_today": 202,
+  "errors_today": 223,
+  "aborted": true,
+  "changed_today": 6,
+  "counts": {
+   "indexed": 12072,
+   "unknown_to_google": 692,
+   "discovered_not_indexed": 1208,
+   "dup_google_chose_different": 1,
+   "crawled_not_indexed": 98,
+   "not_found": 4,
+   "excluded_noindex": 6,
+   "alternate_canonical": 116
+  },
+  "problem_total": 1307,
+  "unchecked": 0,
+  "unknown_coverage_states": [],
+  "generated_at": "2026-11-04T01:44:43+00:00"
+ },
+ "changes": [
+  {
+   "url": "https://schoolwith.me/category/schools/business/country_id:2/area_id:2057",
+   "group": "カテゴリ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/category/schools/business/country_id:8/area_id:8002",
+   "group": "カテゴリ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/category/schools/cambridge/country_id:1/area_id:1",
+   "group": "カテゴリ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/44701",
+   "group": "口コミ",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/44773",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/reviews/44980",
+   "group": "口コミ",
+   "from": "discovered_not_indexed",
+   "to": "unknown_to_google",
+   "coverage_raw": "URL が Google に認識されていません",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  }
+ ]
+}
