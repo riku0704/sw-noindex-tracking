@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-07",
+ "summary": {
+  "total_urls": 14202,
+  "checked_today": 309,
+  "errors_today": 50,
+  "aborted": true,
+  "changed_today": 2,
+  "counts": {
+   "indexed": 12072,
+   "unknown_to_google": 689,
+   "discovered_not_indexed": 1219,
+   "dup_google_chose_different": 1,
+   "crawled_not_indexed": 95,
+   "not_found": 4,
+   "excluded_noindex": 6,
+   "alternate_canonical": 116
+  },
+  "problem_total": 1315,
+  "unchecked": 0,
+  "unknown_coverage_states": [],
+  "generated_at": "2026-11-07T01:22:47+00:00"
+ },
+ "changes": [
+  {
+   "url": "https://schoolwith.me/category/schools/campaign/country_id:8/area_id:8002",
+   "group": "カテゴリ",
+   "from": "unchecked",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  },
+  {
+   "url": "https://schoolwith.me/columns/33533",
+   "group": "コラム",
+   "from": "unknown_to_google",
+   "to": "discovered_not_indexed",
+   "coverage_raw": "検出 - インデックス未登録",
+   "google_canonical": "",
+   "user_canonical": "",
+   "last_crawl_time": ""
+  }
+ ]
+}
