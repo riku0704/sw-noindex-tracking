@@ -1,0 +1,5990 @@
+{
+  "period": {
+    "from": "2026-10-25",
+    "to": "2026-10-31"
+  },
+  "countries_agg": {
+    "PH": {
+      "clicks": 13,
+      "impressions": 313,
+      "avg_position": 18.14,
+      "kw_count": 47,
+      "keywords": [
+        {
+          "query": "フィリピン 語学学校",
+          "clicks": 6,
+          "impressions": 46,
+          "position": 4.43
+        },
+        {
+          "query": "フィリピン留学",
+          "clicks": 0,
+          "impressions": 43,
+          "position": 18.98
+        },
+        {
+          "query": "フィリピン 留学",
+          "clicks": 0,
+          "impressions": 26,
+          "position": 32.23
+        },
+        {
+          "query": "フィリピン 英語 留学",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 41.32
+        },
+        {
+          "query": "フィリピン留学 おすすめ",
+          "clicks": 0,
+          "impressions": 17,
+          "position": 5.41
+        },
+        {
+          "query": "セブ島 語学 学校",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 40.93
+        },
+        {
+          "query": "フィリピン留学 学校",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 9.87
+        },
+        {
+          "query": "フィリピン語学学校",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 4.83
+        },
+        {
+          "query": "フィリピン留学 口コミ",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 85.18
+        },
+        {
+          "query": "フィリピン 語学留学",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 20
+        },
+        {
+          "query": "フィリピン留学 学校ランキング",
+          "clicks": 1,
+          "impressions": 7,
+          "position": 1.57
+        },
+        {
+          "query": "フィリピン留学 語学学校",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 5
+        },
+        {
+          "query": "留学 フィリピン",
+          "clicks": 1,
+          "impressions": 6,
+          "position": 22
+        },
+        {
+          "query": "フィリピンに語学留学をしたいんだけどどこがおすすめ？",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 2.67
+        },
+        {
+          "query": "フィリピン留学 学校 おすすめ",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 2.17
+        },
+        {
+          "query": "フィリピン 英語学校",
+          "clicks": 2,
+          "impressions": 5,
+          "position": 4.6
+        },
+        {
+          "query": "フィリピン語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 3.4
+        },
+        {
+          "query": "フィリピン留学 おすすめ学校",
+          "clicks": 1,
+          "impressions": 4,
+          "position": 2.75
+        },
+        {
+          "query": "セブ島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 5.5
+        },
+        {
+          "query": "フィリピン 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 3.5
+        },
+        {
+          "query": "フィリピン語学留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 11
+        },
+        {
+          "query": "語学学校 フィリピン",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 6
+        },
+        {
+          "query": "フィリピン 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 4
+        },
+        {
+          "query": "フィリピン 留学 学校選び",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 2
+        },
+        {
+          "query": "フィリピン 語学留学 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 2.67
+        },
+        {
+          "query": "セブ 島 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        },
+        {
+          "query": "セブ 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 15
+        },
+        {
+          "query": "セブ島 語学学校ランキング",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 1
+        },
+        {
+          "query": "フィリピン 留学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8
+        },
+        {
+          "query": "フィリピン 留学 資格取得 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        },
+        {
+          "query": "フィリピン学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        },
+        {
+          "query": "フィリピン留学 評判",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 72
+        },
+        {
+          "query": "語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 7
+        },
+        {
+          "query": "語学留学 フィリピン",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 6
+        },
+        {
+          "query": "glc 留学",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "セブ 島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "セブ 島 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "セブ島 留学 学校選び",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 81
+        },
+        {
+          "query": "バギオ留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 100
+        },
+        {
+          "query": "フィリピン 留学 toefl",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 100
+        },
+        {
+          "query": "フィリピン 留学 おすすめ 地域",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "フィリピン 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "フィリピン 語学 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "フィリピン留学 どこがいい",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "フィリピン留学 学校選び",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "フィリピン英語留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 20
+        },
+        {
+          "query": "マニラ 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        }
+      ]
+    },
+    "MT": {
+      "clicks": 16,
+      "impressions": 167,
+      "avg_position": 10.78,
+      "kw_count": 28,
+      "keywords": [
+        {
+          "query": "マルタ 留学",
+          "clicks": 0,
+          "impressions": 37,
+          "position": 20.49
+        },
+        {
+          "query": "マルタ 語学学校",
+          "clicks": 5,
+          "impressions": 34,
+          "position": 2.26
+        },
+        {
+          "query": "マルタ留学",
+          "clicks": 0,
+          "impressions": 18,
+          "position": 14.44
+        },
+        {
+          "query": "マルタ 語学 留学",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 15.67
+        },
+        {
+          "query": "マルタ語学学校",
+          "clicks": 2,
+          "impressions": 10,
+          "position": 2.7
+        },
+        {
+          "query": "マルタ 語学学校おすすめ",
+          "clicks": 4,
+          "impressions": 6,
+          "position": 1
+        },
+        {
+          "query": "マルタ島 英語留学",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 10.17
+        },
+        {
+          "query": "マルタ留学 語学学校",
+          "clicks": 2,
+          "impressions": 5,
+          "position": 2.6
+        },
+        {
+          "query": "マルタ 語学留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 10.8
+        },
+        {
+          "query": "マルタ 英語留学",
+          "clicks": 1,
+          "impressions": 4,
+          "position": 5.5
+        },
+        {
+          "query": "マルタ 語学 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 2
+        },
+        {
+          "query": "マルタ島 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 14.67
+        },
+        {
+          "query": "マルタ島 語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 10.33
+        },
+        {
+          "query": "語学学校 マルタ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 2
+        },
+        {
+          "query": "マルタ 英語",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10.5
+        },
+        {
+          "query": "マルタ 英語 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 1
+        },
+        {
+          "query": "マルタ島留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 14.5
+        },
+        {
+          "query": "easy school of languages マルタ",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "留学エージェント マルタ",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 16
+        },
+        {
+          "query": "マルタ 1週間 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 14
+        },
+        {
+          "query": "マルタ ielts 対策",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "マルタ 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "マルタ 留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 47
+        },
+        {
+          "query": "マルタ 英語 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 14
+        },
+        {
+          "query": "マルタで英語を学ぶのに最適な語学学校はどこですか？",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "マルタ共和国 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 17
+        },
+        {
+          "query": "マルタ留学 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 58
+        },
+        {
+          "query": "マルタ留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        }
+      ]
+    },
+    "NZ": {
+      "clicks": 7,
+      "impressions": 136,
+      "avg_position": 4.99,
+      "kw_count": 11,
+      "keywords": [
+        {
+          "query": "ニュージーランド 語学学校",
+          "clicks": 5,
+          "impressions": 49,
+          "position": 2.45
+        },
+        {
+          "query": "ニュージーランド 語学留学",
+          "clicks": 0,
+          "impressions": 35,
+          "position": 7.2
+        },
+        {
+          "query": "ニュージーランド 語学 留学",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 6.2
+        },
+        {
+          "query": "ニュージーランド語学留学",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 8.64
+        },
+        {
+          "query": "ニュージーランド語学学校",
+          "clicks": 2,
+          "impressions": 7,
+          "position": 2.14
+        },
+        {
+          "query": "語学留学 ニュージーランド",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 4.71
+        },
+        {
+          "query": "ニュージーランド 語学 学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 1.2
+        },
+        {
+          "query": "ニュージーランド留学 英語",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 9
+        },
+        {
+          "query": "ニュージーランド 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 1
+        },
+        {
+          "query": "オークランド 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 28
+        },
+        {
+          "query": "語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        }
+      ]
+    },
+    "US": {
+      "clicks": 4,
+      "impressions": 101,
+      "avg_position": 8.14,
+      "kw_count": 14,
+      "keywords": [
+        {
+          "query": "アメリカ 語学学校",
+          "clicks": 1,
+          "impressions": 17,
+          "position": 2.76
+        },
+        {
+          "query": "アメリカ 語学 留学",
+          "clicks": 0,
+          "impressions": 17,
+          "position": 12.12
+        },
+        {
+          "query": "アメリカ 留学 おすすめ",
+          "clicks": 3,
+          "impressions": 16,
+          "position": 13.38
+        },
+        {
+          "query": "アメリカ 語学 学校",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 3.43
+        },
+        {
+          "query": "アメリカ 語学留学",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 11.56
+        },
+        {
+          "query": "アメリカ語学学校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 1.67
+        },
+        {
+          "query": "語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 6.5
+        },
+        {
+          "query": "語学留学 アメリカ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 9.5
+        },
+        {
+          "query": "アメリカ 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 6.33
+        },
+        {
+          "query": "アメリカ語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 7.33
+        },
+        {
+          "query": "サンディエゴ 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 20.33
+        },
+        {
+          "query": "語学学校 アメリカ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 3.33
+        },
+        {
+          "query": "英語 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "言語学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        }
+      ]
+    },
+    "AU": {
+      "clicks": 4,
+      "impressions": 276,
+      "avg_position": 10.41,
+      "kw_count": 21,
+      "keywords": [
+        {
+          "query": "オーストラリア 語学学校",
+          "clicks": 2,
+          "impressions": 114,
+          "position": 5.98
+        },
+        {
+          "query": "オーストラリア 語学留学",
+          "clicks": 0,
+          "impressions": 31,
+          "position": 6.97
+        },
+        {
+          "query": "オーストラリア 語学 留学",
+          "clicks": 0,
+          "impressions": 23,
+          "position": 7.74
+        },
+        {
+          "query": "オーストラリア 語学 学校",
+          "clicks": 0,
+          "impressions": 21,
+          "position": 4.67
+        },
+        {
+          "query": "オーストラリア語学留学",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 7.53
+        },
+        {
+          "query": "オーストラリア語学学校",
+          "clicks": 1,
+          "impressions": 12,
+          "position": 5.92
+        },
+        {
+          "query": "オーストラリア留学",
+          "clicks": 0,
+          "impressions": 10,
+          "position": 32.2
+        },
+        {
+          "query": "語学学校 オーストラリア",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 6.89
+        },
+        {
+          "query": "globe english school おすすめ",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 72.5
+        },
+        {
+          "query": "語学留学 オーストラリア",
+          "clicks": 1,
+          "impressions": 7,
+          "position": 9
+        },
+        {
+          "query": "オーストラリア 留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 50.14
+        },
+        {
+          "query": "オーストラリア 語学 学校 おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 9.75
+        },
+        {
+          "query": "オーストラリア 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 9.5
+        },
+        {
+          "query": "オーストラリア 英語 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4
+        },
+        {
+          "query": "オーストラリアの学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10
+        },
+        {
+          "query": "オーストラリア語学研修",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 3.5
+        },
+        {
+          "query": "まず何したらいい？",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "オーストラリア 留学 おすすめ 場所",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "オーストラリア 留学 おすすめ 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "オーストラリア留学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "オーストラリア留学 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        }
+      ]
+    },
+    "IE": {
+      "clicks": 4,
+      "impressions": 66,
+      "avg_position": 7.97,
+      "kw_count": 14,
+      "keywords": [
+        {
+          "query": "アイルランド 語学学校",
+          "clicks": 2,
+          "impressions": 22,
+          "position": 5.36
+        },
+        {
+          "query": "アイルランド留学 エージェント",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 16.12
+        },
+        {
+          "query": "アイルランド語学学校",
+          "clicks": 2,
+          "impressions": 7,
+          "position": 4.43
+        },
+        {
+          "query": "ダブリン 語学学校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 7.5
+        },
+        {
+          "query": "アイルランド 語学留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 7.6
+        },
+        {
+          "query": "アイルランド 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 9
+        },
+        {
+          "query": "アイルランド 留学 エージェント",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 16
+        },
+        {
+          "query": "アイルランド 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 3
+        },
+        {
+          "query": "アイルランド 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11.5
+        },
+        {
+          "query": "アイルランド語学留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 6
+        },
+        {
+          "query": "ダブリン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 7
+        },
+        {
+          "query": "語学学校 ダブリン",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 6.5
+        },
+        {
+          "query": "ireland language school",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        },
+        {
+          "query": "アイルランド留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 16
+        }
+      ]
+    },
+    "CA": {
+      "clicks": 4,
+      "impressions": 101,
+      "avg_position": 16.01,
+      "kw_count": 15,
+      "keywords": [
+        {
+          "query": "カナダ 語学留学",
+          "clicks": 1,
+          "impressions": 25,
+          "position": 7.8
+        },
+        {
+          "query": "カナダ 語学学校",
+          "clicks": 1,
+          "impressions": 15,
+          "position": 7.67
+        },
+        {
+          "query": "カナダ 語学 学校",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 30.93
+        },
+        {
+          "query": "カナダ 留学",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 40.5
+        },
+        {
+          "query": "カナダ 語学学校 おすすめ",
+          "clicks": 1,
+          "impressions": 7,
+          "position": 2
+        },
+        {
+          "query": "カナダ 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 9.43
+        },
+        {
+          "query": "カナダ 語学 留学",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 9.5
+        },
+        {
+          "query": "カナダ語学学校",
+          "clicks": 1,
+          "impressions": 3,
+          "position": 14.67
+        },
+        {
+          "query": "カナダ留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 14.67
+        },
+        {
+          "query": "カナダ留学 おすすめ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 13
+        },
+        {
+          "query": "語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 12
+        },
+        {
+          "query": "カナダの学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "カナダ語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "バンクーバー 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 55
+        },
+        {
+          "query": "語学留学 カナダ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        }
+      ]
+    },
+    "UK": {
+      "clicks": 1,
+      "impressions": 70,
+      "avg_position": 7.29,
+      "kw_count": 10,
+      "keywords": [
+        {
+          "query": "イギリス 語学学校",
+          "clicks": 1,
+          "impressions": 31,
+          "position": 6.97
+        },
+        {
+          "query": "イギリス 語学 学校",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 7
+        },
+        {
+          "query": "イギリス 留学 語学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 6
+        },
+        {
+          "query": "イギリス語学学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 9.4
+        },
+        {
+          "query": "語学学校 英語",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 11.8
+        },
+        {
+          "query": "英語 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 9.25
+        },
+        {
+          "query": "語学学校 イギリス",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 4
+        },
+        {
+          "query": "ロンドン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 3.5
+        },
+        {
+          "query": "イギリス 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "イギリス英語 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        }
+      ]
+    },
+    "ZA": {
+      "clicks": 0,
+      "impressions": 17,
+      "avg_position": 56.24,
+      "kw_count": 6,
+      "keywords": [
+        {
+          "query": "南アフリカ 留学",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 90.22
+        },
+        {
+          "query": "ケープ タウン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 18.5
+        },
+        {
+          "query": "ケープ タウン 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 33.5
+        },
+        {
+          "query": "南アフリカ 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4
+        },
+        {
+          "query": "ケープタウン留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 17
+        },
+        {
+          "query": "南アフリカ 留学 費用",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 15
+        }
+      ]
+    }
+  },
+  "cities_agg": {
+    "5006": {
+      "clicks": 4,
+      "impressions": 26,
+      "avg_position": 8.27,
+      "kw_count": 10,
+      "keywords": [
+        {
+          "query": "エディンバラ 語学学校",
+          "clicks": 3,
+          "impressions": 8,
+          "position": 3.62
+        },
+        {
+          "query": "エディンバラ 留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 12.4
+        },
+        {
+          "query": "スコットランド留学",
+          "clicks": 1,
+          "impressions": 4,
+          "position": 12.25
+        },
+        {
+          "query": "エディンバラ ホームステイ",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 2.67
+        },
+        {
+          "query": "エジンバラ 人口",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "エディンバラ 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "エディンバラ留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "スコットランド留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 17
+        },
+        {
+          "query": "エディンバラ留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "スコットランド 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 19
+        }
+      ]
+    },
+    "6001": {
+      "clicks": 3,
+      "impressions": 49,
+      "avg_position": 7.59,
+      "kw_count": 10,
+      "keywords": [
+        {
+          "query": "オークランド 語学学校",
+          "clicks": 3,
+          "impressions": 25,
+          "position": 2.84
+        },
+        {
+          "query": "オークランド 留学",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 13
+        },
+        {
+          "query": "オークランド留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 13
+        },
+        {
+          "query": "オークランド 英語",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 11
+        },
+        {
+          "query": "オークランド 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4.5
+        },
+        {
+          "query": "オークランド 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 5
+        },
+        {
+          "query": "オークランド留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 34
+        },
+        {
+          "query": "オークランド大学 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "ニュージーランド 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 16
+        },
+        {
+          "query": "ニュージーランド 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 23
+        }
+      ]
+    },
+    "2009": {
+      "clicks": 1,
+      "impressions": 129,
+      "avg_position": 19.71,
+      "kw_count": 18,
+      "keywords": [
+        {
+          "query": "ハワイ 留学",
+          "clicks": 0,
+          "impressions": 25,
+          "position": 35.56
+        },
+        {
+          "query": "ハワイ 語学学校",
+          "clicks": 0,
+          "impressions": 20,
+          "position": 10.55
+        },
+        {
+          "query": "ホノルル 留学",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 11.15
+        },
+        {
+          "query": "ハワイ 語学 学校",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 13.25
+        },
+        {
+          "query": "ホノルル 留学",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 24.08
+        },
+        {
+          "query": "ハワイ 語学 留学",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 29.82
+        },
+        {
+          "query": "ハワイ 留学 評判",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 26.5
+        },
+        {
+          "query": "ハワイ留学 エージェント",
+          "clicks": 1,
+          "impressions": 7,
+          "position": 9.57
+        },
+        {
+          "query": "ハワイの学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 8.2
+        },
+        {
+          "query": "ハワイ 語学 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 22.67
+        },
+        {
+          "query": "ハワイ 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 8.67
+        },
+        {
+          "query": "ハワイ学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 7
+        },
+        {
+          "query": "ハワイ語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 12.5
+        },
+        {
+          "query": "ハワイ 留学 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "ハワイ 留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "ハワイ 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 21
+        },
+        {
+          "query": "グローバル ビレッジ ハワイ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "ハワイ 語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 15
+        }
+      ]
+    },
+    "1": {
+      "clicks": 3,
+      "impressions": 520,
+      "avg_position": 22.52,
+      "kw_count": 77,
+      "keywords": [
+        {
+          "query": "セブ 留学",
+          "clicks": 0,
+          "impressions": 37,
+          "position": 20
+        },
+        {
+          "query": "セブ島 留学",
+          "clicks": 0,
+          "impressions": 34,
+          "position": 20.06
+        },
+        {
+          "query": "セブ島留学",
+          "clicks": 1,
+          "impressions": 28,
+          "position": 21.68
+        },
+        {
+          "query": "セブ留学",
+          "clicks": 0,
+          "impressions": 24,
+          "position": 19.92
+        },
+        {
+          "query": "スクールウィズ",
+          "clicks": 0,
+          "impressions": 23,
+          "position": 2
+        },
+        {
+          "query": "セブ島 留学",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 58.58
+        },
+        {
+          "query": "セブ島留学",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 58.58
+        },
+        {
+          "query": "セブ島 留学 英語",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 15
+        },
+        {
+          "query": "フィリピン留学 学校",
+          "clicks": 0,
+          "impressions": 19,
+          "position": 30.63
+        },
+        {
+          "query": "セブ島 語学学校",
+          "clicks": 0,
+          "impressions": 18,
+          "position": 9.56
+        },
+        {
+          "query": "セブ 語学学校",
+          "clicks": 0,
+          "impressions": 17,
+          "position": 6.47
+        },
+        {
+          "query": "フィリピン留学 おすすめ",
+          "clicks": 0,
+          "impressions": 17,
+          "position": 77.88
+        },
+        {
+          "query": "セブ島 英語 留学",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 20.53
+        },
+        {
+          "query": "セブ島 語学 留学",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 36.27
+        },
+        {
+          "query": "フィリピン セブ島 留学",
+          "clicks": 0,
+          "impressions": 14,
+          "position": 26.57
+        },
+        {
+          "query": "セブ島 語学 学校",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 16.38
+        },
+        {
+          "query": "セブ島でおすすめの語学学校を教えて",
+          "clicks": 0,
+          "impressions": 12,
+          "position": 4.42
+        },
+        {
+          "query": "セブ島留学 おすすめ学校",
+          "clicks": 1,
+          "impressions": 10,
+          "position": 5.6
+        },
+        {
+          "query": "セブ 島 留学",
+          "clicks": 0,
+          "impressions": 10,
+          "position": 24.9
+        },
+        {
+          "query": "セブ島に語学留学をしたいんだけどどこがおすすめ？",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 5.33
+        },
+        {
+          "query": "セブ島 語学学校ランキング",
+          "clicks": 1,
+          "impressions": 8,
+          "position": 1.25
+        },
+        {
+          "query": "セブ 島 留学",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 67.38
+        },
+        {
+          "query": "セブ島 学校",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 9.57
+        },
+        {
+          "query": "セブ島 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 3.57
+        },
+        {
+          "query": "セブ島留学でおすすめの語学学校は？",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 4.57
+        },
+        {
+          "query": "セブ島語学学校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 9.5
+        },
+        {
+          "query": "初心者におすすめのセブ島留学学校は",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 6.67
+        },
+        {
+          "query": "セブ島留学エージェント",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 3.8
+        },
+        {
+          "query": "セブ 島 英語 留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 19.6
+        },
+        {
+          "query": "セブ島 英語学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 10.8
+        },
+        {
+          "query": "セブ島留学でおすすめの語学学校は",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 6
+        },
+        {
+          "query": "初心者におすすめのセブ島留学学校は？",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 5.2
+        },
+        {
+          "query": "社会人向けセブ島留学でおすすめの学校は",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 10.8
+        },
+        {
+          "query": "セブ島 留学 エージェント おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 10.5
+        },
+        {
+          "query": "セブ語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 8.75
+        },
+        {
+          "query": "セブ島 留学 エージェント",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 4
+        },
+        {
+          "query": "セブ 語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 11
+        },
+        {
+          "query": "セブ島 語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 5.33
+        },
+        {
+          "query": "セブ島留学 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 7
+        },
+        {
+          "query": "セブ 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 61.5
+        },
+        {
+          "query": "セブ島 留学 エージェント 無料",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9.5
+        },
+        {
+          "query": "セブ島 留学 名古屋",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 35
+        },
+        {
+          "query": "セブ 島 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 13
+        },
+        {
+          "query": "セブ 島 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 20.5
+        },
+        {
+          "query": "セブ 英語留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 33.5
+        },
+        {
+          "query": "セブ島 留学 社会人 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10
+        },
+        {
+          "query": "セブ島 英語留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 21
+        },
+        {
+          "query": "セブ島 英語留学 名古屋",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 58.5
+        },
+        {
+          "query": "セブ島英語留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 5.5
+        },
+        {
+          "query": "フィリピン語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 6
+        },
+        {
+          "query": "school with",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "schoolwith",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 23
+        },
+        {
+          "query": "セブ 留学 名古屋",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 56
+        },
+        {
+          "query": "セブ留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 55
+        },
+        {
+          "query": "セブ留学 名古屋",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 53
+        },
+        {
+          "query": "フィリピン 留学 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 98
+        },
+        {
+          "query": "留学 エージェント フィリピン",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 89
+        },
+        {
+          "query": "セブ 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 6
+        },
+        {
+          "query": "セブ 島 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "セブ 島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "セブ 島 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        },
+        {
+          "query": "セブ 英語学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "セブ島 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 7
+        },
+        {
+          "query": "セブ島 留学 エージェント おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 67
+        },
+        {
+          "query": "セブ島 留学 スピーキング",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 78
+        },
+        {
+          "query": "セブ島 留学 名古屋",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 48
+        },
+        {
+          "query": "セブ島 留学 多国籍",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "セブ島 留学 大学生 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 40
+        },
+        {
+          "query": "セブ島 留学 学校選び",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        },
+        {
+          "query": "セブ島 留学 綺麗",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 40
+        },
+        {
+          "query": "セブ語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        },
+        {
+          "query": "フィリピン セブ 島 英語 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 14
+        },
+        {
+          "query": "フィリピン 留学 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 80
+        },
+        {
+          "query": "フィリピン 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "query": "フィリピン 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 4
+        },
+        {
+          "query": "フィリピン留学 学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 19
+        },
+        {
+          "query": "フィリピン留学 学校ランキング",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        }
+      ]
+    },
+    "4004": {
+      "clicks": 1,
+      "impressions": 19,
+      "avg_position": 24.0,
+      "kw_count": 6,
+      "keywords": [
+        {
+          "query": "パース 留学",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 16.78
+        },
+        {
+          "query": "パース留学",
+          "clicks": 1,
+          "impressions": 4,
+          "position": 13.5
+        },
+        {
+          "query": "パース 留学 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 24
+        },
+        {
+          "query": "パース留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 62
+        },
+        {
+          "query": "スクールウィズ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 38
+        },
+        {
+          "query": "パース 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 41
+        }
+      ]
+    },
+    "5001": {
+      "clicks": 1,
+      "impressions": 19,
+      "avg_position": 10.95,
+      "kw_count": 9,
+      "keywords": [
+        {
+          "query": "イギリス 語学学校",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 2.83
+        },
+        {
+          "query": "ロンドン 語学学校",
+          "clicks": 1,
+          "impressions": 3,
+          "position": 4
+        },
+        {
+          "query": "イギリス 語学 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 7
+        },
+        {
+          "query": "ロンドン 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9
+        },
+        {
+          "query": "イギリス 留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 100
+        },
+        {
+          "query": "スクールウィズ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "イギリス語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "ロンドン 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 27
+        },
+        {
+          "query": "ロンドン 語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "5005": {
+      "clicks": 1,
+      "impressions": 24,
+      "avg_position": 22.42,
+      "kw_count": 7,
+      "keywords": [
+        {
+          "query": "マンチェスター 語学学校",
+          "clicks": 1,
+          "impressions": 7,
+          "position": 10
+        },
+        {
+          "query": "マンチェスター 留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 23.2
+        },
+        {
+          "query": "マンチェスター留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 20.2
+        },
+        {
+          "query": "マンチェスター 短期 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 43
+        },
+        {
+          "query": "マンチェスター 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9
+        },
+        {
+          "query": "マンチェスター 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 26
+        },
+        {
+          "query": "イギリス 留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 95
+        }
+      ]
+    },
+    "2003": {
+      "clicks": 0,
+      "impressions": 10,
+      "avg_position": 16.0,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "ニューヨーク 語学 学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 21
+        },
+        {
+          "query": "ニューヨーク 留学 エージェント",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 9.67
+        },
+        {
+          "query": "ニューヨーク 語学留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 15.67
+        }
+      ]
+    },
+    "2004": {
+      "clicks": 0,
+      "impressions": 23,
+      "avg_position": 56.57,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "サンフランシスコ 留学",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 45.31
+        },
+        {
+          "query": "サンフランシスコ 留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 98.86
+        },
+        {
+          "query": "サンフランシスコ 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4
+        },
+        {
+          "query": "サンフランシスコ 英語",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        }
+      ]
+    },
+    "2005": {
+      "clicks": 0,
+      "impressions": 23,
+      "avg_position": 32.7,
+      "kw_count": 8,
+      "keywords": [
+        {
+          "query": "ロサンゼルス 留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 72
+        },
+        {
+          "query": "ロサンゼルス 語学学校",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 5.43
+        },
+        {
+          "query": "ロサンゼルス 留学 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8
+        },
+        {
+          "query": "アメリカ 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4
+        },
+        {
+          "query": "ロサンゼルス 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 17.5
+        },
+        {
+          "query": "la 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 55
+        },
+        {
+          "query": "ロサンゼルス 語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 77
+        },
+        {
+          "query": "ロサンゼルス 語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 19
+        }
+      ]
+    },
+    "2006": {
+      "clicks": 0,
+      "impressions": 32,
+      "avg_position": 26.34,
+      "kw_count": 15,
+      "keywords": [
+        {
+          "query": "サンディエゴ 語学学校",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 7.75
+        },
+        {
+          "query": "サンディエゴ 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 33.67
+        },
+        {
+          "query": "サンディエゴ 語学 学校",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 11
+        },
+        {
+          "query": "サンディエゴ 留学 費用",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 25
+        },
+        {
+          "query": "サンディエゴ 短期留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 34.5
+        },
+        {
+          "query": "サンディエゴ 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 21.5
+        },
+        {
+          "query": "サンディエゴ 語学留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 27
+        },
+        {
+          "query": "サンディエゴ 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 49
+        },
+        {
+          "query": "サンディエゴ 語学留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 46
+        },
+        {
+          "query": "サンディエゴ 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 36
+        },
+        {
+          "query": "サンディエゴ 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 20
+        },
+        {
+          "query": "サンディエゴ留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 27
+        },
+        {
+          "query": "スクールウィズ 評判",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 50
+        },
+        {
+          "query": "cel サンディエゴ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 72
+        },
+        {
+          "query": "サンディエゴ 留学 費用",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 36
+        }
+      ]
+    },
+    "2008": {
+      "clicks": 0,
+      "impressions": 19,
+      "avg_position": 20.84,
+      "kw_count": 9,
+      "keywords": [
+        {
+          "query": "マイアミ 留学",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 28.75
+        },
+        {
+          "query": "マイアミ 高校 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 11.67
+        },
+        {
+          "query": "マイアミ 短期 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 34.5
+        },
+        {
+          "query": "マイアミ 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 28.5
+        },
+        {
+          "query": "マイアミ 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 21.5
+        },
+        {
+          "query": "マイアミ 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 2.5
+        },
+        {
+          "query": "マイアミ 高校 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4
+        },
+        {
+          "query": "マイアミ留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 27
+        },
+        {
+          "query": "マイアミ 留学 費用",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 37
+        }
+      ]
+    },
+    "24001": {
+      "clicks": 0,
+      "impressions": 6,
+      "avg_position": 39.33,
+      "kw_count": 4,
+      "keywords": [
+        {
+          "query": "ケープ タウン 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 49.5
+        },
+        {
+          "query": "ケープ タウン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 35
+        },
+        {
+          "query": "ケープ タウン 留学 費用",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 46
+        },
+        {
+          "query": "ケープ タウン 語学 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 21
+        }
+      ]
+    },
+    "3001": {
+      "clicks": 0,
+      "impressions": 15,
+      "avg_position": 48.4,
+      "kw_count": 8,
+      "keywords": [
+        {
+          "query": "スクールウィズ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 26.75
+        },
+        {
+          "query": "バンクーバー 留学 評判",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 89.5
+        },
+        {
+          "query": "バンクーバー 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 13
+        },
+        {
+          "query": "スクールwith",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        },
+        {
+          "query": "バンクーバー 留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 74
+        },
+        {
+          "query": "カナダ 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 69
+        },
+        {
+          "query": "バンクーバー 語学 学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "バンクーバー 語学留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 79
+        }
+      ]
+    },
+    "3002": {
+      "clicks": 0,
+      "impressions": 32,
+      "avg_position": 9.88,
+      "kw_count": 11,
+      "keywords": [
+        {
+          "query": "トロント 語学学校",
+          "clicks": 0,
+          "impressions": 10,
+          "position": 8.6
+        },
+        {
+          "query": "トロントの語学学校",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 11.6
+        },
+        {
+          "query": "カナダ 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 14
+        },
+        {
+          "query": "トロント 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 5.5
+        },
+        {
+          "query": "カナダ トロント 語学学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 7.5
+        },
+        {
+          "query": "トロント 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 13
+        },
+        {
+          "query": "トロント 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 15.5
+        },
+        {
+          "query": "トロント 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 3.5
+        },
+        {
+          "query": "トロント 留学 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "トロントの英語学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 13
+        },
+        {
+          "query": "トロント語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 1
+        }
+      ]
+    },
+    "3007": {
+      "clicks": 0,
+      "impressions": 7,
+      "avg_position": 11.57,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "オタワ留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 4.8
+        },
+        {
+          "query": "オタワ 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 28.5
+        }
+      ]
+    },
+    "3012": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 38.67,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "ハリファックス 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 35
+        },
+        {
+          "query": "ハリファックス留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 50
+        },
+        {
+          "query": "ハリファックス 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 31
+        }
+      ]
+    },
+    "4001": {
+      "clicks": 0,
+      "impressions": 13,
+      "avg_position": 25.23,
+      "kw_count": 7,
+      "keywords": [
+        {
+          "query": "シドニー 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 8.2
+        },
+        {
+          "query": "シドニー 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 55
+        },
+        {
+          "query": "シドニー 留学 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 34.5
+        },
+        {
+          "query": "シドニー留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        },
+        {
+          "query": "ilsc シドニー",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "オーストラリア 語学 学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 59
+        },
+        {
+          "query": "オーストラリア 語学学校 おすすめ",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 38
+        }
+      ]
+    },
+    "4006": {
+      "clicks": 0,
+      "impressions": 29,
+      "avg_position": 10.72,
+      "kw_count": 7,
+      "keywords": [
+        {
+          "query": "ゴールドコースト 語学学校",
+          "clicks": 0,
+          "impressions": 11,
+          "position": 10.91
+        },
+        {
+          "query": "ゴールドコースト留学",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 8.44
+        },
+        {
+          "query": "ゴールドコースト 留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 10.33
+        },
+        {
+          "query": "ゴールドコースト 留学エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 13
+        },
+        {
+          "query": "ゴールドコースト 留学エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10
+        },
+        {
+          "query": "ゴールドコースト 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 27
+        },
+        {
+          "query": "ゴールドコースト 英語",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "7001": {
+      "clicks": 0,
+      "impressions": 18,
+      "avg_position": 47.28,
+      "kw_count": 8,
+      "keywords": [
+        {
+          "query": "アイルランド 留学 エージェント",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 75.38
+        },
+        {
+          "query": "アイルランド 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 30
+        },
+        {
+          "query": "ダブリン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 19
+        },
+        {
+          "query": "ダブリン 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10
+        },
+        {
+          "query": "アイルランド留学 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 41
+        },
+        {
+          "query": "アイルランド留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 72
+        },
+        {
+          "query": "ダブリンダブリン",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "ダブリン 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        }
+      ]
+    },
+    "7002": {
+      "clicks": 0,
+      "impressions": 10,
+      "avg_position": 36.0,
+      "kw_count": 6,
+      "keywords": [
+        {
+          "query": "アイルランド 留学 エージェント",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 43.75
+        },
+        {
+          "query": "アイルランド留学 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 44
+        },
+        {
+          "query": "アイルランド留学エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 44
+        },
+        {
+          "query": "コーク留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 15
+        },
+        {
+          "query": "コーク 留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 27
+        },
+        {
+          "query": "コーク留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 11
+        }
+      ]
+    },
+    "8001": {
+      "clicks": 0,
+      "impressions": 4,
+      "avg_position": 30.0,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "セントジュリアン留学",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 9.67
+        },
+        {
+          "query": "マルタ留学 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 91
+        }
+      ]
+    },
+    "2002": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 19.0,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "ボストン 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 23.5
+        },
+        {
+          "query": "ボストン 語学学校",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 10
+        }
+      ]
+    },
+    "2032": {
+      "clicks": 0,
+      "impressions": 2,
+      "avg_position": 4.0,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "サンタ バーバラ 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4
+        }
+      ]
+    },
+    "5003": {
+      "clicks": 0,
+      "impressions": 8,
+      "avg_position": 8.88,
+      "kw_count": 3,
+      "keywords": [
+        {
+          "query": "オックスフォード 語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 8.75
+        },
+        {
+          "query": "オックスフォード 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8.5
+        },
+        {
+          "query": "オックスフォード 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 9.5
+        }
+      ]
+    },
+    "5004": {
+      "clicks": 0,
+      "impressions": 21,
+      "avg_position": 15.29,
+      "kw_count": 5,
+      "keywords": [
+        {
+          "query": "ブライトン 留学",
+          "clicks": 0,
+          "impressions": 7,
+          "position": 21.29
+        },
+        {
+          "query": "ブライトン留学",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 15.6
+        },
+        {
+          "query": "ブライトン 語学学校",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 2.25
+        },
+        {
+          "query": "ブライトン 留学 費用",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 23.67
+        },
+        {
+          "query": "ブライトン 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 7
+        }
+      ]
+    },
+    "5007": {
+      "clicks": 0,
+      "impressions": 13,
+      "avg_position": 20.15,
+      "kw_count": 7,
+      "keywords": [
+        {
+          "query": "ボーンマス 留学 費用",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 29.67
+        },
+        {
+          "query": "ボーンマス 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 14.5
+        },
+        {
+          "query": "ボーンマス 短期 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 44
+        },
+        {
+          "query": "ボーンマス 語学 学校",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 4.5
+        },
+        {
+          "query": "ボーンマス 語学 留学",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10
+        },
+        {
+          "query": "ボーンマス 英語",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 12
+        },
+        {
+          "query": "ボーンマス留学",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 15
+        }
+      ]
+    }
+  },
+  "schools_agg": {
+    "125": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 18.33,
+      "kw_count": 1,
+      "keywords": [
+        {
+          "query": "シードテック",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 18.33
+        }
+      ]
+    },
+    "226": {
+      "clicks": 0,
+      "impressions": 3,
+      "avg_position": 12.67,
+      "kw_count": 2,
+      "keywords": [
+        {
+          "query": "フィリピン留学 名古屋 エージェント",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 10.5
+        },
+        {
+          "query": "セブ留学 名古屋 エージェント",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 17
+        }
+      ]
+    }
+  },
+  "crawl": [
+    {
+      "url": "https://schoolwith.me/countries/school/CA",
+      "last_crawl_time": "2026-11-08T13:51:13Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/CA",
+      "user_canonical": "https://schoolwith.me/countries/school/CA",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-10-26T22:14:14Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/US",
+      "last_crawl_time": "2026-11-08T08:57:12Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/US",
+      "user_canonical": "https://schoolwith.me/countries/school/US",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-10-31T20:43:30Z",
+      "prev_days_since_crawl": 8,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/PH",
+      "last_crawl_time": "2026-11-04T00:33:53Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/PH",
+      "user_canonical": "https://schoolwith.me/countries/school/PH",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 5,
+      "prev_last_crawl_time": "2026-10-31T01:44:21Z",
+      "prev_days_since_crawl": 8,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/NZ",
+      "last_crawl_time": "2026-11-07T10:15:05Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/NZ",
+      "user_canonical": "https://schoolwith.me/countries/school/NZ",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 1,
+      "prev_last_crawl_time": "2026-10-30T18:03:20Z",
+      "prev_days_since_crawl": 9,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/MT",
+      "last_crawl_time": "2026-11-04T00:01:34Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/MT",
+      "user_canonical": "https://schoolwith.me/countries/school/MT",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 5,
+      "prev_last_crawl_time": "2026-10-27T20:33:15Z",
+      "prev_days_since_crawl": 12,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/UK",
+      "last_crawl_time": "2026-11-06T15:46:18Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/UK",
+      "user_canonical": "https://schoolwith.me/countries/school/UK",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 2,
+      "prev_last_crawl_time": "2026-11-01T21:35:30Z",
+      "prev_days_since_crawl": 7,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/IE",
+      "last_crawl_time": "2026-11-08T12:06:09Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/IE",
+      "user_canonical": "https://schoolwith.me/countries/school/IE",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-10-29T22:10:48Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/AU",
+      "last_crawl_time": "2026-11-07T13:02:29Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/AU",
+      "user_canonical": "https://schoolwith.me/countries/school/AU",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 1,
+      "prev_last_crawl_time": "2026-10-30T13:03:50Z",
+      "prev_days_since_crawl": 9,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/countries/school/ZA",
+      "last_crawl_time": "2026-10-31T10:27:26Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/countries/school/ZA",
+      "user_canonical": "https://schoolwith.me/countries/school/ZA",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/index.xml",
+        "https://schoolwith.me/sitemaps/za.xml"
+      ],
+      "days_since_crawl": 8,
+      "prev_last_crawl_time": "2026-10-31T10:27:26Z",
+      "prev_days_since_crawl": 8,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5002",
+      "last_crawl_time": "2026-11-08T15:24:13Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5002",
+      "user_canonical": "https://schoolwith.me/areas/school/5002",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-10-25T11:24:54Z",
+      "prev_days_since_crawl": 14,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5003",
+      "last_crawl_time": "2026-11-01T05:05:58Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5003",
+      "user_canonical": "https://schoolwith.me/areas/school/5003",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 7,
+      "prev_last_crawl_time": "2026-11-01T05:05:58Z",
+      "prev_days_since_crawl": 7,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5052",
+      "last_crawl_time": "2026-11-01T10:27:57Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5052",
+      "user_canonical": "https://schoolwith.me/areas/school/5052",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 7,
+      "prev_last_crawl_time": "2026-11-01T10:27:57Z",
+      "prev_days_since_crawl": 7,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/7001",
+      "last_crawl_time": "2026-10-24T13:23:41Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/7001",
+      "user_canonical": "https://schoolwith.me/areas/school/7001",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 15,
+      "prev_last_crawl_time": "2026-10-24T13:23:41Z",
+      "prev_days_since_crawl": 15,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/1",
+      "last_crawl_time": "2026-11-08T15:49:43Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/1",
+      "user_canonical": "https://schoolwith.me/areas/school/1",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-11-01T01:23:41Z",
+      "prev_days_since_crawl": 7,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2005",
+      "last_crawl_time": "2026-11-07T12:49:18Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2005",
+      "user_canonical": "https://schoolwith.me/areas/school/2005",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 1,
+      "prev_last_crawl_time": "2026-10-28T10:48:41Z",
+      "prev_days_since_crawl": 11,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/3002",
+      "last_crawl_time": "2026-11-03T17:23:35Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/3002",
+      "user_canonical": "https://schoolwith.me/areas/school/3002",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 5,
+      "prev_last_crawl_time": "2026-10-29T11:08:45Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2008",
+      "last_crawl_time": "2026-11-04T20:27:37Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2008",
+      "user_canonical": "https://schoolwith.me/areas/school/2008",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-25T22:05:11Z",
+      "prev_days_since_crawl": 14,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/3007",
+      "last_crawl_time": "2026-10-28T23:38:57Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/3007",
+      "user_canonical": "https://schoolwith.me/areas/school/3007",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 11,
+      "prev_last_crawl_time": "2026-10-28T23:38:57Z",
+      "prev_days_since_crawl": 11,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2050",
+      "last_crawl_time": "2026-09-15T02:41:01Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/2050",
+      "user_canonical": "https://schoolwith.me/areas/school/2050",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 54,
+      "prev_last_crawl_time": "2026-09-15T02:41:01Z",
+      "prev_days_since_crawl": 54,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/6001",
+      "last_crawl_time": "2026-11-02T23:30:23Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/6001",
+      "user_canonical": "https://schoolwith.me/areas/school/6001",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 6,
+      "prev_last_crawl_time": "2026-10-29T09:37:35Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5004",
+      "last_crawl_time": "2026-11-05T08:53:10Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5004",
+      "user_canonical": "https://schoolwith.me/areas/school/5004",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 3,
+      "prev_last_crawl_time": "2026-10-29T08:22:29Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2004",
+      "last_crawl_time": "2026-11-04T15:57:24Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2004",
+      "user_canonical": "https://schoolwith.me/areas/school/2004",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-30T12:28:57Z",
+      "prev_days_since_crawl": 9,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2002",
+      "last_crawl_time": "2026-11-02T10:31:45Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2002",
+      "user_canonical": "https://schoolwith.me/areas/school/2002",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 6,
+      "prev_last_crawl_time": "2026-10-26T23:57:48Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/4001",
+      "last_crawl_time": "2026-11-04T14:07:28Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/4001",
+      "user_canonical": "https://schoolwith.me/areas/school/4001",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-26T23:03:11Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2009",
+      "last_crawl_time": "2026-10-28T02:55:27Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2009",
+      "user_canonical": "https://schoolwith.me/areas/school/2009",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 11,
+      "prev_last_crawl_time": "2026-10-28T02:55:27Z",
+      "prev_days_since_crawl": 11,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/4009",
+      "last_crawl_time": "2026-11-04T13:42:31Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/4009",
+      "user_canonical": "https://schoolwith.me/areas/school/4009",
+      "referring_urls_count": 1,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-08-08T01:48:30Z",
+      "prev_days_since_crawl": 92,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2012",
+      "last_crawl_time": "2026-09-23T09:57:25Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/2012",
+      "user_canonical": "https://schoolwith.me/areas/school/2012",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 46,
+      "prev_last_crawl_time": "2026-09-23T09:57:25Z",
+      "prev_days_since_crawl": 46,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/4004",
+      "last_crawl_time": "2026-11-08T13:12:10Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/4004",
+      "user_canonical": "https://schoolwith.me/areas/school/4004",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-10-29T07:58:13Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2026",
+      "last_crawl_time": "2026-10-01T00:22:54Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/2026",
+      "user_canonical": "https://schoolwith.me/areas/school/2026",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 39,
+      "prev_last_crawl_time": "2026-10-01T00:22:54Z",
+      "prev_days_since_crawl": 39,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5005",
+      "last_crawl_time": "2026-11-04T01:46:12Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5005",
+      "user_canonical": "https://schoolwith.me/areas/school/5005",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-26T17:18:57Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/4006",
+      "last_crawl_time": "2026-10-28T12:45:48Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/4006",
+      "user_canonical": "https://schoolwith.me/areas/school/4006",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 11,
+      "prev_last_crawl_time": "2026-10-28T12:45:48Z",
+      "prev_days_since_crawl": 11,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2006",
+      "last_crawl_time": "2026-11-04T13:24:45Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2006",
+      "user_canonical": "https://schoolwith.me/areas/school/2006",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-30T14:30:07Z",
+      "prev_days_since_crawl": 9,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5001",
+      "last_crawl_time": "2026-10-31T21:13:07Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5001",
+      "user_canonical": "https://schoolwith.me/areas/school/5001",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 8,
+      "prev_last_crawl_time": "2026-10-31T21:13:07Z",
+      "prev_days_since_crawl": 8,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5016",
+      "last_crawl_time": "2026-08-14T18:14:16Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5016",
+      "user_canonical": "https://schoolwith.me/areas/school/5016",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 86,
+      "prev_last_crawl_time": "2026-08-14T18:14:16Z",
+      "prev_days_since_crawl": 86,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5007",
+      "last_crawl_time": "2026-11-06T02:15:51Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5007",
+      "user_canonical": "https://schoolwith.me/areas/school/5007",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 2,
+      "prev_last_crawl_time": "2026-10-26T15:05:31Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/3001",
+      "last_crawl_time": "2026-11-04T16:08:59Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/3001",
+      "user_canonical": "https://schoolwith.me/areas/school/3001",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-24T23:46:46Z",
+      "prev_days_since_crawl": 15,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5022",
+      "last_crawl_time": "2026-08-13T00:50:24Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5022",
+      "user_canonical": "https://schoolwith.me/areas/school/5022",
+      "referring_urls_count": 1,
+      "sitemaps": [],
+      "days_since_crawl": 88,
+      "prev_last_crawl_time": "2026-08-13T00:50:24Z",
+      "prev_days_since_crawl": 88,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5006",
+      "last_crawl_time": "2026-11-05T09:43:55Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5006",
+      "user_canonical": "https://schoolwith.me/areas/school/5006",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 3,
+      "prev_last_crawl_time": "2026-10-29T11:06:24Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2003",
+      "last_crawl_time": "2026-11-04T19:29:08Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2003",
+      "user_canonical": "https://schoolwith.me/areas/school/2003",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-24T22:27:36Z",
+      "prev_days_since_crawl": 15,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5008",
+      "last_crawl_time": "2026-08-07T23:42:16Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5008",
+      "user_canonical": "https://schoolwith.me/areas/school/5008",
+      "referring_urls_count": 1,
+      "sitemaps": [],
+      "days_since_crawl": 93,
+      "prev_last_crawl_time": "2026-08-07T23:42:16Z",
+      "prev_days_since_crawl": 93,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2010",
+      "last_crawl_time": "2026-10-19T17:52:09Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/2010",
+      "user_canonical": "https://schoolwith.me/areas/school/2010",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 20,
+      "prev_last_crawl_time": "2026-10-19T17:52:09Z",
+      "prev_days_since_crawl": 20,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2038",
+      "last_crawl_time": "2026-08-08T21:25:51Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2038",
+      "user_canonical": "https://schoolwith.me/areas/school/2038",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 92,
+      "prev_last_crawl_time": "2026-08-08T21:25:51Z",
+      "prev_days_since_crawl": 92,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5021",
+      "last_crawl_time": "2026-10-24T04:34:01Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/5021",
+      "user_canonical": "https://schoolwith.me/areas/school/5021",
+      "referring_urls_count": 2,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 15,
+      "prev_last_crawl_time": "2026-10-24T04:34:01Z",
+      "prev_days_since_crawl": 15,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/8001",
+      "last_crawl_time": "2026-10-29T10:07:29Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/8001",
+      "user_canonical": "https://schoolwith.me/areas/school/8001",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 10,
+      "prev_last_crawl_time": "2026-10-29T10:07:29Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5017",
+      "last_crawl_time": "2026-08-09T19:10:11Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5017",
+      "user_canonical": "https://schoolwith.me/areas/school/5017",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 91,
+      "prev_last_crawl_time": "2026-08-09T19:10:11Z",
+      "prev_days_since_crawl": 91,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5010",
+      "last_crawl_time": "2026-08-05T17:38:55Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5010",
+      "user_canonical": "https://schoolwith.me/areas/school/5010",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 95,
+      "prev_last_crawl_time": "2026-08-05T17:38:55Z",
+      "prev_days_since_crawl": 95,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/3071",
+      "last_crawl_time": "2026-08-05T17:09:03Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/3071",
+      "user_canonical": "https://schoolwith.me/areas/school/3071",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 95,
+      "prev_last_crawl_time": "2026-08-05T17:09:03Z",
+      "prev_days_since_crawl": 95,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2071",
+      "last_crawl_time": "2026-08-05T22:46:48Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2071",
+      "user_canonical": "https://schoolwith.me/areas/school/2071",
+      "referring_urls_count": 1,
+      "sitemaps": [],
+      "days_since_crawl": 95,
+      "prev_last_crawl_time": "2026-08-05T22:46:48Z",
+      "prev_days_since_crawl": 95,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/7002",
+      "last_crawl_time": "2026-10-29T12:01:53Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/7002",
+      "user_canonical": "https://schoolwith.me/areas/school/7002",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 10,
+      "prev_last_crawl_time": "2026-10-29T12:01:53Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5014",
+      "last_crawl_time": "2026-11-04T23:25:47Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5014",
+      "user_canonical": "https://schoolwith.me/areas/school/5014",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-08-07T12:53:04Z",
+      "prev_days_since_crawl": 93,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2039",
+      "last_crawl_time": "2026-09-24T17:25:54Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/2039",
+      "user_canonical": "https://schoolwith.me/areas/school/2039",
+      "referring_urls_count": 1,
+      "sitemaps": [],
+      "days_since_crawl": 45,
+      "prev_last_crawl_time": "2026-09-24T17:25:54Z",
+      "prev_days_since_crawl": 45,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/3012",
+      "last_crawl_time": "2026-10-10T10:52:59Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/3012",
+      "user_canonical": "https://schoolwith.me/areas/school/3012",
+      "referring_urls_count": 2,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 29,
+      "prev_last_crawl_time": "2026-10-10T10:52:59Z",
+      "prev_days_since_crawl": 29,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2032",
+      "last_crawl_time": "2026-08-28T05:08:01Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/2032",
+      "user_canonical": "https://schoolwith.me/areas/school/2032",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 72,
+      "prev_last_crawl_time": "2026-08-28T05:08:01Z",
+      "prev_days_since_crawl": 72,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/5012",
+      "last_crawl_time": "2026-08-09T21:49:40Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/5012",
+      "user_canonical": "https://schoolwith.me/areas/school/5012",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 91,
+      "prev_last_crawl_time": "2026-08-09T21:49:40Z",
+      "prev_days_since_crawl": 91,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/24001",
+      "last_crawl_time": "2026-08-30T04:52:14Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/school/24001",
+      "user_canonical": "https://schoolwith.me/areas/school/24001",
+      "referring_urls_count": 2,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/areas.xml",
+        "https://schoolwith.me/sitemaps/index.xml"
+      ],
+      "days_since_crawl": 70,
+      "prev_last_crawl_time": "2026-08-30T04:52:14Z",
+      "prev_days_since_crawl": 70,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/school/2037",
+      "last_crawl_time": "2026-11-04T14:31:29Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/school/2037",
+      "user_canonical": "https://schoolwith.me/areas/school/2037",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-08-07T23:32:13Z",
+      "prev_days_since_crawl": 93,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": true
+    },
+    {
+      "url": "https://schoolwith.me/areas/5002",
+      "last_crawl_time": "2026-10-26T14:24:08Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5002",
+      "user_canonical": "https://schoolwith.me/areas/5002",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 13,
+      "prev_last_crawl_time": "2026-10-26T14:24:08Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5003",
+      "last_crawl_time": "2026-11-08T15:28:24Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5003",
+      "user_canonical": "https://schoolwith.me/areas/5003",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-10-18T09:23:13Z",
+      "prev_days_since_crawl": 21,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5052",
+      "last_crawl_time": "2026-08-09T17:46:40Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5052",
+      "user_canonical": "https://schoolwith.me/areas/5052",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 91,
+      "prev_last_crawl_time": "2026-08-09T17:46:40Z",
+      "prev_days_since_crawl": 91,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/7001",
+      "last_crawl_time": "2026-11-01T12:11:41Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/7001",
+      "user_canonical": "https://schoolwith.me/areas/7001",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 7,
+      "prev_last_crawl_time": "2026-11-01T12:11:41Z",
+      "prev_days_since_crawl": 7,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/1",
+      "last_crawl_time": "2026-11-03T09:30:43Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/1",
+      "user_canonical": "https://schoolwith.me/areas/1",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 5,
+      "prev_last_crawl_time": "2026-10-25T13:52:53Z",
+      "prev_days_since_crawl": 14,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2005",
+      "last_crawl_time": "2026-11-06T02:25:39Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2005",
+      "user_canonical": "https://schoolwith.me/areas/2005",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 2,
+      "prev_last_crawl_time": "2026-10-27T04:05:09Z",
+      "prev_days_since_crawl": 12,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/3002",
+      "last_crawl_time": "2026-11-03T00:38:16Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/3002",
+      "user_canonical": "https://schoolwith.me/areas/3002",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 6,
+      "prev_last_crawl_time": "2026-10-24T23:52:25Z",
+      "prev_days_since_crawl": 15,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2008",
+      "last_crawl_time": "2026-11-04T14:56:14Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2008",
+      "user_canonical": "https://schoolwith.me/areas/2008",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-14T09:05:37Z",
+      "prev_days_since_crawl": 25,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/3007",
+      "last_crawl_time": "2026-11-03T20:02:02Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/3007",
+      "user_canonical": "https://schoolwith.me/areas/3007",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 5,
+      "prev_last_crawl_time": "2026-10-18T11:35:17Z",
+      "prev_days_since_crawl": 21,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2050",
+      "last_crawl_time": "2026-09-27T18:57:28Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2050",
+      "user_canonical": "https://schoolwith.me/areas/2050",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 42,
+      "prev_last_crawl_time": "2026-09-27T18:57:28Z",
+      "prev_days_since_crawl": 42,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/6001",
+      "last_crawl_time": "2026-11-06T00:18:56Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/6001",
+      "user_canonical": "https://schoolwith.me/areas/6001",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 3,
+      "prev_last_crawl_time": "2026-10-09T01:57:21Z",
+      "prev_days_since_crawl": 30,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5004",
+      "last_crawl_time": "2026-10-14T04:02:00Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5004",
+      "user_canonical": "https://schoolwith.me/areas/5004",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 25,
+      "prev_last_crawl_time": "2026-10-14T04:02:00Z",
+      "prev_days_since_crawl": 25,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2004",
+      "last_crawl_time": "2026-10-13T04:21:29Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2004",
+      "user_canonical": "https://schoolwith.me/areas/2004",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 26,
+      "prev_last_crawl_time": "2026-10-13T04:21:29Z",
+      "prev_days_since_crawl": 26,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2002",
+      "last_crawl_time": "2026-10-30T16:37:22Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2002",
+      "user_canonical": "https://schoolwith.me/areas/2002",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 9,
+      "prev_last_crawl_time": "2026-10-30T16:37:22Z",
+      "prev_days_since_crawl": 9,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/4001",
+      "last_crawl_time": "2026-11-05T21:29:53Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/4001",
+      "user_canonical": "https://schoolwith.me/areas/4001",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 3,
+      "prev_last_crawl_time": "2026-10-16T05:21:07Z",
+      "prev_days_since_crawl": 23,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2009",
+      "last_crawl_time": "2026-11-01T22:29:16Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2009",
+      "user_canonical": "https://schoolwith.me/areas/2009",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 7,
+      "prev_last_crawl_time": "2026-11-01T22:29:16Z",
+      "prev_days_since_crawl": 7,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/4009",
+      "last_crawl_time": "2026-11-02T03:43:41Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/4009",
+      "user_canonical": "https://schoolwith.me/areas/4009",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 6,
+      "prev_last_crawl_time": "2026-10-22T04:38:18Z",
+      "prev_days_since_crawl": 17,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2012",
+      "last_crawl_time": "2026-09-14T08:16:58Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2012",
+      "user_canonical": "https://schoolwith.me/areas/2012",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 55,
+      "prev_last_crawl_time": "2026-09-14T08:16:58Z",
+      "prev_days_since_crawl": 55,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/4004",
+      "last_crawl_time": "2026-10-19T20:30:47Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/4004",
+      "user_canonical": "https://schoolwith.me/areas/4004",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 20,
+      "prev_last_crawl_time": "2026-10-19T20:30:47Z",
+      "prev_days_since_crawl": 20,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2026",
+      "last_crawl_time": "2026-09-28T02:59:45Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2026",
+      "user_canonical": "https://schoolwith.me/areas/2026",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 41,
+      "prev_last_crawl_time": "2026-09-28T02:59:45Z",
+      "prev_days_since_crawl": 41,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5005",
+      "last_crawl_time": "2026-10-19T21:39:19Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5005",
+      "user_canonical": "https://schoolwith.me/areas/5005",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 20,
+      "prev_last_crawl_time": "2026-10-19T21:39:19Z",
+      "prev_days_since_crawl": 20,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/4006",
+      "last_crawl_time": "2026-10-27T17:43:23Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/4006",
+      "user_canonical": "https://schoolwith.me/areas/4006",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 12,
+      "prev_last_crawl_time": "2026-10-27T17:43:23Z",
+      "prev_days_since_crawl": 12,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2006",
+      "last_crawl_time": "2026-10-20T07:20:02Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2006",
+      "user_canonical": "https://schoolwith.me/areas/2006",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 19,
+      "prev_last_crawl_time": "2026-10-20T07:20:02Z",
+      "prev_days_since_crawl": 19,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5001",
+      "last_crawl_time": "2026-10-21T02:56:58Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5001",
+      "user_canonical": "https://schoolwith.me/areas/5001",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 18,
+      "prev_last_crawl_time": "2026-10-21T02:56:58Z",
+      "prev_days_since_crawl": 18,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5016",
+      "last_crawl_time": "2026-08-11T07:31:50Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5016",
+      "user_canonical": "https://schoolwith.me/areas/5016",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 89,
+      "prev_last_crawl_time": "2026-08-11T07:31:50Z",
+      "prev_days_since_crawl": 89,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5007",
+      "last_crawl_time": "2026-11-06T07:39:20Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5007",
+      "user_canonical": "https://schoolwith.me/areas/5007",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 2,
+      "prev_last_crawl_time": "2026-10-23T11:25:00Z",
+      "prev_days_since_crawl": 16,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/3001",
+      "last_crawl_time": "2026-10-28T01:34:01Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/3001",
+      "user_canonical": "https://schoolwith.me/areas/3001",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 11,
+      "prev_last_crawl_time": "2026-10-28T01:34:01Z",
+      "prev_days_since_crawl": 11,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5022",
+      "last_crawl_time": "2026-07-29T21:08:11Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5022",
+      "user_canonical": "https://schoolwith.me/areas/5022",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 102,
+      "prev_last_crawl_time": "2026-07-29T21:08:11Z",
+      "prev_days_since_crawl": 102,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5006",
+      "last_crawl_time": "2026-10-30T16:56:14Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5006",
+      "user_canonical": "https://schoolwith.me/areas/5006",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 9,
+      "prev_last_crawl_time": "2026-10-30T16:56:14Z",
+      "prev_days_since_crawl": 9,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2003",
+      "last_crawl_time": "2026-11-04T17:52:32Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2003",
+      "user_canonical": "https://schoolwith.me/areas/2003",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-15T11:25:10Z",
+      "prev_days_since_crawl": 24,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5008",
+      "last_crawl_time": "2026-07-25T16:15:45Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5008",
+      "user_canonical": "https://schoolwith.me/areas/5008",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 106,
+      "prev_last_crawl_time": "2026-07-25T16:15:45Z",
+      "prev_days_since_crawl": 106,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2010",
+      "last_crawl_time": "2026-10-01T18:32:42Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2010",
+      "user_canonical": "https://schoolwith.me/areas/2010",
+      "referring_urls_count": 5,
+      "sitemaps": [],
+      "days_since_crawl": 38,
+      "prev_last_crawl_time": "2026-10-01T18:32:42Z",
+      "prev_days_since_crawl": 38,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2038",
+      "last_crawl_time": "2026-09-19T15:10:11Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2038",
+      "user_canonical": "https://schoolwith.me/areas/2038",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 50,
+      "prev_last_crawl_time": "2026-09-19T15:10:11Z",
+      "prev_days_since_crawl": 50,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5021",
+      "last_crawl_time": "2026-11-03T10:10:03Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/5021",
+      "user_canonical": "https://schoolwith.me/areas/5021",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 5,
+      "prev_last_crawl_time": "2026-09-26T00:16:20Z",
+      "prev_days_since_crawl": 44,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/8001",
+      "last_crawl_time": "2026-10-19T17:26:51Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/8001",
+      "user_canonical": "https://schoolwith.me/areas/8001",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 20,
+      "prev_last_crawl_time": "2026-10-19T17:26:51Z",
+      "prev_days_since_crawl": 20,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5017",
+      "last_crawl_time": "2026-08-07T10:40:47Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5017",
+      "user_canonical": "https://schoolwith.me/areas/5017",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 93,
+      "prev_last_crawl_time": "2026-08-07T10:40:47Z",
+      "prev_days_since_crawl": 93,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5010",
+      "last_crawl_time": "2026-08-04T09:22:23Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5010",
+      "user_canonical": "https://schoolwith.me/areas/5010",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 96,
+      "prev_last_crawl_time": "2026-08-04T09:22:23Z",
+      "prev_days_since_crawl": 96,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/3071",
+      "last_crawl_time": "2026-08-03T16:55:52Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/3071",
+      "user_canonical": "https://schoolwith.me/areas/3071",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 97,
+      "prev_last_crawl_time": "2026-08-03T16:55:52Z",
+      "prev_days_since_crawl": 97,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2071",
+      "last_crawl_time": "2026-11-07T08:29:45Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/2071",
+      "user_canonical": "https://schoolwith.me/areas/2071",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 1,
+      "prev_last_crawl_time": "2026-10-13T09:54:21Z",
+      "prev_days_since_crawl": 26,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/7002",
+      "last_crawl_time": "2026-10-09T21:08:01Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/7002",
+      "user_canonical": "https://schoolwith.me/areas/7002",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 30,
+      "prev_last_crawl_time": "2026-10-09T21:08:01Z",
+      "prev_days_since_crawl": 30,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5014",
+      "last_crawl_time": "2026-07-23T03:54:29Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5014",
+      "user_canonical": "https://schoolwith.me/areas/5014",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 108,
+      "prev_last_crawl_time": "2026-07-23T03:54:29Z",
+      "prev_days_since_crawl": 108,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2039",
+      "last_crawl_time": "2026-09-14T02:27:35Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2039",
+      "user_canonical": "https://schoolwith.me/areas/2039",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 55,
+      "prev_last_crawl_time": "2026-09-14T02:27:35Z",
+      "prev_days_since_crawl": 55,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/3012",
+      "last_crawl_time": "2026-10-14T18:20:09Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/3012",
+      "user_canonical": "https://schoolwith.me/areas/3012",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 25,
+      "prev_last_crawl_time": "2026-10-14T18:20:09Z",
+      "prev_days_since_crawl": 25,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2032",
+      "last_crawl_time": "2026-09-18T07:04:54Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2032",
+      "user_canonical": "https://schoolwith.me/areas/2032",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 51,
+      "prev_last_crawl_time": "2026-09-18T07:04:54Z",
+      "prev_days_since_crawl": 51,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/5012",
+      "last_crawl_time": "2026-07-08T09:17:14Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/5012",
+      "user_canonical": "https://schoolwith.me/areas/5012",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 123,
+      "prev_last_crawl_time": "2026-07-08T09:17:14Z",
+      "prev_days_since_crawl": 123,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/24001",
+      "last_crawl_time": "2026-11-04T12:14:40Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/areas/24001",
+      "user_canonical": "https://schoolwith.me/areas/24001",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-07T22:58:33Z",
+      "prev_days_since_crawl": 32,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/areas/2037",
+      "last_crawl_time": "2026-09-28T14:30:20Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/areas/2037",
+      "user_canonical": "https://schoolwith.me/areas/2037",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 41,
+      "prev_last_crawl_time": "2026-09-28T14:30:20Z",
+      "prev_days_since_crawl": 41,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/40359",
+      "last_crawl_time": "2026-08-16T04:44:18Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/40359",
+      "user_canonical": "https://schoolwith.me/schools/40359",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 84,
+      "prev_last_crawl_time": "2026-08-16T04:44:18Z",
+      "prev_days_since_crawl": 84,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/40027",
+      "last_crawl_time": "2026-11-07T11:11:33Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/schools/40027",
+      "user_canonical": "https://schoolwith.me/schools/40027",
+      "referring_urls_count": 2,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/index.xml",
+        "https://schoolwith.me/sitemaps/schools.xml"
+      ],
+      "days_since_crawl": 1,
+      "prev_last_crawl_time": "2026-10-28T22:55:03Z",
+      "prev_days_since_crawl": 11,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/40074",
+      "last_crawl_time": "2026-07-12T20:33:23Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/40074",
+      "user_canonical": "https://schoolwith.me/schools/40074",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 119,
+      "prev_last_crawl_time": "2026-07-12T20:33:23Z",
+      "prev_days_since_crawl": 119,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30078",
+      "last_crawl_time": "2026-11-06T00:08:55Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/schools/30078",
+      "user_canonical": "https://schoolwith.me/schools/30078",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/index.xml",
+        "https://schoolwith.me/sitemaps/schools.xml"
+      ],
+      "days_since_crawl": 3,
+      "prev_last_crawl_time": "2026-10-26T14:22:22Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30344",
+      "last_crawl_time": "2026-08-03T21:41:02Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/30344",
+      "user_canonical": "https://schoolwith.me/schools/30344",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 97,
+      "prev_last_crawl_time": "2026-08-03T21:41:02Z",
+      "prev_days_since_crawl": 97,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30077",
+      "last_crawl_time": "2026-11-03T22:37:08Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/schools/30077",
+      "user_canonical": "https://schoolwith.me/schools/30077",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 5,
+      "prev_last_crawl_time": "2026-10-26T12:22:54Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30199",
+      "last_crawl_time": "2026-08-08T04:53:04Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/30199",
+      "user_canonical": "https://schoolwith.me/schools/30199",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 92,
+      "prev_last_crawl_time": "2026-08-08T04:53:04Z",
+      "prev_days_since_crawl": 92,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30311",
+      "last_crawl_time": "2026-08-22T17:45:01Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/30311",
+      "user_canonical": "https://schoolwith.me/schools/30311",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 78,
+      "prev_last_crawl_time": "2026-08-22T17:45:01Z",
+      "prev_days_since_crawl": 78,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30057",
+      "last_crawl_time": "2026-08-03T15:08:57Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/30057",
+      "user_canonical": "https://schoolwith.me/schools/30057",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 97,
+      "prev_last_crawl_time": "2026-08-03T15:08:57Z",
+      "prev_days_since_crawl": 97,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30040",
+      "last_crawl_time": "2026-07-16T06:30:59Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/30040",
+      "user_canonical": "https://schoolwith.me/schools/30040",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 115,
+      "prev_last_crawl_time": "2026-07-16T06:30:59Z",
+      "prev_days_since_crawl": 115,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/30063",
+      "last_crawl_time": "2026-07-12T05:04:14Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/30063",
+      "user_canonical": "https://schoolwith.me/schools/30063",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 119,
+      "prev_last_crawl_time": "2026-07-12T05:04:14Z",
+      "prev_days_since_crawl": 119,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/70037",
+      "last_crawl_time": "2026-11-05T11:00:10Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/schools/70037",
+      "user_canonical": "https://schoolwith.me/schools/70037",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/index.xml",
+        "https://schoolwith.me/sitemaps/schools.xml"
+      ],
+      "days_since_crawl": 3,
+      "prev_last_crawl_time": "2026-10-27T20:13:53Z",
+      "prev_days_since_crawl": 12,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/70113",
+      "last_crawl_time": "2026-07-24T14:05:38Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/70113",
+      "user_canonical": "https://schoolwith.me/schools/70113",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 107,
+      "prev_last_crawl_time": "2026-07-24T14:05:38Z",
+      "prev_days_since_crawl": 107,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/70011",
+      "last_crawl_time": "2026-09-24T18:09:02Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/70011",
+      "user_canonical": "https://schoolwith.me/schools/70011",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 45,
+      "prev_last_crawl_time": "2026-09-24T18:09:02Z",
+      "prev_days_since_crawl": 45,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/70114",
+      "last_crawl_time": "2026-10-30T22:08:13Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/70114",
+      "user_canonical": "https://schoolwith.me/schools/70114",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 9,
+      "prev_last_crawl_time": "2026-10-30T22:08:13Z",
+      "prev_days_since_crawl": 9,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/70014",
+      "last_crawl_time": "2026-07-18T16:43:14Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/70014",
+      "user_canonical": "https://schoolwith.me/schools/70014",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 113,
+      "prev_last_crawl_time": "2026-07-18T16:43:14Z",
+      "prev_days_since_crawl": 113,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/80005",
+      "last_crawl_time": "2026-07-20T17:05:52Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/80005",
+      "user_canonical": "https://schoolwith.me/schools/80005",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 111,
+      "prev_last_crawl_time": "2026-07-20T17:05:52Z",
+      "prev_days_since_crawl": 111,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/226",
+      "last_crawl_time": "2026-11-04T12:27:38Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/schools/226",
+      "user_canonical": "https://schoolwith.me/schools/226",
+      "referring_urls_count": 2,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/index.xml",
+        "https://schoolwith.me/sitemaps/schools.xml"
+      ],
+      "days_since_crawl": 4,
+      "prev_last_crawl_time": "2026-10-11T05:22:28Z",
+      "prev_days_since_crawl": 28,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/125",
+      "last_crawl_time": "2026-11-08T14:18:11Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/schools/125",
+      "user_canonical": "https://schoolwith.me/schools/125",
+      "referring_urls_count": 3,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/index.xml",
+        "https://schoolwith.me/sitemaps/schools.xml"
+      ],
+      "days_since_crawl": 0,
+      "prev_last_crawl_time": "2026-10-26T22:23:58Z",
+      "prev_days_since_crawl": 13,
+      "crawled_since_last_check": true,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50065",
+      "last_crawl_time": "2026-07-06T09:35:47Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50065",
+      "user_canonical": "https://schoolwith.me/schools/50065",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 125,
+      "prev_last_crawl_time": "2026-07-06T09:35:47Z",
+      "prev_days_since_crawl": 125,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50190",
+      "last_crawl_time": "2026-07-05T02:16:45Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50190",
+      "user_canonical": "https://schoolwith.me/schools/50190",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 126,
+      "prev_last_crawl_time": "2026-07-05T02:16:45Z",
+      "prev_days_since_crawl": 126,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50196",
+      "last_crawl_time": "2026-07-14T02:04:13Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50196",
+      "user_canonical": "https://schoolwith.me/schools/50196",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 117,
+      "prev_last_crawl_time": "2026-07-14T02:04:13Z",
+      "prev_days_since_crawl": 117,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50060",
+      "last_crawl_time": "2026-08-09T15:03:18Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50060",
+      "user_canonical": "https://schoolwith.me/schools/50060",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 91,
+      "prev_last_crawl_time": "2026-08-09T15:03:18Z",
+      "prev_days_since_crawl": 91,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50061",
+      "last_crawl_time": "2026-10-29T11:14:10Z",
+      "indexing_state": "INDEXING_ALLOWED",
+      "coverage_state": "送信して登録されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "PASS",
+      "google_canonical": "https://schoolwith.me/schools/50061",
+      "user_canonical": "https://schoolwith.me/schools/50061",
+      "referring_urls_count": 4,
+      "sitemaps": [
+        "https://schoolwith.me/sitemaps/index.xml",
+        "https://schoolwith.me/sitemaps/schools.xml"
+      ],
+      "days_since_crawl": 10,
+      "prev_last_crawl_time": "2026-10-29T11:14:10Z",
+      "prev_days_since_crawl": 10,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "INDEXING_ALLOWED",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50747",
+      "last_crawl_time": "2026-07-30T18:19:54Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50747",
+      "user_canonical": "https://schoolwith.me/schools/50747",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 101,
+      "prev_last_crawl_time": "2026-07-30T18:19:54Z",
+      "prev_days_since_crawl": 101,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50363",
+      "last_crawl_time": "2026-07-10T21:16:23Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50363",
+      "user_canonical": "https://schoolwith.me/schools/50363",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 121,
+      "prev_last_crawl_time": "2026-07-10T21:16:23Z",
+      "prev_days_since_crawl": 121,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50049",
+      "last_crawl_time": "2026-07-07T17:56:24Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50049",
+      "user_canonical": "https://schoolwith.me/schools/50049",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 124,
+      "prev_last_crawl_time": "2026-07-07T17:56:24Z",
+      "prev_days_since_crawl": 124,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50299",
+      "last_crawl_time": "2026-07-12T22:17:05Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50299",
+      "user_canonical": "https://schoolwith.me/schools/50299",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 119,
+      "prev_last_crawl_time": "2026-07-12T22:17:05Z",
+      "prev_days_since_crawl": 119,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50277",
+      "last_crawl_time": "2026-07-25T01:18:56Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50277",
+      "user_canonical": "https://schoolwith.me/schools/50277",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 106,
+      "prev_last_crawl_time": "2026-07-25T01:18:56Z",
+      "prev_days_since_crawl": 106,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50323",
+      "last_crawl_time": "2026-08-11T08:50:16Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50323",
+      "user_canonical": "https://schoolwith.me/schools/50323",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 89,
+      "prev_last_crawl_time": "2026-08-11T08:50:16Z",
+      "prev_days_since_crawl": 89,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50052",
+      "last_crawl_time": "2026-07-12T03:54:41Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50052",
+      "user_canonical": "https://schoolwith.me/schools/50052",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 119,
+      "prev_last_crawl_time": "2026-07-12T03:54:41Z",
+      "prev_days_since_crawl": 119,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50750",
+      "last_crawl_time": "2026-08-06T05:34:48Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50750",
+      "user_canonical": "https://schoolwith.me/schools/50750",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 94,
+      "prev_last_crawl_time": "2026-08-06T05:34:48Z",
+      "prev_days_since_crawl": 94,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50470",
+      "last_crawl_time": "2026-08-03T17:25:10Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50470",
+      "user_canonical": "https://schoolwith.me/schools/50470",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 97,
+      "prev_last_crawl_time": "2026-08-03T17:25:10Z",
+      "prev_days_since_crawl": 97,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50044",
+      "last_crawl_time": "2026-07-14T02:06:17Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50044",
+      "user_canonical": "https://schoolwith.me/schools/50044",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 117,
+      "prev_last_crawl_time": "2026-07-14T02:06:17Z",
+      "prev_days_since_crawl": 117,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50146",
+      "last_crawl_time": "2026-07-07T04:18:16Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50146",
+      "user_canonical": "https://schoolwith.me/schools/50146",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 124,
+      "prev_last_crawl_time": "2026-07-07T04:18:16Z",
+      "prev_days_since_crawl": 124,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50471",
+      "last_crawl_time": "2026-07-11T22:51:18Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50471",
+      "user_canonical": "https://schoolwith.me/schools/50471",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 120,
+      "prev_last_crawl_time": "2026-07-11T22:51:18Z",
+      "prev_days_since_crawl": 120,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50751",
+      "last_crawl_time": "2026-10-05T15:31:37Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50751",
+      "user_canonical": "https://schoolwith.me/schools/50751",
+      "referring_urls_count": 1,
+      "sitemaps": [],
+      "days_since_crawl": 34,
+      "prev_last_crawl_time": "2026-10-05T15:31:37Z",
+      "prev_days_since_crawl": 34,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50270",
+      "last_crawl_time": "2026-07-11T05:32:28Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50270",
+      "user_canonical": "https://schoolwith.me/schools/50270",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 120,
+      "prev_last_crawl_time": "2026-07-11T05:32:28Z",
+      "prev_days_since_crawl": 120,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50748",
+      "last_crawl_time": "2026-08-08T02:23:20Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50748",
+      "user_canonical": "https://schoolwith.me/schools/50748",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 92,
+      "prev_last_crawl_time": "2026-08-08T02:23:20Z",
+      "prev_days_since_crawl": 92,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50314",
+      "last_crawl_time": "2026-07-12T00:46:24Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50314",
+      "user_canonical": "https://schoolwith.me/schools/50314",
+      "referring_urls_count": 1,
+      "sitemaps": [],
+      "days_since_crawl": 120,
+      "prev_last_crawl_time": "2026-07-12T00:46:24Z",
+      "prev_days_since_crawl": 120,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50362",
+      "last_crawl_time": "2026-07-25T07:08:38Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50362",
+      "user_canonical": "https://schoolwith.me/schools/50362",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 106,
+      "prev_last_crawl_time": "2026-07-25T07:08:38Z",
+      "prev_days_since_crawl": 106,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50185",
+      "last_crawl_time": "2026-07-06T01:31:50Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50185",
+      "user_canonical": "https://schoolwith.me/schools/50185",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 125,
+      "prev_last_crawl_time": "2026-07-06T01:31:50Z",
+      "prev_days_since_crawl": 125,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50038",
+      "last_crawl_time": "2026-08-03T16:33:13Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50038",
+      "user_canonical": "https://schoolwith.me/schools/50038",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 97,
+      "prev_last_crawl_time": "2026-08-03T16:33:13Z",
+      "prev_days_since_crawl": 97,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50056",
+      "last_crawl_time": "2026-07-26T03:16:07Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50056",
+      "user_canonical": "https://schoolwith.me/schools/50056",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 105,
+      "prev_last_crawl_time": "2026-07-26T03:16:07Z",
+      "prev_days_since_crawl": 105,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/50078",
+      "last_crawl_time": "2026-07-21T23:50:37Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/50078",
+      "user_canonical": "https://schoolwith.me/schools/50078",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 110,
+      "prev_last_crawl_time": "2026-07-21T23:50:37Z",
+      "prev_days_since_crawl": 110,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20238",
+      "last_crawl_time": "2026-09-18T09:18:01Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20238",
+      "user_canonical": "https://schoolwith.me/schools/20238",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 51,
+      "prev_last_crawl_time": "2026-09-18T09:18:01Z",
+      "prev_days_since_crawl": 51,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20077",
+      "last_crawl_time": "2026-09-20T20:58:42Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20077",
+      "user_canonical": "https://schoolwith.me/schools/20077",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 49,
+      "prev_last_crawl_time": "2026-09-20T20:58:42Z",
+      "prev_days_since_crawl": 49,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20041",
+      "last_crawl_time": "2026-09-29T01:58:05Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20041",
+      "user_canonical": "https://schoolwith.me/schools/20041",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 40,
+      "prev_last_crawl_time": "2026-09-29T01:58:05Z",
+      "prev_days_since_crawl": 40,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20234",
+      "last_crawl_time": "2026-09-19T09:22:33Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20234",
+      "user_canonical": "https://schoolwith.me/schools/20234",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 50,
+      "prev_last_crawl_time": "2026-09-19T09:22:33Z",
+      "prev_days_since_crawl": 50,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20196",
+      "last_crawl_time": "2026-10-02T07:29:57Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20196",
+      "user_canonical": "https://schoolwith.me/schools/20196",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 37,
+      "prev_last_crawl_time": "2026-10-02T07:29:57Z",
+      "prev_days_since_crawl": 37,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20247",
+      "last_crawl_time": "2026-09-17T05:49:57Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20247",
+      "user_canonical": "https://schoolwith.me/schools/20247",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 52,
+      "prev_last_crawl_time": "2026-09-17T05:49:57Z",
+      "prev_days_since_crawl": 52,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20239",
+      "last_crawl_time": "2026-09-19T09:07:48Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20239",
+      "user_canonical": "https://schoolwith.me/schools/20239",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 50,
+      "prev_last_crawl_time": "2026-09-19T09:07:48Z",
+      "prev_days_since_crawl": 50,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20109",
+      "last_crawl_time": "2026-09-29T12:29:30Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20109",
+      "user_canonical": "https://schoolwith.me/schools/20109",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 40,
+      "prev_last_crawl_time": "2026-09-29T12:29:30Z",
+      "prev_days_since_crawl": 40,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20150",
+      "last_crawl_time": "2026-09-21T08:27:52Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20150",
+      "user_canonical": "https://schoolwith.me/schools/20150",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 48,
+      "prev_last_crawl_time": "2026-09-21T08:27:52Z",
+      "prev_days_since_crawl": 48,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20202",
+      "last_crawl_time": "2026-09-30T09:00:08Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20202",
+      "user_canonical": "https://schoolwith.me/schools/20202",
+      "referring_urls_count": 2,
+      "sitemaps": [],
+      "days_since_crawl": 39,
+      "prev_last_crawl_time": "2026-09-30T09:00:08Z",
+      "prev_days_since_crawl": 39,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20070",
+      "last_crawl_time": "2026-09-25T23:57:44Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20070",
+      "user_canonical": "https://schoolwith.me/schools/20070",
+      "referring_urls_count": 3,
+      "sitemaps": [],
+      "days_since_crawl": 44,
+      "prev_last_crawl_time": "2026-09-25T23:57:44Z",
+      "prev_days_since_crawl": 44,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20080",
+      "last_crawl_time": "2026-09-19T16:06:22Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20080",
+      "user_canonical": "https://schoolwith.me/schools/20080",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 50,
+      "prev_last_crawl_time": "2026-09-19T16:06:22Z",
+      "prev_days_since_crawl": 50,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    },
+    {
+      "url": "https://schoolwith.me/schools/20079",
+      "last_crawl_time": "2026-09-19T08:57:22Z",
+      "indexing_state": "BLOCKED_BY_META_TAG",
+      "coverage_state": "noindex タグによって除外されました",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "verdict": "NEUTRAL",
+      "google_canonical": "https://schoolwith.me/schools/20079",
+      "user_canonical": "https://schoolwith.me/schools/20079",
+      "referring_urls_count": 4,
+      "sitemaps": [],
+      "days_since_crawl": 50,
+      "prev_last_crawl_time": "2026-09-19T08:57:22Z",
+      "prev_days_since_crawl": 50,
+      "crawled_since_last_check": false,
+      "prev_indexing_state": "BLOCKED_BY_META_TAG",
+      "state_changed": false
+    }
+  ]
+}
