@@ -14,7 +14,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from src.index_status import store
+from src.index_status import gsc_export, issues as issues_mod, store
 from src.index_status.status_map import (PROBLEM_STATUSES, STATUS_ORDER, label, short)
 
 logger = logging.getLogger(__name__)
@@ -106,6 +106,89 @@ def build_chart(daily: list) -> dict:
     }
 
 
+def build_official_chart() -> dict:
+    """GSC公式の日次件数を build_chart と同じ形に整えて描く。
+
+    本ツールの実測と同じ軸に重ねない。系列が倍になって読めなくなるうえ、
+    そもそも母集団が違う数字なので、並べるなら別のグラフにして突き合わせ表で対応づける。
+    """
+    rows = gsc_export.load_official()
+    if not rows:
+        return {"empty": True}
+    pivot = {}
+    for r in rows:
+        pivot.setdefault(r["data_date"], {"date": r["data_date"]})[r["status"]] = int(r["pages"])
+    return build_chart([pivot[d] for d in sorted(pivot)])
+
+
+def build_reconciliation(state: dict) -> dict:
+    """GSC公式値と本ツールの実測を並べる。数字が食い違う理由を表の上で説明できるようにする。"""
+    official = gsc_export.latest_official()
+    exported = {}
+    for _url, st in gsc_export.load_urls():
+        exported[st] = exported.get(st, 0) + 1
+    counts = {}
+    checked = {}
+    for r in state.values():
+        s = r.get("status") or "unchecked"
+        counts[s] = counts.get(s, 0) + 1
+        if s != "unchecked":
+            checked[s] = checked.get(s, 0) + 1
+    rows = []
+    for k in PROBLEM_STATUSES:
+        o = official.get(k)
+        rows.append({
+            "key": k, "label": label(k), "short": short(k),
+            "gsc": o["pages"] if o else None,
+            "gsc_date": o["data_date"] if o else None,
+            "exported": exported.get(k, 0),
+            "ours": counts.get(k, 0),
+            # エクスポートは1,000行で頭打ちになる。取りこぼしの有無を画面で分かるようにする。
+            "capped": bool(o and exported.get(k, 0) >= 1000 and o["pages"] > exported.get(k, 0)),
+        })
+    total_tracked = len(state)
+    return {
+        "rows": rows,
+        "official_date": next((r["gsc_date"] for r in rows if r["gsc_date"]), None),
+        "unchecked": counts.get("unchecked", 0),
+        "total": total_tracked,
+    }
+
+
+def build_fixes(run_date) -> dict:
+    """issues.py が作った当日（無ければ直近）のスナップショットを画面用に整える。"""
+    dates = [d for d in issues_mod.snapshot_dates() if d <= run_date]
+    if not dates:
+        return {"empty": True}
+    snap = issues_mod.load_snapshot(dates[-1])
+    dp, dw = snap.get("diff_prev", {}), snap.get("diff_week", {})
+    for i in snap["issues"]:
+        i["is_new"] = bool(dp.get("base_date")) and i["id"] in dp.get("new", [])
+        i["delta_prev"] = dp.get("delta", {}).get(i["id"])
+        i["delta_week"] = dw.get("delta", {}).get(i["id"])
+        i["is_new_week"] = bool(dw.get("base_date")) and i["id"] in dw.get("new", [])
+    act = [i for i in snap["issues"] if i["owner"] != "監視のみ"]
+    watch = [i for i in snap["issues"] if i["owner"] == "監視のみ"]
+    explained = snap["problem_urls"] - snap.get("unexplained_count", 0)
+    return {
+        "empty": False,
+        "date": snap["date"],
+        "actionable": act,
+        "watch": watch,
+        "problem_urls": snap["problem_urls"],
+        "explained": explained,
+        "unexplained": snap.get("unexplained_count", 0),
+        "unexplained_top": snap.get("unexplained_top", []),
+        "action_urls": sum(i["count"] for i in act if i["rule"] != "sitemap_no_lastmod"),
+        "diff_prev": dp,
+        "diff_week": dw,
+        "template_diff_week": snap.get("template_diff_week", []),
+        "transitions": snap.get("transitions", {}),
+        "status_from_export": snap.get("status_from_export", 0),
+        "checks_total": snap.get("checks_total", 0),
+    }
+
+
 def build_matrix(state: dict) -> dict:
     """グループ × ステータス の件数表。"""
     groups = {}
@@ -152,12 +235,12 @@ def render(run_date=None) -> Path:
 
     # ダウンロード用CSVは常に全件
     _write_csv(OUT_DIR / "problems.csv",
-               ["url", "group", "status", "coverage_raw", "google_canonical",
+               ["url", "group", "source", "status", "coverage_raw", "google_canonical",
                 "user_canonical", "last_crawl_time", "checked_at"],
-               [[r.get("url", ""), r.get("group", ""), label(r.get("status", "")),
-                 r.get("coverage_raw", ""), r.get("google_canonical", ""),
-                 r.get("user_canonical", ""), r.get("last_crawl_time", ""),
-                 r.get("checked_at", "")] for r in problems])
+               [[r.get("url", ""), r.get("group", ""), r.get("source", ""),
+                 label(r.get("status", "")), r.get("coverage_raw", ""),
+                 r.get("google_canonical", ""), r.get("user_canonical", ""),
+                 r.get("last_crawl_time", ""), r.get("checked_at", "")] for r in problems])
     _write_csv(OUT_DIR / "changes.csv",
                ["url", "group", "from", "to", "coverage_raw", "google_canonical", "last_crawl_time"],
                [[c["url"], c["group"], label(c["from"]), label(c["to"]), c.get("coverage_raw", ""),
@@ -188,6 +271,7 @@ def render(run_date=None) -> Path:
         "problem_delta": problem_total - problem_prev if problem_prev is not None else None,
         "unchecked": counts.get("unchecked", 0),
         "checked_today": summary.get("checked_today", 0),
+        "first_seen_today": summary.get("first_seen_today", 0),
         "errors_today": summary.get("errors_today", 0),
         "aborted": summary.get("aborted", False),
         "oldest_checked_at": oldest[:10] if oldest else None,
@@ -199,11 +283,16 @@ def render(run_date=None) -> Path:
             "light": SERIES_COLORS[i][0], "dark": SERIES_COLORS[i][1],
         } for i, k in enumerate(PROBLEM_STATUSES)],
         "chart": build_chart(daily),
+        "official_chart": build_official_chart(),
+        "recon": build_reconciliation(state),
+        "sources": sorted({r.get("source", "") for r in state.values() if r.get("source")}),
         "matrix": build_matrix(state),
+        "fixes": build_fixes(run_date),
         "problems_shown": [{
             "url": r.get("url", ""), "group": r.get("group", ""),
             "status": short(r.get("status", "")), "status_key": r.get("status", ""),
             "gc": r.get("google_canonical", ""), "uc": r.get("user_canonical", ""),
+            "src": r.get("source", ""),
             "crawl": (r.get("last_crawl_time") or "")[:10],
         } for r in problems[:MAX_TABLE_ROWS]],
         "problems_total": len(problems),

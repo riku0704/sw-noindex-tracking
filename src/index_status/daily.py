@@ -11,6 +11,7 @@ URL Inspection API のクォータは **2,000 URL / 日 / プロパティ** で�
 from __future__ import annotations
 
 import argparse
+import hashlib
 import logging
 import os
 import threading
@@ -19,7 +20,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
 
 from src import fetch_crawl_status
-from src.index_status import store, urlset
+from src.index_status import gsc_export, store, urlset
 from src.index_status.status_map import PROBLEM_STATUSES, normalize, unknown_states
 
 logger = logging.getLogger(__name__)
@@ -41,9 +42,62 @@ def _service():
     return _local.svc
 
 
+def build_universe(sitemap_urls: list) -> list:
+    """追跡対象URLの母集団 = サイトマップ ∪ GSC指摘URL。
+
+    GSCが問題視しているURLの大半（実測73.8%）はサイトマップに無い。とくに
+    「重複・ユーザーにより正規未選択」はサイトマップ内が0件で、パラメータ付きURL
+    （?a8= / ?utm_ / ?fbclid / /sort: など）に集中している。サイトマップだけを
+    追っている限りGSCの件数とは一致せず、問題URLの実体も見えない。
+
+    戻り値は (url, group, sitemap, source) のリスト。source は sitemap / gsc / both。
+    """
+    merged = {}
+    for url, group, sitemap in sitemap_urls:
+        merged[url] = [url, group, sitemap, "sitemap"]
+    gsc = gsc_export.load_urls()
+    for url, _status in gsc:
+        if url in merged:
+            merged[url][3] = "both"
+        else:
+            merged[url] = [url, urlset.classify(url), "", "gsc"]
+    if gsc:
+        n_gsc_only = sum(1 for v in merged.values() if v[3] == "gsc")
+        logger.info(
+            f"母集団: sitemap {len(sitemap_urls):,} + GSC指摘のみ {n_gsc_only:,} = {len(merged):,} URL"
+        )
+    return [tuple(v) for v in merged.values()]
+
+
+def _tiebreak(url: str) -> str:
+    """同着時の並び順。URL文字列そのものを使うとパスのアルファベット順になり、
+    初回の一巡中に特定グループ（/areas/ → /categories/ → …）だけが先に埋まって、
+    集計値が7日間ずっとグループ単位で偏る。URLのハッシュで擬似ランダム化して、
+    毎日の1,800件がサイト全体の比例サンプルになるようにする。決定的なので再実行しても同じ順。
+    """
+    return hashlib.md5(url.encode("utf-8")).hexdigest()
+
+
 def pick_targets(state: dict, budget: int) -> list:
     """最終試行が古い順に budget 件。未照会(空文字)が先頭に来る。"""
-    return sorted(state, key=lambda u: (state[u].get("last_attempt_at") or "", u))[:budget]
+    return sorted(state, key=lambda u: (state[u].get("last_attempt_at") or "", _tiebreak(u)))[:budget]
+
+
+def sync_only(refresh_urls: bool = True) -> dict:
+    """APIを叩かず、追跡対象URLの母集団だけを state に反映する。
+
+    GSCエクスポートを取り込んだ直後に使う。changes/daily には触らないので、
+    その日の遷移記録を壊さない。
+    """
+    state = store.load_state()
+    urls = urlset.load()
+    if refresh_urls or not urls:
+        urls = urlset.collect()
+        urlset.save(urls)
+    added, removed = store.sync_urls(state, build_universe(urls))
+    store.save_state(state)
+    logger.info(f"同期のみ完了: 追加 {added:,} / 削除 {removed:,} / 合計 {len(state):,} URL")
+    return {"added": added, "removed": removed, "total": len(state)}
 
 
 def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORKERS,
@@ -63,7 +117,7 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
             urls = urlset.load()
     if not urls:
         raise RuntimeError("追跡対象URLが0件。`python -m src.index_status.urlset` を先に実行してください。")
-    store.sync_urls(state, urls)
+    store.sync_urls(state, build_universe(urls))
 
     targets = pick_targets(state, budget)
     logger.info(f"照会対象 {len(targets)} / 全 {len(state)} URL (並列 {workers})")
@@ -71,7 +125,7 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     changes = []
     lock = threading.Lock()
-    counters = {"ok": 0, "err": 0, "consecutive_err": 0, "aborted": False}
+    counters = {"ok": 0, "err": 0, "consecutive_err": 0, "aborted": False, "first_seen": 0}
 
     def work(url: str):
         if counters["aborted"]:
@@ -115,6 +169,11 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
             if new_status != old_status:
                 row["prev_status"] = old_status
                 row["changed_at"] = run_date.isoformat()
+                # 未照会→何か は「遷移」ではなく初回観測。一巡し終わるまでの約8日間、
+                # これを遷移に混ぜると本来見たい変化が毎日1,800件のノイズに埋もれる。
+                if old_status == "unchecked":
+                    counters["first_seen"] += 1
+                    return
                 changes.append({
                     "url": url,
                     "group": row.get("group", ""),
@@ -139,6 +198,7 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
         "errors_today": counters["err"],
         "aborted": counters["aborted"],
         "changed_today": len(changes),
+        "first_seen_today": counters["first_seen"],
         "counts": dict(counts),
         "problem_total": sum(counts.get(k, 0) for k in PROBLEM_STATUSES),
         "unchecked": counts.get("unchecked", 0),
@@ -152,7 +212,8 @@ def run(site_url: str, budget: int = DEFAULT_BUDGET, workers: int = DEFAULT_WORK
     store.append_daily(run_date, dict(counts), counters["ok"], len(changes))
 
     logger.info(
-        f"完了: 照会 {counters['ok']} 成功 / {counters['err']} 失敗、遷移 {len(changes)} 件、"
+        f"完了: 照会 {counters['ok']} 成功 / {counters['err']} 失敗、"
+        f"遷移 {len(changes)} 件、初回観測 {counters['first_seen']} 件、"
         f"未照会 残り {summary['unchecked']}"
     )
     if coverage_state_unknowns:
@@ -168,7 +229,13 @@ def main():
     p.add_argument("--workers", type=int, default=DEFAULT_WORKERS, help="並列数")
     p.add_argument("--no-refresh-urls", action="store_true", help="sitemap を再取得しない")
     p.add_argument("--date", type=str, help="記録日を明示 (YYYY-MM-DD)")
+    p.add_argument("--sync-only", action="store_true",
+                   help="APIを叩かず追跡対象URLの母集団だけをstateに反映 (GSC取り込み直後に使う)")
     args = p.parse_args()
+
+    if args.sync_only:
+        sync_only(refresh_urls=not args.no_refresh_urls)
+        return
 
     if args.budget > 2000:
         raise SystemExit("--budget は 2,000 以下にしてください (URL Inspection API の日次クォータ)")
